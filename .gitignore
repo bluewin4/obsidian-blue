@@ -1,1 +1,8 @@
 .trash/*
+
+source/node_modules/*
+source/dist/*
+source/build/*
+source/coverage/*
+source/logs/*
+source/temp/*
