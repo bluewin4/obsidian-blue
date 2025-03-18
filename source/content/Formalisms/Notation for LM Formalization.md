@@ -4,18 +4,12 @@ tags:
   - cog-dev
 ---
 ## Information Space 
-$\mathbb{X}-$ 
-	Objective informational space 
-$\mathbb{X}_{\phi}-$ 
-	Subjective informational space accessed by language model $\phi()$, $\exists \hspace{0.1 cm} \Phi \in \mathbb{X}_{\phi}$ . Where $\phi(\mathbb{X}) \to \mathbb{X}_{\phi}$ . This mapping does not preserve the internal distances in $\mathbb{X}$.  
-$\phi()-$ 
-	The language model prediction function generated from $\mathbb{X}_{\phi}$  
-$\mathcal{\phi}^o()-$ 
-	The oracle that will perform the true transformation of input to output so as to access some $I_{target}$ 
-$\phi^`()-$
-	The decoding function, this function intakes some value and interprets. This can be in the form of a language model call, or in the form of some programmatic extraction.
-${\Phi}$ - 
-	The Personality Matrix, a subspace of $\mathbb{X}_{\phi}$ that is defined as the mapping for a set of personalities into $\mathbb{X}$ , the trivial case is where there is only 1 personality and no other input:
+$\mathbb{X}-$ Objective informational space 
+$\mathbb{X}_{\phi}-$  Subjective informational space accessed by language model $\phi()$, $\exists \hspace{0.1 cm} \Phi \in \mathbb{X}_{\phi}$ . Where $\phi(\mathbb{X}) \to \mathbb{X}_{\phi}$ . This mapping does not preserve the internal distances in $\mathbb{X}$.  
+$\phi()-$  The language model prediction function generated from $\mathbb{X}_{\phi}$  
+$\mathcal{\phi}^o()-$  The oracle that will perform the true transformation of input to output so as to access some $I_{target}$ 
+$\phi^`()-$ The decoding function, this function intakes some value and interprets. This can be in the form of a language model call, or in the form of some programmatic extraction.
+${\Phi}$ -  The Personality Matrix, a subspace of $\mathbb{X}_{\phi}$ that is defined as the mapping for a set of personalities into $\mathbb{X}$ , the trivial case is where there is only 1 personality and no other input:
 	$${\Phi}=\{\phi(\mathcal{P})\}=\mathcal{P} \mapsto \mathbb{X}$$
 	$$\phi(\mathcal{P}) \hspace{0.1 cm} \circ \hspace{0.1 cm} \phi(\mathcal{P}) = \Phi_{2}(\mathcal{P})$$
 
