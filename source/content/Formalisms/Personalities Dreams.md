@@ -20,13 +20,16 @@ $$
 \text{correct}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathcal{o}_{i} $}\\
 \text{incorrect}, & \text{if $ \exists \hspace{0.1 cm} I_{\Phi} \not \in 
 \mathcal{o}_{i}$} 
-\end{cases}$$
+\end{cases}
+$$
 $$
 \mathcal{V}_{valid}(\mathbb{o}_{i})=\begin{cases}
 \text{valid}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathbb{o}_{i} $}\\
 \text{invalid}, & \text{if $\not \exists \hspace{0.1 cm} I_{\Phi} \in 
 \mathbb{o}_{i}$} 
-\end{cases}$$
+\end{cases}
+$$
+
 and this can  be used to build a matrix of Boolean type values
 
 For all personalities in a given ${\Phi}$ there are distinct bounds that are considered the "norm". These are calculated via the application of [[Thermodynamics of LLM conformational space]] and the usage of [[Notation for LM Formalization#Detecting information in personality matrices]] 
