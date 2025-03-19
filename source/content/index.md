@@ -7,12 +7,14 @@ My background is broadly in biophysics. I've worked on nano-scale bioremediation
 
 I got into AI work from a personal interest in sequence based models used for proteins. From this spawned a research paper on sequence effects on LLM bias profiles, a research paper reading bot, and some other projects.
 
-Now I am working on building a library of perspectives for AIs to try on and work through. My research, broadly, covers topics of applying evolutionary formalisms to topics in LLM and information transfer in systems.
+Now I am working on building a library of perspectives for AIs to try on and work through. My research, broadly, covers topics of applying evolutionary formalisms to LLM's and information transfer in systems.
 
 I like to make art, read, write, bake, and do research.
 
 ![[Pasted image 20250319173236.png]]
 
 Twitter/x: @theproteindance
+
 instagram: purpledraw2
+
 email: jonathan@elsworth.phd
