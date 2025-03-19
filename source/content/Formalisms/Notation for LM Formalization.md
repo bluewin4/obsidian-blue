@@ -106,19 +106,19 @@ ${\Phi}_{\mathcal{P}_{i}}$ is essentially the space that a given sub-personality
 $${\Phi}_{\mathcal{P}_{i}}= \{\phi(\mathcal{P}_{i},  \mathcal{r}_{j}) \hspace{0.1 cm} \iff  j=\text{valid}\} \text{} \mapsto \mathbb{o}_{i} \hspace{0.1 cm}$$
 
 $$
-\mathcal{V}_{correct}(\mathcal{o}_{i})=\begin{dcases*}
+\mathcal{V}_{correct}(\mathcal{o}_{i})=\begin{cases}
 \text{correct}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathcal{o}_{i} $}\\
 \text{incorrect}, & \text{if $ \exists \hspace{0.1 cm} I_{\Phi} \not \in 
 \mathcal{o}_{i}$} 
-\end{dcases*}$$
+\end{cases}$$
 
 
 $$
-\mathcal{V}_{valid}(\mathbb{o}_{i})=\begin{dcases*}
+\mathcal{V}_{valid}(\mathbb{o}_{i})=\begin{cases}
 \text{valid}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathbb{o}_{i} $}\\
 \text{invalid}, & \text{if $\not \exists \hspace{0.1 cm} I_{\Phi} \in 
 \mathbb{o}_{i}$} 
-\end{dcases*}$$
+\end{cases}$$
 
 and this can  be used to build a matrix of Boolean type values
 ^11b0ec
