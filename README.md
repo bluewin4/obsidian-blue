@@ -1,14 +1,41 @@
-# Obsidian / Quartz / GitHub Pages Template
+# My Digital Garden / Knowledge Base
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+This repository hosts my Obsidian notes as a website using [Quartz](https://quartz.jzhao.xyz/).
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+Deployed URL: https://yourdomain.com
 
-## Basic setup
+## About This Site
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+This is a collection of my notes, thoughts, and knowledge organized as a digital garden. The content is written in Markdown using [Obsidian](https://obsidian.md/) and rendered as a website using Quartz.
 
-It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
+## Local Development
+
+To run the site locally:
+
+1. Navigate to the source directory:
+   ```
+   cd source
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npx quartz build --serve
+   ```
+
+4. Open your browser to http://localhost:8080
+
+## Adding Content
+
+Add new notes to the `source/content` directory using Obsidian or any text editor. The site will automatically update when changes are pushed to the main branch.
+
+## Deployment
+
+The site is automatically deployed to GitHub Pages when changes are pushed to the main branch using GitHub Actions.
 
 ## Raw HTML pages
 
@@ -18,6 +45,6 @@ I made the "raw HTML" option for people who are generating HTML UI's with Claude
 
 ## Further customization
 
-> Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
+> Quartz is meant to be extremely configurable, even if you don't know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
 
 https://quartz.jzhao.xyz/configuration

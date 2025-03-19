@@ -1,0 +1,9 @@
+[pages]
+compatibility_date = "2023-06-30"
+
+[build]
+command = "cd source && npm install && npx quartz build"
+output_directory = "source/public"
+
+[build.environment]
+NODE_VERSION = "20" 
