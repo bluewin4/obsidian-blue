@@ -9,56 +9,18 @@
       display: flex;
     }
   }
-  
-  // Mobile styling for the slide-out drawer navigation
-  @media all and ($mobile) {
-    position: fixed;
-    top: 0;
+  /*&:after {
+    pointer-events: none;
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: absolute;
     left: 0;
-    width: 85%;
-    max-width: 300px;
-    height: 100%;
-    background: var(--light);
-    z-index: 999;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transform: translateX(-100%);
-    transition: transform 0.3s ease;
-    padding: 1rem;
-    
-    &.active {
-      transform: translateX(0);
-    }
-    
-    & #explorer-content {
-      max-height: calc(100vh - 60px);
-      margin-top: 1rem;
-      overflow-y: auto;
-    }
-  }
-}
-
-// Mobile navigation backdrop
-.mobile-nav-backdrop {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 998;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  
-  &.active {
+    bottom: 0;
     opacity: 1;
-  }
-  
-  @media all and ($mobile) {
-    &.active {
-      display: block;
-    }
-  }
+    transition: opacity 0.3s ease;
+    background: linear-gradient(transparent 0px, var(--light));
+  }*/
 }
 
 button#explorer {
@@ -85,39 +47,6 @@ button#explorer {
 
   &.collapsed .fold {
     transform: rotateZ(-90deg);
-  }
-  
-  @media all and ($mobile) {
-    padding: 0.5rem 0;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    border-bottom: 1px solid var(--lightgray);
-  }
-}
-
-// Close button for mobile navigation
-.mobile-nav-close {
-  display: none;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: var(--darkgray);
-  
-  @media all and ($mobile) {
-    display: none;
-    
-    .explorer.active & {
-      display: block;
-    }
-  }
-  
-  & svg {
-    width: 20px;
-    height: 20px;
   }
 }
 
