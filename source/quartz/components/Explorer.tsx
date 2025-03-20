@@ -84,135 +84,45 @@ export default ((userOpts?: Partial<Options>) => {
       constructFileTree(allFiles)
     }
 
-    const mobileTitle = i18n(cfg.locale).components.explorer.mobileTitle || "Navigation"
-    const desktopTitle = opts.title ?? i18n(cfg.locale).components.explorer.title
-
     return (
-      <>
-        <div class={classNames(displayClass, "explorer")} id="explorer-container">
-          <button
-            type="button"
-            class="mobile-nav-close"
-            aria-label="Close navigation"
-            id="explorer-close"
-            style={{ display: 'none' }}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-          <button
-            type="button"
-            id="explorer"
-            data-behavior={opts.folderClickBehavior}
-            data-collapsed={opts.folderDefaultState}
-            data-savestate={opts.useSavedState}
-            data-tree={jsonTree}
-            aria-controls="explorer-content"
-            aria-expanded={opts.folderDefaultState === "open"}
-          >
-            <h2 class="desktop-only">{desktopTitle}</h2>
-            <h2 class="mobile-only">{mobileTitle}</h2>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
-              viewBox="5 8 14 8"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="fold"
-            >
-              <polyline points="6 9 12 15 18 9"></polyline>
-            </svg>
-          </button>
-          <div id="explorer-content">
-            <ul class="overflow" id="explorer-ul">
-              <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
-              <li id="explorer-end" />
-            </ul>
-          </div>
-        </div>
+      <div class={classNames(displayClass, "explorer")}>
         <button
           type="button"
-          class="mobile-nav-toggle"
-          aria-label="Open navigation"
-          id="explorer-toggle"
+          id="explorer"
+          data-behavior={opts.folderClickBehavior}
+          data-collapsed={opts.folderDefaultState}
+          data-savestate={opts.useSavedState}
+          data-tree={jsonTree}
+          aria-controls="explorer-content"
+          aria-expanded={opts.folderDefaultState === "open"}
         >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
+          <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="5 8 14 8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="fold"
+          >
+            <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <div class="mobile-nav-backdrop" id="explorer-backdrop"></div>
-      </>
+        <div id="explorer-content">
+          <ul class="overflow" id="explorer-ul">
+            <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
+            <li id="explorer-end" />
+          </ul>
+        </div>
+      </div>
     )
   }
 
   Explorer.css = explorerStyle
-  Explorer.afterDOMLoaded = `
-    ${script}
-    
-    // Mobile navigation toggle functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      // Check for mobile
-      const isMobile = window.matchMedia('(max-width: 800px)').matches;
-      
-      const toggleBtn = document.getElementById('explorer-toggle')
-      const closeBtn = document.getElementById('explorer-close')
-      const backdrop = document.getElementById('explorer-backdrop')
-      const explorer = document.getElementById('explorer-container')
-      
-      // Only set up mobile navigation on mobile devices
-      if (isMobile && toggleBtn && closeBtn && backdrop && explorer) {
-        function openNav() {
-          explorer.classList.add('active')
-          backdrop.classList.add('active')
-          document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
-          
-          // Show close button when nav is active
-          closeBtn.style.display = 'block'
-        }
-        
-        function closeNav() {
-          explorer.classList.remove('active')
-          backdrop.classList.remove('active')
-          document.body.style.overflow = ''
-          
-          // Hide close button when nav is inactive
-          closeBtn.style.display = 'none'
-        }
-        
-        toggleBtn.addEventListener('click', openNav)
-        closeBtn.addEventListener('click', closeNav)
-        backdrop.addEventListener('click', closeNav)
-        
-        // Close nav when a link is clicked
-        const navLinks = explorer.querySelectorAll('a')
-        navLinks.forEach(link => {
-          link.addEventListener('click', function() {
-            // Hide the close button immediately to prevent it from showing on next page
-            closeBtn.style.display = 'none'
-            
-            // Add slight delay to close the nav after navigation starts
-            setTimeout(closeNav, 100)
-          })
-        })
-        
-        // Handle page navigation to ensure clean state
-        window.addEventListener('pageshow', function() {
-          // Reset navigation state when a new page is shown
-          explorer.classList.remove('active')
-          backdrop.classList.remove('active')
-          closeBtn.style.display = 'none'
-          document.body.style.overflow = ''
-        })
-      }
-    })
-  `
+  Explorer.afterDOMLoaded = script
   return Explorer
 }) satisfies QuartzComponentConstructor
