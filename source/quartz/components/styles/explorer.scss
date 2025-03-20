@@ -9,18 +9,56 @@
       display: flex;
     }
   }
-  /*&:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
+  
+  // Mobile styling for the slide-out drawer navigation
+  @media all and ($mobile) {
+    position: fixed;
+    top: 0;
     left: 0;
-    bottom: 0;
+    width: 85%;
+    max-width: 300px;
+    height: 100%;
+    background: var(--light);
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    padding: 1rem;
+    
+    &.active {
+      transform: translateX(0);
+    }
+    
+    & #explorer-content {
+      max-height: calc(100vh - 60px);
+      margin-top: 1rem;
+      overflow-y: auto;
+    }
+  }
+}
+
+// Mobile navigation backdrop
+.mobile-nav-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  
+  &.active {
     opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
-  }*/
+  }
+  
+  @media all and ($mobile) {
+    &.active {
+      display: block;
+    }
+  }
 }
 
 button#explorer {
@@ -47,6 +85,45 @@ button#explorer {
 
   &.collapsed .fold {
     transform: rotateZ(-90deg);
+  }
+  
+  @media all and ($mobile) {
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--lightgray);
+    transition: background-color 0.2s ease;
+    
+    &:hover, &:active {
+      background-color: var(--light-gray-2, #e0e0e0);
+    }
+  }
+}
+
+// Close button for mobile navigation
+.mobile-nav-close {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--darkgray);
+  
+  @media all and ($mobile) {
+    display: none;
+    
+    .explorer.active & {
+      display: block;
+    }
+  }
+  
+  & svg {
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -178,38 +255,4 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
   height: 4px;
   // remove default margin from li
   margin: 0;
-}
-
-// Add a handle for mobile navigation
-.mobile-nav-handle {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  width: 15px;
-  height: 60px;
-  background-color: var(--lightgray);
-  border-radius: 0 5px 5px 0;
-  z-index: 99;
-  cursor: pointer;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  
-  // Show a grip pattern
-  &::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 2px;
-    height: 20px;
-    background-color: var(--darkgray);
-    opacity: 0.3;
-    border-radius: 1px;
-  }
-  
-  @media all and ($mobile) {
-    display: block;
-  }
 }

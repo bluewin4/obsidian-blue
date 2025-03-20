@@ -84,8 +84,8 @@ export default ((userOpts?: Partial<Options>) => {
       constructFileTree(allFiles)
     }
 
+    const mobileTitle = i18n(cfg.locale).components.explorer.mobileTitle || "Navigation"
     const desktopTitle = opts.title ?? i18n(cfg.locale).components.explorer.title
-    const mobileTitle = opts.title ?? i18n(cfg.locale).components.explorer.title
 
     return (
       <>
@@ -136,7 +136,6 @@ export default ((userOpts?: Partial<Options>) => {
             </ul>
           </div>
         </div>
-        <div class="mobile-nav-handle" id="explorer-handle" aria-label="Open navigation"></div>
         <div class="mobile-nav-backdrop" id="explorer-backdrop"></div>
       </>
     )
@@ -146,82 +145,58 @@ export default ((userOpts?: Partial<Options>) => {
   Explorer.afterDOMLoaded = `
     ${script}
     
-    // Mobile navigation functionality
+    // Mobile navigation toggle functionality
     document.addEventListener('DOMContentLoaded', function() {
       const closeBtn = document.getElementById('explorer-close')
       const backdrop = document.getElementById('explorer-backdrop')
       const explorer = document.getElementById('explorer-container')
-      const handle = document.getElementById('explorer-handle')
       
+      // We've removed the toggle button, but let's enable navigation 
+      // by making the explorer itself clickable on mobile
       function openNav() {
-        if (explorer) {
-          explorer.classList.add('active')
-          if (backdrop) backdrop.classList.add('active')
-          document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
-          
-          // Show close button when nav is active
-          if (closeBtn) closeBtn.style.display = 'block'
-        }
+        explorer.classList.add('active')
+        backdrop.classList.add('active')
+        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
+        
+        // Show close button when nav is active
+        if (closeBtn) closeBtn.style.display = 'block'
       }
       
       function closeNav() {
-        if (explorer) {
-          explorer.classList.remove('active')
-          if (backdrop) backdrop.classList.remove('active')
-          document.body.style.overflow = ''
-          
-          // Hide close button when nav is inactive
-          if (closeBtn) closeBtn.style.display = 'none'
-        }
+        explorer.classList.remove('active')
+        backdrop.classList.remove('active')
+        document.body.style.overflow = ''
+        
+        // Hide close button when nav is inactive
+        if (closeBtn) closeBtn.style.display = 'none'
       }
       
-      // Add click event to the handle
-      if (handle) handle.addEventListener('click', openNav)
+      // Enable tapping on the #explorer button to open navigation on mobile
+      const explorerBtn = document.getElementById('explorer')
+      if (explorerBtn && window.innerWidth <= 800) {
+        explorerBtn.addEventListener('click', function(e) {
+          // Prevent default behavior on mobile (which would be to toggle the explorer content)
+          if (window.innerWidth <= 800) {
+            e.preventDefault()
+            openNav()
+          }
+        })
+      }
+      
       if (closeBtn) closeBtn.addEventListener('click', closeNav)
       if (backdrop) backdrop.addEventListener('click', closeNav)
       
-      // Add keyboard shortcuts
-      document.addEventListener('keydown', function(e) {
-        // Escape key to close
-        if (e.key === 'Escape' && explorer && explorer.classList.contains('active')) {
-          closeNav();
-        }
-      });
-      
-      // Add swipe detection for opening/closing nav
-      let touchStartX = 0;
-      document.addEventListener('touchstart', function(e) {
-        touchStartX = e.touches[0].clientX;
-      }, { passive: true });
-      
-      document.addEventListener('touchend', function(e) {
-        const touchEndX = e.changedTouches[0].clientX;
-        const deltaX = touchEndX - touchStartX;
-        
-        // If swipe from left edge to right, open nav
-        if (deltaX > 50 && touchStartX < 30) {
-          openNav();
-        }
-        
-        // If swipe from right to left when nav is open, close it
-        if (deltaX < -50 && explorer && explorer.classList.contains('active')) {
-          closeNav();
-        }
-      }, { passive: true });
-      
       // Close nav when a link is clicked
-      if (explorer) {
-        const navLinks = explorer.querySelectorAll('a')
-        navLinks.forEach(link => {
-          link.addEventListener('click', function(e) {
-            // Hide the close button immediately to prevent it from showing on next page
-            if (closeBtn) closeBtn.style.display = 'none'
-            
-            // Add slight delay to close the nav after navigation starts
-            setTimeout(closeNav, 100)
-          })
+      const navLinks = explorer.querySelectorAll('a')
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          // Hide the close button immediately to prevent it from showing on next page
+          if (closeBtn) closeBtn.style.display = 'none'
+          
+          // Add slight delay to close the nav after navigation starts
+          setTimeout(closeNav, 100)
         })
-      }
+      })
       
       // Handle page navigation to ensure clean state
       window.addEventListener('pageshow', function() {
