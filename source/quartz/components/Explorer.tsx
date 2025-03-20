@@ -92,18 +92,6 @@ export default ((userOpts?: Partial<Options>) => {
         <div class={classNames(displayClass, "explorer")} id="explorer-container">
           <button
             type="button"
-            class="mobile-nav-close"
-            aria-label="Close navigation"
-            id="explorer-close"
-            style={{ display: 'none' }}
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="18" y1="6" x2="6" y2="18"></line>
-              <line x1="6" y1="6" x2="18" y2="18"></line>
-            </svg>
-          </button>
-          <button
-            type="button"
             id="explorer"
             data-behavior={opts.folderClickBehavior}
             data-collapsed={opts.folderDefaultState}
@@ -136,77 +124,11 @@ export default ((userOpts?: Partial<Options>) => {
             </ul>
           </div>
         </div>
-        <div class="mobile-nav-backdrop" id="explorer-backdrop"></div>
       </>
     )
   }
 
   Explorer.css = explorerStyle
-  Explorer.afterDOMLoaded = `
-    ${script}
-    
-    // Mobile navigation toggle functionality
-    document.addEventListener('DOMContentLoaded', function() {
-      const closeBtn = document.getElementById('explorer-close')
-      const backdrop = document.getElementById('explorer-backdrop')
-      const explorer = document.getElementById('explorer-container')
-      
-      // We've removed the toggle button, but let's enable navigation 
-      // by making the explorer itself clickable on mobile
-      function openNav() {
-        explorer.classList.add('active')
-        backdrop.classList.add('active')
-        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
-        
-        // Show close button when nav is active
-        if (closeBtn) closeBtn.style.display = 'block'
-      }
-      
-      function closeNav() {
-        explorer.classList.remove('active')
-        backdrop.classList.remove('active')
-        document.body.style.overflow = ''
-        
-        // Hide close button when nav is inactive
-        if (closeBtn) closeBtn.style.display = 'none'
-      }
-      
-      // Enable tapping on the #explorer button to open navigation on mobile
-      const explorerBtn = document.getElementById('explorer')
-      if (explorerBtn && window.innerWidth <= 800) {
-        explorerBtn.addEventListener('click', function(e) {
-          // Prevent default behavior on mobile (which would be to toggle the explorer content)
-          if (window.innerWidth <= 800) {
-            e.preventDefault()
-            openNav()
-          }
-        })
-      }
-      
-      if (closeBtn) closeBtn.addEventListener('click', closeNav)
-      if (backdrop) backdrop.addEventListener('click', closeNav)
-      
-      // Close nav when a link is clicked
-      const navLinks = explorer.querySelectorAll('a')
-      navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          // Hide the close button immediately to prevent it from showing on next page
-          if (closeBtn) closeBtn.style.display = 'none'
-          
-          // Add slight delay to close the nav after navigation starts
-          setTimeout(closeNav, 100)
-        })
-      })
-      
-      // Handle page navigation to ensure clean state
-      window.addEventListener('pageshow', function() {
-        // Reset navigation state when a new page is shown
-        if (explorer) explorer.classList.remove('active')
-        if (backdrop) backdrop.classList.remove('active')
-        if (closeBtn) closeBtn.style.display = 'none'
-        document.body.style.overflow = ''
-      })
-    })
-  `
+  Explorer.afterDOMLoaded = script
   return Explorer
 }) satisfies QuartzComponentConstructor
