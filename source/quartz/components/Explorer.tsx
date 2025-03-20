@@ -84,8 +84,8 @@ export default ((userOpts?: Partial<Options>) => {
       constructFileTree(allFiles)
     }
 
-    const mobileTitle = i18n(cfg.locale).components.explorer.mobileTitle || "Navigation"
-    const desktopTitle = opts.title ?? i18n(cfg.locale).components.explorer.title
+    // Use just one title for both desktop and mobile
+    const title = "Navigation"
 
     return (
       <>
@@ -100,8 +100,7 @@ export default ((userOpts?: Partial<Options>) => {
             aria-controls="explorer-content"
             aria-expanded={opts.folderDefaultState === "open"}
           >
-            <h2 class="desktop-only">{desktopTitle}</h2>
-            <h2 class="mobile-only">{mobileTitle}</h2>
+            <h2>{title}</h2>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="14"
