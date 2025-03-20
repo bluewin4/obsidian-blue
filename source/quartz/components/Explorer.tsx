@@ -95,6 +95,7 @@ export default ((userOpts?: Partial<Options>) => {
             class="mobile-nav-close"
             aria-label="Close navigation"
             id="explorer-close"
+            style={{ display: 'none' }}
           >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -158,50 +159,52 @@ export default ((userOpts?: Partial<Options>) => {
     
     // Mobile navigation toggle functionality
     document.addEventListener('DOMContentLoaded', function() {
-      const initMobileNav = () => {
-        const toggleBtn = document.getElementById('explorer-toggle')
-        const closeBtn = document.getElementById('explorer-close')
-        const backdrop = document.getElementById('explorer-backdrop')
-        const explorer = document.getElementById('explorer-container')
+      const toggleBtn = document.getElementById('explorer-toggle')
+      const closeBtn = document.getElementById('explorer-close')
+      const backdrop = document.getElementById('explorer-backdrop')
+      const explorer = document.getElementById('explorer-container')
+      
+      function openNav() {
+        explorer.classList.add('active')
+        backdrop.classList.add('active')
+        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
         
-        if (!toggleBtn || !closeBtn || !backdrop || !explorer) {
-          console.warn('Mobile navigation elements not found')
-          return
-        }
-        
-        function openNav() {
-          explorer.classList.add('active')
-          backdrop.classList.add('active')
-          document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
-        }
-        
-        function closeNav() {
-          explorer.classList.remove('active')
-          backdrop.classList.remove('active')
-          document.body.style.overflow = ''
-        }
-        
-        toggleBtn.addEventListener('click', openNav)
-        closeBtn.addEventListener('click', closeNav)
-        backdrop.addEventListener('click', closeNav)
-        
-        // Close nav when a link is clicked
-        const navLinks = explorer.querySelectorAll('a')
-        navLinks.forEach(link => {
-          link.addEventListener('click', () => {
-            if (explorer.classList.contains('active')) {
-              closeNav()
-            }
-          })
-        })
+        // Show close button when nav is active
+        if (closeBtn) closeBtn.style.display = 'block'
       }
       
-      // Run initialization
-      initMobileNav()
+      function closeNav() {
+        explorer.classList.remove('active')
+        backdrop.classList.remove('active')
+        document.body.style.overflow = ''
+        
+        // Hide close button when nav is inactive
+        if (closeBtn) closeBtn.style.display = 'none'
+      }
       
-      // Also handle dynamic page loads
-      document.addEventListener('nav', function() {
-        setTimeout(initMobileNav, 150) // Slight delay to ensure DOM is updated
+      if (toggleBtn) toggleBtn.addEventListener('click', openNav)
+      if (closeBtn) closeBtn.addEventListener('click', closeNav)
+      if (backdrop) backdrop.addEventListener('click', closeNav)
+      
+      // Close nav when a link is clicked
+      const navLinks = explorer.querySelectorAll('a')
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+          // Hide the close button immediately to prevent it from showing on next page
+          if (closeBtn) closeBtn.style.display = 'none'
+          
+          // Add slight delay to close the nav after navigation starts
+          setTimeout(closeNav, 100)
+        })
+      })
+      
+      // Handle page navigation to ensure clean state
+      window.addEventListener('pageshow', function() {
+        // Reset navigation state when a new page is shown
+        if (explorer) explorer.classList.remove('active')
+        if (backdrop) backdrop.classList.remove('active')
+        if (closeBtn) closeBtn.style.display = 'none'
+        document.body.style.overflow = ''
       })
     })
   `

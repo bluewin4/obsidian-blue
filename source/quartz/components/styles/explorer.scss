@@ -10,36 +10,29 @@
     }
   }
   
-  // Mobile styling - keep regular display but also allow slide-out functionality
+  // Mobile styling for the slide-out drawer navigation
   @media all and ($mobile) {
-    position: static; // Regular position
-    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    max-width: 300px;
+    height: 100%;
     background: var(--light);
-    padding: 0;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
     transition: transform 0.3s ease;
+    padding: 1rem;
     
-    // When activated through the button, transform into a drawer
     &.active {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 85%;
-      max-width: 300px;
-      height: 100%;
-      background: var(--light);
-      z-index: 999;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      padding: 1rem;
       transform: translateX(0);
     }
     
     & #explorer-content {
-      max-height: 50vh; // Normal height when displayed inline
-      
-      .explorer.active & {
-        max-height: calc(100vh - 60px); // Full height when in drawer mode
-        margin-top: 1rem;
-      }
+      max-height: calc(100vh - 60px);
+      margin-top: 1rem;
+      overflow-y: auto;
     }
   }
 }
@@ -53,29 +46,22 @@
   background: var(--secondary);
   color: white;
   border: none;
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   z-index: 99;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  opacity: 0.8;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  
-  &:hover, &:focus {
-    opacity: 1;
-    transform: scale(1.05);
-  }
   
   @media all and ($mobile) {
     display: flex;
   }
   
   & svg {
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
     stroke: white;
   }
 }
@@ -141,7 +127,7 @@ button#explorer {
 
 // Close button for mobile navigation
 .mobile-nav-close {
-  display: none; // Hide by default on all devices
+  display: none;
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -151,7 +137,8 @@ button#explorer {
   color: var(--darkgray);
   
   @media all and ($mobile) {
-    // Only display when explorer is in drawer mode
+    display: none;
+    
     .explorer.active & {
       display: block;
     }

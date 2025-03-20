@@ -74,21 +74,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   if (!graph) return
   removeAllChildren(graph)
 
-  // Check if data is available
-  if (typeof fetchData === 'undefined' || !fetchData) {
-    console.warn('Graph data not available')
-    const errorMsg = document.createElement('div')
-    errorMsg.innerText = 'Graph data not available'
-    errorMsg.style.height = '100%'
-    errorMsg.style.width = '100%'
-    errorMsg.style.display = 'flex'
-    errorMsg.style.justifyContent = 'center'
-    errorMsg.style.alignItems = 'center'
-    errorMsg.style.color = 'var(--gray)'
-    graph.appendChild(errorMsg)
-    return
-  }
-
   let {
     drag: enableDrag,
     zoom: enableZoom,
@@ -563,16 +548,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const slug = e.detail.url
   addToVisited(simplifySlug(slug))
-  
-  // Make sure we have fetchData available
-  if (typeof window.fetchData === 'undefined') {
-    // Try to get content data from window object
-    window.fetchData = window.fetchData || window.__QUARTZ_CONTENT_DATA__ || {}
-    if (Object.keys(window.fetchData).length === 0) {
-      console.warn('Graph could not find content data')
-    }
-  }
-  
   await renderGraph("graph-container", slug)
 
   // Function to re-render the graph when the theme changes
