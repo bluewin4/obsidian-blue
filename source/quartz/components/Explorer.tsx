@@ -164,6 +164,11 @@ export default ((userOpts?: Partial<Options>) => {
       const backdrop = document.getElementById('explorer-backdrop')
       const explorer = document.getElementById('explorer-container')
       
+      if (!toggleBtn || !closeBtn || !backdrop || !explorer) {
+        console.warn('Explorer navigation elements not found')
+        return
+      }
+      
       function openNav() {
         explorer.classList.add('active')
         backdrop.classList.add('active')
@@ -182,9 +187,9 @@ export default ((userOpts?: Partial<Options>) => {
         if (closeBtn) closeBtn.style.display = 'none'
       }
       
-      if (toggleBtn) toggleBtn.addEventListener('click', openNav)
-      if (closeBtn) closeBtn.addEventListener('click', closeNav)
-      if (backdrop) backdrop.addEventListener('click', closeNav)
+      toggleBtn.addEventListener('click', openNav)
+      closeBtn.addEventListener('click', closeNav)
+      backdrop.addEventListener('click', closeNav)
       
       // Close nav when a link is clicked
       const navLinks = explorer.querySelectorAll('a')
@@ -201,8 +206,8 @@ export default ((userOpts?: Partial<Options>) => {
       // Handle page navigation to ensure clean state
       window.addEventListener('pageshow', function() {
         // Reset navigation state when a new page is shown
-        if (explorer) explorer.classList.remove('active')
-        if (backdrop) backdrop.classList.remove('active')
+        explorer.classList.remove('active')
+        backdrop.classList.remove('active')
         if (closeBtn) closeBtn.style.display = 'none'
         document.body.style.overflow = ''
       })
