@@ -88,45 +88,103 @@ export default ((userOpts?: Partial<Options>) => {
     const desktopTitle = opts.title ?? i18n(cfg.locale).components.explorer.title
 
     return (
-      <div class={classNames(displayClass, "explorer")}>
+      <>
+        <div class={classNames(displayClass, "explorer")} id="explorer-container">
+          <button
+            type="button"
+            class="mobile-nav-close"
+            aria-label="Close navigation"
+            id="explorer-close"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+          <button
+            type="button"
+            id="explorer"
+            data-behavior={opts.folderClickBehavior}
+            data-collapsed={opts.folderDefaultState}
+            data-savestate={opts.useSavedState}
+            data-tree={jsonTree}
+            aria-controls="explorer-content"
+            aria-expanded={opts.folderDefaultState === "open"}
+          >
+            <h2 class="desktop-only">{desktopTitle}</h2>
+            <h2 class="mobile-only">{mobileTitle}</h2>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="5 8 14 8"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="fold"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div id="explorer-content">
+            <ul class="overflow" id="explorer-ul">
+              <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
+              <li id="explorer-end" />
+            </ul>
+          </div>
+        </div>
         <button
           type="button"
-          id="explorer"
-          data-behavior={opts.folderClickBehavior}
-          data-collapsed={opts.folderDefaultState}
-          data-savestate={opts.useSavedState}
-          data-tree={jsonTree}
-          aria-controls="explorer-content"
-          aria-expanded={opts.folderDefaultState === "open"}
+          class="mobile-nav-toggle"
+          aria-label="Open navigation"
+          id="explorer-toggle"
         >
-          <h2 class="desktop-only">{desktopTitle}</h2>
-          <h2 class="mobile-only">{mobileTitle}</h2>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="5 8 14 8"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="fold"
-          >
-            <polyline points="6 9 12 15 18 9"></polyline>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg>
         </button>
-        <div id="explorer-content">
-          <ul class="overflow" id="explorer-ul">
-            <ExplorerNode node={fileTree} opts={opts} fileData={fileData} />
-            <li id="explorer-end" />
-          </ul>
-        </div>
-      </div>
+        <div class="mobile-nav-backdrop" id="explorer-backdrop"></div>
+      </>
     )
   }
 
   Explorer.css = explorerStyle
-  Explorer.afterDOMLoaded = script
+  Explorer.afterDOMLoaded = `
+    ${script}
+    
+    // Mobile navigation toggle functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleBtn = document.getElementById('explorer-toggle')
+      const closeBtn = document.getElementById('explorer-close')
+      const backdrop = document.getElementById('explorer-backdrop')
+      const explorer = document.getElementById('explorer-container')
+      
+      function openNav() {
+        explorer.classList.add('active')
+        backdrop.classList.add('active')
+        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
+      }
+      
+      function closeNav() {
+        explorer.classList.remove('active')
+        backdrop.classList.remove('active')
+        document.body.style.overflow = ''
+      }
+      
+      if (toggleBtn) toggleBtn.addEventListener('click', openNav)
+      if (closeBtn) closeBtn.addEventListener('click', closeNav)
+      if (backdrop) backdrop.addEventListener('click', closeNav)
+      
+      // Close nav when a link is clicked
+      const navLinks = explorer.querySelectorAll('a')
+      navLinks.forEach(link => {
+        link.addEventListener('click', closeNav)
+      })
+    })
+  `
   return Explorer
 }) satisfies QuartzComponentConstructor

@@ -33,6 +33,7 @@ export interface Translation {
     }
     explorer: {
       title: string
+      mobileTitle: string
     }
     footer: {
       createdWith: string
