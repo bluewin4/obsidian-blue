@@ -188,7 +188,11 @@ export default ((userOpts?: Partial<Options>) => {
         // Close nav when a link is clicked
         const navLinks = explorer.querySelectorAll('a')
         navLinks.forEach(link => {
-          link.addEventListener('click', closeNav)
+          link.addEventListener('click', () => {
+            if (explorer.classList.contains('active')) {
+              closeNav()
+            }
+          })
         })
       }
       

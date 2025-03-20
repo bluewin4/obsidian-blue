@@ -563,6 +563,16 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const slug = e.detail.url
   addToVisited(simplifySlug(slug))
+  
+  // Make sure we have fetchData available
+  if (typeof window.fetchData === 'undefined') {
+    // Try to get content data from window object
+    window.fetchData = window.fetchData || window.__QUARTZ_CONTENT_DATA__ || {}
+    if (Object.keys(window.fetchData).length === 0) {
+      console.warn('Graph could not find content data')
+    }
+  }
+  
   await renderGraph("graph-container", slug)
 
   // Function to re-render the graph when the theme changes
