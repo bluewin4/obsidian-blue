@@ -206,6 +206,7 @@ a {
         & > .explorer {
           width: 100%;
           order: 10; /* Push explorer lower in the stack order */
+          transform: translateX(-100%); /* Hide it on mobile until toggled */
         }
       }
     }

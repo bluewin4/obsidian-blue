@@ -158,31 +158,46 @@ export default ((userOpts?: Partial<Options>) => {
     
     // Mobile navigation toggle functionality
     document.addEventListener('DOMContentLoaded', function() {
-      const toggleBtn = document.getElementById('explorer-toggle')
-      const closeBtn = document.getElementById('explorer-close')
-      const backdrop = document.getElementById('explorer-backdrop')
-      const explorer = document.getElementById('explorer-container')
-      
-      function openNav() {
-        explorer.classList.add('active')
-        backdrop.classList.add('active')
-        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
+      const initMobileNav = () => {
+        const toggleBtn = document.getElementById('explorer-toggle')
+        const closeBtn = document.getElementById('explorer-close')
+        const backdrop = document.getElementById('explorer-backdrop')
+        const explorer = document.getElementById('explorer-container')
+        
+        if (!toggleBtn || !closeBtn || !backdrop || !explorer) {
+          console.warn('Mobile navigation elements not found')
+          return
+        }
+        
+        function openNav() {
+          explorer.classList.add('active')
+          backdrop.classList.add('active')
+          document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
+        }
+        
+        function closeNav() {
+          explorer.classList.remove('active')
+          backdrop.classList.remove('active')
+          document.body.style.overflow = ''
+        }
+        
+        toggleBtn.addEventListener('click', openNav)
+        closeBtn.addEventListener('click', closeNav)
+        backdrop.addEventListener('click', closeNav)
+        
+        // Close nav when a link is clicked
+        const navLinks = explorer.querySelectorAll('a')
+        navLinks.forEach(link => {
+          link.addEventListener('click', closeNav)
+        })
       }
       
-      function closeNav() {
-        explorer.classList.remove('active')
-        backdrop.classList.remove('active')
-        document.body.style.overflow = ''
-      }
+      // Run initialization
+      initMobileNav()
       
-      if (toggleBtn) toggleBtn.addEventListener('click', openNav)
-      if (closeBtn) closeBtn.addEventListener('click', closeNav)
-      if (backdrop) backdrop.addEventListener('click', closeNav)
-      
-      // Close nav when a link is clicked
-      const navLinks = explorer.querySelectorAll('a')
-      navLinks.forEach(link => {
-        link.addEventListener('click', closeNav)
+      // Also handle dynamic page loads
+      document.addEventListener('nav', function() {
+        setTimeout(initMobileNav, 150) // Slight delay to ensure DOM is updated
       })
     })
   `

@@ -74,6 +74,21 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   if (!graph) return
   removeAllChildren(graph)
 
+  // Check if data is available
+  if (typeof fetchData === 'undefined' || !fetchData) {
+    console.warn('Graph data not available')
+    const errorMsg = document.createElement('div')
+    errorMsg.innerText = 'Graph data not available'
+    errorMsg.style.height = '100%'
+    errorMsg.style.width = '100%'
+    errorMsg.style.display = 'flex'
+    errorMsg.style.justifyContent = 'center'
+    errorMsg.style.alignItems = 'center'
+    errorMsg.style.color = 'var(--gray)'
+    graph.appendChild(errorMsg)
+    return
+  }
+
   let {
     drag: enableDrag,
     zoom: enableZoom,

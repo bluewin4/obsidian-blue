@@ -137,7 +137,11 @@ button#explorer {
   color: var(--darkgray);
   
   @media all and ($mobile) {
-    display: block;
+    display: none;
+    
+    .explorer.active & {
+      display: block;
+    }
   }
   
   & svg {
