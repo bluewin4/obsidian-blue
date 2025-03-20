@@ -193,14 +193,20 @@ a {
       grid-area: grid-sidebar-left;
       flex-direction: column;
       @media all and ($mobile) {
-        gap: 0;
+        gap: 1rem;
         align-items: center;
         position: initial;
         display: flex;
         height: unset;
-        flex-direction: row;
-        padding: 0;
+        flex-direction: column;
+        padding: 0 1rem;
         padding-top: 2rem;
+        width: 100%;
+        
+        & > .explorer {
+          width: 100%;
+          order: 10; /* Push explorer lower in the stack order */
+        }
       }
     }
 

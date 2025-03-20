@@ -9,6 +9,28 @@
       display: flex;
     }
   }
+  
+  // Add mobile-specific styles
+  @media all and ($mobile) {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    
+    & #explorer-content {
+      max-height: 50vh;
+      border-radius: 5px;
+      border: 1px solid var(--lightgray);
+      padding: 0.5rem;
+    }
+    
+    & button#explorer {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 5px;
+      background-color: var(--lightgray);
+      margin-bottom: 0.25rem;
+      justify-content: space-between;
+    }
+  }
   /*&:after {
     pointer-events: none;
     content: "";

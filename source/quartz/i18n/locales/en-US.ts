@@ -31,6 +31,7 @@ export default {
     },
     explorer: {
       title: "Explorer",
+      mobileTitle: "Navigation",
     },
     footer: {
       createdWith: "Created with",
