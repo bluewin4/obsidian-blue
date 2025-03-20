@@ -159,58 +159,59 @@ export default ((userOpts?: Partial<Options>) => {
     
     // Mobile navigation toggle functionality
     document.addEventListener('DOMContentLoaded', function() {
+      // Check for mobile
+      const isMobile = window.matchMedia('(max-width: 800px)').matches;
+      
       const toggleBtn = document.getElementById('explorer-toggle')
       const closeBtn = document.getElementById('explorer-close')
       const backdrop = document.getElementById('explorer-backdrop')
       const explorer = document.getElementById('explorer-container')
       
-      if (!toggleBtn || !closeBtn || !backdrop || !explorer) {
-        console.warn('Explorer navigation elements not found')
-        return
-      }
-      
-      function openNav() {
-        explorer.classList.add('active')
-        backdrop.classList.add('active')
-        document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
-        
-        // Show close button when nav is active
-        if (closeBtn) closeBtn.style.display = 'block'
-      }
-      
-      function closeNav() {
-        explorer.classList.remove('active')
-        backdrop.classList.remove('active')
-        document.body.style.overflow = ''
-        
-        // Hide close button when nav is inactive
-        if (closeBtn) closeBtn.style.display = 'none'
-      }
-      
-      toggleBtn.addEventListener('click', openNav)
-      closeBtn.addEventListener('click', closeNav)
-      backdrop.addEventListener('click', closeNav)
-      
-      // Close nav when a link is clicked
-      const navLinks = explorer.querySelectorAll('a')
-      navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-          // Hide the close button immediately to prevent it from showing on next page
-          if (closeBtn) closeBtn.style.display = 'none'
+      // Only set up mobile navigation on mobile devices
+      if (isMobile && toggleBtn && closeBtn && backdrop && explorer) {
+        function openNav() {
+          explorer.classList.add('active')
+          backdrop.classList.add('active')
+          document.body.style.overflow = 'hidden' // Prevent scrolling when nav is open
           
-          // Add slight delay to close the nav after navigation starts
-          setTimeout(closeNav, 100)
+          // Show close button when nav is active
+          closeBtn.style.display = 'block'
+        }
+        
+        function closeNav() {
+          explorer.classList.remove('active')
+          backdrop.classList.remove('active')
+          document.body.style.overflow = ''
+          
+          // Hide close button when nav is inactive
+          closeBtn.style.display = 'none'
+        }
+        
+        toggleBtn.addEventListener('click', openNav)
+        closeBtn.addEventListener('click', closeNav)
+        backdrop.addEventListener('click', closeNav)
+        
+        // Close nav when a link is clicked
+        const navLinks = explorer.querySelectorAll('a')
+        navLinks.forEach(link => {
+          link.addEventListener('click', function() {
+            // Hide the close button immediately to prevent it from showing on next page
+            closeBtn.style.display = 'none'
+            
+            // Add slight delay to close the nav after navigation starts
+            setTimeout(closeNav, 100)
+          })
         })
-      })
-      
-      // Handle page navigation to ensure clean state
-      window.addEventListener('pageshow', function() {
-        // Reset navigation state when a new page is shown
-        explorer.classList.remove('active')
-        backdrop.classList.remove('active')
-        if (closeBtn) closeBtn.style.display = 'none'
-        document.body.style.overflow = ''
-      })
+        
+        // Handle page navigation to ensure clean state
+        window.addEventListener('pageshow', function() {
+          // Reset navigation state when a new page is shown
+          explorer.classList.remove('active')
+          backdrop.classList.remove('active')
+          closeBtn.style.display = 'none'
+          document.body.style.overflow = ''
+        })
+      }
     })
   `
   return Explorer

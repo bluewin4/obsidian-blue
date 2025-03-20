@@ -4,10 +4,10 @@
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
-  &.desktop-only {
-    @media all and not ($mobile) {
-      display: flex;
-    }
+  
+  // Desktop styling
+  @media all and not ($mobile) {
+    display: flex; // Ensure it's visible on desktop
   }
   
   // Mobile styling for the slide-out drawer navigation
@@ -43,8 +43,8 @@
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background: var(--secondary);
-  color: white;
+  background-color: var(--lightgray);
+  color: var(--darkgray);
   border: none;
   width: 50px;
   height: 50px;
@@ -62,7 +62,7 @@
   & svg {
     width: 24px;
     height: 24px;
-    stroke: white;
+    stroke: currentColor;
     fill: none;
   }
 }
