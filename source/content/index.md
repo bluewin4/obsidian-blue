@@ -11,7 +11,13 @@ Now I am working on building a library of perspectives for AIs to try on and wor
 
 I like to make art, read, write, bake, and do research.
 
-![[Pasted image 20250319173236.png]]
+I know this stuff isn't perfect, so if you spot something that's inconsistent or doesn't make sense please let me know. Thank you!
+
+<div style="text-align: center;">
+
+![[Pasted image 20250320000114.png]]
+
+</div>
 
 Twitter/x: @theproteindance
 
