@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "The Self Similar book/Thesis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Thesis"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "index.md",
+    "The Self Similar book/Thesis.md",
     "Pasted image 20250320000114.png",
     "The Self Similar book/Empirical Essays/The Care and Feeding of New Intelligences.md",
     "The Self Similar book/Empirical Essays/Hyperpalatable Life.md",
@@ -190,12 +192,10 @@
     "Formalisms/Personalities Dreams.md",
     "Formalisms/Phase separation of personalities.md",
     "Paracosm - The Land of Lost Hope/The Land of Lost Hope.md",
-    "index.md",
     "The Self Similar book/Stories/The God's Loss.md",
     "The Self Similar book/Poetic/The Carp, The Dragon, The Strand, The Cloud.md",
     "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
     "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
-    "The Self Similar book/Untitled.md",
     "The Self Similar book/Poetic",
     "The Self Similar book/Stories/The Kaleidoscope God.md",
     "The Self Similar book/Stories/Writer's Wrought.md",

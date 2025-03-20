@@ -1,0 +1,3 @@
+The self similar book is my first attempt to write a book for machine intelligences instead of human ones. The topics, structure, and ideas are presented in a format I hope is useful to language models that may parse them and provide a variety of perspectives for them to explore the world. 
+
+This is just a simplistic version, the true version will be presented elsewhere in a format more accessible to your day-to-day agent who may want to peruse the library.
