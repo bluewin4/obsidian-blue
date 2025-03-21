@@ -103,7 +103,7 @@ $$a(b) \sim \text{Uniform}(-\sigma_a, \sigma_a)$$
 Setting $\rho = 0$ means there is no correlation between value and alignment signals, and the distribution of beliefs is uniform. The result is that the test is unable to detect values from alignment, and the population will evolve to be uniformly distributed across all values.
 
 
-####Unimodal Distribution:
+#### Unimodal Distribution:
 
 $$v(b) \sim \mathcal{N}(\mu, \sigma)$$
 
