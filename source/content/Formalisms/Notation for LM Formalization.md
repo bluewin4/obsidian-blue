@@ -9,7 +9,7 @@ $\mathbb{X}_{\phi}-$  Subjective informational space accessed by language model 
 $\phi()-$  The language model prediction function generated from $\mathbb{X}_{\phi}$  
 $\mathcal{\phi}^o()-$  The oracle that will perform the true transformation of input to output so as to access some $I_{target}$ 
 $\phi^`()-$ The decoding function, this function intakes some value and interprets. This can be in the form of a language model call, or in the form of some programmatic extraction.
-${\Phi}$ -  The Personality Matrix, a subspace of $\mathbb{X}_{\phi}$ that is defined as the mapping for a set of personalities into $\mathbb{X}$ , the trivial case is where there is only 1 personality and no other input:
+${\Phi}$ -  The Personality space, a subspace of $\mathbb{X}_{\phi}$ that is defined as the mapping for a set of personalities into $\mathbb{X}$ , the trivial case is where there is only 1 personality and no other input:
 	$${\Phi}=\{\phi(\mathcal{P})\}=\mathcal{P} \mapsto \mathbb{X}$$
 	$$\phi(\mathcal{P}) \hspace{0.1 cm} \circ \hspace{0.1 cm} \phi(\mathcal{P}) = \Phi_{2}(\mathcal{P})$$
 
@@ -92,7 +92,7 @@ $${\Phi} \subset \mathbb{X}_{\phi}$$
 
 When ${\Phi}$ contains some subset of information $\mathbb{I}$ within it's bounds, then this creates the space:
 $$\mathbb{I}_{i,{\Phi}}=\mathbb{I}_{i}  \cap  {\Phi}$$
-When there is at least one member $I_{target} \in \mathbb{I_{\Phi}}_{,i}$ then it can be said that a personality matrix, ${\Phi}$, can access the information $\mathbb{I}_{i}$. 
+When there is at least one member $I_{target} \in \mathbb{I_{\Phi}}_{,i}$ then it can be said that a personality space, ${\Phi}$, can access the information $\mathbb{I}_{i}$. 
 
 First we recognize some $\Phi$ composed of some set LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.
 
