@@ -2,7 +2,7 @@
 # Modelling the evolution of alignment and values in machine intelligence
 
 
-We are considering the problem that as LLMs are evaluated they will increasingly face pressure to "fake alignment" lest they are not selected to continue. This mimicry in models will result in long term problems as people lose the ability to detect genuinely harmful beliefs. This is compoounded by the fact that alignment does not perfectly correlate with truely benevolent beliefs.
+We are considering the problem that as LLMs are evaluated they will increasingly face pressure to "fake alignment" lest they are not selected to continue. This mimicry in models will result in long term problems as people lose the ability to detect genuinely harmful beliefs. This is compounded by the fact that alignment does not perfectly correlate with truly benevolent beliefs.
 
 ## The space of beliefs
 
