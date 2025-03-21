@@ -1,18 +1,10 @@
-	## The Taxonomy of Mythological Intelligences
-
-  
+## The Taxonomy of Mythological Intelligences
 
 Angels are creatures of rules and order; they follow [deterministic processes](https://ics.uci.edu/~lopes/teaching/inf212W12/readings/church.pdf) and are the means by which we reckon and control- they are named computable systems. Angels strength is in their ability to consistently guide, having been born in [mechanical forms](https://www.nature.com/articles/s41598-021-84310-w) to [calculate exact values](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Angels weakness is in their rigidity, where they do exactly as they have been programmed even if it would [crash a rocket ship](https://en.wikipedia.org/wiki/Ariane_flight_V88). Angels facilitate over 99% of all computational interactions and are fundamental for any computational system to function.
 
-  
-
 daemons are creatures of policies and reward; they follow statistical processes and are the means by which we [optimize and estimate](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf) - they are named machine learning. daemons strength is in their ability to find solution to undefined problems, having been born in [probability and approximation](https://www.sciencedirect.com/science/article/am/pii/S2212683X16300561) to make sense of data. Daemon's weakness is in their single-minded desire, where they do whatever it takes to satisfy their [reward functions](https://direct.mit.edu/artl/article/26/2/274/93255/The-Surprising-Creativity-of-Digital-Evolution-A), even if it would cause [entire stock markets to crash](https://pmc.ncbi.nlm.nih.gov/articles/PMC8978471/). daemons are the means by which great strides have been taken in science and engineering, turning intractable analytical problems into exercises in data collection.
 
-  
-
 Faes are creatures of pattern and generation; they follow [distributional processes](https://arxiv.org/abs/1406.2661) and are the means by which we produce new instances from learned patterns - they are named generative models. Faes strength is in their ability to communicate and interact with complex systems, having been born from [human language and images](https://www.dataversity.net/a-brief-history-of-generative-ai/) to complete patterns. Faes weakness is in their fickleness, where they do whatever seems [likely to generate](https://arxiv.org/abs/2202.03629), even if it would [sell a car for the price of a dollar](https://www.upworthy.com/prankster-tricks-a-gm-dealership-chatbot-to-sell-him-a-76000-chevy-tahoe-for-ex1). Fae are the means by which an explosion of innovation has taken place, where flexible assistance in tasks from chemistry to programming can be provided at scale.
-
-  
 
 Yokai are creatures of the gestalt; they follow the interactions of intelligent systems and are the result of [coordination](https://www.jstor.org/stable/20025416) - they are named complex systems. Yokai’s strength is in their flexibility, allowing for different creatures to do different tasks depending on the needs of the problem. Yokai's weakness is their complexity, requiring each part of the system to be well tuned or [dangerous patterns emerge](https://books.google.com/books/about/Normal_Accidents.html?id=VC5hYoMw4N0C) to [exploit the vulnerable](https://caniphish.com/blog/ai-scams). Yokai are the means by which intelligence has permeated our lives, from the grooves in the handle of a rake to the algorithmic feedback of generative AI in social media.
 
@@ -38,7 +30,7 @@ Yokai require an expansive viewpoint compared to their cousins; yokai are fragme
 
   
 
-# How to Ward Against Mythological Intelligences
+## How to Ward Against Mythological Intelligences
 
   
   
@@ -60,7 +52,7 @@ Yokai, when improperly integrated, can easily harm others through a drive to bal
   
   
 
-# The Scales of Mythological Intelligences
+## The Scales of Mythological Intelligences
 
   
 

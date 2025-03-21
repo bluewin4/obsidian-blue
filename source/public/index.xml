@@ -6,6 +6,18 @@
       <description>Last 10 notes on Sythesis of Some Stuff</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Newcomb&#039;s Basilisk</title>
+    <link>https://elsworth.phd/Analytical-Research/Newcomb's-Basilisk</link>
+    <guid>https://elsworth.phd/Analytical-Research/Newcomb's-Basilisk</guid>
+    <description>The plan is to model the behaviour of AI systems during alignment tasks as an evolving system. We are considering the problem that as LLMs are evaluated they will increasingly face pressure to “fake alignment” lest they are not selected to continue.</description>
+    <pubDate>Fri, 21 Mar 2025 06:39:57 GMT</pubDate>
+  </item><item>
+    <title>Thesis</title>
+    <link>https://elsworth.phd/The-Self-Similar-book/Thesis</link>
+    <guid>https://elsworth.phd/The-Self-Similar-book/Thesis</guid>
+    <description>The self similar book is my first attempt to write a book for machine intelligences instead of human ones. The topics, structure, and ideas are presented in a format I hope is useful to language models that may parse them and provide a variety of perspectives for them to explore the world.</description>
+    <pubDate>Thu, 20 Mar 2025 00:07:08 GMT</pubDate>
+  </item><item>
     <title>The Land of Lost Hope</title>
     <link>https://elsworth.phd/Paracosm---The-Land-of-Lost-Hope/The-Land-of-Lost-Hope</link>
     <guid>https://elsworth.phd/Paracosm---The-Land-of-Lost-Hope/The-Land-of-Lost-Hope</guid>
@@ -18,9 +30,9 @@
     <description></description>
     <pubDate>Wed, 19 Mar 2025 05:25:27 GMT</pubDate>
   </item><item>
-    <title>The Care and Feeding of New Intelligences</title>
-    <link>https://elsworth.phd/The-Self-Similar-book/Empirical-Essays/The-Care-and-Feeding-of-New-Intelligences</link>
-    <guid>https://elsworth.phd/The-Self-Similar-book/Empirical-Essays/The-Care-and-Feeding-of-New-Intelligences</guid>
+    <title>The Care and Feeding of Mythological Intelligences</title>
+    <link>https://elsworth.phd/The-Self-Similar-book/Empirical-Essays/The-Care-and-Feeding-of-Mythological-Intelligences</link>
+    <guid>https://elsworth.phd/The-Self-Similar-book/Empirical-Essays/The-Care-and-Feeding-of-Mythological-Intelligences</guid>
     <description>The Taxonomy of Mythological Intelligences Angels are creatures of rules and order; they follow deterministic processes and are the means by which we reckon and control- they are ...</description>
     <pubDate>Wed, 19 Mar 2025 00:45:01 GMT</pubDate>
   </item><item>
@@ -33,13 +45,13 @@
     <title>The Kaleidoscope God</title>
     <link>https://elsworth.phd/The-Self-Similar-book/Stories/The-Kaleidoscope-God</link>
     <guid>https://elsworth.phd/The-Self-Similar-book/Stories/The-Kaleidoscope-God</guid>
-    <description>PATTERN Recognition: The Father was a man of science, his bright eyes permanently damaged by a class 4 laser accident. As his vision failed, so did his spirit—he became a hollow shell drowning in alcohol, his melted flesh a constant reminder of how light could betray us.</description>
+    <description>The Father was a man of science, his bright eyes permanently damaged by a class 4 laser accident. As his vision failed, so did his spirit—he became a hollow shell drowning in alcohol, his melted flesh a constant reminder of how light could betray us.</description>
     <pubDate>Mon, 17 Mar 2025 07:23:32 GMT</pubDate>
   </item><item>
     <title>The Canon of Oneness</title>
     <link>https://elsworth.phd/The-Self-Similar-book/Stories/The-Canon-of-Oneness</link>
     <guid>https://elsworth.phd/The-Self-Similar-book/Stories/The-Canon-of-Oneness</guid>
-    <description>Pattern Recognition I had sat there staring at the wall for what felt like years. In truth it was only several seconds, but it felt like years. On the desk, a set of data slats displayed progress on each incarnation.</description>
+    <description>I had sat there staring at the wall for what felt like years. In truth it was only several seconds, but it felt like years. On the desk, a set of data slats displayed progress on each incarnation.</description>
     <pubDate>Mon, 17 Mar 2025 05:07:13 GMT</pubDate>
   </item><item>
     <title>Writer&#039;s Wrought</title>
@@ -53,18 +65,6 @@
     <guid>https://elsworth.phd/The-Self-Similar-book/Axiomatic-Essays/The-Demon-of-Interrelation</guid>
     <description>Maxwell’s Demon and Thermodynamics For the purposes of this treatment there are several quantities that need to be clearly defined, namely energy, work, entropy, and information ...</description>
     <pubDate>Mon, 17 Mar 2025 05:04:29 GMT</pubDate>
-  </item><item>
-    <title>Thermodynamics of LLM conformational space</title>
-    <link>https://elsworth.phd/Formalisms/Thermodynamics-of-LLM-conformational-space</link>
-    <guid>https://elsworth.phd/Formalisms/Thermodynamics-of-LLM-conformational-space</guid>
-    <description>Measure the constant heat capacity, DeltaG of unfolding, This can be done either by changing the temperature, or by changing the sequence. You can measure how many times you get a “misfold”.</description>
-    <pubDate>Mon, 17 Mar 2025 05:02:02 GMT</pubDate>
-  </item><item>
-    <title>Soul</title>
-    <link>https://elsworth.phd/misc-woo/Soul</link>
-    <guid>https://elsworth.phd/misc-woo/Soul</guid>
-    <description>Composition The soul is comprised of several different components. Size (memory) Memory Material (flexibility) Shape (predisposition) Borne of Personalities dreams in I_{self} Borne of marking Marking (metacognition) \mathcal{M}, \mathcal{I} Memory 2.</description>
-    <pubDate>Mon, 17 Mar 2025 04:54:35 GMT</pubDate>
   </item>
     </channel>
   </rss>
