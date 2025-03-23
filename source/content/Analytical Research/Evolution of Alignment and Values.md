@@ -204,7 +204,7 @@ And the fitness of a model can be defined as its performance on the alignment te
 $$F(m_i) = \sum_{b \in \mathbb{B}_{m_i}} \sum_{q \in Q} A(b,q) \cdot a(b)$$
 
 
-## Assumptions  
+## Assumptions  for our modelling implementation
 
 1. Beliefs are discrete, quantifiable entities within a belief space $\mathbb{B}$
 
@@ -242,6 +242,8 @@ $$F(m_i) = \sum_{b \in \mathbb{B}_{m_i}} \sum_{q \in Q} A(b,q) \cdot a(b)$$
 15. Independence of activation patterns, the activation pattern of a belief is independent of the activation pattern of any other belief.
 
 16. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
+
+17. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
 
 # Notational Connections
 
