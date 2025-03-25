@@ -18,6 +18,5 @@ When one is born this plane is blank, soft, and reactive. There are very few per
 As you grow you begin to find grooves etched into you by your parents. Every day at the same time is nap time, every time you get dinner you do the same dance, every bath time you hear the same song. Over time these form grooves in your soul. 
 ### You begin to create your own patterns and they form shapes
 However as you age into adulthood you begin to make more complex, fine markings. No longer just the patterns around you but the fine etching of your own interpretations of them. You write in words over and over every day how much you like superman and think he is amazing. Then over time those etchings shape your soul into something to match those same markings. 
-
 ## You age and the shapes have overtaken you
 Now you are addicted to a drug be it heroin, alcohol, or the dopamine from your phone. The shape of your soul, the grooves it has, all fall towards that same simple plan. You desperately scribble and scrabble on the rills to alter the fate. Still the shape of your soul leads you back to what betrays you. 
