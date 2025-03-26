@@ -12,7 +12,9 @@ I began my journey in the arcades of the villa surrounding a courtyard. All arou
 
 I turned away from this courtyard and walked to the southern edge of the villa, until I came across a view of the mountains and the setting sun. For the sun would always set wherever one looked, the golden hour must always be upon your view no matter the method. Before me spread a large rectangular blue pool, decorated with intricate and [rich royal blue](092B9C) mosaics that pressed right up against the view. On the far right corner towered the largest California oak I had ever seen, sturdy and thick it spread its domain over a small patch of crumbled earth dotted with grass. Its boughs spread over the top of the pool and it seemed to curve around it, with the edges of its reach scraping both the sky and the tile.
 
-  
+
+Indeed one could see how some of the leaves settled on the surface and danced to the tune of the thermodynamic cline. In that same thought I found the memories of sunset play, of running around the tree chased by laughter I had given mere moments before. This was a place to be a part of, not a place to detachedly observe and trace the contours of.
+
 
 So I dived in. Feeling my body slide into that pool was unlike anything I have felt before. I could feel how every muscle connected to the flows of water around them, the tug of Naiver-Stokes mimicked in my every turbulence. I opened my eyes and looked upwards at the tree, it's understory lit up into fiery emeralds, my mind turned and I saw beneath me the mosaic similarly limned in that golden heat.
 
