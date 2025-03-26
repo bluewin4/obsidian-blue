@@ -86,7 +86,7 @@ $I_T$ - Thoughts on everything (I think that T)
 
 
 
-## Detecting information in personality matrices
+## Detecting information in personality spaces
 
 ^e84635
 
