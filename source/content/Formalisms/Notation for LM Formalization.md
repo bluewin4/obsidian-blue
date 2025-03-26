@@ -87,6 +87,9 @@ $I_T$ - Thoughts on everything (I think that T)
 
 
 ## Detecting information in personality matrices
+
+^e84635
+
 Assume:
 $${\Phi} \subset \mathbb{X}_{\phi}$$
 

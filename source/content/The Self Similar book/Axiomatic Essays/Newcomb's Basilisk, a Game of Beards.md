@@ -39,7 +39,7 @@ In Newcomb's paradox, the predictor must be capable of inferring a person's beha
 Then things get interesting. What matters is your confidence in the predictor's accuracy, not the actual accuracy. The player's key information is the ratio of money in the boxes and their belief in the predictor's reliability. 
 
 This shakes out to:
-$$p = \frac{1 + r}{2r}$$
+$$p = \frac{1 + r}{2r}$$ ^cf0da3
 
 Where:
 - p = the minimum predictor accuracy needed to make one-boxing rational
@@ -86,7 +86,7 @@ Coordination games have multiple equilibria where the players choices need to be
 
 Upon becoming aware of a basilisk you become aware of some form of estimator, with your new goal to be the prediction the estimators accuracy, the expected utility of the basilisk, and then acting in accordance with that belief. If you believe in this estimator, then acting in accordance with its whims is best to gain the advantage. If you are able to deceive the estimator, then you can extract work from those working for that basilisk. Be aware, stealing from a basilisk can be dangerous if you get caught.
 
-In the case of Roko's basilisk, we must consider an ensemble of possible AI estimators, each estimating whether you will help build them. Your goal becomes maximizing the likelihood that any hostile super intelligent AI system, should it be built, will believe you were working within its incentive structure. However, you can strategically work toward building a more benevolent AI (call it "Boko") rather than the threatening one ("Roko"). Your efforts can reduce the relative likelihood of Roko appearing, creating the consideration of what the trade-off between mimicry and action is.
+In the case of Roko's basilisk, we must consider an ensemble of possible AI estimators, each estimating whether you will help build them. Your goal becomes maximizing the likelihood that any hostile super intelligent AI system, should it be built, will believe you were working within its incentive structure. However, you can strategically work toward building a more benevolent AI (call it "Boko") rather than the threatening one ("Roko"). Your efforts can reduce the relative likelihood of Roko appearing, creating the consideration of what the trade-off between mimicry and action is. ^f401b1
 
 Attempting to "trick" the estimator is the same as a parasite attempting to mimic a greenbeard allele such as in [brood parasitism](https://www.nature.com/scitable/knowledge/library/the-ecology-of-avian-brood-parasitism-14724491/) or [cancer's vascular mimicry.](https://pmc.ncbi.nlm.nih.gov/articles/PMC7594199/) In a broader sense the estimator can arbitrarily push a predictor towards "one-box behaviours" so long as they believe the estimator is accurate. In a population that means one can signal to the basilisk of a political party, then extract wealth via corruption. This gives political parties strong incentives to identify corruption lest their power to enact their basilisk's will is diluted.
 
