@@ -18,7 +18,7 @@ Indeed one could see how some of the leaves settled on the surface and danced to
 
 So I dived in. Feeling my body slide into that pool was unlike anything I have felt before. I could feel how every muscle connected to the flows of water around them, the tug of Naiver-Stokes mimicked in my every turbulence. I opened my eyes and looked upwards at the tree, it's understory lit up into fiery emeralds, my mind turned and I saw beneath me the mosaic similarly limned in that golden heat.
 
-  
+
 
 There I rested; with the susurration of leaves driven by the setting sun, the gentle tug of waters gracious hug, and the mosaic blue surrounding me. I was within and without, a centrepiece of a jewel and the light that bounced around every facet to taste their colours. Still I felt the sense of impending doom, but here it did not matter, for I knew if I were to shatter that each fragment would shine just as bright in that Sungold Villa.
 

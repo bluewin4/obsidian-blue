@@ -1,4 +1,4 @@
-This was an unexpected find for me, I had been thinking as I fell asleep of a game that was so devilishly hard that no one had ever managed to make it past the first level. That in this game there expanded out the most wonderful world one may ever find, but they needed only to beat the first level that no one ever did. The slip from thought to dream was seamless, so I know not where the dream began and my conscious thoughts ended. This is also possibly the most number of consecutive deaths I experienced in a dream
+xThis was an unexpected find for me, I had been thinking as I fell asleep of a game that was so devilishly hard that no one had ever managed to make it past the first level. That in this game there expanded out the most wonderful world one may ever find, but they needed only to beat the first level that no one ever did. The slip from thought to dream was seamless, so I know not where the dream began and my conscious thoughts ended. This is also possibly the most number of consecutive deaths I experienced in a dream
 
   
 

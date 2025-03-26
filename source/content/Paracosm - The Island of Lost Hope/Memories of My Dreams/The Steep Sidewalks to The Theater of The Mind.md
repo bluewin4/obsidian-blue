@@ -1,0 +1,1 @@
+Perhaps another day. This one is heavy and dark. It stayed with me into the waking days.

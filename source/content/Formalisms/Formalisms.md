@@ -1,0 +1,1 @@
+The goal is to make something that helps me understand things.
