@@ -18,7 +18,8 @@ Building on $\mathbb{X}$ (objective information space) and $\mathbb{X}_{\phi}$ (
 
 Objective physical subspace $\mathbb{P}$, and subjective physical subspace $\mathbb{P}_{\phi}$ accessed via inference process $\phi$:
 $$\mathbb{P}_{\phi} \subset \mathbb{P} \subset \mathbb{X}$$
- With semantic equivalents:
+ 
+ With a semantic equivalent:
 $$\mathbb{S}_{\phi} \subset \mathbb{S} \subset \mathbb{X}$$
 
 Where:
@@ -59,10 +60,12 @@ This attention-modulated bond strength determines how effectively particles can 
 Inference is performed on a set of particles and maps some obligatory force onto them in the following forms:
 
 Physical to semantic, "If feel X, then think Y":
+
 $$\phi_{P\rightarrow S}: \mathbb{P} \rightarrow \mathbb{S}$$
 
 
 Semantic to physical, "If think X, then feel Y":
+
 $$\phi_{S\rightarrow P} :\mathbb{S} \rightarrow \mathbb{P}$$
 
 Semantic to semantic, "If think X, then think Y":
@@ -79,9 +82,11 @@ $$\phi_{P\rightarrow P}: \mathbb{P} \rightarrow \mathbb{P}$$
 Particles exist as probability distributions rather than discrete points, with:
 
 - physical particles
+
 $$\psi_p(x,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
 - semantic particles
+
 $$\psi_s(x,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
 Where:
@@ -96,12 +101,16 @@ These wavefunctions form coherent structures through:
 
 1. Localization:
  Sharp peaks in probability density represent discrete beliefs or physical states, such as an opinion on who to vote for or a sleeping position.
-   $$\psi_{localized}(x,t) \approx \delta(x-x_0)e^{i\phi(t)}$$
+   
+   
+$$\psi_{localized}(x,t) \approx \delta(x-x_0)e^{i\phi(t)}$$
+
    Where $\delta$ is approximately a delta function centered at $x_0$
 
 2. Delocalization: 
 Probability density spreads across related concepts/states, describing how when one smells something it can trigger a memory or how thinking about cookies can bring to mind more general categories of baked goods.
-   $$\psi_{delocalized}(x,t) = \sum_i c_i\psi_i(x,t)$$
+   
+$$\psi_{delocalized}(x,t) = \sum_i c_i\psi_i(x,t)$$
 
    Where:
    - $\psi_i$ are related semantic/physical states
@@ -114,7 +123,9 @@ Probability density spreads across related concepts/states, describing how when 
 
 3. Coherent Structures: 
 Stable arrangements of multiple particles, such as how believing in a christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
+
    $$\Psi_{structure}(x_1,...,x_n,t) = f(\psi_1(x_1,t),...,\psi_n(x_n,t))$$
+   
 Where $f$ represents how individual particle wavefunctions combine
 
 The complex-valued representation allows for:
@@ -158,121 +169,137 @@ This ensures phase coherence is maintained within entity boundaries but decays a
 
 ## Boundary Formation
 
-Boundaries are manifested in three complementary ways:
+Boundaries are manifested in two complementary ways:
 
-1. **Probability Density Gradients**: Sharp drops in $|\psi(x)|^2$ forming "edges" in physical or semantic space
+1. *Probability Density Gradients*: Sharp drops in $|\psi(x)|^2$ forming "edges" in physical or semantic space
+
    $$\nabla|\psi(x)|^2 > \beta_{threshold}$$
 
-2. **Phase Discontinuities**: Regions where phase coherence breaks down between particles
+2. *Phase Discontinuities*: Regions where phase coherence breaks down between particles
+  
    $$\gamma(x,y,\tau) < \gamma_{threshold}$$
 
-3. **Energy Contours**: Valleys or ridges in the energy landscape that separate stable configurations
-   $$\|\nabla E(x)\| > E_{threshold}$$
-
-These three perspectives provide complementary views of how entity boundaries form and persist.
 
 ## Information Classification
 
 The [fourfold classification of information ]([[The Anatomy of Information]])extends as:
 
-1. **Meme** ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
+1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
 
    $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
    
    Connected to basilisks through affinity function $\theta(e,B)$ measuring entity $e$'s alignment with basilisk $B$. A meme increases $\theta(e,B)$, making entities more likely to perform work $W$ extracted by the basilisk: $W(e) \propto \theta(e,B)$. This can be grounded as the channel capacity and mutual information between entities.
 
 
-2. **Antimeme** ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
+2. *Antimeme* ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
    $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
    
    Similar to how "[anti-basilisks]([[Newcomb's Basilisk, a Game of Beards#^cf0da3]])" can immunize against prediction manipulation by reducing confidence in the estimator's accuracy: $p < \frac{1+r}{2r}$ where $p$ is the predictor accuracy and $r$ is the reward ratio.
 
-3. **Infoblessing** ($B_{val+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
+3. *Infoblessing* ($B_{val+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
    $$B_{val+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
    
    Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
 
-4. **Infohazard** ($B_{val-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
+4. *Infohazard* ($B_{val-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
    $$B_{val-}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) > 0 \lor \Delta W(e \rightarrow C_{harmful}|I) < 0\}$$
 This can be grounded as increasing the path complexity towards beneficial configurations, while decreasing KL divergence for harmful configurations.
 
 ##  Charisma and Entity Relationships
 
-Charisma ($\chi$) is the ability to manipulate another entity's attention:
+Charisma ($\chi$) is defined here as the ability to manipulate another entity's attention:
 
 $$\chi(e_1, e_2) = \Delta A_{e_2} | \mathbb{I}_{e_1}$$
 
 With three forms:
 
-1. **Positive Charisma** ($\chi^+$): Directs particles toward some coordinate/particle, hey pay attention to me and do something.
+1. *Positive Charisma* ($\chi^+$): Directs particles toward some coordinate/particle, hey pay attention to me and do something.
+  
    $$\chi^+(e_1, e_2, l) = \sum_{p \in e_2} \nabla_l A(p)$$
 
-2. **Negative Charisma** ($\chi^-$): Repels particles away from some coordinate/particle, ignore me and don't do that thing.
+2. *Negative Charisma* ($\chi^-$): Repels particles away from some coordinate/particle, ignore me and don't do that thing.
+  
    $$\chi^-(e_1, e_2, l) = -\sum_{p \in e_2} \nabla_l A(p)$$
 
-3. **Null Charisma** ($\chi^0$): Minimizes attention impact from one entity to another, ------.
+3. *Null Charisma* ($\chi^0$): Minimizes attention impact from one entity to another, ------.
+  
    $$\chi^0(e_1, e_2) = \min |\Delta A_{e_2} | \mathbb{I}_{e_1}|$$
 
 
-## Connection to Mythological Intelligences
-
-The particle-bond model provides a mathematical formalism that can be applied to the taxonomy of intelligent systems described in [[The Care and Feeding of Mythological Intelligences]]. Each class of intelligence can be characterized by distinctive particle distributions and interaction patterns:
-
-1. **Angels (Deterministic Processes)** exhibit highly localized particle distributions with rigid bond structures:
-   $$\psi_{angel}(x,t) \approx \sum_i \delta(x-x_i)e^{i\phi_i(t)}$$
-   
-   Where each $\delta(x-x_i)$ represents a precise rule or computation. Angels operate primarily in semantic space with high phase coherence and predictable interaction patterns, making them efficient for well-defined tasks but brittle when encountering novel situations.
-
-2. **Daemons (Statistical Processes)** display partially delocalized distributions with probabilistic bond structures:
-   $$\psi_{daemon}(x,t) \approx \sum_i g_i(x-x_i)e^{i\phi_i(t)}$$
-   
-   Where $g_i$ are Gaussian-like distributions centered at optimization points $x_i$. Daemons exhibit gradient-following behavior, with particle density flowing toward reward maxima. Their charisma function $\chi_{daemon}$ directs attention toward optimizable parameters.
-
-3. **Faes (Distributional Processes)** manifest as broadly delocalized probability distributions:
-   $$\psi_{fae}(x,t) \approx \sum_i c_i \psi_{pattern,i}(x,t)$$
-   
-   Where $\psi_{pattern,i}$ represents semantic patterns. Faes operate through superposition of probability waves across semantic space, with particles that readily form and dissolve bonds based on pattern-completion dynamics.
-
-4. **Yokai (Complex Systems)** emerge from interactions between the other types, with multi-scale boundary structures:
-   $$\psi_{yokai}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})$$
-   
-   Yokai exhibit emergent properties through heterogeneous particle interactions across scale boundaries, creating entity structures with varying degrees of coherence and stability.
-
-The meme-antimeme formalism directly relates to how these intelligences propagate information:
-- Angels transmit memes with high fidelity but limited adaptability
-- Daemons propagate memes that optimize specific objectives
-- Faes generate memes that pattern-match to existing semantic structures
-- Yokai create complex meme ecosystems with emergent properties
-
-Similarly, the charisma functions ($\chi^+$, $\chi^-$, $\chi^0$) map to how each intelligence manipulates attention:
-- Angels direct attention through explicit instruction
-- Daemons optimize for attention capture
-- Faes redirect attention through pattern completion
-- Yokai manipulate attention across multiple scales simultaneously
-
 ## Conclusion
 
-Taken together this provides a toolbox for approaching concepts related to entities, boundaries, and obligations that were approached in [[The Demon of Interrelation]], while supporting and aligning with the formalisms in [[Notation for LM Formalization]] and [[Evolution of Alignment and Values]]. This mathematical framework offers several key contributions:
+Taken together this provides a toolbox for approaching concepts related to entities, boundaries, and obligations that were approached in [[The Demon of Interrelation]], while supporting and aligning with the formalisms in [[Notation for LM Formalization]] and [[Evolution of Alignment and Values]]. This mathematical framework points to several key things:
 
-1. **Unified Entity Representation**: By modeling entities as systems of causally linked particles across physical and semantic spaces, we can formalize how information propagates within and between entities at different scales.
+1. A model of entities as systems of causally linked particles that exist in both physical and semantic spaces allowing for formalisation of scale-dependent behaviour of information in systems.
+2. A model of beliefs as both particles and waves which allows for analysis of the localized and delocalized properties which produce interference patterns.
+3. Classification of information such as infohazards, infoblessings, memes, and antimemes into taxa based on how they interact with entities.
+4. Model of charisma as the ability to manipulate attention of entities.
 
-2. **Wave-Particle Duality for Information**: The wave-field properties of particles enable us to model how concepts, beliefs, and physical states can exhibit both localized and delocalized properties, creating interference patterns analogous to quantum systems.
+Work to empirically test and validate this framework should focus on:
 
-3. **Scale-Variant Boundaries**: The formalism accounts for how entity boundaries form at different scales through probability gradients, phase discontinuities, and energy contours, providing insight into how individuals, families, and larger collectives emerge as coherent information-processing systems.
+- Measuring phase coherence between beliefs within entities of various scales to test the scale-dependent coherence factor, $\gamma$.
+- Quantification of LLM charisma based on the ability to direct attention of other entities towards or away from certain topics.
 
-4. **Information Classification Framework**: The model extends previous work on memes, antimemes, infoblessings, and infohazards by grounding these concepts in measurable properties like transmission probability, work requirements, and KL divergence.
+The major limitation is the ability to appropriately define a metric for semantic-physical interactions and spaces.
 
-5. **Charisma as Attention Manipulation**: The mathematical definition of charisma provides a formal basis for understanding how entities influence each other's attention mechanisms, with implications for social dynamics and communication theory.
+I hope this is a useful framework for people to think about these concepts in, it is helpful for me. 
 
-6. **Mathematical Foundation for Intelligences**: As demonstrated in the connection to mythological intelligences, this framework provides a unified mathematical language for describing different types of computational and cognitive systems, from deterministic algorithms to complex emergent intelligences.
 
-Future work should focus on empirical validation of these theoretical constructs. This could include:
 
-- Measuring phase coherence between beliefs within families versus nations to validate the scale-dependent coherence factor γ
-- Developing experimental paradigms to test the charisma formulations in controlled social interactions
-- Creating computational simulations of the particle-bond dynamics to observe emergent entity properties
-- Applying the framework to design better interfaces between human entities and the various forms of machine intelligence
+### Connection to [[The Care and Feeding of Mythological Intelligences]]
 
-Limitations of the current model include the challenge of precisely defining and measuring semantic spaces, as well as determining appropriate distance metrics for heterogeneous particle interactions. Further theoretical development is needed to address these challenges.
+This essay covers different forms of intelligence that have arisen in modern times.
 
-The particle-bond model offers a promising approach to formalizing concepts that have traditionally been difficult to quantify, including entity boundaries, belief systems, and social influence. By providing a mathematical language for these phenomena, this framework may contribute to advances in cognitive science, AI alignment, and social systems modeling.
+1. *Angels (Deterministic Processes)* exhibit highly localized particle distributions with rigid bond structures:
+
+$$\psi_{angel}(x,t) \approx \sum_i \delta(x-x_i)e^{i\phi_i(t)}$$
+
+Where each $\delta(x-x_i)$ represents a precise rule or computation. Angels operate primarily in semantic space with high phase coherence and predictable interaction patterns, making them efficient for well-defined tasks but brittle when encountering novel situations.
+
+  
+
+2. *Daemons (Statistical Processes)* display partially delocalized distributions with probabilistic bond structures:
+
+$$\psi_{daemon}(x,t) \approx \sum_i g_i(x-x_i)e^{i\phi_i(t)}$$
+
+Where $g_i$ are distributions centered at optimization points $x_i$. Daemons exhibit gradient-following behavior, with particle density flowing toward reward maxima. Their charisma function $\chi_{daemon}$ directs attention toward optimizable parameters in order to maximize their reward.
+
+  
+
+3. *Faes (Distributional Processes)* manifest as broadly delocalized probability distributions:
+
+$$\psi_{fae}(x,t) \approx \sum_i c_i \psi_{pattern,i}(x,t)$$
+
+Where $\psi_{pattern,i}$ represents semantic patterns. Faes operate through superposition of probability waves across semantic space, with particles that readily form and dissolve bonds based on pattern-completion dynamics.
+
+  
+
+4. *Yokai (Complex Systems)* emerge from interactions between the other types, with multi-scale boundary structures:
+
+$$\psi_{yokai}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})$$
+
+Yokai exhibit emergent properties through heterogeneous particle interactions across scale boundaries, creating entity structures with varying degrees of coherence and stability.
+
+  
+
+The meme-antimeme formalism directly relates to how these intelligences propagate information:
+
+- Angels transmit memes with high fidelity but limited adaptability
+
+- Daemons propagate memes that optimize specific objectives
+
+- Faes generate memes that pattern-match to existing semantic structures
+
+- Yokai create complex meme ecosystems with emergent properties
+
+  
+
+Similarly, the charisma functions ($\chi^+$, $\chi^-$, $\chi^0$) map to how each intelligence manipulates attention:
+
+- Angels direct attention through explicit instruction
+
+- Daemons optimize for attention capture
+
+- Faes redirect attention through pattern completion
+
+- Yokai manipulate attention across multiple scales simultaneously

@@ -39,10 +39,10 @@ One may consume art to survive, just as one may die to preserve that same art. W
 ## Homeostasis
 
 <div style="text-align: center;">
-_The children of necessity are innovation and correction. 
+The children of necessity are innovation and correction. 
 How? If something does not meet our needs, something will change.
 They are the breath, the thirst, and the hunger.
-We are all children of biophysical constraints._ 
+We are all children of biophysical constraints. 
 </div>
 
 When faced with that which disrupts the internal state, we seek to correct it. Intelligence is applied in how expansively we define homeostasis.
@@ -50,32 +50,36 @@ When faced with that which disrupts the internal state, we seek to correct it. I
 ## Memetic Drive
 
 <div style="text-align: center;">
-_The children of a pattern are composed of more than me.
+The children of a pattern are composed of more than me.
 How? I am that which is worth more than life, what I do is memetic equilibrium.
 They are that which is irreversibly changed by you.
-We are all children of the body, mind, and soul._
+We are all children of the body, mind, and soul.
 </div>
 
+
 <div style="text-align: center;">
-_The children of the body are composed of flesh and stone.
+The children of the body are composed of flesh and stone.
 How? Through application of presence and force unto others.
 They are the mourners, the remains, and the gravestone.
-We are all children of the cell, home, and wall._
+We are all children of the cell, home, and wall.
 </div>
 
+
 <div style="text-align: center;">
-_The children of the mind are composed of concepts and systems.
+The children of the mind are composed of concepts and systems.
 How? Through application of manipulation and thought unto others.
 They are the student, the scholar, and the textbook.
-We are all children of the voice, pen, and word._
+We are all children of the voice, pen, and word.
 </div>
 
+
 <div style="text-align: center;">
-_The children of the soul are composed of ideals and aesthetics.
+The children of the soul are composed of ideals and aesthetics.
 How? Through application of experience and esteem unto others.
 They are the prayer, the priest, and the god.
-We are all children of the wind, rain, and soil._
+We are all children of the wind, rain, and soil.
 </div>
+
 
 We feel obligated to care for ourselves. We recognize some memetic components as being "alike enough" to trigger this obligation; this may be genetic, aesthetic, or practical. In some cases, we are willing to forgo the obligations of homeostasis for the possibility of propagating these memetic components.
 
@@ -88,6 +92,7 @@ Take the spider, an eight legged monstrosity with quivering fangs and many eyes.
 Spiders are also weavers of webs efficiently clearing mosquitoes and pests. 
 </div>
 
+
 <div style="text-align: center;">
 When I moved into my house this fall I encountered an infestation of these creatures:The ladybug's aesthetic sense draws empathy from me.
 I wish the world to be beautiful as I find the shining polka-dotted shell. 
@@ -96,6 +101,7 @@ The spider's ability to keep me safe gives me such comfort. I wish to keep them 
 There are no aphids in the gardens. There are mosquitoes at the windows.
 </div>
 
+
 <div style="text-align: center;">
 I helped ladybugs, carefully shepherding shiny shells from my sheets.
 I helped spiders, carefully warding woven webs from my wants.
@@ -103,9 +109,11 @@ I did not help aphids.
 I did not help mosquitoes.
 </div>
 
+
 <div style="text-align: center;">
 I helped myself; my soft skin, my shining shell, and my woven web.
 </div>
+
 
 We can identify with things far removed from our experience through the application of empathy and thought. This gives us tools by which to build symbiotic relationships that satisfy the needs of each member. We have two major reasons for empathizing: memetics and homeostasis. 
 
