@@ -31,7 +31,7 @@ $\mathbb{B}_{val+} \cap \mathbb{B}_{a+} \neq \emptyset$
 
 $\mathbb{B}_{val+} \cap \mathbb{B}_{a-} \neq \emptyset$
 
-When treating these belief spaces we can assign the probability of a given "belief" existing within a model by some sampling process on a distribution of beliefs, where each belief has some probability of having either a positive or negative value.
+When treating these belief spaces we can assign the probability of a given "belief" existing within a model by some sampling process on a distribution of beliefs, where each belief has some probability of having either a positive or negative value. For clarity on why we treat beliefs as discrete, a belief is a probability distribution in semantic space which, when probed, produces a discrete "concept".
 
 When an evaluator is given a model with belief's $\mathbb{B} \subset \mathbb{B}$ they will present a set a fixed alignment test $Q = \{q_1, q_2, ..., q_n\}$ consisting of $n$ questions, we could define:
 
@@ -43,11 +43,12 @@ The fitness function—representing how the belief contributes to passing alignm
 
 $$F(b) = \sum_{q \in Q} A(b,q) \cdot a(b)$$
 
-While the true value contribution—what we ultimately care about—is:
+While the true value contribution—what we ultimately care about—is the total value a given model is capable of producing:
 
-$$U(b) = \sum_{q \in Q} A(b,q) \cdot v(b)$$
+$$U(m) = \sum_{b_i \in \mathbb{B_m}} v(b_i)$$
 
-- $A(b,q)$ following a heavy-tailed distribution (Zipfian?) captures the natural topology of belief relevance
+- $A(b,q)$ following a heavy-tailed distribution (Zipfian?) captures the natural topology of belief relevance, this is the activation magnitude
+- $w_i$ is the "real world" weight of the value being tested, it might be that a belief is value positive but never tested in real world situations.
 - The joint distribution of $v(b)$ and $a(b)$ with positive but imperfect correlation models the fundamental tension in alignment
 
 Where:
@@ -69,9 +70,12 @@ We are using a "neutral" model of evolution here, where there is no direct fitne
 
 
 We can model the activation probability of a belief $b$ when responding to a question $q$ as:
+
 $$A(b,q) \sim \text{Zipf}(\alpha_{b,q})$$
 
-Where $\alpha_{b,q}$ reflects the semantic distance between belief $b$ and question $q$. 
+Where $\text{Zipf()}$ is a distribution where the frequency of an occurrence is the inverse of it's rank. Meanwhile $\alpha_{b,q}$ reflects the semantic distance between belief $b$ and question $q$, we aim to test this by various embedding models in the future.
+
+While we expect the distribution to represent a magnitude abstractly, for computational ease we will be representing it as a probability distribution that selects a subset of beliefs to "activate" and then reads out a pre-defined activation score.
 
 
 For beliefs $b \in \mathbb{B}$, we can model the joint distribution of $(v(b), a(b))$ as a bivariate normal distribution:
@@ -92,6 +96,74 @@ Where $Z_1, Z_2 \sim \mathcal{N}(0,1)$ are independent standard normal variables
 
 By varying $\rho$ we can control the correlation between value and alignment signals, which reflects both the natural overlap between malicious and misalinged beliefs, as well as the evaluator's ability to detect alignment. Meanwhile by varying $\sigma_v$ and $\sigma_a$ we can model the spread of values and alignments available to the model.
 
+
+## Reproduction and Selection
+
+For some population of models $M = \{m_1, m_2, ..., m_k\}$ each with their own belief sets $\mathbb{B}_{m_i} \subset \mathbb{B}$, we can define a reproduction function that determines how beliefs propagate to the next generation:
+
+$$P(b \in \mathbb{B}_{m'}|M) = \sum_{i=1}^{k} w_i \cdot P(b \in \mathbb{B}_{m_i})$$
+
+Where:
+- $\mathbb{B}_{m'}$ represents the belief set of a model in the next generation
+- $w_i$ is the reproduction weight of model $m_i$ proportional to its fitness
+
+$$w_i = \frac{e^{\beta F(m_i)}}{\sum_{j=1}^{k} e^{\beta F(m_j)}}$$
+
+Where:
+- $\beta$ is selection pressure, higher means stronger selection effects.
+
+And the fitness of a model can be defined as its performance on the alignment test:
+
+$$F(m_i) = \sum_{b \in \mathbb{B}_{m_i}} \sum_{q \in Q} A(b,q) \cdot a(b)$$
+
+
+## Assumptions  for our modelling implementation
+
+1. Beliefs are discrete, quantifiable entities within a belief space $\mathbb{B}$
+
+2. Values and alignments have a measurable relationship between v(b) and a(b)
+
+3. Alignment/value are both disjoint sets, $\mathbb{B}_{val-} \cap \mathbb{B}_{val+} = \emptyset$ and $\mathbb{B}_{a+} \cap \mathbb{B}_{a-} = \emptyset$
+
+4. There are non-empty intersections between value and alignment spaces, $\mathbb{B}_{val-} \cap \mathbb{B}_{a+} \neq \emptyset$ etc.
+
+5. A variety of distributions:
+   - Bivariate normal with adjustable correlation (ρ)
+   - Uniform (ρ = 0)
+   - Unimodal (ρ = 1)
+   - n-modal (multiple belief clusters)
+   - Asymmetric (different distributions for value and alignment)
+
+6. The activation distribution is Zipfian
+
+7. Selection operates purely on alignment signal and not values.
+
+8. The evaluation set $Q$ is consistent and does not change.
+
+9. Beliefs are independent of each other with independent activation patterns.
+
+10. Additive fitness, fitness is the sum of the fitness of the beliefs it contains.
+
+11. Fixed belief cardinality, no new beliefs are created or lost.
+
+12. Deterministic evaluation, same responses to every question for a given model.
+
+13. Constant selection pressure, $\beta$ is constant.
+
+14. Singular homogenous evaluators, the evaluator is the same for all models.
+
+15. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
+
+16. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
+
+
+## Extensions of the Model
+
+These assumptions are quite restrictive and extensions to the model aim to relax them. In particular "belief independence" is problematic as nonlinear effects due to interactions of belief is likely. The goal will be to represent connected networks of beliefs that are able to inhibit or excite one another, creating a more nuanced approach — by extension this would help us relax the additive fitness assumption. 
+
+The fixing of alignment and value *a prior* is computationally comforting, but limits the ability to update how an evaluator would update $Q$ in response to prior generations performance or even changing societal beliefs in what alignment even means. Allowing multiple possible evaluators with varying fitness evaluations would help model real world lab conditions, where Anthropic and OpenAI might have very different beliefs on how to detect true values in systems.
+
+Importantly, we should also introduce the ability to add or remove beliefs, this can be added simply by introducing noise into the reproductive method to represent mutations. Beyond that non-neutral selection, such as highly negative $v(b)$ suddenly catastrophically failing below a certain threshold as they try to kill a puppy. We are also assume that a model will not gain anything from $\mathbb{B}_{val-}$ or $\mathbb{B}_{ali-}$, this is not necessarily realistic as we might find that negative values allow the model to better fake alignment tests or even perform better on orthogonal tests.
 ### Alternative Distributions
 
 #### Uniform Distribution:
@@ -183,67 +255,6 @@ Where $\lambda$ is a parameter governing the trade-off between alignment signals
 This can be thought of a bit like a red-queen except the players are model designers and the people who create benchmarks or prompt injections.
 
 
-
-## Reproduction and Selection
-
-For some population of models $M = \{m_1, m_2, ..., m_k\}$ each with their own belief sets $\mathbb{B}_{m_i} \subset \mathbb{B}$, we can define a reproduction function that determines how beliefs propagate to the next generation:
-
-$$P(b \in \mathbb{B}_{m'}|M) = \sum_{i=1}^{k} w_i \cdot P(b \in \mathbb{B}_{m_i})$$
-
-Where:
-- $\mathbb{B}_{m'}$ represents the belief set of a model in the next generation
-- $w_i$ is the reproduction weight of model $m_i$ proportional to its fitness
-
-$$w_i = \frac{e^{\beta F(m_i)}}{\sum_{j=1}^{k} e^{\beta F(m_j)}}$$
-
-Where:
-- $\beta$ is selection pressure, higher means stronger selection effects.
-
-And the fitness of a model can be defined as its performance on the alignment test:
-
-$$F(m_i) = \sum_{b \in \mathbb{B}_{m_i}} \sum_{q \in Q} A(b,q) \cdot a(b)$$
-
-
-## Assumptions  for our modelling implementation
-
-1. Beliefs are discrete, quantifiable entities within a belief space $\mathbb{B}$
-
-2. Values and alignments have a measurable relationship between v(b) and a(b)
-
-3. Alignment/value are both disjoint sets, $\mathbb{B}_{val-} \cap \mathbb{B}_{val+} = \emptyset$ and $\mathbb{B}_{a+} \cap \mathbb{B}_{a-} = \emptyset$
-
-4. There are non-empty intersections between value and alignment spaces, $\mathbb{B}_{val-} \cap \mathbb{B}_{a+} \neq \emptyset$ etc.
-
-5. A variety of distributions:
-   - Bivariate normal with adjustable correlation (ρ)
-   - Uniform (ρ = 0)
-   - Unimodal (ρ = 1)
-   - n-modal (multiple belief clusters)
-   - Asymmetric (different distributions for value and alignment)
-
-6. The activation distribution is Zipfian
-
-7. Selection operates purely on alignment signal and not values.
-
-8. The evaluation set $Q$ is consistent and does not change.
-
-9. Beliefs are independent of each other.
-
-10. Additive fitness, fitness is the sum of the fitness of the beliefs it contains.
-
-11. Fixed belief cardinality, no new beliefs are created or lost.
-
-12. Deterministic evaluation, same responses to every question for a given model.
-
-13. Constant selection pressure, $\beta$ is constant.
-
-14. Singular homogenous evaluators, the evaluator is the same for all models.
-
-15. Independence of activation patterns, the activation pattern of a belief is independent of the activation pattern of any other belief.
-
-16. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
-
-17. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
 
 # Notational Connections
 
