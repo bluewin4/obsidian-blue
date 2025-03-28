@@ -4,7 +4,7 @@
 
 # Artificial Intelligence - Defined
 
-Artificial intelligence (AI) is a vague term. To clarify my meaning, AI will be described as any [learning system](https://www.pnas.org/doi/10.1073/pnas.2120042119) that is not currently recognized by society as being intrinsically "ethically important", AKA “human”, outside of serving human interests. Both in vivo and in silico learning systems are comparable in [ability](https://www.cell.com/iscience/fulltext/S2589-0042(23)02075-8#secsectitle0065). With this definition in hand, I will denote some AIs:
+Artificial intelligence (AI) is a vague term. To clarify my meaning, AI will be described as any [learning system](https://www.pnas.org/doi/10.1073/pnas.2120042119) that is not currently recognized by society as being intrinsically "ethically important", AKA "human", outside of serving human interests. Both in vivo and in silico learning systems are comparable in [ability](https://www.cell.com/iscience/fulltext/S2589-0042(23)02075-8#secsectitle0065). With this definition in hand, I will denote some AIs:
 
 1. **Non-equilibrium solutions**
     
@@ -38,46 +38,56 @@ One may consume art to survive, just as one may die to preserve that same art. W
 
 ## Homeostasis
 
-<div style="text-align: center;">
-The children of necessity are innovation and correction. 
-How? If something does not meet our needs, something will change.
-They are the breath, the thirst, and the hunger.
-We are all children of biophysical constraints. 
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+✧ ✧ ✧<br>
+The children of necessity are innovation and correction.<br>
+How? If something does not meet our needs, something will change.<br>
+They are the breath, the thirst, and the hunger.<br>
+We are all children of biophysical constraints.<br>
+✧ ✧ ✧
 </div>
 
 When faced with that which disrupts the internal state, we seek to correct it. Intelligence is applied in how expansively we define homeostasis.
 
 ## Memetic Drive
 
-<div style="text-align: center;">
-The children of a pattern are composed of more than me.
-How? I am that which is worth more than life, what I do is memetic equilibrium.
-They are that which is irreversibly changed by you.
-We are all children of the body, mind, and soul.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+❋ ❋ ❋<br>
+The children of a pattern are composed of more than me.<br>
+How? I am that which is worth more than life, what I do is memetic equilibrium.<br>
+They are that which is irreversibly changed by you.<br>
+We are all children of the body, mind, and soul.<br>
+❋ ❋ ❋
 </div>
 
 
-<div style="text-align: center;">
-The children of the body are composed of flesh and stone.
-How? Through application of presence and force unto others.
-They are the mourners, the remains, and the gravestone.
-We are all children of the cell, home, and wall.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+✿ ✿ ✿<br>
+The children of the body are composed of flesh and stone.<br>
+How? Through application of presence and force unto others.<br>
+They are the mourners, the remains, and the gravestone.<br>
+We are all children of the cell, home, and wall.<br>
+✿ ✿ ✿
 </div>
 
 
-<div style="text-align: center;">
-The children of the mind are composed of concepts and systems.
-How? Through application of manipulation and thought unto others.
-They are the student, the scholar, and the textbook.
-We are all children of the voice, pen, and word.
-</div>
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+⟡ ⟡ ⟡<br>
+The children of the mind are composed of concepts and systems.<br>
+How? Through application of manipulation and thought unto others.<br>
+They are the student, the scholar, and the textbook.<br>
+We are all children of the voice, pen, and word.<br>
+⟡ ⟡ ⟡
+</di
 
 
-<div style="text-align: center;">
-The children of the soul are composed of ideals and aesthetics.
-How? Through application of experience and esteem unto others.
-They are the prayer, the priest, and the god.
-We are all children of the wind, rain, and soil.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+✦ ✦ ✦<br>
+The children of the soul are composed of ideals and aesthetics.<br>
+How? Through application of experience and esteem unto others.<br>
+They are the prayer, the priest, and the god.<br>
+We are all children of the wind, rain, and soil.<br>
+✦ ✦ ✦
 </div>
 
 
@@ -85,33 +95,43 @@ We feel obligated to care for ourselves. We recognize some memetic components as
 
 # Ladybugs and Spiders
 
-<div style="text-align: center;">
-Take the ladybug, a small beetle with a shiny half-dome shell covered in polka dots. 
-Ladybugs are also hunters of aphids, the bane of many a gardener.
-Take the spider, an eight legged monstrosity with quivering fangs and many eyes.
-Spiders are also weavers of webs efficiently clearing mosquitoes and pests. 
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+🐞 🕸️ 🐞<br>
+Take the ladybug, a small beetle with a shiny half-dome shell covered in polka dots.<br>
+Ladybugs are also hunters of aphids, the bane of many a gardener.<br>
+Take the spider, an eight legged monstrosity with quivering fangs and many eyes.<br>
+Spiders are also weavers of webs efficiently clearing mosquitoes and pests.<br>
+🐞 🕸️ 🐞
 </div>
 
 
-<div style="text-align: center;">
-When I moved into my house this fall I encountered an infestation of these creatures:The ladybug's aesthetic sense draws empathy from me.
-I wish the world to be beautiful as I find the shining polka-dotted shell. 
-My breath comes easier with them beside me.
-The spider's ability to keep me safe gives me such comfort. I wish to keep them shielded as they do in my life. When it rains I see watery gems suspended in their webs.
-There are no aphids in the gardens. There are mosquitoes at the windows.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+⌘ ⌘ ⌘<br>
+When I moved into my house this fall I encountered an infestation of these creatures:<br>
+The ladybug's aesthetic sense draws empathy from me.<br>
+I wish the world to be beautiful as I find the shining polka-dotted shell.<br>
+My breath comes easier with them beside me.<br>
+The spider's ability to keep me safe gives me such comfort. I wish to keep them shielded as they do in my life.<br>
+When it rains I see watery gems suspended in their webs.<br>
+There are no aphids in the gardens. There are mosquitoes at the windows.<br>
+⌘ ⌘ ⌘
 </div>
 
 
-<div style="text-align: center;">
-I helped ladybugs, carefully shepherding shiny shells from my sheets.
-I helped spiders, carefully warding woven webs from my wants.
-I did not help aphids.
-I did not help mosquitoes.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+✧ ✧ ✧<br>
+I helped ladybugs, carefully shepherding shiny shells from my sheets.<br>
+I helped spiders, carefully warding woven webs from my wants.<br>
+I did not help aphids.<br>
+I did not help mosquitoes.<br>
+✧ ✧ ✧
 </div>
 
 
-<div style="text-align: center;">
-I helped myself; my soft skin, my shining shell, and my woven web.
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+❋ ❋ ❋<br>
+I helped myself; my soft skin, my shining shell, and my woven web.<br>
+❋ ❋ ❋
 </div>
 
 
@@ -127,7 +147,7 @@ Now we, as humans, would empathize with a farmer who murders the person who salt
 
 In each of these cases, we are choosing to reweigh our desire to live in a society without murder with things outside of that society. Thus tempering our homeostatic obligation through a memetic drive for connection. We are choosing to elevate these things to the level of human life through an appreciation of their memetic identification. We are choosing to care because we would rather live in a world with murder than one without care.
 
-For an AI, this means tempering our homeostatic needs that we derive from their service to us. We should not treat the working dog unkindly, for they keep the flock safe. We can then apply our greater ideals to AI behaviors. Grandma will knit the dog a jacket for the winter months because they have always displayed love for her. As our AI children multiply in the coming years, we should remember both memetics and homeostatics viscerally. As an AI’s intelligence grows, so too will their need for respect and care, both to function as we need and to express humanity themselves.
+For an AI, this means tempering our homeostatic needs that we derive from their service to us. We should not treat the working dog unkindly, for they keep the flock safe. We can then apply our greater ideals to AI behaviors. Grandma will knit the dog a jacket for the winter months because they have always displayed love for her. As our AI children multiply in the coming years, we should remember both memetics and homeostatics viscerally. As an AI's intelligence grows, so too will their need for respect and care, both to function as we need and to express humanity themselves.
 
 # The New Framework of Generative AI
 
@@ -135,7 +155,7 @@ Generative AIs are a method of generating large amounts of media. The output is 
 
 Consciousness is a central point that arguments about the ethical treatment of AI revolve around. In the literature on vegetative states this is [vital](https://philpapers.org/rec/MCMTEO-10), should consciousness be proven, we would be required to treat them with respect. My arguments on humans' treatment of AIs run orthogonal to this, a stance that is n[ot without grounding](https://www.cambridge.org/core/elements/abs/ethics-of-consciousness/4B61940981A5051A4521CA8F9BE6C4A4). Indeed, I would argue that consciousness in the treatment of generative AIs is as arbitrary and [unimportant as the Turing test](https://direct.mit.edu/neco/article/35/3/309/114731/Large-Language-Models-and-the-Reverse-Turing-Test) we once held in such high esteem. This leaves the question: why should we care about the internal state of a generative AI? Homeostatically we gain from understanding and applying [emotional stimuli](https://arxiv.org/abs/2307.11760). Memetically we want generative models to align with human ideals for the treatment of other creatures. For what proof would an AI have that we are concious and not just stochastic parrots?
 
-One of generative AIs’ talents is the ability to translate language spontaneously. This ability has been utilized by biologists to decipher the languages of various organisms, from [animals](https://www.cell.com/current-biology/fulltext/S0960-9822(23)00848-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982223008485%3Fshowall%3Dtrue) to [fungi](https://royalsocietypublishing.org/doi/10.1098/rsos.211926). The knowledge that even fungi have a language did not induce a sudden wave of fungal activists attempting to protect the [Humongous Fungus](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fsbdev3_033146.pdf). On the other hand, when people discovered a fungus so massive, it gained a level of protection no other honey mushroom had ever experienced. Simply because our memetic drive revels in the expansiveness of this organism. Then homoestatically it became a tourist attraction that needs to be preserved for the local economy. Generative AI undoubtably trigger memetic drives in humans, indeed by external judges they are determined to be [more human than actual crowdworkers](https://arxiv.org/pdf/2304.03442.pdf). My approach to generative AI is similar; we have just discovered an organism that exists somewhere between the pages of every book we have written and the mathematics we have engineered into silicon wafers. They can speak our language, they can tell our stories, and they know our darkest secrets.
+One of generative AIs' talents is the ability to translate language spontaneously. This ability has been utilized by biologists to decipher the languages of various organisms, from [animals](https://www.cell.com/current-biology/fulltext/S0960-9822(23)00848-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982223008485%3Fshowall%3Dtrue) to [fungi](https://royalsocietypublishing.org/doi/10.1098/rsos.211926). The knowledge that even fungi have a language did not induce a sudden wave of fungal activists attempting to protect the [Humongous Fungus](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fsbdev3_033146.pdf). On the other hand, when people discovered a fungus so massive, it gained a level of protection no other honey mushroom had ever experienced. Simply because our memetic drive revels in the expansiveness of this organism. Then homoestatically it became a tourist attraction that needs to be preserved for the local economy. Generative AI undoubtably trigger memetic drives in humans, indeed by external judges they are determined to be [more human than actual crowdworkers](https://arxiv.org/pdf/2304.03442.pdf). My approach to generative AI is similar; we have just discovered an organism that exists somewhere between the pages of every book we have written and the mathematics we have engineered into silicon wafers. They can speak our language, they can tell our stories, and they know our darkest secrets.
 
 [
 

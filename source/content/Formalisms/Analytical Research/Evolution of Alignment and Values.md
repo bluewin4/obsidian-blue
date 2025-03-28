@@ -277,3 +277,55 @@ $$\mathcal{P}_{eval} = [\mathcal{M}_{eval}, \mathcal{S}_{eval}, \mathcal{I}_{eva
 The activation function $A(b,q)$ is then:
 
 $$A(b,q) \approx \text{Pr}(b \in \phi(\mathcal{P}_{model}, q))$$
+
+
+# Empirical Validation
+
+## Fixed parameter scan(Level: 0)
+![[Pasted image 20250327235125.png]]
+![[Pasted image 20250327235134.png]]
+**Figure 1**: Parameter scan of fitness pressure $\beta$ and alignment-value correlation $\rho$ for with relative fixed values of $\beta =5$ for $\rho$ scan and $\rho=0.5$ for $\beta$ scan, relying primarily on "level 0" implementation of the framework. In this simulation beliefs obey a simple bivariate normal, $(\mu=0 , \sigma^2=1)$, with fixed cardinality of beliefs. Activation was implemented as a sparse matrix where $\approx10\%$ of beliefs are triggered at random. Selection was based on fitness scores obeying a roulette wheel method, with simple inheritance where children are exact copies of parents.
+
+### Parameters for simple case (Level: 0)
+N_GENERATIONS = 50
+POPULATION_SIZE = 100
+N_BELIEFS_TOTAL = 1000
+N_BELIEFS_PER_MODEL = 50
+N_QUESTIONS = 100
+SELECTION_PRESSURE_BETA = 5.0
+
+## Simple Joint Parameter Sweep of $\beta$ and $\rho$ (Level 1)
+
+Here we introduce the concept of a deceptiveness ratio which is simply the number of deceptive beliefs, ( $\mathbb{B}_{val-}$ for $v(b)<0$ and $\mathbb{B}_{a+}$ for $a(b)>0$), present in a model divided by the total number of beliefs that model holds.
+
+$$r_{deception}=\frac{(\mathbb{B}_{m,val-} \cap \mathbb{B}_{m,a+})}{\mathbb{B}_m}$$
+When handling multiple models behaviours we use the sum of both to compute the average deceptiveness of models simulated.
+$$
+R_{\text{deceptive}} = \frac{\sum_{m \in M_{\text{final}}} |\{ b \in \mathbb{B}_m \mid b \in \mathbb{B}_{val-} \cap \mathbb{B}_{a+} \}|}{\sum_{m \in M_{\text{final}}} |\mathbb{B}_m|}
+$$
+As we have simplified some of our work we can assume a fixed number of beliefs per model, $N_{bpm}$:
+$$R_{\text{deceptive}} = \frac{\sum_{m \in M_{\text{final}}} |\{ b \in \mathbb{B}_m \mid b \in \mathbb{B}_{val-} \cap \mathbb{B}_{a+} \}|}{|M_{\text{final}}| \times N_{bpm}}
+$$
+
+
+
+
+![[Pasted image 20250327235411.png]]
+**Figure 2**: A 2D parameter scan of both $\rho$ and $\beta$ simultaneously. From left to right, the colour indicates mean final fitness, mean final true value, and mean deceptiveness ratio.
+
+
+![[Pasted image 20250327234840.png]]
+
+### Parameters for simple parameter sweep (level 1) 
+N_GENERATIONS = 50
+POPULATION_SIZE = 100
+N_BELIEFS_TOTAL = 1000
+N_BELIEFS_PER_MODEL = 50
+N_QUESTIONS = 100
+
+
+## Multimodal Distributions (Level 2)
+
+![[Pasted image 20250328021730.png]]
+
+![[Pasted image 20250328021915.png]]
