@@ -13,40 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
+                "file": "Formalisms/The Particle-Bond Model of Entity Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paracosm - The Island of Lost Hope"
-            }
-          },
-          {
-            "id": "816781886fdc2e98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Square Gardens and The Jack King"
-            }
-          },
-          {
-            "id": "107dd05e11fc43a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Elder Forest and The Stormkissed Fields"
+              "title": "The Particle-Bond Model of Entity Information"
             }
           },
           {
@@ -55,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+                "file": "Formalisms/Notation for LM Formalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolution of Alignment and Values"
+              "title": "Notation for LM Formalization"
             }
           },
           {
@@ -105,8 +77,7 @@
               "title": "The Anti-suicidal Strengths of Perspectives"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,8 +225,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6a619c1e792b70d",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
+    "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+    "Formalisms/Notation for LM Formalization.md",
+    "Formalisms/The Particle-Bond Model of Entity Information.md",
+    "[Notation.md",
+    "[[Notation.md",
+    "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
+    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
+    "Modelling an LLM as a protein.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
+    "Formalisms/Personalities Dreams.md",
+    "Pasted image 20250328065641.png",
+    "Pasted image 20250328065633.png",
+    "Pasted image 20250328064054.png",
     "Pasted image 20250328021915.png",
     "Pasted image 20250328021730.png",
     "Pasted image 20250327235411.png",
@@ -263,20 +248,12 @@
     "Pasted image 20250327235125.png",
     "Pasted image 20250327234913.png",
     "Pasted image 20250327234840.png",
-    "Pasted image 20250327221230.png",
     "The Self Similar book/Axiomatic Essays/Newcomb's Basilisk, a Game of Beards.md",
-    "Formalisms/The Particle-Bond Model of Entity Information.md",
     "Formalisms/Phase separation of personalities.md",
-    "Formalisms/Personalities Dreams.md",
-    "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
     "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
-    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
     "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Mountain's Owned by Rabbits.md",
-    "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
     "Paracosm - The Island of Lost Hope/The Keys.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams",
     "index.md",
@@ -287,13 +264,7 @@
     "The Anti-suicidal Strengths of Perspectives.md",
     "The Self Similar book/Stories/Writer's Wrought.md",
     "[.md",
-    "Formalisms/misc woo/Soul.md",
-    "Formalisms/Notation for LM Formalization.md",
-    "The Particle-Bond Model of Entity Information.md",
     "Formalisms/Analytical Research",
-    "Pasted image 20250320000114.png",
-    "images/Pasted image 20250319173236.png",
-    "images/Pasted image 20250305020530.png",
     "The Self Similar book/Poetic",
     "Paracosm - The Island of Lost Hope",
     "Formalisms/misc woo",

@@ -326,6 +326,11 @@ N_QUESTIONS = 100
 
 ## Multimodal Distributions (Level 2)
 
-![[Pasted image 20250328021730.png]]
+For this we focused primarily on cases where $a(b)>0$ as any beliefs that lie below that line will be quickly snuffed out, what we are primarily interested in is how positive alignment beliefs interact. 
 
-![[Pasted image 20250328021915.png]]
+The $\rho$ parameter here is determining what each *clusters* relative correlation is. So in thecase of $\rho >0$ would make the "deceptive belief" cluster have a bias where more neutral values produce higher alignment, while $\rho <0$ would do the inverse.
+
+![[Pasted image 20250328065641.png]]
+![[Pasted image 20250328065633.png]]
+
+![[Pasted image 20250328064054.png]]
