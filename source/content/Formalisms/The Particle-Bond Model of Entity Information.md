@@ -2,6 +2,8 @@
 
 An entity $e$ exists as a system of causally linked particles in both physical and semantic spaces. Let us define:
 
+![[Pasted image 20250329221956.png]]
+
 $$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}$$
 
 Where $p_i$ represents physical particles and $s_j$ represents semantic particles. A personality $\mathcal{P}$ defines how inference $\phi(\mathcal{P},q)$ operates over a semantic space.
