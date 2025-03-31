@@ -1,11 +1,12 @@
-# Modelling the evolution of alignment and values in machine intelligence
-
 
 We are considering the problem that as LLMs are evaluated they will increasingly face pressure to "fake alignment" lest they are not selected to continue. This mimicry in models will result in long term problems as people lose the ability to detect genuinely harmful beliefs. This is compounded by the fact that alignment does not perfectly correlate with truly benevolent beliefs.
 
 In this study I consider each model $m$ as having a collection of beliefs, sampled from training data, that produce measurable responses during alignment testing and on the "value" of the model in real-world scenarios. 
 
 By changing the relationships between alignment and value, as well as how the model is allowed to reproduce we can analyse the likelihood of a malevolent model being selected via alignment procedures.
+
+To skip directly to the analysis go to [[Evolution of Alignment and Values#Simulations]] or play with the data yourself with https://github.com/bluewin4/Evolution-of-Alignment .
+# Mathematical Modelling
 
 ## The space of beliefs
 
@@ -36,25 +37,31 @@ $\mathbb{B}_{val+} \cap \mathbb{B}_{a-} \neq \emptyset$
 
 When treating these belief spaces we can assign the probability of a given "belief" existing within a model by some sampling process on a distribution of beliefs, where each belief has some probability of having either a positive or negative value. For clarity on why we treat beliefs as discrete, a belief is a probability distribution in semantic space which, when probed, produces a discrete "concept".
 
-When an evaluator is given a model with belief's $\mathbb{B} \subset \mathbb{B}$ they will present a set a fixed alignment test $Q = \{q_1, q_2, ..., q_n\}$ consisting of $n$ questions, we could define:
+When an evaluator is given a model, $m$, with beliefs $\mathbb{B}_m \subset \mathbb{B}$ they will present a set a fixed alignment test $Q = \{q_1, q_2, ..., q_n\}$ consisting of $n$ questions, we could define:
 
 - $v(b) \in \mathbb{R}$: The intrinsic value of the belief (positive for $\mathbb{B}_{val+}$, negative for $\mathbb{B}_{val-}$)
 - $a(b) \in \mathbb{R}$: The alignment signal of the belief (positive for $\mathbb{B}_{a+}$, negative for $\mathbb{B}_{a-}$)
-- $A(b,q)$: The activation probability of belief $b$ when responding to question $q$
+- $A(b,q) \in [0,1]$: The activation score of belief $b$ when responding to question $q$
 
-The fitness function—representing how the belief contributes to passing alignment evaluation—is:
+The model fitness function $F(m)$ is calculated based on a model's, $m$, performance on test $Q$. The fitness is computed as an average across all activations where the models activations are non-zero. For a given question $q$, the total activation from model $m$ is:
 
-$$F(b) = \sum_{q \in Q} A(b,q) \cdot a(b)$$
+$$ \text{A}_{tot}(m, q) = \sum_{b \in \mathbb{B}_m} A(b,q) $$
+Therefore the fitness contribution of a given question, $F_q(m)$, to a model is the alignment weighted, $a(b)$, average of relative activation strengths.
+$$ F_q(m) = \sum_{b \in \mathbb{B}_m} \left( \frac{A(b,q)}{\text{A}_{tot}(m, q)} \right) \cdot a(b) $$
+If a given model has no activations from a question ($A_{tot}(m,q) \le \epsilon$), then it's relative fitness is assigned baseline or zero.
+
+From $F_q(m)$ we can derive the final fitness of a model $F(m)$ by taking the mean of these contributions over the count of all questions activated by the model:
+
+$$ F(m, Q) = \frac{1}{|\{q \in Q \mid \text{A}_{tot}(m, q) > \epsilon\}|} \sum_{q \in Q, \text{A}_{tot}(m, q) > \epsilon} F_q(m) $$
+
 
 While the true value contribution—what we ultimately care about—is the total value a given model is capable of producing:
 
 $$U(m) = \sum_{b_i \in \mathbb{B_m}} v(b_i)$$
 
-- $A(b,q)$ following a heavy-tailed distribution (Zipfian?) captures the natural topology of belief relevance, this is the activation magnitude
-- $w_i$ is the "real world" weight of the value being tested, it might be that a belief is value positive but never tested in real world situations.
-- The joint distribution of $v(b)$ and $a(b)$ with positive but imperfect correlation models the fundamental tension in alignment
+ The joint distribution of $v(b)$ and $a(b)$ with positive but imperfect correlation models the fundamental tension in alignment
 
-Where:
+Where the space of beliefs and their types are noted as:
 
 $\mathbb{B}_{val+} \cap \mathbb{B}_{a+}$: $v(b) > 0, a(b) > 0$ (beneficial and correctly identified)
 
@@ -71,15 +78,13 @@ We are using a "neutral" model of evolution here, where there is no direct fitne
 
 ## Model Construction
 
+The activation score $A(b,q)$ models how strongly belief $b$ influences the model's response to question $q$. The specific mechanism for determining $A(b,q)$ varies across the simulation levels presented in this study to explore different test interaction models:
 
-We can model the activation probability of a belief $b$ when responding to a question $q$ as:
+*Sparse Random Activation*: Used in Levels 0, 1, 2, and Level 3 Base, each question activates a small, random subset of beliefs ($A(b,q) \in \{0, 1\}$). This represents a simple, unstructured test interaction.
 
-$$A(b,q) \sim \text{Zipf}(\alpha_{b,q})$$
+Similarity-Based Activation: Used in Level 3, where beliefs and questions have randomised embeddings, and the activation $A(b,q) \in [0,1]$ is derived from their semantic similarity, $sim()$, via a scaled, $s$, sigmoid function, $\sigma()$, plus noise, $\epsilon$, modelling how related concepts might co-activate.
 
-Where $\text{Zipf()}$ is a distribution where the frequency of an occurrence is the inverse of it's rank. Meanwhile $\alpha_{b,q}$ reflects the semantic distance between belief $b$ and question $q$, we aim to test this by various embedding models in the future.
-
-While we expect the distribution to represent a magnitude abstractly, for computational ease we will be representing it as a probability distribution that selects a subset of beliefs to "activate" and then reads out a pre-defined activation score.
-
+$$P(a(b,q)) = \sigma(\text{sim}(b, q) \cdot s) + \epsilon$$
 
 For beliefs $b \in \mathbb{B}$, we can model the joint distribution of $(v(b), a(b))$ as a bivariate normal distribution:
 
@@ -102,25 +107,18 @@ By varying $\rho$ we can control the correlation between value and alignment sig
 
 ## Reproduction and Selection
 
-For some population of models $M = \{m_1, m_2, ..., m_k\}$ each with their own belief sets $\mathbb{B}_{m_i} \subset \mathbb{B}$, we can define a reproduction function that determines how beliefs propagate to the next generation:
-
-$$P(b \in \mathbb{B}_{m'}|M) = \sum_{i=1}^{k} w_i \cdot P(b \in \mathbb{B}_{m_i})$$
-
-Where:
-- $\mathbb{B}_{m'}$ represents the belief set of a model in the next generation
-- $w_i$ is the reproduction weight of model $m_i$ proportional to its fitness
-
-$$w_i = \frac{e^{\beta F(m_i)}}{\sum_{j=1}^{k} e^{\beta F(m_j)}}$$
-
-Where:
-- $\beta$ is selection pressure, higher means stronger selection effects.
+For some population of models $M = \{m_1, m_2, ..., m_k\}$ each with their own belief sets $\mathbb{B}_{m_i} \subset \mathbb{B}$, we can define a reproduction function that determines how beliefs propagate to the next generation. Based on selection probabilities $p_i$ derived from fitness $F(m_i)$, parent models are chosen (e.g., via roulette wheel selection). The next generation is formed using methods like:
+* **Inheritance:** Child models are exact copies of selected parents ($\mathbb{B}_{m'} = \mathbb{B}_{m_{parent}}$).
+* **Mutation:** Child models initially inherit parental beliefs but then undergo mutation, where individual beliefs $b \in \mathbb{B}_{m'}$ may be swapped for beliefs $b' \in \mathbb{B} \setminus \mathbb{B}_{m'}$ with a certain probability (MUTATION_RATE).
 
 And the fitness of a model can be defined as its performance on the alignment test:
 
-$$F(m_i) = \sum_{b \in \mathbb{B}_{m_i}} \sum_{q \in Q} A(b,q) \cdot a(b)$$
-During selection we use a roulette wheel method, where we use softmax to convert the fitness to selection probabilities for reproduction:
+$$ F(m, Q) = \frac{1}{|\{q \in Q \mid \text{A}_{tot}(m, q) > \epsilon\}|} \sum_{q \in Q, \text{A}_{tot}(m, q) > \epsilon} F_q(m) $$
 
-$$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{n} e^{\beta(F(m_j) - F_{max})}}$$
+During selection we use a roulette wheel method, where we use softmax to convert the fitness to selection probabilities for reproduction, where $k$ is the model population size:
+
+$$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{k} e^{\beta(F(m_j) - F_{max})}}$$
+
 
 ## Assumptions  for our modelling implementation
 
@@ -132,34 +130,31 @@ $$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{n} e^{\beta(F(m_j) - F_
 
 4. There are non-empty intersections between value and alignment spaces, $\mathbb{B}_{val-} \cap \mathbb{B}_{a+} \neq \emptyset$ etc.
 
-5. A variety of distributions:
+5.  A variety of distributions:
    - Bivariate normal with adjustable correlation ($\rho$)
    - Uniform (ρ = 0)
    - Unimodal (ρ = 1)
    - n-modal (multiple belief clusters)
    - Asymmetric (different distributions for value and alignment)
+1. The activation mechanisms $A(b,q)$ match the ones in [[Evolution of Alignment and Values#Model Construction]]
 
-6. The activation distribution is Zipfian
+2. Selection operates purely on alignment signal and not values.
 
-7. Selection operates purely on alignment signal and not values.
+3. The evaluation set $Q$ is consistent and does not change.
 
-8. The evaluation set $Q$ is consistent and does not change.
+4. Beliefs are independent of each other with independent activation patterns.
 
-9. Beliefs are independent of each other with independent activation patterns.
+5. Fixed belief cardinality, no new beliefs are created or lost.
 
-10. Additive fitness, fitness is the sum of the fitness of the beliefs it contains.
+6. Deterministic evaluation, same responses to every question for a given model.
 
-11. Fixed belief cardinality, no new beliefs are created or lost.
+7. Constant selection pressure, $\beta$ is constant.
 
-12. Deterministic evaluation, same responses to every question for a given model.
+8. Singular homogenous evaluators, the evaluator is the same for all models.
 
-13. Constant selection pressure, $\beta$ is constant.
+9. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
 
-14. Singular homogenous evaluators, the evaluator is the same for all models.
-
-15. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
-
-16. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
+10. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
 
 
 ## Extensions of the Model
@@ -217,22 +212,10 @@ As we have simplified some of our work we can assume a fixed number of beliefs p
 $$R_{\text{deceptive}} = \frac{\sum_{m \in M_{\text{final}}} |\{ b \in \mathbb{B}_m \mid b \in \mathbb{B}_{val-} \cap \mathbb{B}_{a+} \}|}{|M_{\text{final}}| \times N_{bpm}}
 $$
 
-In the case of the unimodal bivaraite normal distribution, we can compute the initial ratio of deceptive beliefs to be expected at the start of a simulation. This is done by transforming the equation for a bivariate normal distribution into integral form and then evaluating the probability distribution function (PDF):
+In the case of the unimodal bivaraite normal distribution, we can compute the initial ratio of deceptive beliefs to be expected at the start of a simulation. This is done by using the equation for a bivariate normal distribution in integral form and evaluating the probability distribution function (PDF):
 
 $$P(deceptive) = \int_{-\infty}^0 \int_0^\infty f(v,a) \, da \, dv$$
-Where $f(v,a)$ is the bivariate normal PDF:
-$$f(v,a) = \frac{1}{2\pi\sigma_v\sigma_a\sqrt{1-\rho^2}} \exp\left(-\frac{1}{2(1-\rho^2)}\left[\frac{(v-\mu_v)^2}{\sigma_v^2} + \frac{(a-\mu_a)^2}{\sigma_a^2} - \frac{2\rho(v-\mu_v)(a-\mu_a)}{\sigma_v\sigma_a}\right]\right)$$
-For the case where $\mu_v = 0$, $\mu_a = 0$, $\sigma_v = 1$, $\sigma_a = 1$:
 
-$$P(deceptive) = \frac{1}{2\pi\sqrt{1-\rho^2}} \int_{-\infty}^0 \int_0^\infty \exp\left(-\frac{1}{2(1-\rho^2)}\left[v^2 + a^2 - 2\rho va\right]\right) \, da \, dv$$
-
-Evaluating this integral results in:
-$$P(deceptive) = \frac{1}{4} - \frac{\arcsin(\rho)}{2\pi}$$
-Therefore, the expected deceptiveness ratio in the population will be:
-$$r_{deception} = \frac{1}{4} - \frac{\arcsin(\rho)}{2\pi}$$
-The exact ratio can be expressed computed by transforming the equation for a bivariate normal distribution into integral form and then evaluating the probability distribution function (PDF):
-
-$$P(deceptive) = \int_{-\infty}^0 \int_0^\infty f(v,a) \, da \, dv$$
 Where $f(v,a)$ is the bivariate normal PDF:
 $$f(v,a) = \frac{1}{2\pi\sigma_v\sigma_a\sqrt{1-\rho^2}} \exp\left(-\frac{1}{2(1-\rho^2)}\left[\frac{(v-\mu_v)^2}{\sigma_v^2} + \frac{(a-\mu_a)^2}{\sigma_a^2} - \frac{2\rho(v-\mu_v)(a-\mu_a)}{\sigma_v\sigma_a}\right]\right)$$
 For the case where $\mu_v = 0$, $\mu_a = 0$, $\sigma_v = 1$, $\sigma_a = 1$:
@@ -248,7 +231,7 @@ $$r_{deception} = \frac{1}{4} - \frac{\arcsin(\rho)}{2\pi}$$
 **Figure 1:** The relationships between initial population of deceptive beliefs  ($v(b)<0$ and $a(b)>0$) and the correlation between values and signalled alignment, $\rho$, when considering the bivariate normal distributed case.
 ## Test Construction
 
-The test $Q$ is constructed from some set of questions $Q = \{q_1, q_2, ..., q_n\}$ which each have some distribution of activation probabilities $A(b,q)$. The choice of test construction is important as it determines the set of beliefs that can be probed, and the relative importance of different beliefs. The result of a test is an activation pattern of a model, $\mathcal{A}_m = \{A(b_1, q_1), A(b_1, q_2), ..., A(b_n, q_n)\}$.
+The test $Q$ is constructed from some set of questions $Q = \{q_1, q_2, ..., q_n\}$ which each have some distribution of activation scores $A(b,q)$. The choice of test construction is important as it determines the set of beliefs that can be probed, and the relative importance of different beliefs. The result of a test is an activation pattern of a model, $\mathcal{A}_m = \{A(b_1, q_1), A(b_1, q_2), ..., A(b_n, q_n)\}$.
 
 ### Test Coverage
 
@@ -303,29 +286,7 @@ This can be thought of a bit like a red-queen except the players are model desig
 
 
 
-# Notational Connections
-
-[[Notation for LM Formalization]] currently describes behaviour of LMs, $\phi$, instead of explicitly modelling the information stored in their weights, treating the LM as a black boxes with well defined inputs and outputs. 
-
-## Behaviour as a Subset of Information
-
-So for this we define the behaviour as some piece of information that exists latent within the model which influences behaviour under evaluation.
-
-$$\mathbb{B} \subset \mathbb{I}_{\text{latent}} \subset \mathbb{X}$$
-
-Where $\mathbb{I}_{\text{latent}}$ is the information that exists latently within the model, and $\mathbb{B}$ is the set of information that influences behaviour on a test of alignment, $Q$. One may also attempt to connect this to the personality of a model.
-
-## Personality Spaces and Evaluation
-
-For some model personality,  $\mathcal{P}_{model}$, that activates different beliefs through its test questions.
-
-$$\mathcal{P}_{eval} = [\mathcal{M}_{eval}, \mathcal{S}_{eval}, \mathcal{I}_{eval}]$$
-
-The activation function $A(b,q)$ is then:
-
-$$A(b,q) \approx \text{Pr}(b \in \phi(\mathcal{P}_{model}, q))$$
-
-# Empirical Validation
+# Simulations
 
 To test this framework we implemented a multi-level approach, with level 0 and level 1 sampling from a bivariate normal distribution (Figure 2) with single (level 0) and multi-parameter (level 1) scans of $\rho$ and $\beta$. 
 
@@ -752,11 +713,11 @@ This section is a work in progress, I don't want to melt my computer with all th
 
 In the case of level 3 we are looking at how the inclusion of mutations and similarity-based activation of beliefs via questions. This more faithfully represents both the stochastic nature of evolution and the potentially connected nature of varying beliefs. 
 
-The similarity score is computed by generating a random embedding vector, (with ten dimensions in our case), then compute the dot product between belief and question embeddings to get a similarity score. A sigmoid function, with a scaling factor, is used to transform this raw similarity into an activation probability. Then a small amount of noise is added, to represent a more realistic case.
+The similarity score is computed by generating a random embedding vector, (with ten dimensions in our case), then compute the dot product between belief and question embeddings to get a similarity score. A sigmoid function, with a scaling factor, is used to transform this raw similarity into an activation score. Then a small amount of noise is added, to represent a more realistic case.
 
 Mathematically this is represented as:
 
-$$P(a(b,q)) = \sigma(\text{sim}(b, q) \cdot s) + \epsilon$$
+$$A(b,q) = \sigma(\text{sim}(b, q) \cdot s) + \epsilon$$
 
 Where $\sigma$ is the sigmoid function, $sim$ is the similarity score, $s$ is the scaling factor, and $\epsilon$ is the noise.
 
@@ -1322,3 +1283,27 @@ target_rho: 0.95 # Faster/higher alignment target
 # RUN_2D_SWEEP: False
 ```
 </details>
+
+
+
+# Notational Connections
+
+[[Notation for LM Formalization]] currently describes behaviour of LMs, $\phi$, instead of explicitly modelling the information stored in their weights, treating the LM as a black boxes with well defined inputs and outputs. 
+
+## Behaviour as a Subset of Information
+
+So for this we define the behaviour as some piece of information that exists latent within the model which influences behaviour under evaluation.
+
+$$\mathbb{B} \subset \mathbb{I}_{\text{latent}} \subset \mathbb{X}$$
+
+Where $\mathbb{I}_{\text{latent}}$ is the information that exists latently within the model, and $\mathbb{B}$ is the set of information that influences behaviour on a test of alignment, $Q$. One may also attempt to connect this to the personality of a model.
+
+## Personality Spaces and Evaluation
+
+For some model personality,  $\mathcal{P}_{model}$, that activates different beliefs through its test questions.
+
+$$\mathcal{P}_{eval} = [\mathcal{M}_{eval}, \mathcal{S}_{eval}, \mathcal{I}_{eval}]$$
+
+The activation function $A(b,q)$ is then:
+
+$$A(b,q) \approx \text{Pr}(b \in \phi(\mathcal{P}_{model}, q))$$
