@@ -78,7 +78,7 @@ How? Through application of manipulation and thought unto others.<br>
 They are the student, the scholar, and the textbook.<br>
 We are all children of the voice, pen, and word.<br>
 ⟡ ⟡ ⟡
-</di
+</div>
 
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
@@ -128,7 +128,7 @@ I did not help mosquitoes.<br>
 </div>
 
 
-div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
+<div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
 ❋ ❋ ❋<br>
 I helped myself; my soft skin, my shining shell, and my woven web.<br>
 ❋ ❋ ❋
