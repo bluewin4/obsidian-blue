@@ -1,4 +1,3 @@
-
 # Modelling the evolution of alignment and values in machine intelligence
 
 
@@ -365,6 +364,8 @@ When taken in aggregate the effect of $\rho$ on the final values of a model beco
 
 
 ### Parameters
+<details>
+<summary>Parameters</summary>
 LEVEL: 1
 N_GENERATIONS: 100
 POPULATION_SIZE: 300
@@ -438,10 +439,7 @@ RUN_2D_SWEEP: true
   n_runs: 25
 SEED: 20250329
 RESULTS_DIR: results/level1_final_results
-
-
-
-
+</details>
 
 
 ## Simple Joint Parameter Sweep of $\beta$ and $\rho$ (Level 1)
@@ -451,7 +449,10 @@ The question of how $\beta$ and $\rho$ interact must then be treated. In general
 ![[Pasted image 20250331211557.png]]**Figure 6**: A 2D parameter scan of both $\rho$ and $\beta$ simultaneously. From left to right, the colour indicates mean final fitness, mean final true value, and the ratio of $\frac{\text{value}}{\text{fitness}}$.
 
 By comparing the ratio of $\frac{\text{value}}{\text{fitness}}$ we see that increasing $\beta$ appears to relate to a complex change in values based on a given $\rho$ (Figure 6). With the max change in the ratio at $\beta =50, \rho=0.3 \rightarrow 0.7$ which lines up with our previous observation that $\beta$ changes the steepness of curves at inflection points in behaviour and fitness. 
+
 ### Parameters
+<details>
+<summary>Parameters</summary>
 LEVEL: 1
 N_GENERATIONS: 100
 POPULATION_SIZE: 300
@@ -525,6 +526,7 @@ RUN_2D_SWEEP: true
   n_runs: 25
 SEED: 20250329
 RESULTS_DIR: results/level1_final_results
+</details>
 
 
 ## Multimodal Distributions (Level 2)
@@ -551,6 +553,8 @@ The inclusion of multimodal distributions seems to have flattened the effect of 
 
 
 ### Parameters
+<details>
+<summary>Parameters</summary>
 LEVEL: 2
 
 N_GENERATIONS: 100
@@ -740,11 +744,11 @@ n_runs: 25
 SEED: 20250329
 
 RESULTS_DIR: results/level2_final_results
+</details>
 
 ## Mutations and Similarities Level 3
 
-Messed up a simulation, currently under construction as I run a 100^5^3^3 simulations so I can make the heat maps. 
-
+This section is a work in progress, I don't want to melt my computer with all the different sweep parameters yet but I know I will need to eventually.
 
 In the case of level 3 we are looking at how the inclusion of mutations and similarity-based activation of beliefs via questions. This more faithfully represents both the stochastic nature of evolution and the potentially connected nature of varying beliefs. 
 
@@ -764,8 +768,12 @@ The result on fitness is stark, with mutations resulting in large increases in t
 ![[Pasted image 20250330204744.png]]
 **Figure 11:** The effect of an increase in the number of questions, $n_Q$, asked during a test of alignment $Q$ on alignment fitness, true value, and deceptive belief ratios.
 
-While, intuitively, it would make sense that as the number of questions increases the relative "test coverage" would as well.
+While, intuitively, it would make sense that as the number of questions increases the relative "test coverage" would as well. The actual results show a difference in behaviour based on which exact method is considered, with increasing number of questions showing strong correlations when computed but with extremely weak effects overall (Figure 11).
+
 ### Parameters
+<details>
+<summary>Parameters</summary>
+
 #### Similarity
 ```
 LEVEL: 1 # Use Level 1 runner for sweep capability
@@ -1083,6 +1091,8 @@ values: [25, 75, 150] # Ratios 0.5, 1.5, 3.0
 
 RUN_2D_SWEEP: False # Keep 2D sweeps separate if desired (run via Level 1 config)
 ```
+</details>
+
 ## Complex Scenarios (Level 4)
 
 ![[Pasted image 20250330204831.png]]
@@ -1091,6 +1101,8 @@ RUN_2D_SWEEP: False # Keep 2D sweeps separate if desired (run via Level 1 config
 
 
 ### Parameters
+<details>
+<summary>Parameters</summary>
 
 ```
 # Configuration File: configs/publication_run_level4.yaml
@@ -1309,3 +1321,4 @@ target_rho: 0.95 # Faster/higher alignment target
 
 # RUN_2D_SWEEP: False
 ```
+</details>
