@@ -6,13 +6,13 @@ An entity $e$ exists as a system of causally linked particles in both physical a
 
 $$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}$$
 
-Where $p_i$ represents physical particles and $s_j$ represents semantic particles. A personality $\mathcal{P}$ defines how inference $\phi(\mathcal{P},q)$ operates over a semantic space.
+Where $p_i$ represents physical particles and $s_j$ represents semantic particles. A personality $\mathcal{P}$ defines how an inference mode $\phi(\mathcal{P},q)$ operates over a semantic space.
 
 Entities are bounded systems where causal links between particles exceed a threshold $\tau$:
 
-$$\forall (x,y) \in e: B(x,y) > \tau$$
+$$\forall (x_i,x_j) \in e: B(x_i,x_j) > \tau$$
 
-Where $B(x,y)$ is the causal (bond) strength between particles $x$ and $y$. Importantly this is scale variant, so if one is dealing with a nation $\tau_{nation} < \tau_{family} <\tau_{individual}$, meaning that the requirement for causal linkage of semantic/physical particles is lower for people to be considered of a nation than to be considered of a family, or an individual. 
+Where $B(x_i,x_j)$ is the causal (bond) strength between particles $x_i$ and $x_j$. Importantly this is scale variant, so if one is dealing with a nation $\tau_{nation} < \tau_{family} <\tau_{individual}$, meaning that the requirement for causal linkage of semantic/physical particles is lower for people to be considered of a nation than to be considered of a family, or an individual. 
 
 ### Particle detection and interaction
 
@@ -40,9 +40,9 @@ There are both homogenous particle interactions such as a calcium gradient causi
 
 ## Attention as Network Analysis
 
-Attention $C()$ is a measure of connectedness for a particle $x_i$, as a function of bond strength $B(x_i, y)$ between physical particles and semantic particles:
+Attention $C()$ is a measure of connectedness for a particle $x_i$, as a function of bond strength $B(x_i, x)$ between physical particles and semantic particles:
 
-$$C(x_j)= \sum_{i \not = j} g(B(x_j,y_i))$$
+$$C(x_i)= \sum_{i \not = j} g(B(x_i,x_j))$$
 
 Where $g(B)$ is a function weighting the contribution of individual bond strengths B (e.g., $g(B)=B$ sums all strengths, or a threshold function like $g(B)=1$ if $B > \tau_c$, $0$ otherwise, counts strong bonds).
 
@@ -50,8 +50,7 @@ Changes in attention represent changes in the connectedness of the network, and 
 
 That said, if one does not granularly consider every discrete physical interaction that carriers information, then one can also calculate $C(x)$ based also on homogenous bonds (P-P, S-S), although these ultimately rely on physical mediation.
 
-
-The underlying bond strengths $B(x,y)$, reflected in the overall attention profile $\{C(x)\}$, determine how effectively particles and interconnected particle structures influence each other's states and positions in their respective spaces. The interaction is not necessarily reciprocal, pain as a concept does not change nearly as much as the physical manifestation of the body does when exposed to it.
+The underlying bond strengths $B(x_i,x_j)$, reflected in the overall attention profile $\{C(x_i)\}$, determine how effectively particles and interconnected particle structures influence each other's states and positions in their respective spaces. The interaction is not necessarily reciprocal, pain as a concept does not change nearly as much as the physical manifestation of the body does when exposed to it.
 
 Inference is the process by which a series of interactions between particles experiences causal procession, "if X then Y". There exists 4 specific forms:
 
@@ -171,31 +170,6 @@ Boundaries are manifested in two complementary ways:
    $$\gamma(x,y,\tau) < \gamma_{threshold}$$
 
 
-## Information Classification
-
-The [fourfold classification of information ]([[The Anatomy of Information]])extends as:
-
-1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
-
-   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
-   
-   Connected to basilisks through affinity function $\theta(e,B)$ measuring entity $e$'s alignment with basilisk $B$. A meme increases $\theta(e,B)$, making entities more likely to perform work $W$ extracted by the basilisk: $W(e) \propto \theta(e,B)$. This can be grounded as the channel capacity and mutual information between entities.
-
-
-2. *Antimeme* ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
-   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
-   
-   Similar to how "[anti-basilisks]([[Newcomb's Basilisk, a Game of Beards#^cf0da3]])" can immunize against prediction manipulation by reducing confidence in the estimator's accuracy: $p < \frac{1+r}{2r}$ where $p$ is the predictor accuracy and $r$ is the reward ratio.
-
-3. *Infoblessing* ($B_{val+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
-   $$B_{val+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
-   
-   Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
-
-4. *Infohazard* ($B_{val-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
-   $$B_{val-}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) > 0 \lor \Delta W(e \rightarrow C_{harmful}|I) < 0\}$$
-This can be grounded as increasing the path complexity towards beneficial configurations, while decreasing KL divergence for harmful configurations.
-
 ##  Charisma and Entity Relationships
 
 Charisma ($\chi$) is defined here as the ability of one entity ($e_1$) to influence another ($e_2$) by modulating the distances ($d$) and/or affinities ($\theta$) between particles within $e_2$'s network.
@@ -210,7 +184,7 @@ With three forms:
   
    $$\chi^+(e_1, e_2, l) = \sum_{p \in e_2} \nabla_l C(x)$$
    
-Where $\gradient_l C(x)$ represents the resulting gradient of change in the attention profile $C(x)$ for particles $x$ near location $l$, caused by charisma's underlying influence on $d$ and $\theta$.
+Where $\nabla_{l} C(x)$ represents the resulting gradient of change in the attention profile $C(x)$ for particles $x$ near location $l$, caused by charisma's underlying influence on $d$ and $\theta$.
 
 2. *Negative Charisma* ($\chi^-$): Influences particle distances and affinities to decrease bond strengths away from some coordinate/particle, effectively saying "ignore this."
   
@@ -227,15 +201,17 @@ During a prompted interaction, one entity $e_m$ (the influencer) provides input 
 
 These $d$/$\theta$ changes alter bond strengths $B(x,y)$ throughout $e_v$'s network, which in turn reshapes the attention profile $\{C(x)\}$. This reconfiguration of bond strengths and attention determines the output $o$ produced by $e_v$'s inference process $\theta_v$.
 
-When $e_m$ aims to elicit a specific target output $o_t$ from $e_v$, it must solve the charisma inference problem: identifying which input $r_t$ will induce the necessary $d$/$\theta$ changes to maximize Pr(o_t | r_t). We can express this as:
+When $e_m$ aims to elicit a specific target output $o_t$ from $e_v$, it must solve the charisma inference problem: identifying which input $r_t$ will induce the necessary $d$/$\theta$ changes to maximize $Pr(o_t | r_t)$. We can express this as:
 
 $$r_t = \phi_c(\mathcal{P}_v, \phi_v, o_t)$$
 
 Where $\phi_c$ represents the charisma inference that predicts how $e_v$'s personality $\mathcal{P}_v$ and inference method $\phi_v$ will respond to various inputs. This process typically requires iterative testing, which is difficult in systems with memory as each interaction may further alter $e_v$'s internal $d$/$\theta$ parameters.
 
-In practice, the goal isn't always to produce an exact output $o_t = o_i$, but rather to ensure $e_m$ can extract some target information $I_{target}$ from $e_v$'s output: $I_{target} = \phi^'_{e_m}(o_{e_v}, \mathcal{P}_{e_m})$.
+In practice, the goal isn't always to produce an exact output $o_t = o_i$, but rather to ensure $e_m$ can extract some target information $I_{target}$ from $e_v$'s output: 
 
-A simplified case is an LLM without memory and with deterministic responses ($T=0$ ). Here, one can map the "output landscape" by systematically varying inputs and observing how changes in $r$ affect the resulting $d$/$\theta$ parameters (as reflected in the output), eventually constructing an approximation of $\phi^'_{bias}(\mathcal{P}_i)$. Otherwise known as prompt engineering/optimization.
+$I_{target} = \phi^{'}_{e_m}(o_{e_v}, \mathcal{P}_{e_m})$.
+
+A simplified case is an LLM without memory and with deterministic responses ($T=0$ ). Here, one can map the "output landscape" by systematically varying inputs and observing how changes in $r$ affect the resulting $d$/$\theta$ parameters (as reflected in the output), eventually constructing an approximation of $\phi^{`}_{bias}(\mathcal{P}_i)$. Otherwise known as prompt engineering/optimization.
 
 ## Conclusion
 
@@ -321,8 +297,44 @@ This relates to the activation function from [[Evolution of Alignment and Values
 
 $$A(b,q) = \text{Pr}(b \text{ is activated/detected in } \phi(\mathcal{P}, q))$$
 
-This activation probability is influenced by the specific bond strength $B(b,q)$ and contributes to the overall attention measure $C(b)$ of the belief particle.
+This activation probability is influenced by the specific bond strength $B(b,q)$ and contributes to the overall attention measure $C(b)$ of the belief system.
 
 Where $b$ is a belief (particle subgraph) and $q$ is a query (stimulus), with $\phi(  )$ being the method of "inference" over a particle graph that produces a detectable alignment (response), $A(b,q)$. The goal being that one is able to probe the memberships of beliefs in a personality, [[Notation for LM Formalization#^e84635]], that completes inference according to some architecture (All my human context in an LLM would not recreate my next thought/idea). 
 
-This activation probability $A(b,q)$ is the likelihood that the belief subgraph $b$ significantly influences the model's output in response to query $q$. This activation depends on the bond strengths $B(x,q)$ between the query stimulus and the constituent particles $x$ within the subgraph $b$. High activation $A(b,q)$ typically correlates with, and contributes to, elevated attention measures $C(x)$ for the particles $x$ comprising the belief subgraph $b$
+This activation probability $A(b,q)$ is the likelihood that the belief subgraph $b$ significantly influences the model's output in response to query $q$. This activation depends on the bond strengths $B(x,q)$ between the query stimulus and the constituent particles $x$ within the subgraph $b$. High activation $A(b,q)$ typically correlates with, and contributes to, elevated attention measures $C(x)$ for the particle $x$ comprising the belief subgraph $b$. This is modelled as [[Notation for LM Formalization#Detecting information in personality spaces]]
+
+## Information Classification
+
+The [fourfold classification of information ]([[The Anatomy of Information]])extends as:
+
+1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
+
+   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
+   
+   Connected to basilisks through affinity function $\theta(e,B)$ measuring entity $e$'s alignment with basilisk $B$. A meme increases $\theta(e,B)$, making entities more likely to perform work $W$ extracted by the basilisk: $W(e) \propto \theta(e,B)$. This can be grounded as the channel capacity and mutual information between entities.
+
+
+2. *Antimeme* ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
+   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
+   
+   Similar to how "[anti-basilisks]([[Newcomb's Basilisk, a Game of Beards#^cf0da3]])" can immunize against prediction manipulation by reducing confidence in the estimator's accuracy: $p < \frac{1+r}{2r}$ where $p$ is the predictor accuracy and $r$ is the reward ratio.
+
+3. *Infoblessing* ($V_{+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
+   $$V_{+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
+   
+   Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
+
+4. *Infohazard* ($V_{-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
+   $$V_{-}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) > 0 \lor \Delta W(e \rightarrow C_{harmful}|I) < 0\}$$
+This can be grounded as increasing the path complexity towards beneficial configurations, while decreasing KL divergence for harmful configurations.
+
+
+### Information Classification Matrix
+
+|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Neither $M_m$/$M_a$                                              | Both $M_m$/$M_a$                             |
+| ---------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
+| Infoblessing ($V_+$)   | Viral life hacks                                          | Therapy about embarrassing topics, how to handle a shameful event            | Personal epiphanies, individual insights that improve one's life | Complex moral frameworks                     |
+| Infohazard ($V_-$)     | Chain letters, dangerous viral challenges, harmful rumors | Your parents' weird sex tape, traumatic knowledge that is dangerous to share | Childhood trauma (generic)                                       | Roko's Basilisk                              |
+| Neither $V_+$ or $V_-$ | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
+| Both $V_+$ and $V_-$   | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
+

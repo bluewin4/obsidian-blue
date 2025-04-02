@@ -1304,6 +1304,10 @@ For some model personality,  $\mathcal{P}_{model}$, that activates different bel
 
 $$\mathcal{P}_{eval} = [\mathcal{M}_{eval}, \mathcal{S}_{eval}, \mathcal{I}_{eval}]$$
 
+Where $\mathcal{P}_{model}$ is the model's personality, $\mathcal{M}_{eval}$ is the memories of the model during evaluation, $\mathcal{S}_{eval}$ is the structure of the test, and $\mathcal{I}_{eval}$ is the set of beliefs that the model has access to during the evaluation.
+
 The activation function $A(b,q)$ is then:
 
 $$A(b,q) \approx \text{Pr}(b \in \phi(\mathcal{P}_{model}, q))$$
+
+Where the activation function is a result of probability of a belief $b$ being activated by a question $q$ given the model's personality $\mathcal{P}_{model}$.

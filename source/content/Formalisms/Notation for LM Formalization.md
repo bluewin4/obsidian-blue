@@ -129,7 +129,8 @@ and this can  be used to build a matrix of Boolean type values
 The information check $\mathcal{V}(\mathbb{o}_{i})$ can be used in [[Thermodynamics of LLM conformational space#Stability]]  
 Important note: The temperature is very important to how much variation in response is garnered. As the process of mapping $\mathcal{P}$ onto $\mathbb{X}$ will become more stochastic.  ^287325
 
-### Concise
+### Concise 
+This needs work, hmm.
 A response is considered concise if it satisfies the following inequality: 
 
 $$ Length(\phi_{concise}(\{ \mathcal{r}_{i},\mathcal{o}_{i} \}^{i=k}_{i=1})) < Length(\{ \mathcal{r}_{i},\mathcal{o}_{i} \}^{i=k}_{i=1})$$

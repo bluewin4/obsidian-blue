@@ -8,73 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
+            "id": "df8b525309816986",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+                "file": "Manipulation, Education, and Therapy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolution of Alignment and Values"
-            }
-          },
-          {
-            "id": "c6a619c1e792b70d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formalisms/Notation for LM Formalization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Notation for LM Formalization"
-            }
-          },
-          {
-            "id": "7df69d06c3989e4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Anti-suicidal Strengths of Perspectives.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Anti-suicidal Strengths of Perspectives"
-            }
-          },
-          {
-            "id": "94b4eab14d519a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Demon of Interrelation"
-            }
-          },
-          {
-            "id": "21f718e120fe0dae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Anti-suicidal Strengths of Perspectives.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Anti-suicidal Strengths of Perspectives"
+              "title": "Manipulation, Education, and Therapy"
             }
           }
         ]
@@ -225,11 +169,120 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "floating": {
+    "id": "644831ac8864fa2b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "6339ded811d11738",
+        "type": "window",
+        "children": [
+          {
+            "id": "e0262feaadd64f7f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "306264a704ba32aa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Demon of Interrelation"
+                }
+              },
+              {
+                "id": "c6a619c1e792b70d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Formalisms/Notation for LM Formalization.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Notation for LM Formalization"
+                }
+              },
+              {
+                "id": "94b4eab14d519a86",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Formalisms/The Particle-Bond Model of Entity Information.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Particle-Bond Model of Entity Information"
+                }
+              },
+              {
+                "id": "21f718e120fe0dae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "The Anti-suicidal Strengths of Perspectives.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "The Anti-suicidal Strengths of Perspectives"
+                }
+              },
+              {
+                "id": "47ef711f7e8c1d64",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Evolution of Alignment and Values"
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical",
+        "x": 903,
+        "y": -1080,
+        "width": 962,
+        "height": 1080,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "df8b525309816986",
   "lastOpenFiles": [
     "The Self Similar book/The Self Similar Book.md",
-    "Untitled.md",
+    "The Self Similar book/Axiomatic Essays/The Anatomy of Information.md",
+    "Manipulation, Education, and Therapy.md",
+    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
+    "The Self Similar book/Axiomatic Essays/Newcomb's Basilisk, a Game of Beards.md",
+    "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
+    "The Self Similar book/Empirical Essays/Hyperpalatable Life.md",
+    "Formalisms/Phase separation of personalities.md",
+    "Formalisms/Personalities Dreams.md",
+    "Formalisms/Genetic Notation for Prompts.md",
     "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+    "Formalisms/The Particle-Bond Model of Entity Information.md",
+    "Formalisms/Notation for LM Formalization.md",
+    "Formalisms/A Survey of Prompt Mutations.md",
+    "The Anti-suicidal Strengths of Perspectives.md",
+    "Formalisms/Thermodynamics of LLM conformational space.md",
     "images/Pasted image 20250330205002.png",
     "images/Pasted image 20250330204831.png",
     "images/Pasted image 20250330204744.png",
@@ -240,30 +293,17 @@
     "images/Pasted image 20250331200752.png",
     "images/Pasted image 20250331211557.png",
     "images/Pasted image 20250331192137.png",
-    "Formalisms/A Survey of Prompt Mutations.md",
-    "Formalisms/Genetic Notation for Prompts.md",
-    "Formalisms/Personalities Dreams.md",
-    "Formalisms/Notation for LM Formalization.md",
-    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
-    "Formalisms/Phase separation of personalities.md",
-    "Formalisms/The Particle-Bond Model of Entity Information.md",
     "[Notation.md",
     "[[Notation.md",
     "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
     "Modelling an LLM as a protein.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
-    "The Self Similar book/Axiomatic Essays/Newcomb's Basilisk, a Game of Beards.md",
-    "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
     "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Mountain's Owned by Rabbits.md",
     "Paracosm - The Island of Lost Hope/The Keys.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams",
-    "index.md",
-    "Formalisms/Formalisms.md",
-    "The Self Similar book/The Self Similar book.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Sungold Villa.md",
     "Formalisms/Analytical Research",
     "The Self Similar book/Poetic",
     "Paracosm - The Island of Lost Hope",
