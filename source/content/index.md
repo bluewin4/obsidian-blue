@@ -37,3 +37,5 @@ Twitter/x: @theproteindance
 instagram: purpledraw2
 
 email: jonathan@elsworth.phd
+
+Guess I'm posting on lesswrong now too: https://www.lesswrong.com/users/jack-3

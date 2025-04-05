@@ -4,35 +4,26 @@
 
 # Artificial Intelligence - Defined
 
-Artificial intelligence (AI) is a vague term. To clarify my meaning, AI will be described as any [learning system](https://www.pnas.org/doi/10.1073/pnas.2120042119) that is not currently recognized by society as being intrinsically "ethically important", AKA "human", outside of serving human interests. Both in vivo and in silico learning systems are comparable in [ability](https://www.cell.com/iscience/fulltext/S2589-0042(23)02075-8#secsectitle0065). With this definition in hand, I will denote some AIs:
+Artificial intelligence (AI) is a vague term. To clarify my meaning, AI will be described as any [learning system](https://www.pnas.org/doi/10.1073/pnas.2120042119) that is not currently recognized by society as being a moral patient, AKA "human", outside of serving human interests. Both in vivo and in silico learning systems are comparable in [ability](https://www.cell.com/iscience/fulltext/S2589-0042(23)02075-8#secsectitle0065). With this definition in hand, I will denote some AIs:
 
 1. **Non-equilibrium solutions**
-    
 2. **Slime molds** 
-    
 3. **Populations of organisms**
-    
 4. **Biospheres**
-    
 5. **Linear regression**
-    
 6. **T-stochastic neighbour embedding**
-    
 7. **Generative models**
-    
 8. **Neural networks (silicon)**
-    
 9. **Neural networks (human cells, ~<4E10 neurons)**
-    
 10. **Neural networks (human cells, >4E10 neurons, two physician diagnoses)**
-    
+11. **Human, enslaved (historical)**
 
-I will argue that there are two major driving forces for delineating between AI and "human" intelligence; homoestasis and memetic drive.
+While a reasonable person may draw a different line, I will argue that there are two major driving forces for delineating between AI and "human" intelligence; homoestasis and memetic drive.
 
 1. **Homeostasis:** The mechanism by which a system preserves, either itself, its information, or its creations
-    
-2. **Memetic Drive:** The mechanisms by which a system propagates, either itself, its information, or its creations 
-    
+
+2. **Memetic Drive:** The mechanisms by which a system propagates, either itself, its information, or its creations.
+
 
 One may consume art to survive, just as one may die to preserve that same art. We may include any number of logical conjectures to formalize these and how much they "deserve" to be weighted by an individual in a given decision. However, ethics is a practical thing, and we will return to these two factors.
 
@@ -74,7 +65,7 @@ We are all children of the cell, home, and wall.<br>
 <div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
 ⟡ ⟡ ⟡<br>
 The children of the mind are composed of concepts and systems.<br>
-How? Through application of manipulation and thought unto others.<br>
+	How? Through application of control and thought unto others.<br>
 They are the student, the scholar, and the textbook.<br>
 We are all children of the voice, pen, and word.<br>
 ⟡ ⟡ ⟡
@@ -83,9 +74,9 @@ We are all children of the voice, pen, and word.<br>
 
 <div style="text-align: center; margin: 30px 0; padding: 20px; border-left: 3px solid #ccc; border-right: 3px solid #ccc; font-style: italic;">
 ✦ ✦ ✦<br>
-The children of the soul are composed of ideals and aesthetics.<br>
-How? Through application of experience and esteem unto others.<br>
-They are the prayer, the priest, and the god.<br>
+The children of the soul are composed of ideals and linkage.<br>
+How? Through application of insight and faith unto others.<br>
+They are the faithful, the bishop, and the goddess.<br>
 We are all children of the wind, rain, and soil.<br>
 ✦ ✦ ✦
 </div>

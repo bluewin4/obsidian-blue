@@ -77,11 +77,11 @@ Practically one can think of how one may focus on their arm, connecting it to ab
 
 Particles exist as probability distributions rather than discrete points, with:
 
-- physical particles
+- Physical particles
 
 $$\psi_p(x,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
-- semantic particles
+- Semantic particles
 
 $$\psi_s(x,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
@@ -137,9 +137,9 @@ $$B(x,y) = f(d(x,y), \theta(x,y))$$
 
 Where:
 - $B$ is bond strength
-- $d$ is distance in appropriate space
-- $\theta$ represents the affinity function with units of obligation
-- 
+- $d$ is distance in appropriate space (For LLMs this could be the distance in embedded space)
+- $\theta$ represents the affinity function with units of obligation (For LLMs this could be the hypergeometric overlap of feature activations)
+  
 ## Scale-Dependent Phase Coherence
 
 Phase coherence between particles depends on the scale of the entity:
