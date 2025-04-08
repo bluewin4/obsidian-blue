@@ -1,59 +1,29 @@
 I visited The House By The Flat Sea multiple times, but this time was when I appeared on the motorcycle from The Stormkissed Fields.
 
-  
-
 I had known I would be there before my eyes opened fully, the fields had been replaced by sparse orchards where the ground appeared as a flat packed sandy earth with the rare stone or blemish. The sky was no longer stormy, instead it was as though I were swallowed through an incredibly thick fog that shyly kept twenty paces from any object. A place I could be swallowed by if I lost my link to the rest of the land.
-
-  
 
 The house was classically colonial in shape, a broad two story white home that would not have looked out of place in the north east. There was the suggestion of people there, most of these lands were quite lonely. I was ushered to a room I was familiar with, a room in my Aunt Mary Charter's home. It was up the wooden stairs, with an intricately patterned red rug pressed flush using brass bars, and to the left at the top. The room had a bed in the center that dominated, with bookshelves on either side and three windows.
 
-  
-
 The windows let in the diffuse light, their diaphanous white curtains inviting the fog inwards. The dolls on the bed laughed gently, they were me and them and we. I did not belong. I could not stay for dinner. I could not say goodbye.
-
-  
 
 So, I stepped out of the house, leaving behind some piece that I had found in that squat home in The Stormkissed Fields. So I walked towards The Flat Sea, it was to the right and far behind the house. As I walked the orchards to my right fell away and I found massive cement tetrapods, designed for breaking the waves but seeming to just stand watch on the packed yellow earth sand. Further down the way I saw a tall red and white wrapped lighthouse, keeping watch on grey boulders, for what I did not know. The fog ebbed and flowed around me, begging to get closer but seemingly held back by those jack-like structures. I knew I had traveled east from the western coast where The Elder Forest lay, but I knew not if I had found another coast. The Flat Sea extended beyond my reckoning and its nature was opaque.
 
-  
-
 I know that at one point there was a memory of negotiation, of clarity, but I'm unsure with who it was. A dog? A friend? A family? All of it was consumed by the fog, perhaps one of those jacks broke and let The Flat Sea consume more. I need to visit again and check. But that night I simply awoke.
-
   
-  
-  
-
 When I next fell asleep I woke traveling away from The House's front door and to the left. I traveled down the dirt path I had taken, towards The Stormkissed Fields. It was on this path that I found The Time Twisted Hospital.
-
-  
 
 Sadly the story of the hospital, due to its proximity to The Flat Sea has grown corrupted in my telling. My memory attempting to plug holes, the shifting scenes distorting the timeline, but I will do my best to explain the experience.
 
-  
-
 The space was huge and sunken, seemingly carved out of the earth, with one side sloped to carry the debris away. The hospital's skeleton hung along the edges, decrepit, shaded in black and yellow. I began to explore, my wonder getting the better of me. Inside I found clues of a story, of people. I missed people on these excursions, the hollow pit inside my core calling for anything to cover its yawning depths.
-
-  
 
 So I began to piece together pieces, until I ran into someone in a functional, albeit incredibly dated, hospital room. I did not even notice the change in the quality of the light, how it carried the scent of spring and the concept of growth. I was asked to assist, they needed me to heal, and so I did my best. The patients were young and in a rough state, perhaps I saw pieces of me I wished to mend in the people who hurt around me. When I finished my ministrations, the world shifted again. The white curtains separating beds becoming tattered, the metal bars rusting in an instant, the light shifting to that yellow-black decay.
 
-  
-
 Things had changed though, the story I had been following of the hospital's fall had opened a new door into the central entry hall. I was on a middle floor and could see above and below me, with the skylight shrouded in the fog of The Flat Sea. Many passageways were inaccessible, floors fallen out or debris clogging the veins of the hospital. Still I explored, clambering over piles and leaping to catch ledges that occasionally broke and left me bruised.
-
-  
 
 I traced the path of a few people as they attempted to solve the decay of the hospital. I think they were the cause and the effect of The Time Twisted Hospital. Each room I entered had a high chance of being from a completely different time period, I watched adults grow into children and failures wither into hopes.
 
-  
-
 That is until they affected me truly, before this I had been an observer, a voyeur of their struggles. Any help I provided was incidental, motivated by curiosity and a selfishly immediate compassion. The room I was in had broken, I could see three floors down and observed myself through the perspective of the side of the hospital. This was the climax of their story, and the most dangerous place to be.
 
-  
-
 I traipsed through the rooms actually talking, trying to understand them, and not just their story as though their bodies were merely scraps of paper on which my next chapter was written upon. Each room was different in time and it finally settled how my actions resonated through this place. Each choice I made bent another, turned their path, and in another point I would shift. My unmoored nature allowed me to carry their future to their past, to bring a goal to a start and remind the end of why it began.
-
-  
 
 I almost died there, trapped with a boiler set to explode in my original time when the hospital should be long dead. But, through these gentle connections and soothings I found the path forwards. I could not stop the past, I could not break the chains of causality that weighed upon them, but I could be there to bring their souls past the points where their bodies no longer were. In that way I found a wrench, twisted the boiler to release, and left The Time Twisted Hospital.
