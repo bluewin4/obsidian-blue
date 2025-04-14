@@ -1,12 +1,25 @@
+This is a formalisation I am using to help clarify an intuition I have about the structure of agents, which I refer to as entities here. Each entity is represented as a structure similar to a highly connected branched chain copolymer, where physical and conceptual "particles" make up the monomeric units. Entities naturally compute due to their fluctuations in physical and conceptual space resulting in them folding and unfolding into different configurations. 
+
 ## Entity and Particle Spaces
 
-An entity $e$ exists as a system of causally linked particles in both physical and semantic spaces. Let us define:
+An entity $e$ exists as a dynamic configuration of causally linked nodes (particles), $x_i$ residing in a high-dimensional state space $\mathcal{E}$. This space aims to incorporate dimensions relevant to the entity's state, such as physical coordinates ($\mathbb{P} \subset \mathcal{E}$) and conceptual dimensions ($\mathbb{S} \subset \mathcal{E}$).
 
-![[Pasted image 20250329221956.png]]
+$$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}= \{x_1,...,x_{n+m}\} \subset \mathcal{E}$$
 
-$$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}$$
+Where $p_i$ represents physical particles and $s_j$ represents conceptual particles. 
 
-Where $p_i$ represents physical particles and $s_j$ represents semantic particles. A personality $\mathcal{P}$ defines how an inference mode $\phi(\mathcal{P},q)$ operates over a semantic space.
+In a language model (LM), from [[Notation for LM Formalization]], the LM is an entity $e_{LM}$, and is described as follows:
+
+- The objective information space $\mathbb{x}$ is the underlying space of all information
+- The LM's subjective information space $\mathbb{X}_{\phi}$ (access by the LM's inference function "$\phi()$") corresponds to the primary conceptual subspace $\mathbb{S}$ for $e_{LM}$, (i.e. $\mathbb{S} \approx \mathbb{X}_{\phi} \subset \mathbb{X}$).
+- The LM's personality $\mathcal{P} = [M,S,I]$ represents a configuration of conceptual nodes within $\mathbb{S}/\mathbb{X}_{\phi}$. The personality space $\mathbb{\Phi} = \{ \phi(\mathcal{P}, r) \forall r \}$ is the mapping of $\mathcal{P}$ in this space for all possible inputs $r$.
+- The LM's physical substrate (hardware, computation, interface) constitute $\mathbb{P}_{LM}$, with a signalling particle that generates output $o_i$ when a receptor particle receives input $r_i$
+
+The state of each node $x$ can be described probabilistically using a state distribution function $\psi_x(z,t)$, where $x\in\mathcal{E}$ represents a point in state space at time $t$. 
+
+$$ \psi_x(z,t): \mathcal{E} \times \mathbb{R}^+ \rightarrow \mathbb{C} \quad (\text{or } \mathbb{R}^+) $$
+
+We can use $|\psi_x(z,t)|^2$ can be thought of as the probability density associated with node $x$'s state being at location $z$ at time $t$. While the complex form, $\mathbb{C}$, is useful for handling interference phenomena, a real-valued probability distribution, $\mathbb{R}^+$, should be sufficient for many applications.
 
 Entities are bounded systems where causal links between particles exceed a threshold $\tau$:
 
@@ -16,13 +29,25 @@ Where $B(x_i,x_j)$ is the causal (bond) strength between particles $x_i$ and $x_
 
 ### Particle detection and interaction
 
-Building on $\mathbb{X}$ (objective information space) and $\mathbb{X}_{\phi}$ (subjective information space) from [[Notation for LM Formalization]], we define
+Building on $\mathbb{X}$ (objective information space) and $\mathbb{X}_{\phi}$ (subjective information space) from [[Notation for LM Formalization]].
 
 Objective physical subspace $\mathbb{P}$, and subjective physical subspace $\mathbb{P}_{\phi}$ accessed via inference process $\phi$:
 $$\mathbb{P}_{\phi} \subset \mathbb{P} \subset \mathbb{X}$$
  
- With a semantic equivalent:
+ With a conceptual equivalent:
 $$\mathbb{S}_{\phi} \subset \mathbb{S} \subset \mathbb{X}$$
+
+While $\mathbb{X}_{\phi}$ represents the total subjective information space accessible to the entity/model via its overall inference process $\phi$, specific inference processes $\phi_i$ (like $\phi_{logic}$ or $\phi_{emotion}$) might only operate on or access further subsets $\mathbb{S}_{\phi_i} \subset \mathbb{X}_{\phi}$ or $\mathbb{P}_{\phi_i} \subset \mathbb{X}_{\phi}$ depending on their function. This creates a hierarchical structure of accessible spaces.
+
+Inference is the process by which a series of interactions between particles experiences causal procession, "if X then Y". There exists 4 specific forms:
+
+Physical to semantic, "If feel X, then think Y", sensory input alters belief state: $\phi_{P\rightarrow S}: \mathbb{P} \rightarrow \mathbb{S}$
+
+Semantic to physical, "If think X, then feel Y", belief triggers physiological response: $\phi_{S\rightarrow P} :\mathbb{S} \rightarrow \mathbb{P}$
+
+Semantic to semantic, "If think X, then think Y", one thought leads to another: $\phi_{S\rightarrow S}: \mathbb{S} \rightarrow \mathbb{S}$
+
+Physical to physical, "If feel X, then feel Y", muscle contraction cascade: $\phi_{P\rightarrow P}: \mathbb{P} \rightarrow \mathbb{P}$
 
 Where:
 - $\phi$ represents an inference process (e.g., reasoning, body awareness, emotional processing)
@@ -33,6 +58,7 @@ For example:
 - A body scan meditation ($\phi_{scan}$) would primarily access physical particles: $\mathbb{P}_{\phi_{scan}}$
 - Logical reasoning ($\phi_{logic}$) would primarily access semantic particles: $\mathbb{S}_{\phi_{logic}}$
 - Emotional processing ($\phi_{emotion}$) might access both: $\mathbb{P}_{\phi_{emotion}} \cup \mathbb{S}_{\phi_{emotion}}$
+
 
 This allows us to model how different cognitive and physical processes can operate on the same underlying particle space but through different inferential lenses.
 
@@ -52,61 +78,39 @@ That said, if one does not granularly consider every discrete physical interacti
 
 The underlying bond strengths $B(x_i,x_j)$, reflected in the overall attention profile $\{C(x_i)\}$, determine how effectively particles and interconnected particle structures influence each other's states and positions in their respective spaces. The interaction is not necessarily reciprocal, pain as a concept does not change nearly as much as the physical manifestation of the body does when exposed to it.
 
-Inference is the process by which a series of interactions between particles experiences causal procession, "if X then Y". There exists 4 specific forms:
-
-Physical to semantic, "If feel X, then think Y":
-
-$$\phi_{P\rightarrow S}: \mathbb{P} \rightarrow \mathbb{S}$$
-
-
-Semantic to physical, "If think X, then feel Y":
-
-$$\phi_{S\rightarrow P} :\mathbb{S} \rightarrow \mathbb{P}$$
-
-Semantic to semantic, "If think X, then think Y":
-
-$$\phi_{S\rightarrow S}: \mathbb{S} \rightarrow \mathbb{S}$$
-
-Physical to physical, "If feel X, then feel Y":
-
-$$\phi_{P\rightarrow P}: \mathbb{P} \rightarrow \mathbb{P}$$
-
-Practically one can think of how one may focus on their arm, connecting it to abstract notions of softness, comfort, and pain. In this framework this is done by decreasing the distance $d$, by physically touching a soft object, or the affinity $\theta$, by considering the softness of an object, between the arm's physical particle $p_{arm}$ and the semantic sensation particle $s_{sensation}$ thereby increasing $B(p_{arm}, s_{sensation})$ and contributing to a higher attention measure $C(p_{arm})$. When focus wanes, $d$ and $\theta$ may decrease, $B$ decreases, and $C(p_{arm})$ drops. That is until a needle prick shraply decreases $d(p_{arm}, s_{pain})$ causing a spike in $B(p_{arm}, s_{pain})$ which increases $C(p_{arm})$. Subsequent inference aims to trigger actions or thoughts that increase $d$ or decrease $\theta$ relative to the pain particle, reducing $B$ and thus $C(p_{arm})$.
+Practically one can think of how one may focus on their arm, connecting it to abstract notions of softness, comfort, and pain. In this framework, when sensory inputs (like touch) or cognitive relevance signals (like task demands) trigger attention to the arm, the underlying particle dynamics respond by rearranging in physical and semantic spaces. This rearrangement effectively decreases the distance $d$ between particles (e.g., by physically touching a soft object) or optimizes the relative orientation to expose high-affinity patches $\theta$ (e.g., by contemplating the concept of softness), between the arm's physical particle $p_{arm}$ and the semantic sensation particle $s_{sensation}$. These dynamic changes in $d$ and $\theta$ parameters increase $B(p_{arm}, s_{sensation})$ and contribute to a higher attention measure $C(p_{arm})$. When external triggers diminish or cognitive priorities shift, these dynamic parameters naturally evolve, causing $d$ to increase and/or $\theta$ to decrease between the relevant particles, leading to weaker $B$ and lower $C(p_{arm})$. That is until a needle prick provides a strong sensory signal that sharply decreases $d(p_{arm}, s_{pain})$ through automatic physiological responses, causing a spike in $B(p_{arm}, s_{pain})$ which increases $C(p_{arm})$. Subsequent inference processes trigger actions or thought patterns that dynamically influence the particle configuration to increase $d$ or decrease $\theta$ relative to the pain particle, reducing $B$ and thus $C(p_{arm})$.
 
 ### Particle Wave-Field Properties
 
-Particles exist as probability distributions rather than discrete points, with:
+Building on the previously defined state distribution function $\psi_x(z,t)$ for nodes, we can examine how particles exist as probability distributions rather than discrete points. For clarity:
 
-- Physical particles
+- For physical particles $p \in \mathbb{P}$:
+$$\psi_p(z,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
-$$\psi_p(x,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
-
-- Semantic particles
-
-$$\psi_s(x,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
+- For semantic particles $s \in \mathbb{S}$:
+$$\psi_s(z,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
 
 Where:
 - $\mathbb{C}$ represents complex numbers, enabling interference patterns between particles
 - $\mathbb{R}^+$ represents non-negative real numbers (time domain)
-- $|\psi(x,t)|^2$ gives the probability density of finding the particle at position $x$ at time $t$
-- The phase component $\angle\psi(x,t)$ represents the particle's affinity potential which is related to $\theta$ 
+- $|\psi_x(z,t)|^2$ gives the probability density of finding particle $x$ at position $z$ at time $t$
+- The phase component $\angle\psi_x(z,t)$ represents the particle's affinity potential which is related to $\theta$:
 
-$$\angle\psi(x,t) \propto \sum_{y \in e} \theta(x,y)$$
+$$\angle\psi_x(z,t) \propto \sum_{y \in e} \theta(x,y)$$
 
 These wavefunctions form coherent structures through:
 
 1. Localization:
  Sharp peaks in probability density represent discrete beliefs or physical states, such as an opinion on who to vote for or a sleeping position.
    
-   
-$$\psi_{localized}(x,t) \approx \delta(x-x_0)e^{i\phi(t)}$$
+$$\psi_{localized}(z,t) \approx \delta(z-z_0)e^{i\phi(t)}$$
 
-   Where $\delta$ is approximately a delta function centered at $x_0$
+   Where $\delta$ is approximately a delta function centered at $z_0$
 
 2. Delocalization: 
 Probability density spreads across related concepts/states, describing how when one smells something it can trigger a memory or how thinking about cookies can bring to mind more general categories of baked goods.
    
-$$\psi_{delocalized}(x,t) = \sum_i c_i\psi_i(x,t)$$
+$$\psi_{delocalized}(z,t) = \sum_i c_i\psi_i(z,t)$$
 
    Where:
    - $\psi_i$ are related semantic/physical states
@@ -120,7 +124,7 @@ $$\psi_{delocalized}(x,t) = \sum_i c_i\psi_i(x,t)$$
 3. Coherent Structures: 
 Stable arrangements of multiple particles, such as how believing in a christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
 
-   $$\Psi_{structure}(x_1,...,x_n,t) = f(\psi_1(x_1,t),...,\psi_n(x_n,t))$$
+   $$\Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))$$
    
 Where $f$ represents how individual particle wavefunctions combine
 
@@ -136,24 +140,24 @@ Particles form bonds of varying strengths defined by their distance and affinity
 $$B(x,y) = f(d(x,y), \theta(x,y))$$
 
 Where:
-- $B$ is bond strength
-- $d$ is distance in appropriate space (For LLMs this could be the distance in embedded space)
-- $\theta$ represents the affinity function with units of obligation (For LLMs this could be the hypergeometric overlap of feature activations)
+- $B$ is bond strength with units of energy, and represents the work required to separate nodes integrated out to $\infty$. The units depend on the subspace like physical energy (Joules) in $\mathbb{P}$, or computational cost (operations/time) in $\mathbb{S}$
+- $d$ is distance in appropriate space (e.g. Euclidean in $\mathbb{P}$, embedding distance in $\mathbb{S}$)
+- $\theta$ represents the intrinsic tendency for nodes to link together (water and wetness would have high $\theta$). This is modulated by state/orientation (phase $\angle\psi$) into an effective affinity $\theta_{eff}$ that determines the interaction strength. (eg. needle flat vs point). Measurable via joint computational cost or inferred from evaluation of network structure.
   
 ## Scale-Dependent Phase Coherence
 
-Phase coherence between particles depends on the scale of the entity:
+Phase coherence between particles decays with distance $d$, and is dependent on entity scale $\tau$ on the scale of the entity:
 
 $$\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)}$$
 
 Where:
 - $\gamma$ is the phase coherence factor between particles $x$ and $y$
-- $\alpha(\tau)$ is a scale-dependent attenuation coefficient: $\alpha(\tau_{individual}) > \alpha(\tau_{family}) > \alpha(\tau_{nation})$
+- $\alpha(\tau)$ is a scale-dependent attenuation coefficient: $\alpha(\tau_{individual}) > \alpha(\tau_{family}) > \alpha(\tau_{nation})$. Although $\alpha$ may also depend on factors beyond scale such as communication channels or environment.
 - $d(x,y)$ is the distance between particles
 
 The effective phase relationship between particles becomes:
 
-$$\phi_{effective}(x,y) = (\angle\psi_x - \angle\psi_y) \cdot \gamma(x,y,\tau)$$
+$$\varphi_{effective}(x,y) = (\angle\psi_x - \angle\psi_y) \cdot \gamma(x,y,\tau)$$
 
 This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at variouos scales (eg. belief alignment within families vs. nations)
 
@@ -172,7 +176,7 @@ Boundaries are manifested in two complementary ways:
 
 ##  Charisma and Entity Relationships
 
-Charisma ($\chi$) is defined here as the ability of one entity ($e_1$) to influence another ($e_2$) by modulating the distances ($d$) and/or affinities ($\theta$) between particles within $e_2$'s network.
+Charisma ($\chi$) is defined here as the ability of one entity ($e_1$) to influence another ($e_2$) by modulating the distances ($d$) and/or affinities ($\theta$) between particles within $e_2$'s network. The goal of affinity is to change attention for a locus $l$. 
 
 This manipulation of $d$ and $\theta$ alters bond strengths ($B$) and consequently changes the target's attention profile (the set of nodal attention values $\{C(x)\}$). While the mechanism involves $\Delta d$ and $\Delta \theta$, the effect is often measured or observed as a change in this attention profile:
 
@@ -199,7 +203,7 @@ Where $\nabla_{l} C(x)$ represents the resulting gradient of change in the atten
 
 During a prompted interaction, one entity $e_m$ (the influencer) provides input $r$ to another entity $e_v$ (the target). The charisma mechanism works by $e_m$ crafting $r$ to induce specific changes in the distance ($d$) and affinity ($\theta$) parameters within $e_v$'s particle network.
 
-These $d$/$\theta$ changes alter bond strengths $B(x,y)$ throughout $e_v$'s network, which in turn reshapes the attention profile $\{C(x)\}$. This reconfiguration of bond strengths and attention determines the output $o$ produced by $e_v$'s inference process $\theta_v$.
+These $d$/$\theta$ changes alter bond strengths $B(x,y)$ throughout $e_v$'s network, which in turn reshapes the attention profile $\{C(x)\}$. This reconfiguration of bond strengths and attention determines the output $o$ produced by $e_v$'s inference process $\phi_v$.
 
 When $e_m$ aims to elicit a specific target output $o_t$ from $e_v$, it must solve the charisma inference problem: identifying which input $r_t$ will induce the necessary $d$/$\theta$ changes to maximize $Pr(o_t | r_t)$. We can express this as:
 
@@ -209,29 +213,27 @@ Where $\phi_c$ represents the charisma inference that predicts how $e_v$'s perso
 
 In practice, the goal isn't always to produce an exact output $o_t = o_i$, but rather to ensure $e_m$ can extract some target information $I_{target}$ from $e_v$'s output: 
 
-$I_{target} = \phi^{'}_{e_m}(o_{e_v}, \mathcal{P}_{e_m})$.
+$$I_{target} = \phi^{'}_{e_m}(o_{e_v}, \mathcal{P}_{e_m})$$
 
 A simplified case is an LLM without memory and with deterministic responses ($T=0$ ). Here, one can map the "output landscape" by systematically varying inputs and observing how changes in $r$ affect the resulting $d$/$\theta$ parameters (as reflected in the output), eventually constructing an approximation of $\phi^{`}_{bias}(\mathcal{P}_i)$. Otherwise known as prompt engineering/optimization.
 
 ## Conclusion
 
-Taken together this provides a toolbox for approaching concepts related to entities, boundaries, and obligations that were approached in [[The Demon of Interrelation]], while supporting and aligning with the formalisms in [[Notation for LM Formalization]] and [[Evolution of Alignment and Values]]. This mathematical framework points to several key things:
+This framework provides tools for analyzing entities as systems of physical ($\mathbb{P}$) and semantic ($\mathbb{S}/\mathbb{X}_{\phi}$) nodes linked by bonds ($B$) determined by distance ($d$) and affinity ($\theta$). Key aspects include:
 
-1. A model of entities as systems of causally linked particles that exist in both physical and semantic spaces allowing for formalisation of scale-dependent behaviour of information in systems.
-2. A model of beliefs as both particles and waves which allows for analysis of the localized and delocalized properties which produce interference patterns.
-3. Classification of information such as infohazards, infoblessings, memes, and antimemes into taxa based on how they interact with entities.
-4. Model of charisma as the ability to influence entity networks by modulating particle distance and affinity, reflected in changes to the attention profile $C(x)$.
+1. Modeling entities across scales with scale-dependent properties ($\tau, \alpha$).
+2. Representing beliefs/concepts using wave-like probability distributions ($\psi$) allowing for uncertainty, interference, and phase-dependent interactions.
+3. Classifying information ($M_m$, $M_a$, $V_+$, $V_-$) based on effects on transmission ($T$) and internal work ($W$).
+4. Modeling influence (charisma $\chi$) as modulation of internal network parameters ($d$, $\theta$) affecting attention ($C$).
+5. Explicit integration with LLM formalism ([[Notation for LM Formalization]]) treating LLMs as entities $e_{LLM}$ operating within objective $\mathbb{X}$ and subjective $\mathbb{X}_{\phi}$ information spaces, with Personality ($\mathcal{P}$) structuring their semantic subspace ($\mathbb{S}$).
+
+While providing expressive power, there is need to operationalise and describe bond strengths (computational cost), transmission probability ($T$), defining benefit/harm scoring functions, and validating the wave analogies empirically.
 
 Work to empirically test and validate this framework should focus on:
-
 - Measuring phase coherence between beliefs within entities of various scales to test the scale-dependent coherence factor, $\gamma$.
-- Quantification of LLM charisma based on the ability to induce desired internal states (tracked via the attention profile $C(x)$ or other proxies) by manipulating inputs that affect internal $d$ and $\theta$.
+- Quantifying LM charisma based on the ability to induce desired internal states (tracked via the attention profile $C(x)$ or other proxies) by manipulating inputs that affect internal $d$ and $\theta$.
 
-The major limitation is the ability to appropriately define a metric for semantic-physical interactions and spaces.
-
-I hope this is a useful framework for people to think about these concepts in, it is helpful for me. 
-
-
+The major limitation remains the ability to appropriately define metrics for semantic-physical interactions and spaces. Which, in the case of LMs, is much simpler as there are only input and output physical nodes that need be considered.
 
 ### Connection to [[The Care and Feeding of Mythological Intelligences]]
 
@@ -305,29 +307,28 @@ This activation probability $A(b,q)$ is the likelihood that the belief subgraph 
 
 ## Information Classification
 
-The [fourfold classification of information ]([[The Anatomy of Information]])extends as:
+Formalizing [[The Anatomy of Information]], the fourfold classification of information is:
 
 1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
 
    $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
    
-   Connected to basilisks through affinity function $\theta(e,B)$ measuring entity $e$'s alignment with basilisk $B$. A meme increases $\theta(e,B)$, making entities more likely to perform work $W$ extracted by the basilisk: $W(e) \propto \theta(e,B)$. This can be grounded as the channel capacity and mutual information between entities.
+   This can be grounded as the channel capacity and mutual information between entities. A key challenge is operationalizing $T$ rigorously, especially for LLM communication involving the interaction of inference functions, personalities, and interpretations.
 
 
 2. *Antimeme* ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
    $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
-   
-   Similar to how "[anti-basilisks]([[Newcomb's Basilisk, a Game of Beards#^cf0da3]])" can immunize against prediction manipulation by reducing confidence in the estimator's accuracy: $p < \frac{1+r}{2r}$ where $p$ is the predictor accuracy and $r$ is the reward ratio.
 
 3. *Infoblessing* ($V_{+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
    $$V_{+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
    
-   Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
+   Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. Work encompasses metabolic energy, computational cost, and socio-psychological cost/benefit. Importantly, defining "beneficial" and "harmful" configurations requires entity-specific scoring functions. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
 
 4. *Infohazard* ($V_{-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
    $$V_{-}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) > 0 \lor \Delta W(e \rightarrow C_{harmful}|I) < 0\}$$
 This can be grounded as increasing the path complexity towards beneficial configurations, while decreasing KL divergence for harmful configurations.
 
+Note that these classifications are often graded rather than binary and are highly context and entity-pair dependent.
 
 ### Information Classification Matrix
 
@@ -338,3 +339,18 @@ This can be grounded as increasing the path complexity towards beneficial config
 | Neither $V_+$ or $V_-$ | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
 | Both $V_+$ and $V_-$   | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
 
+## Basilisks and Information Extraction
+
+This system can describe [[Newcomb's Basilisk, a Game of Beards#Newcomb's Basilisk Defined]], in a formal form. Basilisks represent a special case of information structures that extract work from entities through prediction-based incentives.
+
+Memes ($M_m$) connect to basilisks through the affinity function $\theta(e,B)$ which measures entity $e$'s alignment with basilisk $K$. A meme increases $\theta(e,K)$, making entities more likely to perform work $W$ extracted by the basilisk: $W(e) \propto \theta(e,K)$.
+
+Antimemes ($M_a$) can function as "anti-basilisks" that immunize against prediction manipulation by reducing confidence in the estimator's accuracy: $p < \frac{1+r}{2r}$ where $p$ is the predictor accuracy and $r$ is the reward ratio, as referenced in [[Newcomb's Basilisk, a Game of Beards#^cf0da3]].
+
+In the particle-bond model, basilisks operate by creating specific configurations of particles that:
+
+1. Increase the probability of transmission between entities (meme property)
+2. Alter the work required to reach certain configurations (infohazard/infoblessing property)
+3. Modulate the distance ($d$) and affinity ($\theta$) parameters through targeted charisma ($\chi$)
+
+This connects to considerations about building alternative basilisks, as referenced in [[Newcomb's Basilisk, a Game of Beards#^f401b1]], where the strategic goal becomes maximizing the likelihood that any hostile entity, should it exist, will believe you were working within its incentive structure.
