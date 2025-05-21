@@ -6,7 +6,7 @@ export default (() => {
   const LlmMetadata: QuartzComponent = ({ fileData, cfg }) => {
     const title = fileData.frontmatter?.title || fileData.slug
     const description = fileData.frontmatter?.description || ""
-    const author = fileData.frontmatter?.author || cfg.configuration.pageTitle
+    const author = fileData.frontmatter?.author || cfg.pageTitle
     const dateCreated = fileData.frontmatter?.date_created || fileData.dates?.created
     const dateModified = fileData.frontmatter?.date_modified || fileData.dates?.modified
     const section = fileData.frontmatter?.section || ""
@@ -36,7 +36,7 @@ export default (() => {
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": `${cfg.configuration.baseUrl}/${fileData.slug}`
+        "@id": `${cfg.baseUrl}/${fileData.slug}`
       }
     }
 

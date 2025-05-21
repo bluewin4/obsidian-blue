@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Self Similar book/Poetic/The Carp, The Dragon, The Strand, The Cloud.md",
+                "file": "Formalisms/Personalities Dreams.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Carp, The Dragon, The Strand, The Cloud"
+              "title": "Personalities Dreams"
             }
           },
           {
@@ -238,6 +238,8 @@
   },
   "active": "13d0a312bff96fc4",
   "lastOpenFiles": [
+    "The Self Similar book/Poetic/The Carp, The Dragon, The Strand, The Cloud.md",
+    "The Self Similar book/Poetic/The Carp, The Dragon, The Green, The Cloud.md",
     "Formalisms/Personalities Dreams.md",
     "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
     "Formalisms/Notation for LM Formalization.md",
@@ -264,8 +266,6 @@
     "templates",
     "The Consensus Algorithm - AI Protocol.md",
     "The Consensus Algorithm - Story.md",
-    "The Consensus Algorithm - Synopsis.md",
-    "The Self Similar book/I have no mouth and I must Speak.md",
     "Research Proposals",
     "images/Pasted image 20250330205002.png",
     "images/Pasted image 20250330204831.png",
