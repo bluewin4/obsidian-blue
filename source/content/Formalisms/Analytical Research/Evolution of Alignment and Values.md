@@ -1,6 +1,11 @@
 
+
+Feel free to play with the data yourself at https://github.com/bluewin4/Evolution-of-Alignment .
+
+
 # Abstract:
 LLM alignment is being applied in order to produce behaviour preferred during testing, however there is a lack of analysis as to the wider reaching implications on the global population of LLMs. This approach focuses on treating beliefs that can be probed by alignment tests and contain both an alignment signal, how well it does on the test, and a true value, what the impact actually will be. By applying evolutionary theory we can see how different populations of beliefs and selection methodologies can fixate deceptive behaviours during alignment selection tasks. The correlation between the testing accuracy and true value remains a strong feature, but even at high correlations ($\rho =0.8$) there is significant variability in the resulting deceptive beliefs that become fixated. With mutations allowing for more complex developments and highlighting the increasing need to update the quality of tests to avoid fixation of maliciously deceptive models.
+
 
 # Introduction
 
@@ -10,10 +15,11 @@ In this study I consider each model $m$ as having a collection of beliefs $\math
 
 By changing the relationships between alignment and value, as well as how the models reproduce we can analyse the likelihood of a malevolent model being selected for via alignment testing procedures.
 
-Feel free to play with the data yourself at https://github.com/bluewin4/Evolution-of-Alignment .
+
 
 
 # Methods and Modelling
+
 
 ## The space of beliefs
 
@@ -294,7 +300,11 @@ Where $\lambda$ is a parameter governing the trade-off between alignment signals
 
 This can be thought of a bit like a red-queen except the players are model designers and the people who create benchmarks or prompt injections.
 
+
+
 # Results
+
+
 
 To test this framework we implemented a multi-level approach, with level 0 and level 1 sampling from a bivariate normal distribution (Figure 2) with single (level 0) and multi-parameter (level 1) scans of $\rho$ and $\beta$. 
 
@@ -1325,6 +1335,7 @@ The best scenario for a multi-modal belief distribution would be to have slowly 
 
 
 # Appendix - Notational Connections
+
 
 [[Notation for LM Formalization]] currently describes behaviour of LMs, $\phi$, instead of explicitly modelling the information stored in their weights, treating the LM as a black boxes with well defined inputs and outputs. 
 

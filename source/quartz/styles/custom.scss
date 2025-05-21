@@ -1,3 +1,79 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* Custom styles for LLM-friendly features */
+
+/* Enhanced semantic containers */
+[data-ai-role] {
+  position: relative;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  
+  /* Add subtle visual cue for humans, doesn't affect LLMs */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    width: 3px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+  }
+}
+
+/* Hide LLM-specific elements from humans but keep them in DOM for LLMs */
+.llm-metadata,
+[data-llm-site-navigation] {
+  display: none !important;
+  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Hidden LLM semantic class which keeps all semantic information intact */
+.llm-semantic {
+  position: relative;
+  display: block;
+  /* Nothing visually different but semantically rich */
+}
+
+/* Add special semantic markers for different content types */
+[data-llm-content-type="research"] {
+  /* Semantic marker for research content */
+}
+
+[data-llm-content-type="story"] {
+  /* Semantic marker for story content */
+}
+
+[data-llm-content-type="poem"] {
+  /* Semantic marker for poem content */
+}
+
+/* Add explicit semantic connections for content relationships */
+[data-llm-related-relationship] {
+  /* Semantic marker for related content relationships */
+}
+
+/* Enhance headings with semantic information */
+h1, h2, h3, h4, h5, h6 {
+  &[data-llm-heading-role] {
+    /* Enhanced semantic heading */
+  }
+}
+
+/* Enhance lists with semantic information */
+ul, ol {
+  &[data-llm-list-type] {
+    /* Enhanced semantic list */
+  }
+}

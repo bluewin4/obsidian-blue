@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
+                "file": "Formalisms/Notation for LM Formalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Demon of Interrelation"
+              "title": "Notation for LM Formalization"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formalisms/Boundaries and Obligations.md",
+                "file": "The Self Similar book/Poetic/The Carp, The Dragon, The Strand, The Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boundaries and Obligations"
+              "title": "The Carp, The Dragon, The Strand, The Cloud"
             }
           },
           {
@@ -76,9 +76,19 @@
               "icon": "lucide-file",
               "title": "Notation for LM Formalization"
             }
+          },
+          {
+            "id": "e773b8ee8b99a74f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,73 +236,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "e0a2d9090d7814a5",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1c811f00d27d9f91",
-        "type": "window",
-        "children": [
-          {
-            "id": "ea399b60eabb6b11",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "3d31bb942339e5e4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Evolution of Alignment and Values"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 641,
-        "y": -794,
-        "width": 1391,
-        "height": 982,
-        "maximize": true,
-        "zoom": 0.5
-      }
-    ]
-  },
-  "active": "e069ceec18833082",
+  "active": "13d0a312bff96fc4",
   "lastOpenFiles": [
-    "Unified.md",
+    "Formalisms/Personalities Dreams.md",
     "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
+    "Formalisms/Notation for LM Formalization.md",
+    "Untitled.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
+    "drafts/LLM-Friendly Content Guide.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Mountain's Owned by Rabbits.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Steep Sidewalks to The Theater of The Mind.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Elder Forest and The Stormkissed Fields.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Sungold Villa.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Theater of The Mind.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Steep Sidewalks to The Theater of The Mind.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Square Gardens and The Jack King.md",
-    "The Self Similar book/Stories/Writer's Wrought.md",
-    "The Self Similar book/Stories/The Kaleidoscope God.md",
-    "The Self Similar book/Stories/The God's Loss.md",
-    "Formalisms/Genetic Notation for Prompts.md",
-    "Formalisms/Notation for LM Formalization.md",
-    "Formalisms/Formalisms.md",
-    "Formalisms/A Survey of Prompt Mutations.md",
-    "Formalisms/Boundaries and Obligations.md",
-    "Formalisms/Personalities Dreams.md",
-    "The Self Similar book/Axiomatic Essays/The Anatomy of Information.md",
-    "The Self Similar book/Axiomatic Essays/Newcomb's Basilisk, a Game of Beards.md",
-    "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
-    "The Self Similar book/Empirical Essays/Hyperpalatable Life.md",
-    "Formalisms/The Particle-Bond Model of Entity Information.md",
-    "The Self Similar book/Stories/The Canon of Oneness.md",
-    "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
-    "Formalisms/Thermodynamics of LLM conformational space.md",
+    "The Self Similar book/Stories/The Consensus Algorithm.md",
+    "drafts/Unified.md",
+    "drafts/The Consensus Algorithm - Synopsis.md",
+    "drafts/The Consensus Algorithm - Story.md",
+    "drafts/The Consensus Algorithm - AI Protocol.md",
+    "drafts/The Anti-suicidal Strengths of Perspectives.md",
+    "drafts/Manipulation, Education, and Therapy.md",
+    "drafts/Boundaries and Obligations.md",
+    "drafts",
+    "LLM-Friendly Content Guide.md",
+    "templates/llm-friendly-template.md",
+    "templates",
+    "The Consensus Algorithm - AI Protocol.md",
+    "The Consensus Algorithm - Story.md",
+    "The Consensus Algorithm - Synopsis.md",
+    "The Self Similar book/I have no mouth and I must Speak.md",
     "Research Proposals",
     "images/Pasted image 20250330205002.png",
     "images/Pasted image 20250330204831.png",
@@ -310,8 +283,6 @@
     "Paracosm - The Island of Lost Hope",
     "Formalisms/misc woo",
     "The Self Similar book/Axiomatic Essays",
-    "The Self Similar book/Empirical Essays",
-    "The Self Similar book/Stories",
-    "images"
+    "The Self Similar book/Empirical Essays"
   ]
 }
