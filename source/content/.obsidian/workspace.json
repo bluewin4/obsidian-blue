@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formalisms/Personalities Dreams.md",
+                "file": "The Self Similar book/Poetic/The Carp, The Dragon, The Green, The Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personalities Dreams"
+              "title": "The Carp, The Dragon, The Green, The Cloud"
             }
           },
           {
@@ -238,9 +238,9 @@
   },
   "active": "13d0a312bff96fc4",
   "lastOpenFiles": [
+    "Formalisms/Personalities Dreams.md",
     "The Self Similar book/Poetic/The Carp, The Dragon, The Strand, The Cloud.md",
     "The Self Similar book/Poetic/The Carp, The Dragon, The Green, The Cloud.md",
-    "Formalisms/Personalities Dreams.md",
     "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
     "Formalisms/Notation for LM Formalization.md",
     "Untitled.md",
