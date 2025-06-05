@@ -309,15 +309,21 @@ This activation probability $A(b,q)$ is the likelihood that the belief subgraph 
 
 Formalizing [[The Ecology of Information]], the fourfold classification of information is:
 
-1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
+- $T(I, e_i, e_j)$: The transmission probability of information $I$ from entity $e_i$ to entity $e_j$.
+- $T_0(e_i, e_j)$: The baseline transmission probability of information between entity $e_i$ and entity $e_j$ in the absence of the specific information $I$.
+- $C$: A specific configuration of an entity.
+- $W(e \rightarrow C)$: The work required for an entity $e$ to transition to configuration $C$. This work can encompass metabolic energy, computational cost, or socio-psychological cost/benefit.
+- $\Delta W(e \rightarrow C | I)$: The change in work required for entity $e$ to transition to configuration $C$ when information $I$ is introduced, compared to the work required without $I$.
 
+1. *Meme* ($M_m$): Information is classified as a meme when its inherent memetic (promotional) components significantly outweigh its antimemetic (inhibitory) components within the context of a specific entity pair $(e_i, e_j)$. This dominance of promotional forces results in an overall transmission probability $T(I,e_i,e_j)$ that is greater than the baseline transmission probability $T_0(e_i,e_j)$:
    $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
    
-   This can be grounded as the channel capacity and mutual information between entities. A key challenge is operationalizing $T$ rigorously, especially for LLM communication involving the interaction of inference functions, personalities, and interpretations.
+   This can be grounded as the channel capacity and mutual information between entities. A key goal is operationalising $T$ rigorously, especially for LLM communication involving the interaction of inference functions, personalities, and interpretations. While used as a binary classifier the degree of transmissibility is inherently continuous.
 
 
-2. *Antimeme* ($M_a$): Information that decreases transmission probability between specific entities, this can be grounded in the concept of negative transfer entropy.
+2. *Antimeme* ($M_a$): Information is classified as an antimeme when its inherent antimemetic (inhibitory) components significantly outweigh its memetic (promotional) components within the context of a specific entity pair $(e_i, e_j)$. This dominance of inhibitory forces results in an overall transmission probability $T(I,e_i,e_j)$ that is less than the baseline transmission probability $T_0(e_i,e_j)$:
    $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
+   This reflects that the net effect of the information's inherent promotional and inhibitory characteristics is to suppress its spread between the given entities. The reduction in transmission can be conceptualised through frameworks like negative transfer entropy, indicating that the presence of the information $I$ makes $e_j$ less likely to adopt it from $e_i$ than a neutral presentation.
 
 3. *Infoblessing* ($V_{+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
    $$V_{+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
@@ -332,12 +338,13 @@ Note that these classifications are often graded rather than binary and are high
 
 ### Information Classification Matrix
 
-|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Neither $M_m$/$M_a$                                              | Both $M_m$/$M_a$                             |
+|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Neither $M_m$ or $M_a$                                           | Both $M_m$ and $M_a$                         |
 | ---------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
 | Infoblessing ($V_+$)   | Viral life hacks                                          | Therapy about embarrassing topics, how to handle a shameful event            | Personal epiphanies, individual insights that improve one's life | Complex moral frameworks                     |
 | Infohazard ($V_-$)     | Chain letters, dangerous viral challenges, harmful rumors | Your parents' weird sex tape, traumatic knowledge that is dangerous to share | Childhood trauma (generic)                                       | Roko's Basilisk                              |
 | Neither $V_+$ or $V_-$ | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
 | Both $V_+$ and $V_-$   | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
+Note: These classifications represent the net outcome of underlying memetic (promotional) and antimemetic (inhibitory) components, which are highly dependent on the specific entity-pair and context. For instance, information categorized under 'Both $M_m$ and $M_a$' possess strong  memetic and antimemetic components; its ultimate classification as a net meme, a net antimeme, or appearing neutral (if these components roughly balance) is determined by how these components manifest in a particular situation.
 
 ## Basilisks and Information Extraction
 
