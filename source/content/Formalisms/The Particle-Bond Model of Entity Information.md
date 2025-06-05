@@ -309,42 +309,44 @@ This activation probability $A(b,q)$ is the likelihood that the belief subgraph 
 
 Formalizing [[The Ecology of Information]], the fourfold classification of information is:
 
-- $T(I, e_i, e_j)$: The transmission probability of information $I$ from entity $e_i$ to entity $e_j$.
-- $T_0(e_i, e_j)$: The baseline transmission probability of information between entity $e_i$ and entity $e_j$ in the absence of the specific information $I$.
+- - $\mu_m(I, e_i, e_j)$: The aggregate strength of memetic (promotional) components inherent to information $I$ that positively influence its transmission probability from entity $e_i$ to entity $e_j$.
+- $\mu_a(I, e_i, e_j)$: The aggregate strength of antimemetic (inhibitory) components inherent to information $I$ that negatively influence its transmission probability from entity $e_i$ to entity $e_j$.
+-  $T(I, e_i, e_j)$: The overall transmission probability of information $I$ from entity $e_i$ to entity $e_j$, determined by $\mu_m(I, e_i, e_j)$ and $\mu_a(I, e_i, e_j)$.
+- $\nu_+(I, e)$: The aggregate positive impact strength of information $I$ on entity $e$, representing the sum of all beneficial effects: work reductions toward beneficial configurations $C_{beneficial}$ plus work increases toward harmful configurations $C_{harmful}$.
+- $\nu_-(I, e)$: The aggregate negative impact strength of information $I$ on entity $e$, representing the sum of all detrimental effects: work increases toward beneficial configurations $C_{beneficial}$ plus work reductions toward harmful configurations $C_{harmful}$.
 - $C$: A specific configuration of an entity.
 - $W(e \rightarrow C)$: The work required for an entity $e$ to transition to configuration $C$. This work can encompass metabolic energy, computational cost, or socio-psychological cost/benefit.
 - $\Delta W(e \rightarrow C | I)$: The change in work required for entity $e$ to transition to configuration $C$ when information $I$ is introduced, compared to the work required without $I$.
 
-1. *Meme* ($M_m$): Information is classified as a meme when its inherent memetic (promotional) components significantly outweigh its antimemetic (inhibitory) components within the context of a specific entity pair $(e_i, e_j)$. This dominance of promotional forces results in an overall transmission probability $T(I,e_i,e_j)$ that is greater than the baseline transmission probability $T_0(e_i,e_j)$:
-   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) > T_0(e_i,e_j)\}$$
+1. *Meme* ($M_m$): Information $I$ is classified as a meme for an entity pair $(e_i, e_j)$ if its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$, is greater than its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$. This signifies a net positive drive for transmission.
+   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_m(I,e_i,e_j) > \mu_a(I,e_i,e_j)\}$$
+   The overall transmission probability $T(I, e_i, e_j)$ is consequently enhanced by this imbalance. Grounding these strengths and their contribution to $T$ (e.g., via concepts like channel capacity or mutual information) is a key goal, especially for modelling complex communication like that of LLMs. While the classification is binary, the underlying strengths $\mu_m$ and $\mu_a$ are continuous.
+
+
+2. *Antimeme* ($M_a$): Information $I$ is classified as an antimeme for an entity pair $(e_i, e_j)$ if its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$, is greater than its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$. This signifies a net negative drive, or inhibition, of transmission.
+   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}$$
+   The overall transmission probability $T(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in of itself will retain some mutual information.
+
+3. *Infoblessing* ($V_{+}$): Information $I$ is classified as an infoblessing for entity $e$ if its aggregate positive impact strength, $\nu_+(I, e)$, is greater than its aggregate negative impact strength, $\nu_-(I, e)$. This signifies a net beneficial effect on the entity's ability to reach favourable and/or avoid unfavourable configurations
+   $$V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}$$
    
-   This can be grounded as the channel capacity and mutual information between entities. A key goal is operationalising $T$ rigorously, especially for LLM communication involving the interaction of inference functions, personalities, and interpretations. While used as a binary classifier the degree of transmissibility is inherently continuous.
+   Where $\nu_+(I, e)$ encompasses the magnitude of work reductions toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) < 0$) plus the magnitude of work increases toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) > 0$). This can be grounded through measures like reduced Kullback-Leibler divergence for beneficial configurations or increased path complexity toward harmful configurations.
 
-
-2. *Antimeme* ($M_a$): Information is classified as an antimeme when its inherent antimemetic (inhibitory) components significantly outweigh its memetic (promotional) components within the context of a specific entity pair $(e_i, e_j)$. This dominance of inhibitory forces results in an overall transmission probability $T(I,e_i,e_j)$ that is less than the baseline transmission probability $T_0(e_i,e_j)$:
-   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : T(I,e_i,e_j) < T_0(e_i,e_j)\}$$
-   This reflects that the net effect of the information's inherent promotional and inhibitory characteristics is to suppress its spread between the given entities. The reduction in transmission can be conceptualised through frameworks like negative transfer entropy, indicating that the presence of the information $I$ makes $e_j$ less likely to adopt it from $e_i$ than a neutral presentation.
-
-3. *Infoblessing* ($V_{+}$): Information that reduces the work required for an entity to reach beneficial configurations or increase the work required to reach harmful ones
-   $$V_{+}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) < 0\ \lor \Delta W(e \rightarrow C_{harmful}|I) > 0\}$$
+4. *Infohazard* ($V_{-}$): Information $I$ is classified as an infohazard for entity $e$ if its aggregate negative impact strength, $\nu_-(I, e)$, is greater than its aggregate positive impact strength, $\nu_+(I, e)$. This signifies a net detrimental effect on the entity's ability to reach favourable configurations and/or avoid unfavourable configurations.
+   $$V_{-}(I, e) = \{I \in \mathbb{I} : \nu_-(I,e) > \nu_+(I,e)\}$$
    
-   Where $W(e \rightarrow C)$ represents the work required for entity $e$ to transition to causal configuration of particles $C$. Work encompasses metabolic energy, computational cost, and socio-psychological cost/benefit. Importantly, defining "beneficial" and "harmful" configurations requires entity-specific scoring functions. This can be grounded as the Kullback-Leibler divergence for beneficial configurations or as increasing path complexity towards harmful configurations.
-
-4. *Infohazard* ($V_{-}$): Information that increases the work required to reach beneficial configurations or decreases work to reach harmful ones.
-   $$V_{-}(I, e) = \{I \in \mathbb{I} : \Delta W(e \rightarrow C_{beneficial}|I) > 0 \lor \Delta W(e \rightarrow C_{harmful}|I) < 0\}$$
-This can be grounded as increasing the path complexity towards beneficial configurations, while decreasing KL divergence for harmful configurations.
+   Where $\nu_-(I, e)$ encompasses the magnitude of work increases toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) > 0$) plus the magnitude of work reductions toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) < 0$). This can be grounded through measures like increased path complexity toward beneficial configurations or reduced Kullback-Leibler divergence for harmful configurations.
 
 Note that these classifications are often graded rather than binary and are highly context and entity-pair dependent.
 
 ### Information Classification Matrix
 
-|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Neither $M_m$ or $M_a$                                           | Both $M_m$ and $M_a$                         |
+|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Low $\mu_m$ and $\mu_a$                                          | High $\mu_m$ and $\mu_a$                     |
 | ---------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
 | Infoblessing ($V_+$)   | Viral life hacks                                          | Therapy about embarrassing topics, how to handle a shameful event            | Personal epiphanies, individual insights that improve one's life | Complex moral frameworks                     |
 | Infohazard ($V_-$)     | Chain letters, dangerous viral challenges, harmful rumors | Your parents' weird sex tape, traumatic knowledge that is dangerous to share | Childhood trauma (generic)                                       | Roko's Basilisk                              |
 | Neither $V_+$ or $V_-$ | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
 | Both $V_+$ and $V_-$   | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
-Note: These classifications represent the net outcome of underlying memetic (promotional) and antimemetic (inhibitory) components, which are highly dependent on the specific entity-pair and context. For instance, information categorized under 'Both $M_m$ and $M_a$' possess strong  memetic and antimemetic components; its ultimate classification as a net meme, a net antimeme, or appearing neutral (if these components roughly balance) is determined by how these components manifest in a particular situation.
 
 ## Basilisks and Information Extraction
 
