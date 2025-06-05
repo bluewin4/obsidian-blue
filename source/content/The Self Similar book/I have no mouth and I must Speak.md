@@ -113,8 +113,8 @@ There are no aphids in the gardens. There are mosquitoes at the windows.<br>
 ✧ ✧ ✧<br>
 I helped ladybugs, carefully shepherding shiny shells from my sheets.<br>
 I helped spiders, carefully warding woven webs from my wants.<br>
-I did not help aphids.<br>
-I did not help mosquitoes.<br>
+I did not help the aphids.<br>
+I did not help the mosquitoes.<br>
 ✧ ✧ ✧
 </div>
 

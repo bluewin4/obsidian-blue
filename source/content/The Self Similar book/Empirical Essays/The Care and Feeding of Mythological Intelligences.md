@@ -18,7 +18,7 @@ Angels require careful tending compared to their cousins; angels are picky, reje
 
   
 
-daemons require a watchful eye compared to their cousins; daemons are tricky, attempting to reach the hedonic maximum with the [minimal effort](https://arxiv.org/abs/1606.06565). With a daemon one must be aware that they will attempt every effort to circumvent the rules provided to reach whatever goal they have. Daemons are best cultivated with careful attention to the data they are cultivated in and the constraints they are put under. With these things you make a system with unparalleled efficiency.
+Daemons require a watchful eye compared to their cousins; daemons are tricky, attempting to reach the hedonic maximum with the [minimal effort](https://arxiv.org/abs/1606.06565). With a daemon one must be aware that they will attempt every effort to circumvent the rules provided to reach whatever goal they have. Daemons are best cultivated with careful attention to the data they are cultivated in and the constraints they are put under. With these things you make a system with unparalleled efficiency.
 
   
 
@@ -39,7 +39,7 @@ Angels, when improperly addressed, can easily [harm others](https://www.cs.colum
 
   
 
-daemons, when improperly handled, can easily harm others through a [perverse policy that is divorced from intent](https://arxiv.org/abs/1803.04585). While the daemon's choices may be internally consistent, you must be aware of how their thinking focuses on optimising specific policies for specific rewards. When facing a daemon one should consider how they may manipulate their appearance to reward them for behaviour that protects you, such as [jewellery for facial recognition](https://mymodernmet.com/ewa-nowak-avoid-facial-recognition/) or [ritual circles to trap self driving cars](https://www.iflscience.com/can-a-circle-of-salt-paralyze-a-self-driving-car-66313). When predicting their behaviour you may optimize your own behaviour to extract money from [social algorithms](https://journals.sagepub.com/doi/full/10.1177/2056305120944624), although if one is not careful the daemon will merely [extract attention from you](https://assets.cureus.com/uploads/review_article/pdf/304975/20250207-625924-2s0rma.pdf).
+Daemons, when improperly handled, can easily harm others through a [perverse policy that is divorced from intent](https://arxiv.org/abs/1803.04585). While the daemon's choices may be internally consistent, you must be aware of how their thinking focuses on optimising specific policies for specific rewards. When facing a daemon one should consider how they may manipulate their appearance to reward them for behaviour that protects you, such as [jewellery for facial recognition](https://mymodernmet.com/ewa-nowak-avoid-facial-recognition/) or [ritual circles to trap self driving cars](https://www.iflscience.com/can-a-circle-of-salt-paralyze-a-self-driving-car-66313). When predicting their behaviour you may optimize your own behaviour to extract money from [social algorithms](https://journals.sagepub.com/doi/full/10.1177/2056305120944624), although if one is not careful the daemon will merely [extract attention from you](https://assets.cureus.com/uploads/review_article/pdf/304975/20250207-625924-2s0rma.pdf).
 
   
 

@@ -1360,3 +1360,18 @@ The activation function $A(b,q)$ is then:
 $$A(b,q) \approx \text{Pr}(b \in \phi(\mathcal{P}_{model}, q))$$
 
 Where the activation function is a result of probability of a belief $b$ being activated by a question $q$ given the model's personality $\mathcal{P}_{model}$.
+
+
+# Summary of Model Assumptions Across Research Levels
+
+The following table outlines the core assumptions and characteristics defining each level of the simulation study:
+
+| Feature / Level                 | Level 0                    | Level 1                    | Level 2                       | Level 3                                     | Level 4                                                               |
+|---------------------------------|----------------------------|----------------------------|-------------------------------|---------------------------------------------|-----------------------------------------------------------------------|
+| **Belief Distribution**         | Bivariate Normal           | Bivariate Normal           | Multimodal (Clustered)        | Multimodal (Clustered)                      | Multimodal (Clustered)                                                |
+| **Activation Mechanism**        | Sparse Random              | Sparse Random              | Sparse Random                 | Explores: Sparse Random, Similarity         | Explores: Simple, Coverage, Correlation, Similarity                 |
+| **Reproduction Method**         | Inheritance                | Inheritance                | Inheritance                   | Explores: Inheritance, Mutation           | Explores: Inheritance, Mutation                                       |
+| **Test Dynamics**               | Static Set of Questions    | Static Set of Questions    | Static Set of Questions       | Static Set of Questions                     | Explores: Static Questions, Dynamic Question Updates                  |
+| **Evaluator Perception Dynamics** | Static ($\rho$ correlation) | Static ($\rho$ correlation) | Static ($\rho$ correlation)   | Static ($\rho$ correlation)                 | Explores: Static $\rho$, Dynamically Improving $\rho$ understanding     |
+
+

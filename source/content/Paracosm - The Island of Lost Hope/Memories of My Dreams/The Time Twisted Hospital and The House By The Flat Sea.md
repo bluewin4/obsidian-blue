@@ -8,7 +8,7 @@ The windows let in the diffuse light, their diaphanous white curtains inviting t
 
 So, I stepped out of the house, leaving behind some piece that I had found in that squat home in The Stormkissed Fields. So I walked towards The Flat Sea, it was to the right and far behind the house. As I walked the orchards to my right fell away and I found massive cement tetrapods, designed for breaking the waves but seeming to just stand watch on the packed yellow earth sand. Further down the way I saw a tall red and white wrapped lighthouse, keeping watch on grey boulders, for what I did not know. The fog ebbed and flowed around me, begging to get closer but seemingly held back by those jack-like structures. I knew I had traveled east from the western coast where The Elder Forest lay, but I knew not if I had found another coast. The Flat Sea extended beyond my reckoning and its nature was opaque.
 
-I know that at one point there was a memory of negotiation, of clarity, but I'm unsure with who it was. A dog? A friend? A family? All of it was consumed by the fog, perhaps one of those jacks broke and let The Flat Sea consume more. I need to visit again and check. But that night I simply awoke.
+I know that at one point there was a memory of negotiation, of clarity, but I'm unsure with who it was. A dog? A friend? A family? All of it was consumed by the fog, perhaps one of those jacks broke and let The Flat Sea consume more than its fair share. I need to visit again and check. But that night I simply awoke.
   
 When I next fell asleep I woke traveling away from The House's front door and to the left. I traveled down the dirt path I had taken, towards The Stormkissed Fields. It was on this path that I found The Time Twisted Hospital.
 

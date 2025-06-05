@@ -176,7 +176,7 @@ Boundaries are manifested in two complementary ways:
 
 ##  Charisma and Entity Relationships
 
-Charisma ($\chi$) is defined here as the ability of one entity ($e_1$) to influence another ($e_2$) by modulating the distances ($d$) and/or affinities ($\theta$) between particles within $e_2$'s network. The goal of affinity is to change attention for a locus $l$. 
+Charisma ($\chi$) is defined here as the ability of one entity ($e_1$) to influence another ($e_2$) by modulating the distances ($d$) and/or affinities ($\theta$) between particles within $e_1$'s network. The goal of affinity is to change attention for a locus $l$. 
 
 This manipulation of $d$ and $\theta$ alters bond strengths ($B$) and consequently changes the target's attention profile (the set of nodal attention values $\{C(x)\}$). While the mechanism involves $\Delta d$ and $\Delta \theta$, the effect is often measured or observed as a change in this attention profile:
 
@@ -307,7 +307,7 @@ This activation probability $A(b,q)$ is the likelihood that the belief subgraph 
 
 ## Information Classification
 
-Formalizing [[The Anatomy of Information]], the fourfold classification of information is:
+Formalizing [[The Ecology of Information]], the fourfold classification of information is:
 
 1. *Meme* ($M_m$): Information that increases transmission probability between specific entities, where $T$ is transmission probability, $T_0$ is baseline transmission probability.
 

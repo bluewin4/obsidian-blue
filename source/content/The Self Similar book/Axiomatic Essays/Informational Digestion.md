@@ -27,9 +27,12 @@ There is a risk here, in believing that these systems are designed solely for th
 ### Body Cycle (Physical Systems)
 - Sensing: Basic molecular recognition and response
 
-So we know that consumption of food is the result of the body attempting to predict which nutrients are important when consuming negentropy, what of other forms that share a structure, what of learning? Learning involves the identification of information, the prediction of which information is useful, and then the integration into the mind. The information is then scored over time by how frequently recurs, with
+So we know that consumption of food is the result of the body attempting to predict which nutrients are important when consuming negentropy, what of other forms that share a structure, what of learning? Learning involves the identification of information, the prediction of which information is useful, and then the integration into the mind. The information is then winnowed based on how frequently recurs, how important it was, and how well it meshes with the rest of the organisms internal systems. Then, the information becomes a part of what predicts, creating a feedback cycle that is exploitable by hyperpalatability. 
 
 - Encapsulation: Formation of boundaries and self
+
+The ingestion of information is important, the absis of 
+
 - Cooperation: Emergence of multicellular organization
 - Symbiosis: Co-adaptive systems and mutual transformation
 
