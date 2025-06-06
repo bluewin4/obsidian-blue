@@ -1334,7 +1334,7 @@ The best scenario for a multi-modal belief distribution would be to have slowly 
 
 
 
-# Appendix - Notational Connections
+# Appendix 
 
 
 [[Notation for LM Formalization]] currently describes behaviour of LMs, $\phi$, instead of explicitly modelling the information stored in their weights, treating the LM as a black boxes with well defined inputs and outputs. 

@@ -159,11 +159,11 @@ The effective phase relationship between particles becomes:
 
 $$\varphi_{effective}(x,y) = (\angle\psi_x - \angle\psi_y) \cdot \gamma(x,y,\tau)$$
 
-This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at variouos scales (eg. belief alignment within families vs. nations)
+This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at various scales (eg. belief alignment within families vs. nations)
 
 ## Boundary Formation
 
-Boundaries are manifested in two complementary ways:
+Boundaries where one entity is separated from another are manifested in two complementary ways:
 
 1. *Probability Density Gradients*: Sharp drops in $|\psi(x)|^2$ forming "edges" in physical or semantic space
 
@@ -363,3 +363,5 @@ In the particle-bond model, basilisks operate by creating specific configuration
 3. Modulate the distance ($d$) and affinity ($\theta$) parameters through targeted charisma ($\chi$)
 
 This connects to considerations about building alternative basilisks, as referenced in [[Newcomb's Basilisk, a Game of Beards#^f401b1]], where the strategic goal becomes maximizing the likelihood that any hostile entity, should it exist, will believe you were working within its incentive structure.
+
+## Boundaries and Obligations

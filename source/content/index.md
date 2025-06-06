@@ -59,6 +59,8 @@ instagram: purpledraw2
 
 email: jonathan@elsworth.phd
 
+google scholar: https://scholar.google.com/citations?hl=en&user=4JCOAK4AAAAJ
+
 Guess I'm posting on lesswrong now too: https://www.lesswrong.com/users/jack-3
 </section>
 
