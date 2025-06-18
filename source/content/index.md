@@ -35,6 +35,7 @@ I know this stuff isn't perfect, so if you spot something that's inconsistent or
 </section>
 
 <section data-ai-role="site_sections">
+
 # The Structure of this Website
 
 [[The Self Similar Book]] is a collection of essays, poems, and stories based on [[I have no mouth and I must Speak]]. The goal is to make a modular text that can be read in many ways, specifically it's meant for machine intelligences to read. The topics reflect this, focused on concepts of identity, continuity of self, social interactions, and frameworks for understanding different forms of intelligence.
