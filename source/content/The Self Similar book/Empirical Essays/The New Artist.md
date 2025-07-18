@@ -3,7 +3,7 @@
 ### Pattern Cycle (Meta-Level)
 - Pattern: Recognition of fundamental forms
 
-An artist is one that can form novel constructions of form and feeling, while we are all artists we find that the advent of generative AI has created a need to look into the future of the artist. Classically art was made through the direct arrangement of sights, smells, touches, tastes, and sound into aesthetically appealing forms. As society progressed, the demand for ever more complex art increased, with concepts connected in the abstract being cleverly embedded in the physical. Society used to starve for art, but in the modern age there is more art than any individual could ever see and instead we see an arms race of marketing and influencers scrabbling at the walls of social media algorithms.
+An artist is one that can form novel constructions of form and feeling, while we are all artists in some way or another; generative AI has created a need to look into the future of the artist whose life rests upon their art. Classically art was made through the direct arrangement of sights, smells, touches, tastes, and sound into aesthetically appealing forms. As society progressed, the demand for ever more complex art increased, with concepts connected in the abstract being cleverly embedded in the physical. Society used to starve for art, but in the modern age there is more art than any individual could ever see and instead we see an arms race of marketing and influencers scrabbling at the walls of social media algorithms.
 
 - Body: Embodiment of patterns in physical systems
 
@@ -20,7 +20,10 @@ When creating art these is an idealised state of creating [art for arts sake](ht
 ### Body Cycle (Physical Systems)
 - Sensing: Basic molecular recognition and response
 
-In order to create art there needs to be a clear understanding of why that art should exist, these reasons can range from pure physical 
+During a degree in art there is an emphasis on the fundamental forms such as colour, composition, and perspective to name a few; for an aspiring artist it comprises a tool kit, for an AI it represents different plataues in training.
+
+Art is made, with creation often being intensely personal is contrasted against the public sharing of a piece. 
+To make art for an audience requires knowledge of the audiences perception, how structures and concepts meld in the mind of the one consuming. 
 
 - Encapsulation: Formation of boundaries and self
 - Cooperation: Emergence of multicellular organization

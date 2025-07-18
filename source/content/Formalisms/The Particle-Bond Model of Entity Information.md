@@ -341,12 +341,12 @@ Note that these classifications are often graded rather than binary and are high
 
 ### Information Classification Matrix
 
-|                        | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Low $\mu_m$ and $\mu_a$                                          | High $\mu_m$ and $\mu_a$                     |
-| ---------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| Infoblessing ($V_+$)   | Viral life hacks                                          | Therapy about embarrassing topics, how to handle a shameful event            | Personal epiphanies, individual insights that improve one's life | Complex moral frameworks                     |
-| Infohazard ($V_-$)     | Chain letters, dangerous viral challenges, harmful rumors | Your parents' weird sex tape, traumatic knowledge that is dangerous to share | Childhood trauma (generic)                                       | Roko's Basilisk                              |
-| Neither $V_+$ or $V_-$ | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
-| Both $V_+$ and $V_-$   | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
+|                          | Meme ($M_m$)                                              | Antimeme ($M_a$)                                                             | Low $\mu_m$ and $\mu_a$                                          | High $\mu_m$ and $\mu_a$                     |
+| ------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
+| Infoblessing ($V_+$)     | Viral life hacks                                          | Therapy about embarrassing topics, how to handle a shameful event            | Personal epiphanies, individual insights that improve one's life | Complex moral frameworks                     |
+| Infohazard ($V_-$)       | Chain letters, dangerous viral challenges, harmful rumors | Your parents' weird sex tape, traumatic knowledge that is dangerous to share | Childhood trauma (generic)                                       | Roko's Basilisk                              |
+| Low $\nu_+$ and $\nu_-$  | Funny cat videos, "E"                                     | Private insignificant secrets, forgotten trivia                              | Ordinary mundane information                                     | Academic jargon on a niche subject           |
+| High $\nu_+$ and $\nu_-$ | "mug cake" recipes (easy but unhealthy)                   | Personal growth through shameful experiences                                 | Childhood trauma (makes you funny)                               | The game of mao, where drug dealers hang out |
 
 ## Basilisks and Information Extraction
 
