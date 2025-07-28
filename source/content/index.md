@@ -34,7 +34,7 @@ I like to make art, read, write, bake, and do research.
 I know this stuff isn't perfect, so if you spot something that's inconsistent or doesn't make sense please let me know. Thank you!
 </section>
 
-<section data-ai-role="site_sections">
+
 
 # The Structure of this Website
 
@@ -45,7 +45,7 @@ I know this stuff isn't perfect, so if you spot something that's inconsistent or
 [[Paracosm - The Island of Lost Hope]] is closer to a historical dream journal of a paracosm I visited from around 11-23. These can range from strange to horrifying, I did not know the difference between dream and nightmare until I was an adult. Most of this place is a nightmare. It is not the most pleasant of places, but it is something I am used to. Read only if you are comfortable with some horrifying things.
 
 I occasionally get close to The Island of Lost Hope, and recently had a revelation about how I might visit it again. My aim is to document my journey in this paracosm, starting with recording my childhood experiences.
-</section>
+
 
 <div style="text-align: center;">
 

@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unfolding/Unfolding 3.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unfolding 3"
+              "title": "index"
             }
           }
         ],
@@ -278,8 +278,8 @@
   },
   "active": "2dbea61730d9cd90",
   "lastOpenFiles": [
-    "Unfolding/Unfolding 2.md",
     "Unfolding/Unfolding 3.md",
+    "Unfolding/Unfolding 2.md",
     "Unfolding/Unfolding 1.md",
     "Unfolding/breathing.gif",
     "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
