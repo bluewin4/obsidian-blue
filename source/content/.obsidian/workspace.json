@@ -6,7 +6,7 @@
       {
         "id": "0571c1c94d829fac",
         "type": "tabs",
-        "dimension": 47.674418604651166,
+        "dimension": 47.67441860465116,
         "children": [
           {
             "id": "df8b525309816986",
@@ -98,12 +98,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
+                "file": "Unfolding/Unfolding 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paracosm - The Island of Lost Hope"
+              "title": "Unfolding 3"
             }
           }
         ],
@@ -278,8 +278,14 @@
   },
   "active": "2dbea61730d9cd90",
   "lastOpenFiles": [
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
+    "Unfolding/Unfolding 2.md",
+    "Unfolding/Unfolding 3.md",
+    "Unfolding/Unfolding 1.md",
+    "Unfolding/breathing.gif",
     "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
+    "Unfolding",
+    "Untitled.md",
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
     "Paracosm - The Island of Lost Hope/The Keys.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Sungold Villa.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Shallow-Depths of Air.md",
@@ -300,10 +306,6 @@
     "The Self Similar book/Empirical Essays/The New Artist.md",
     "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
     "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
-    "The Self Similar book/I have no mouth and I must Speak.md",
-    "The Self Similar book/Axiomatic Essays/Newcomb's Basilisk, a Game of Beards.md",
-    "misc/The demon of interrelation full.md",
-    "Formalisms/Personalities Dreams.md",
     "misc",
     "drafts",
     "templates",
@@ -317,12 +319,10 @@
     "images/Pasted image 20250330204234.png",
     "images/Pasted image 20250331200752.png",
     "images/Pasted image 20250331211557.png",
-    "images/Pasted image 20250331192137.png",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams",
     "Formalisms/Analytical Research",
     "The Self Similar book/Poetic",
     "Paracosm - The Island of Lost Hope",
-    "Formalisms/misc woo",
-    "The Self Similar book/Axiomatic Essays"
+    "Formalisms/misc woo"
   ]
 }

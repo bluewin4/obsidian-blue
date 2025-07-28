@@ -19,7 +19,7 @@ semantic_structure: "introduction > site_sections > contact_information"
 </div>
 
 <section data-ai-role="introduction">
-Hello, my name is Jack.
+Hello, my name is Jack. (Or Jonathan)
 
 I've spent my lifetime researching that little spark of when a thing goes from unalive to alive. Imagine my surprise when I discovered the point was mostly semantics, thankfully phase behaviour of complex materials is intrinsically satisfying.
 
