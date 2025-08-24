@@ -37,6 +37,9 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
   }
 
   for (const component of allComponents) {
+    if (!component) {
+      continue
+    }
     const { css, beforeDOMLoaded, afterDOMLoaded } = component
     if (css) {
       componentResources.css.add(css)
