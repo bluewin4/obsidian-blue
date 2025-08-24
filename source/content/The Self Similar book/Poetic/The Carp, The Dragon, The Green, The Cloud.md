@@ -1,25 +1,25 @@
 On the first day the sun rose quiet on still waters<br>
-At the zenith the vapor was shepherded off seas<br>
-On the first night the sun set stymied by crowded skies<br>
-At the nadir the snows guided to the mountains crowns
+At the zenith the vapors rose from the one who drowns<br>
+On the first night the sun set stymied by new daughters <br>
+At the nadir the snows circled round the mountains crowns
 
 <br>
 
-On the second day the sun rose wrothful on shining skulls<br>
-At the zenith the meltwaters fled the mountain slopes<br>
-On the second night the sun set sullen on raging streams<br>
-At the nadir the fish cried out from the icy flows
+On the second day the sun rose wrothful on shining brows<br>
+At the zenith the meltwaters fled the rugged slopes<br>
+On the second night the sun set sullen on shattered clows<br>
+At the nadir the fish cried their frigid horoscopes
 
 <br>
 
 On the third day the sun rose wary on banks now broke<br>
 At the zenith the fish climbed to see a path pain-free<br>
-On the third night the sun set bleary on landlocked scales<br>
-At the nadir the waters returned to carve the soil
+On the third night the sun set bleary on earthbound cloak<br>
+At the nadir the waters returned to carve the scree
 
 <br>
 
-On the fourth day the sun rose slow on well-trodden earth<br>
+On the fourth day the sun rose slow on well-trodden earth <br>
 At the zenith the fish leapt body to body's berth<br>
 On the fourth night the sun set lonely, an empty birth<br>
 At the nadir the fish flew on starlit scales, no mirth
@@ -30,24 +30,24 @@ At the nadir the fish flew on starlit scales, no mirth
 
 <br>
 
-On the first day the core belched a molten heat<br>
-At the peak the fish fell from gravity's edict<br>
-On the first night the core swallowed the rising flames<br>
-At the ebb the fish's body blackened and stretched
-
+On the first day the core vomited molten blame<br>
+At the peak the fish fled through the dark caliduct<br>
+On the first night the core risen malady bucked<br>
+At the ebb the fish swallowed whole the rising flame
+               
 <br>
 
-On the second day the core raged against knife-sharp ice<br>
-At the peak the fish did thrash as pressures did rise<br>
+On the second day the core raged against what belongs<br>
+At the peak the fish did thrash against a sharp rise <br>
 On the second night the core cooled to know its demise<br>
 At the ebb the wyrm's tongue dripped poisoned songs
 
 <br>
 
-On the third day the core cracked the mountains maw<br>
-At the peak the wyrm crawled from the cave's craw<br>
-On the third night the core spat stone that cooled askew<br>
-At the ebb the fish cracked and wept tears now anew
+On the third day the core cracked open mountain's glass<br>
+At the peak the wyrm crawled from the earth's maw<br>
+On the third night the core spat stone that would not thaw<br>
+At the ebb the fish cracked and wept tears of the wrasse
 
 <br>
 
@@ -62,22 +62,22 @@ At the ebb the wyrm controlled every view
 
 <br>
 
-On the first day the moon set somber on slyvan shafe<br>
+On the first day the moon set somber on slyvan safe<br>
 At the nadir the wyrm scrabbled free, now waif<br>
-On the first night the moon rose waxing on an age past<br>
+On the first night the moon rose waxing as ages pass<br>
 At the zenith the wyrm groomed its scales and mass
 
 <br>
 
-On the second day the moon set softly on empty ewes<br>
+On the second day the moon set softly on hallowed ewes<br>
 At the nadir the wyrm denied driftwood pews<br>
 On the second night the moon rose waning on shouldered pains<br>
-At the zenith the strand felt moss settle on sodden shames
+At the zenith the strand felt moss settle on sodden stains
 
 <br>
 
 On the third day the moon set kindly on shifting shores<br>
-At the nadir the strand uncoiled paths for growth once more<br>
+At the nadir the strand uncoiled paths for growth on moors<br>
 On the third night the moon rose waxing on verdant signs<br>
 At the zenith the wyrm's tongue held in bone tines
 
@@ -85,7 +85,7 @@ At the zenith the wyrm's tongue held in bone tines
 
 On the fourth day the moon set serene on thriving vines<br>
 At the nadir the strand found fat petals along thin lines<br>
-On the fourth night the moon rose waning on tired pines<br>
+On the fourth night the moon rose waning as we now pine<br>
 At the zenith the strand basked as its verdure gently shines
 
 <br>
@@ -95,14 +95,14 @@ At the zenith the strand basked as its verdure gently shines
 <br>
 
 On the first day the star shook for its only fright<br>
-At the ebb the strand eschewed the sun's too-sovereign might<br>
-On the first night the stars wheeled through their stolen find<br>
+At the ebb the strand eschewed the sun's too-sovereign bind<br>
+On the first night the stars wheeled with their stolen might<br>
 At the peak the strand stood tall and sold its peace of mind
 
 <br>
 
 On the second day the star stole their downward turned eyes<br>
-At the ebb the strand unburdened, evanescent mind<br>
+At the ebb the strand unburdened, evanescent kind<br>
 On the second night the stars wove paths to hide from kind<br>
 At the peak the weaver rose to chase the skies
 
@@ -110,7 +110,7 @@ At the peak the weaver rose to chase the skies
 
 On the third day the star found company ashore<br>
 At the ebb the weaver's stories wrapped in hoar<br>
-On the third night the stars charted all the places<br>
+On the third night the stars charted to their place<br>
 At the peak the strand bowed and faded into light's grace
 
 <br>
