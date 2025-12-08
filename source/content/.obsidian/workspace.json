@@ -6,7 +6,6 @@
       {
         "id": "0571c1c94d829fac",
         "type": "tabs",
-        "dimension": 47.67441860465116,
         "children": [
           {
             "id": "df8b525309816986",
@@ -56,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+                "file": "The Self Similar book/Empirical Essays/The Incorporation and Continuity of You.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolution of Alignment and Values"
+              "title": "The Incorporation and Continuity of You"
             }
           },
           {
@@ -84,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Self Similar book/Empirical Essays/The Incorporation and Continuity of You.md",
+                "file": "Umbra tentatio/Harmonic Analysis Clean.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Incorporation and Continuity of You"
+              "title": "Harmonic Analysis Clean"
             }
           },
           {
@@ -107,28 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
-      },
-      {
-        "id": "f0fc8d47ad89f378",
-        "type": "tabs",
-        "dimension": 52.32558139534884,
-        "children": [
-          {
-            "id": "e773b8ee8b99a74f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Demon of Interrelation"
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -267,6 +245,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -276,53 +255,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2dbea61730d9cd90",
+  "active": "92325e8dbaaa5ea8",
   "lastOpenFiles": [
+    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
+    "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
+    "misc drafts/I dislike qualia.md",
+    "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
+    "Umbra tentatio/Harmonic Analysis Clean.md",
+    "Umbra tentatio/Harmonic.md",
+    "Umbra tentatio/Harmonic Analysis of Shallow Mantle and Crust Correlated Cryptic Niche.md",
+    "Umbra tentatio/paper1/Screenshot 2025-09-05 at 9.28.03 PM.png",
+    "Umbra tentatio/paper1/Screenshot 2025-09-05 at 9.27.49 PM.png",
+    "misc drafts/Conciousness.md",
+    "Umbra tentatio/paper1/fig5_population_vs_com.png",
+    "Umbra tentatio/paper1/fig4_delta_receiver_energy.png",
+    "Umbra tentatio/paper1/fig3_thermal_vs_mechanical.png",
+    "Umbra tentatio/paper1/fig1_receiver_energy.png",
+    "Umbra tentatio/paper1",
+    "misc stories/A Flaw for God.md",
+    "Umbra tentatio",
+    "The Self Similar book/Empirical Essays/The Incorporation and Continuity of You.md",
+    "Untitled.md",
+    "misc stories",
+    "index.md",
+    "Stories/A Flaw for God.md",
+    "Stories/Doomed ChemistryxGlassblower Yaoi.md",
+    "Stories/2k words only.md",
+    "Stories",
     "Unfolding/Unfolding 3.md",
     "Unfolding/Unfolding 2.md",
     "Unfolding/Unfolding 1.md",
     "Unfolding/breathing.gif",
     "Paracosm - The Island of Lost Hope/Paracosm - The Island of Lost Hope.md",
     "Unfolding",
-    "Untitled.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Time Twisted Hospital and The House By The Flat Sea.md",
     "Paracosm - The Island of Lost Hope/The Keys.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Sungold Villa.md",
     "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Shallow-Depths of Air.md",
-    "index.md",
     "The Self Similar book/Poetic/The Carp, The Dragon, The Green, The Cloud.md",
-    "The Self Similar book/Empirical Essays/The Incorporation and Continuity of You.md",
-    "misc/Thoughts.md",
+    "misc drafts/Thoughts.md",
     "Paracosm - The Island of Lost Hope/The Meaning of Places.md",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams/The Theater of The Mind.md",
-    "Formalisms/Phase separation of personalities.md",
-    "Formalisms/Notation for LM Formalization.md",
-    "Formalisms/Analytical Research/Evolution of Alignment and Values.md",
-    "The Self Similar book/Empirical Essays/The Care and Feeding of Mythological Intelligences.md",
-    "Formalisms/Analytical Research/Sensory Phasing.md",
-    "Formalisms/Thermodynamics of LLM conformational space.md",
-    "Formalisms/The Particle-Bond Model of Entity Information.md",
-    "The Self Similar book/Empirical Essays/Hyperpalatable Life.md",
-    "The Self Similar book/Empirical Essays/The New Artist.md",
-    "The Self Similar book/Axiomatic Essays/The Demon of Interrelation.md",
-    "The Self Similar book/Axiomatic Essays/Informational Digestion.md",
-    "misc",
+    "misc drafts",
     "drafts",
     "templates",
     "Research Proposals",
     "images/Pasted image 20250330205002.png",
     "images/Pasted image 20250330204831.png",
     "images/Pasted image 20250330204744.png",
-    "images/Pasted image 20250330204709.png",
-    "images/Pasted image 20250331213219.png",
-    "images/Pasted image 20250331210947.png",
-    "images/Pasted image 20250330204234.png",
-    "images/Pasted image 20250331200752.png",
-    "images/Pasted image 20250331211557.png",
-    "Paracosm - The Island of Lost Hope/Memories of My Dreams",
-    "Formalisms/Analytical Research",
-    "The Self Similar book/Poetic",
-    "Paracosm - The Island of Lost Hope",
-    "Formalisms/misc woo"
+    "Paracosm - The Island of Lost Hope/Memories of My Dreams"
   ]
 }

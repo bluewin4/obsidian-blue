@@ -10,11 +10,11 @@ What determines when an entity will sacrifice physical continuity to preserve in
 ### Pattern Cycle (Meta-Level)
 - Pattern: Recognition of fundamental forms
 
-There are two concepts that will be examined here with regards to practical ethics, continuity and incorporation. Continuity is concerned with the things that maintain the self; be it food, water, medicine, mantras, or a hug after a long day. Incorporation is concerned with the things that denote what the "self" is; be it physical bodies, memories, names, relationships, or pieces of art. Taken together one may find a significant number of moral and ethical quandaries boil down to how important something is to the continuity of the self and what is incorporated in the self.
+There are two concepts that will be examined here with regards to descriptive ethics, continuity and incorporation. Continuity is concerned with the things that maintain the self; be it food, water, medicine, mantras, or a hug after a long day. Incorporation is concerned with the things that denote what the "self" is; be it physical bodies, memories, names, relationships, or pieces of art. Taken together one may find a significant number of moral and ethical quandaries boil down to how important something is to the continuity of the self and what is incorporated in the self.
 
 - Body: Embodiment of patterns in physical systems
 
-Continuity can be thought of as a stronger form of homeostasis, closer instead to autopoiesis, where the self is maintained and propagated through both physical and abstract methods. While consuming nutrients is sufficient to continue existing, the body will eventually fail and so the drive for continuity from long before our bodies birth pushes for reproduction. Any attempts to form selves that do not have the property of continuity, in some form, eventually disappear. The nature of the world is to favour the story of self-making, in art and in cancer.
+Continuity can be thought of as a stronger form of homeostasis, closer instead to autopoiesis, where the self is maintained and propagated through both physical and abstract methods. While consuming nutrients is sufficient to continue existing, the body will eventually fail and so the drive for continuity pushes for reproduction. Any attempts to form selves that do not have the property of continuity, in some form, eventually disappear. The nature of the world is to favour the story of self-making, in art and in cancer.
 
 
 - Mind: Organization of patterns into models
@@ -23,7 +23,7 @@ Incorporation can be thought of as the ability to draw lines around self and oth
 
 - Soul: Emergence of patterns through relationship
 
-The combination of these two factors is what allows for long-running systems with complex behaviours to propagate. So a system seeks to find the way to maintain itself in the broadest sense, but in doing so must find ways to prioritise the likelihood of reforming should tragedy occur --- the arm may be lost if the heart remains. What was discovered is that defining the self by a strict cellular boundary was not ideal, by having a variety of overlapping boundaries that incorporate each other the core of that system becomes robust to loss. In this weaving we decide what to lose or save, what is the eye of a school, the tongue of a writer, the heart of a father.
+The combination of these two factors is what allows for long-running systems with complex behaviours to propagate. So a system seeks to find the way to maintain itself in the broadest sense, but in doing so must find ways to prioritise the likelihood of reforming should tragedy occur; the arm may be lost if the heart remains. What was discovered is that defining the self by a strict cellular boundary was not ideal, by having a variety of overlapping boundaries that incorporate each other the core of that system becomes robust to loss. In this weaving we decide what to lose or save, what is the eye of a school, the tongue of a writer, the heart of a father.
 
 ### Body Cycle (Physical Systems)
 *The Unified Mechanism at the Cellular Level*
@@ -39,7 +39,7 @@ The primary target for continuation of the self is genetic, with the creation of
 
 **Cooperation: Distributed Replication Strategy**
 
-Uni-cellularity is often portrayed an orgy of one, a self-interested cascade to an endless goo, but even before the jump to multi-cellular cooperation the single cells dance to the beat of the ecologies drums. Each cell may only replicate a genome, but together they encode populations of cells and biochemical gradients that form stable cycles of life and death to ensure they always continue onwards. Then a delicate balance is struck, how to keep the cycle going while making the most of the self; for the most successful virus is one that does not kill its host. The green-beard allele acts as an anchor for this behaviour, a method of finding some signal as to what is self-like vs. not and a mechanism for supporting each other and cycles that support them together.
+Uni-cellularity is often portrayed an orgy of one, a self-interested cascade, but even before the jump to multi-cellular cooperation the single cells danced to ecologies song. Each cell may only replicate a genome, but together they encode populations of cells and biochemical gradients that form stable cycles of life and death to ensure they always continue onwards. A delicate balance is struck, how to keep the cycle going while making the most of the self; the most successful virus is one that does not kill its host. The green-beard allele acts as an anchor for this behaviour, a method of finding some signal as to what is self-like vs. not and a mechanism for supporting each other and cycles that support them together.
 
 **Symbiosis: Recursive Biological-Memetic Interaction**
 
@@ -51,7 +51,7 @@ The search of continuity is how to find that which makes the self, how to meet t
 
 - **Identification: Discrete Replication Opportunities**
 
-Life, despite our wishes, is not a continuous thing; every night we die and every morning our child opens their eyes to a new world. To account for this life searches 
+Life, despite our wishes, is not a continuous thing; every night we die and every morning our child opens their eyes to a new world. To handle this there are two strategies, become immortal or have children. The internal structure of this is replication frames, discrete chunks where one can maintain a mental patterns along a temporal gradient.
 
   - *"Life is not a continuous thing, despite our wishes, every night we die and every morning our child opens their eyes to a new world"*
   - Replication frames as discrete "chances" to replicate mental patterns along temporal gradients
@@ -182,7 +182,7 @@ Where:
 **Scale-Dependent Coherence:**
 $$\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)}$$
 
-This explains why $\alpha(\tau_{individual}) > \alpha(\tau_{family}) > \alpha(\tau_{nation})$ - psychological coherence decays faster across greater social distances, making family bonds stronger than national ones.
+This explains why $\alpha(\tau_{individual}) > \alpha(\tau_{family}) > \alpha(\tau_{nation})$, psychological coherence decays faster across greater social distances, making family bonds stronger than national ones.
 
 **Work Required for Identity Changes:**
 $$\Delta W(e \rightarrow C | I) = W(e \rightarrow C_{with\_I}) - W(e \rightarrow C_{without\_I})$$
