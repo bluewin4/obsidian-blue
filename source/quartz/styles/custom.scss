@@ -77,3 +77,35 @@ ul, ol {
     /* Enhanced semantic list */
   }
 }
+
+/* Mathematical poetry tables - annotation above text */
+table.poem-math {
+  border-collapse: collapse;
+  border: none;
+  width: auto;
+  margin: 1.5rem auto 0.5rem auto;
+  background: transparent;
+  
+  tr, td {
+    border: none;
+    background: transparent;
+    padding: 0.2rem 0.8rem;
+  }
+  
+  .math-row td {
+    text-align: center;
+    vertical-align: bottom;
+    padding-bottom: 0.1rem;
+    font-size: 0.95em;
+    opacity: 0.85;
+  }
+  
+  .text-row td {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 0.1rem;
+    font-style: italic;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+  }
+}
