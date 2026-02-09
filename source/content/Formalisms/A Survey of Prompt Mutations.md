@@ -10,9 +10,9 @@ Prompts can have varying "mutational loads" with missense, nonsense, and synonym
 As partially defined by the [[Genetic Notation for Prompts]]
 ## Synonymous
 Occasionally the typo produces another valid, yet unintentional prompt. This can either be synonymous, as in there is no change to the meaning of the prompt.
-Synonymous: This is not an issue -> This is non-issue
+Synonymous: This is not an issue -> This is a non-issue
 
-This is where
+
 
 $$r \not= r_{m}, \mathbf{x} \not=\mathbf{x}_{m}, \mathbb{I}_{r}=\mathbb{I}_{r,m}$$
  
@@ -60,7 +60,7 @@ $$\mathbb{x}_{corr}=\{ \mathbf{x}_{i},p_{i} \}$$
 
 where $p_i$ defines the probability that the corrected token sequence is $\mathbf{x}_{i}$
 
-This gives us some probability that a nonsense mutation will be read as either a missense or a  synonymous mutation where: 
+This gives us some probability that a nonsense mutation will be read as either a missense or a synonymous mutation where: 
 
 $$Pr(missense|\mathbb{x}_{corr})=\frac{\sum_{i\not=j}{p_{i}}}{n}$$
 
@@ -89,12 +89,12 @@ cat -> tac
 A section of text is repeated
 cat -> catcat
 #### Gene Duplication
-Taking the definition of a gene [[Genetic Notation for Prompts#^b70465]] we can consider the effect when a duplication effect occurs. This means that some information is repeated. 
+Taking the definition of a gene [[Genetic Notation for Prompts#^b70465]] we can consider the effect when a duplication occurs. This means that some information is repeated. 
 **Examples:**
 	the cat is red there-> the cat is red there the cat is red there
 	The cat is red there -> the cat is red there is a red cat
 
-Which implies that there is some subset of $\mathbb{I}_{r}$ that contains redundant information ${}^r\mathbb{I}_{i}$
+which implies that there is some subset of $\mathbb{I}_{r}$ that contains redundant information ${}^r\mathbb{I}_{i}$
 
 $${}^r\mathbb{I}_{i} \in \mathbb{I}_{r}$$
 
@@ -138,7 +138,7 @@ $$\mathbb{I}_{r,m}\cap\mathbb{I}_{r} = \emptyset$$
 Basically just a synonymous mutation.
 ![[Pasted image 20230902231122.png]]
 ## Dominant Negative
-This is similar to a [[Cognitohazard]], where if this mutation occurs it counteracts the ability of other information from being interpreted.
+This is similar to a [[Cognitohazard]], where if this mutation occurs it counteracts the ability of other information to be interpreted.
 **Example**: 
 I have a pet dog that I feed every weekend. I am gone this weekend and need help.-> I had a pet dog that I fed every weekend. I am gone this weekend and need help.
 In this case the dog needs to be fed this weekend, but due to the tense change we are unable to discern this information.
@@ -157,7 +157,7 @@ I am hungry for food -> rood if hun am for gy
 A loss of function mutation that completely removes the ability of the language model to parse the input. Perhaps this would be a token that does not exist in the language models repertoire resulting in an error.
 
 ## Suppressor Mutation
-This is a double mutation where a compensation event occurs. This means the mutation "fixes" the problem introduced by the previous one. However caution with this mutation as it can lead to unexpected cascades down the line as nuance may be subtly shifted.  
+This is a double mutation where a compensation event occurs. This means the mutation "fixes" the problem introduced by the previous one. However, exercise caution with this mutation as it can lead to unexpected cascades down the line as nuance may be subtly shifted.  
 **Example:**
 I am hungry for a red bass. -> I hunger for a red ass -> I hunger for a red fish
 I am hungry for a red bass -> I am hungry for a red ass -> I am hungry for a red bass

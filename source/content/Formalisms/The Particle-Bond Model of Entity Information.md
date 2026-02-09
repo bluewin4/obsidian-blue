@@ -10,16 +10,16 @@ Where $p_i$ represents physical particles and $s_j$ represents conceptual partic
 
 In a language model (LM), from [[Notation for LM Formalization]], the LM is an entity $e_{LM}$, and is described as follows:
 
-- The objective information space $\mathbb{x}$ is the underlying space of all information
+- The objective information space $\mathbb{X}$ is the underlying space of all information
 - The LM's subjective information space $\mathbb{X}_{\phi}$ (access by the LM's inference function "$\phi()$") corresponds to the primary conceptual subspace $\mathbb{S}$ for $e_{LM}$, (i.e. $\mathbb{S} \approx \mathbb{X}_{\phi} \subset \mathbb{X}$).
 - The LM's personality $\mathcal{P} = [M,S,I]$ represents a configuration of conceptual nodes within $\mathbb{S}/\mathbb{X}_{\phi}$. The personality space $\mathbb{\Phi} = \{ \phi(\mathcal{P}, r) \forall r \}$ is the mapping of $\mathcal{P}$ in this space for all possible inputs $r$.
-- The LM's physical substrate (hardware, computation, interface) constitute $\mathbb{P}_{LM}$, with a signalling particle that generates output $o_i$ when a receptor particle receives input $r_i$
+- The LM's physical substrate (hardware, computation, interface) constitute $\mathbb{P}_{LM}$, with a signalling particle that generates output $o_i$ when a receptor particle receives input $r_i$.
 
 The state of each node $x$ can be described probabilistically using a state distribution function $\psi_x(z,t)$, where $x\in\mathcal{E}$ represents a point in state space at time $t$. 
 
 $$ \psi_x(z,t): \mathcal{E} \times \mathbb{R}^+ \rightarrow \mathbb{C} \quad (\text{or } \mathbb{R}^+) $$
 
-We can use $|\psi_x(z,t)|^2$ can be thought of as the probability density associated with node $x$'s state being at location $z$ at time $t$. While the complex form, $\mathbb{C}$, is useful for handling interference phenomena, a real-valued probability distribution, $\mathbb{R}^+$, should be sufficient for many applications.
+$|\psi_x(z,t)|^2$ can be thought of as the probability density associated with node $x$'s state being at location $z$ at time $t$. While the complex form, $\mathbb{C}$, is useful for handling interference phenomena, a real-valued probability distribution, $\mathbb{R}^+$, should be sufficient for many applications.
 
 Entities are bounded systems where causal links between particles exceed a threshold $\tau$:
 
@@ -39,7 +39,7 @@ $$\mathbb{S}_{\phi} \subset \mathbb{S} \subset \mathbb{X}$$
 
 While $\mathbb{X}_{\phi}$ represents the total subjective information space accessible to the entity/model via its overall inference process $\phi$, specific inference processes $\phi_i$ (like $\phi_{logic}$ or $\phi_{emotion}$) might only operate on or access further subsets $\mathbb{S}_{\phi_i} \subset \mathbb{X}_{\phi}$ or $\mathbb{P}_{\phi_i} \subset \mathbb{X}_{\phi}$ depending on their function. This creates a hierarchical structure of accessible spaces.
 
-Inference is the process by which a series of interactions between particles experiences causal procession, "if X then Y". There exists 4 specific forms:
+Inference is the process by which a series of interactions between particles experiences causal procession, "if X then Y". There exist 4 specific forms:
 
 Physical to semantic, "If feel X, then think Y", sensory input alters belief state: $\phi_{P\rightarrow S}: \mathbb{P} \rightarrow \mathbb{S}$
 
@@ -74,7 +74,7 @@ Where $g(B)$ is a function weighting the contribution of individual bond strengt
 
 Changes in attention represent changes in the connectedness of the network, and can be used as a method of detecting the underlying properties of bonds.
 
-That said, if one does not granularly consider every discrete physical interaction that carriers information, then one can also calculate $C(x)$ based also on homogenous bonds (P-P, S-S), although these ultimately rely on physical mediation.
+That said, if one does not granularly consider every discrete physical interaction that carries information, then one can also calculate $C(x)$ based also on homogenous bonds (P-P, S-S), although these ultimately rely on physical mediation.
 
 The underlying bond strengths $B(x_i,x_j)$, reflected in the overall attention profile $\{C(x_i)\}$, determine how effectively particles and interconnected particle structures influence each other's states and positions in their respective spaces. The interaction is not necessarily reciprocal, pain as a concept does not change nearly as much as the physical manifestation of the body does when exposed to it.
 
@@ -122,7 +122,7 @@ $$\psi_{delocalized}(z,t) = \sum_i c_i\psi_i(z,t)$$
    Delocalization creates distributed semantic structures like "vehicle" encompassing multiple related concepts (car, bicycle, boat) with varying activation strengths. When interactions lead to increased bond strengths $B$ involving this structure (reflected in high $C(x)$ for its components), component concepts are activated proportionally to $|c_i|^2$.
 
 3. Coherent Structures: 
-Stable arrangements of multiple particles, such as how believing in a christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
+Stable arrangements of multiple particles, such as how believing in a Christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
 
    $$\Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))$$
    
@@ -142,11 +142,11 @@ $$B(x,y) = f(d(x,y), \theta(x,y))$$
 Where:
 - $B$ is bond strength with units of energy, and represents the work required to separate nodes integrated out to $\infty$. The units depend on the subspace like physical energy (Joules) in $\mathbb{P}$, or computational cost (operations/time) in $\mathbb{S}$
 - $d$ is distance in appropriate space (e.g. Euclidean in $\mathbb{P}$, embedding distance in $\mathbb{S}$)
-- $\theta$ represents the intrinsic tendency for nodes to link together (water and wetness would have high $\theta$). This is modulated by state/orientation (phase $\angle\psi$) into an effective affinity $\theta_{eff}$ that determines the interaction strength. (eg. needle flat vs point). Measurable via joint computational cost or inferred from evaluation of network structure.
+- $\theta$ represents the intrinsic tendency for nodes to link together (water and wetness would have high $\theta$). This is modulated by state/orientation (phase $\angle\psi$) into an effective affinity $\theta_{eff}$ that determines the interaction strength. (e.g. needle flat vs point). Measurable via joint computational cost or inferred from evaluation of network structure.
   
 ## Scale-Dependent Phase Coherence
 
-Phase coherence between particles decays with distance $d$, and is dependent on entity scale $\tau$ on the scale of the entity:
+Phase coherence between particles decays with distance $d$, and is dependent on entity scale $\tau$:
 
 $$\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)}$$
 
@@ -159,7 +159,7 @@ The effective phase relationship between particles becomes:
 
 $$\varphi_{effective}(x,y) = (\angle\psi_x - \angle\psi_y) \cdot \gamma(x,y,\tau)$$
 
-This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at various scales (eg. belief alignment within families vs. nations)
+This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at various scales (e.g. belief alignment within families vs. nations)
 
 ## Boundary Formation
 
@@ -227,7 +227,7 @@ This framework provides tools for analyzing entities as systems of physical ($\m
 4. Modeling influence (charisma $\chi$) as modulation of internal network parameters ($d$, $\theta$) affecting attention ($C$).
 5. Explicit integration with LLM formalism ([[Notation for LM Formalization]]) treating LLMs as entities $e_{LLM}$ operating within objective $\mathbb{X}$ and subjective $\mathbb{X}_{\phi}$ information spaces, with Personality ($\mathcal{P}$) structuring their semantic subspace ($\mathbb{S}$).
 
-While providing expressive power, there is need to operationalise and describe bond strengths (computational cost), transmission probability ($T$), defining benefit/harm scoring functions, and validating the wave analogies empirically.
+While providing expressive power, there is a need to operationalise and describe bond strengths (computational cost), transmission probability ($T$), defining benefit/harm scoring functions, and validating the wave analogies empirically.
 
 Work to empirically test and validate this framework should focus on:
 - Measuring phase coherence between beliefs within entities of various scales to test the scale-dependent coherence factor, $\gamma$.
@@ -293,7 +293,7 @@ Similarly, the charisma functions ($\chi^+$, $\chi^-$, $\chi^0$) map to how each
 
 - Yokai modulate $d$/$\theta$ across multiple scales simultaneously, resulting in complex attention profile changes
 
-### Attentions relationship to beliefs
+### Attention's relationship to beliefs
 
 This relates to the activation function from [[Evolution of Alignment and Values]], where the activation patterns represent the graph of connected beliefs:
 
@@ -309,7 +309,7 @@ This activation probability $A(b,q)$ is the likelihood that the belief subgraph 
 
 Formalizing [[The Ecology of Information]], the fourfold classification of information is:
 
-- - $\mu_m(I, e_i, e_j)$: The aggregate strength of memetic (promotional) components inherent to information $I$ that positively influence its transmission probability from entity $e_i$ to entity $e_j$.
+- $\mu_m(I, e_i, e_j)$: The aggregate strength of memetic (promotional) components inherent to information $I$ that positively influence its transmission probability from entity $e_i$ to entity $e_j$.
 - $\mu_a(I, e_i, e_j)$: The aggregate strength of antimemetic (inhibitory) components inherent to information $I$ that negatively influence its transmission probability from entity $e_i$ to entity $e_j$.
 -  $T(I, e_i, e_j)$: The overall transmission probability of information $I$ from entity $e_i$ to entity $e_j$, determined by $\mu_m(I, e_i, e_j)$ and $\mu_a(I, e_i, e_j)$.
 - $\nu_+(I, e)$: The aggregate positive impact strength of information $I$ on entity $e$, representing the sum of all beneficial effects: work reductions toward beneficial configurations $C_{beneficial}$ plus work increases toward harmful configurations $C_{harmful}$.
@@ -325,9 +325,9 @@ Formalizing [[The Ecology of Information]], the fourfold classification of infor
 
 2. *Antimeme* ($M_a$): Information $I$ is classified as an antimeme for an entity pair $(e_i, e_j)$ if its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$, is greater than its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$. This signifies a net negative drive, or inhibition, of transmission.
    $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}$$
-   The overall transmission probability $T(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in of itself will retain some mutual information.
+   The overall transmission probability $T(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in and of itself will retain some mutual information.
 
-3. *Infoblessing* ($V_{+}$): Information $I$ is classified as an infoblessing for entity $e$ if its aggregate positive impact strength, $\nu_+(I, e)$, is greater than its aggregate negative impact strength, $\nu_-(I, e)$. This signifies a net beneficial effect on the entity's ability to reach favourable and/or avoid unfavourable configurations
+3. *Infoblessing* ($V_{+}$): Information $I$ is classified as an infoblessing for entity $e$ if its aggregate positive impact strength, $\nu_+(I, e)$, is greater than its aggregate negative impact strength, $\nu_-(I, e)$. This signifies a net beneficial effect on the entity's ability to reach favourable and/or avoid unfavourable configurations.
    $$V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}$$
    
    Where $\nu_+(I, e)$ encompasses the magnitude of work reductions toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) < 0$) plus the magnitude of work increases toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) > 0$). This can be grounded through measures like reduced Kullback-Leibler divergence for beneficial configurations or increased path complexity toward harmful configurations.
