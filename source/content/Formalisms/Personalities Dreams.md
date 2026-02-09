@@ -4,9 +4,9 @@ tags:
   - cog-dev
 ---
 
-A personalities dreams should be performed through a series of function.
+A personality's dreams should be performed through a series of functions.
 
-First we recognize some ${\Phi}$ composed of some set LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.
+First we recognize some ${\Phi}$ composed of some set of LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.
 
 $${\Phi} = \phi(\mathcal{P}_{1} ,\mathcal{r}_{1}) \to \phi(\mathcal{P}_{2},\mathcal{r}_{2}) \to \phi(\mathcal{P}_{1} ,\mathcal{r}_{3}) \to \dots \to\phi(\mathcal{P}_{n} ,\mathcal{r}_{j}) \to \phi(\mathcal{P}_{i},\mathcal{r}_{N})\to \mathcal{o}_{final}$$
 
@@ -30,7 +30,7 @@ $$
 \end{cases}
 $$
 
-and this can  be used to build a matrix of Boolean type values
+and this can be used to build a matrix of Boolean type values
 
 For all personalities in a given ${\Phi}$ there are distinct bounds that are considered the "norm". These are calculated via the application of [[Thermodynamics of LLM conformational space]] and the usage of [[Notation for LM Formalization#Detecting information in personality matrices]] 
 

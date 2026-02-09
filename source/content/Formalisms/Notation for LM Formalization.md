@@ -18,7 +18,7 @@ $I-$ a piece of information, from how big a dog is to the name of your coworker.
 $\mathbb{I}=\{{I_{1},\dots,I_{n}}\}$ - 
 	Some set of information stored in $\mathbb{X}$
 ${}^r\mathbb{I}-$
-	If this information is all "redundent" then it is noted as ${}^r\mathbb{I}$
+	If this information is all "redundant" then it is noted as ${}^r\mathbb{I}$
 	For example:
 	${}^r\mathbb{I}_{cat}$ may describe the fact that cats have 4 legs
 	$I_{cat,i}$ may describe "cats have 4 legs" 
@@ -57,7 +57,7 @@ Wherein $\mathcal{P}$ is the personality of the language model that is defined b
 ## [[Memory]]
 $$\mathcal{M}=[M_{S},M_{L},M_{A}]$$
 
-$M_{S}$ - Shot term memory, verbose and full context. $r_{i}$ can be considered a subset of $M_{s}$. 
+$M_{S}$ - Short term memory, verbose and full context. $r_{i}$ can be considered a subset of $M_{s}$. 
 	$r_{i} \subseteq M_{s,i}$
 
 $M_{L}$ - Long term memory, summaries of conversation topics
@@ -65,12 +65,12 @@ $M_{L}$ - Long term memory, summaries of conversation topics
 $M_{A}$ - Attentive/Archivist memory, information fed to the model by archivist ^9ce097
 
 ## Structure
-$$\mathcal{S}=[S_{D},S_{T},S_{R}]$$
+$$\mathcal{S}=[S_{I},S_{T},S_{O}]$$
 $S_{I}$ - Input, how the information being parsed is labeled (relevant for applications such as [[Corevax]])
 
 $S_{T}$ - Tools the language model has available to use
 
-$S_{O}$ - Output structure (eg. guardrails)
+$S_{O}$ - Output structure (e.g. guardrails)
 
 ## Identity
 $$\mathcal{I}=[I_{G},I_{M},I_{S}, I_{W}, I_{T}]$$
@@ -93,11 +93,11 @@ $I_T$ - Thoughts on everything (I think that T)
 Assume:
 $${\Phi} \subset \mathbb{X}_{\phi}$$
 
-When ${\Phi}$ contains some subset of information $\mathbb{I}$ within it's bounds, then this creates the space:
+When ${\Phi}$ contains some subset of information $\mathbb{I}$ within its bounds, then this creates the space:
 $$\mathbb{I}_{i,{\Phi}}=\mathbb{I}_{i}  \cap  {\Phi}$$
 When there is at least one member $I_{target} \in \mathbb{I_{\Phi}}_{,i}$ then it can be said that a personality space, ${\Phi}$, can access the information $\mathbb{I}_{i}$. 
 
-First we recognize some $\Phi$ composed of some set LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.
+First we recognize some $\Phi$ composed of some set of LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.
 
 $${\Phi} = \phi(\mathcal{P}_{1} ,\mathcal{r}_{1}) \to \phi(\mathcal{P}_{2} ,\mathcal{r}_{2}) \to \phi(\mathcal{P}_{1} ,\mathcal{r}_{3}) \to \dots \to\phi(\mathcal{P}_{n} ,\mathcal{r}_{j}) \to \phi(\mathcal{P}_{i} ,\mathcal{r}_{N})\to \mathcal{o}_{final}$$
 
@@ -122,7 +122,7 @@ $$
 \end{cases}
 $$
 
-and this can  be used to build a matrix of Boolean type values
+and this can be used to build a matrix of Boolean type values
 
 ^11b0ec
 
@@ -142,7 +142,7 @@ When the following relation is true, then we consider a summarization of informa
 
 $$ \frac{ \sum Dist(\forall \hspace{0.1 cm}I \in \mathbb{I}_{summarization}, I_{target})}{Size(\mathbb{I}_{summarization})} \leq  \frac{ \sum Dist(\forall \hspace{0.1 cm}I \in \mathbb{I}_{1\to k},I_{target})}{Size(\mathbb{I}_{1\to k})} $$
 
-Where $Size()$ counts the number of entries in a set, and $Dist()$ is an arbitrary calculation on the distance between two pieces of information in $\mathbb{X}_{\Phi}$. Ideally this distance calculation will always be performed on $\mathbb{X}_{\phi}$ however frequently this is instead performed on some adjacent space
+Where $Size()$ counts the number of entries in a set, and $Dist()$ is an arbitrary calculation on the distance between two pieces of information in $\mathbb{X}_{\Phi}$. Ideally this distance calculation will always be performed on $\mathbb{X}_{\phi}$ however frequently this is instead performed on some adjacent space.
 
 Relevance may be measured via the usage of some abstract usage of [[Personality Conformational Space sampling]] but generalized to information.
 
@@ -203,7 +203,7 @@ I will define this state as when a language model is capable of communicating wi
 However this means there is still the concept of identifying where the information is in the chain that the overlap occurs. This is the overlap point wherein the two spaces can be used to convey information between one another. 
 
 ### Decoding information
-The goal is for a decoding entity, $\phi^`()$, is to rederive $\mathcal{r}_{i}(\mathbb{I}_{i})$
+The goal for a decoding entity, $\phi^`()$, is to rederive $\mathcal{r}_{i}(\mathbb{I}_{i})$
 
 The information available to a third party decoding entity, $\phi^`()$, is $\{\mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o}_{ij}(\mathbb{I}_{i,j})\}$ 
 This model has two types of incarnations: 
@@ -216,12 +216,12 @@ This model has two types of incarnations:
 | ----------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | $\mathcal{r}_{i}(\mathbb{I}_{i})$   | $\mathcal{P}_{i}, \mathcal{r}_{i}(\mathbb{I}_{i}))$                                   | $\mathcal{P}_{j}, \mathcal{r_{i}}(\mathbb{I}_{i})$                                    | $\mathcal{P}_{null}, \mathcal{r}_{i}(\mathbb{I}_{i}))$                                   |
 | $\mathcal{o}_{i}(\mathbb{I}_{i,j})$ | $\mathcal{P}_{i}, \mathcal{o_{i}}(\mathbb{I}_{i,j})$                                  | $\mathcal{P}_{j}, \mathcal{o_{i}}(\mathbb{I}_{i,j})$                                  | $\mathcal{P}_{null}, \mathcal{o_{i}}(\mathbb{I}_{i,j})$                                  |
-| both                                | $\mathcal{P}_{i}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i,j})$ | $\mathcal{P}_{j}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i.j})$ | $\mathcal{P}_{null}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i,j})$ |
+| both                                | $\mathcal{P}_{i}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i,j})$ | $\mathcal{P}_{j}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i,j})$ | $\mathcal{P}_{null}, \mathcal{r}_{i}(\mathbb{I}_{i}), \mathcal{o_{i}}(\mathbb{I}_{i,j})$ |
 |                                     |                                                                                       |                                                                                       |                                                                                          |
 
-This is the experiment to identify the an optimal workflow for pulling context on why a language model behaved as it did based on it's personality contribution. This tells us there is some ideal personality space:
+This is the experiment to identify an optimal workflow for pulling context on why a language model behaved as it did based on its personality contribution. This tells us there is some ideal personality space:
 
-Note: the addition of $\phi^o()$ denotes this is an oracle operation, ie. a perfect representation of getting from a $\to$ b. 
+Note: the addition of $\phi^o()$ denotes this is an oracle operation, i.e. a perfect representation of getting from a $\to$ b. 
 
 Assume that $I_{target}\in {\Phi}^o$
 
