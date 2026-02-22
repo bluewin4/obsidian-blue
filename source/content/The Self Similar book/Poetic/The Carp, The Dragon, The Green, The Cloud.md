@@ -1,3 +1,7 @@
+---
+date: 2025-05-21
+lastmod: 2025-08-24
+---
 On the first day the sun rose quiet on still waters<br>
 At the zenith the vapors rose from the one who drowns<br>
 On the first night the sun set stymied by new daughters <br>

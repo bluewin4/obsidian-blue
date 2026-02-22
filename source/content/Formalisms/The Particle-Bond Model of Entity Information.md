@@ -1,3 +1,7 @@
+---
+date: 2025-03-26
+lastmod: 2026-02-18
+---
    This is a formalisation I am using to help clarify an intuition I have about the structure of agents, which I refer to as entities here. Each entity is represented as a structure similar to a highly connected branched chain copolymer, where physical and conceptual "particles" make up the monomeric units. Entities naturally compute due to their fluctuations in physical and conceptual space resulting in them folding and unfolding into different configurations. 
 
    ## Entity and Particle Spaces

@@ -1,3 +1,6 @@
+---
+date: 2025-03-26
+---
 The villa was near the center of the peninsula of experience. For I had only ever been to the South, West, and East of the Land of Lost Hope. Perhaps it was an island, or is a continent merely a convention of the large?
 
   

@@ -1,3 +1,6 @@
+---
+date: 2025-12-08
+---
 A rigorous accounting of the soul and qualia, and the rejection of consciousness as a useful category.
 
 To start, I reject purely bio-chauvinistic perspectives on experience. Perhaps it is my déformation professionnelle; I have looked into the lowest levels of biology up to edifices of tissue and found nothing to convince me of special status. So, for this reason I operate on the level of phenomenological experience.

@@ -2,8 +2,9 @@
 tags:
   - LLM
   - thermodynamics
+date: 2025-03-17
+lastmod: 2025-03-19
 ---
-
 ${\Phi}_{i}$ is considered phase separated if the sum of probabilities of all tuples of the form $(\mathbb{P},\mathbb{r}_{ideal})$ , when evaluated by language model, preferentially map into the space ${\Phi}_{i}$ : 
 
 $$Pr( \phi(\mathcal{P},\mathcal{r}_{ideal}) \in {\Phi}_{i})\hspace{0.2 cm}> \sum_{j=1,\hspace{0.1 cm}j \neq i}^{N} Pr( \phi(\mathcal{P},\mathcal{r}_{ideal}) \in {\Phi}_{j})$$

@@ -2,8 +2,9 @@
 tags:
   - biology
   - LLM
+date: 2025-03-17
+lastmod: 2026-02-09
 ---
-
 # Mutation Classes
 Prompts can have varying "mutational loads" with missense, nonsense, and synonymous mutations. 
 

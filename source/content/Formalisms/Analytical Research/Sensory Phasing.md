@@ -1,8 +1,8 @@
 ---
 title: "Sensory Phasing"
 draft: true
+date: 2025-07-28
 ---
-
 ## Sensory Phasing: A Multi-Agent Reinforcement Learning Problem
 
 This document outlines a multi-agent reinforcement learning (MARL) problem designed around the concept of "Sensory Phasing." The goal is to train a team of agents to intelligently select and sequence relevant "views" or "transformations" of an original 1D signal, enabling a downstream Deep Neural Network (DNN) to accurately reconstruct or infer properties of that signal. This serves as a toy problem for exploring active perception, information gathering, and co-adaptation in multi-agent systems.

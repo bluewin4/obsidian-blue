@@ -1,3 +1,6 @@
+---
+date: 2025-12-08
+---
 Christoff was new to Chicago, having been born in Oxford; he had never left his county before. His home overflowed with affection, emotional and material. Thankfully, he absorbed that love with grace, always a soft smile tugging his lips, a halo of soft gold hair, and cloudy blue eyes that settled like a blanket on whoever they beheld. There was only so much naivety one could take before they must fling themselves out into the world.
 
 His mother had *known* he would be like his father, studying at Cambridge and then returning to his home a professor. His father saw clearly, Christoff had always been interested in what made people tick and where that vital spark seemed to come from. His heavily annotated copies of *The Red Book* and *On the Origin of Species* slowly revealed the tree of life.

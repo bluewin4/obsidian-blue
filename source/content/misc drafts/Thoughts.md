@@ -1,3 +1,7 @@
+---
+date: 2025-07-18
+lastmod: 2025-12-08
+---
 While walking through the day many thoughts may avail themselves upon me, not all of them can fit within the strict structure of [[The Self Similar Book]]. 
 
 One thought I have right now is the phantom degrees of charisma, because charisma is about applying commonalities (directly or inversely) to manipulate the bond structure of another entity. But truly charismatic people rely on contextual entities to mediate these modulations.

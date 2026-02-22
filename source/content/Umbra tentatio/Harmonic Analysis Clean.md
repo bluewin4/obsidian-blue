@@ -1,3 +1,6 @@
+---
+date: 2025-12-08
+---
 **Kenji Tanaka¹, Anna Schmidt², Vladimir Petrov², Li Chen¹**  
 ¹Kyoto Geodeep Laboratory (KGL), Kyoto, Japan  
 ²Max Planck Institute for Geodynamics, Göttingen, Germany  

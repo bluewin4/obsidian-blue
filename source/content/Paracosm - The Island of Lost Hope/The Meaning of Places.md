@@ -1,3 +1,6 @@
+---
+date: 2025-07-18
+---
 Today I sat waiting for a friend to arrive for a meal together. In this time I looked down the street and saw the green-gold leaves of trees lush with summer. The visual was so striking, the colours so particular, it called me to a place I had not been in years. [[The Sungold Villa]]. The resonance called forth associations I did not know, the image imprinting and recalling all the same. Creating a memory to feed that place in my mind that I did not realise, until then, was processing for me.
 
 Upon this revelation percolating up into my mind a cascade of associations followed. For if my mind had been tacitly sorting these experiences, nestling them in the leaves of the grand oak. What other pieces have been sorted unconsciously? 

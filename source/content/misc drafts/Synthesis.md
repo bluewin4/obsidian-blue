@@ -6,8 +6,8 @@ tags:
   - consciousness
   - ethics
   - AI-generated content
+date: 2025-12-16
 ---
-
 Consciousness is a contaminated word. Its definitions shift like sand depending on the purpose of the user - sentience, awareness, computational capacity, aliveness, or simply "like us." This imprecision has made it central to ethics precisely because it allows arguments to be made without rigorous analysis. One can draw a boundary for consciousness anywhere and call it moral.
 
 In this work I argue for abandoning consciousness as a category and resurrecting an older term, *soul*, redefined as the gestalt of patterns that maintain coherence at a selected level of abstraction. It reframes the question from "what intrinsic property grants moral status?" to "what patterns do we share and exchange?"

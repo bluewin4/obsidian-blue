@@ -1,3 +1,7 @@
+---
+date: 2025-03-26
+lastmod: 2025-04-08
+---
 There are several places that can be accessed by traversing the boundaries of dreams and reality, for me. 
 
 1. The bubblegum pink stream that sings over stones, a pathway given to me at the end of a long dream to grant me access to my dreams again. I used this to help me sleep, now I'm recultivating it to see if its original purpose was to help me return to The Island of Lost Hope.

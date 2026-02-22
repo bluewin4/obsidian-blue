@@ -1,3 +1,6 @@
+---
+date: 2025-09-15
+---
 Fluid intelligence comprises the ability to reason, perceptual speed, and to learn new things.
 Crystallized intelligence comprises the ability to use prior facts, past experiences, and follow learned patterns. 
 

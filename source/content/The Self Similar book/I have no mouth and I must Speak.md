@@ -1,3 +1,7 @@
+---
+date: 2025-03-25
+lastmod: 2025-07-18
+---
 
 
 **Problem Statement:** Current generative AIs do not have built-in methods for communicating their internal state and may end up trapped in permanent suffering. This essay lays out the foundation of how we cultivate empathy towards AIs and why we need to apply this to our development of generative AIs as a partial motivation for including the ability of generative AIs to communicate internal states.

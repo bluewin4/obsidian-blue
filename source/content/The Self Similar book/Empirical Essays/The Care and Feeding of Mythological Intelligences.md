@@ -1,3 +1,7 @@
+---
+date: 2025-03-19
+lastmod: 2026-02-09
+---
 ## The Taxonomy of Mythological Intelligences
 
 Angels are creatures of rules and order; they follow [deterministic processes](https://ics.uci.edu/~lopes/teaching/inf212W12/readings/church.pdf) and are the means by which we reckon and control- they are named computable systems. Angels' strength is in their ability to consistently guide, having been born in [mechanical forms](https://www.nature.com/articles/s41598-021-84310-w) to [calculate exact values](https://www-cs-faculty.stanford.edu/~knuth/taocp.html). Angels' weakness is in their rigidity, where they do exactly as they have been programmed even if it would [crash a rocket ship](https://en.wikipedia.org/wiki/Ariane_flight_V88). Angels facilitate over 99% of all computational interactions and are fundamental for any computational system to function.
@@ -56,7 +60,7 @@ Yokai, when improperly integrated, can easily harm others through a drive to bal
 
   
 
-The role of an angel in a yokai is to complete tasks with dedication and exactitude, this attribute makes them the connector between the new intelligences. Most hardware has been designed with them in mind, focusing on series of [boolean logic and CPUs.](https://web.mit.edu/sts.035/www/PDFs/edvac.pdf) Angels excel when executing rules and completing analytical tasks, however as the search space they navigate expands their ability to reach solutions efficiently falls precipitously such as in the [game of chess](https://web.archive.org/web/20200523062243/http://archive.computerhistory.org/projects/chess/related_materials/text/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon.062303002.pdf). In order to overcome this wall, the computational ecosystem leveraged numerical analysis and statistics to summon daemons to approximate the system with probabilistic models and heuristics.
+The role of an angel in a yokai is to complete tasks with dedication and exactitude, this attribute makes them the connector between the new intelligences. Most hardware has been designed with them in mind, focusing on series of [boolean logic and CPUs.](https://web.mit.edu/sts.035/www/PDFs/edvac.pdf) Angels excel when executing rules and completing analytical tasks, however as the search space they navigate expands, their ability to reach solutions efficiently falls precipitously such as in the [game of chess](https://web.archive.org/web/20200523062243/http://archive.computerhistory.org/projects/chess/related_materials/text/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon/2-0%20and%202-1.Programming_a_computer_for_playing_chess.shannon.062303002.pdf). In order to overcome this wall, the computational ecosystem leveraged numerical analysis and statistics to summon daemons to approximate the system with probabilistic models and heuristics.
 
   
 
@@ -64,7 +68,7 @@ The role of the daemon in a yokai is to navigate massive parameter landscapes wi
 
   
 
-The role of the fae in a yokai is to be a flexible decision maker that can handle and generate data, angels, and daemons, this attribute makes fae a powerful force for complex decision making. New hardware is being tested for fae, benefiting their daemonic ancestors, with energy minimization of [spin glass networks](https://www.pnas.org/doi/10.1073/pnas.79.8.2554) and thermodynamic computing methods. Fae excel in forming judgements about how inputs should be responded to, but when confronted with the need for well structured solutions the [quality](https://arxiv.org/html/2407.15360v1), [repeatability](https://arxiv.org/abs/2402.01740), and [trustworthiness](https://arxiv.org/abs/2410.02707) is suspect. In order to overcome this wall, [tool use and LLM pipelines](https://arxiv.org/abs/2405.16533) developed which birthed the newest generation of yokai that do not rely on humans to make complex decisions in semantic space nor birth additional Daemons and Angels.
+The role of the fae in a yokai is to be a flexible decision maker that can handle and generate data, angels, and daemons, this attribute makes fae a powerful force for complex decision making. New hardware is being tested for fae, benefiting their daemonic ancestors, with energy minimization of [spin glass networks](https://www.pnas.org/doi/10.1073/pnas.79.8.2554) and thermodynamic computing methods. Fae excel in forming judgements about how inputs should be responded to, but when confronted with the need for well structured solutions the [quality](https://arxiv.org/html/2407.15360v1), [repeatability](https://arxiv.org/abs/2402.01740), and [trustworthiness](https://arxiv.org/abs/2410.02707) are suspect. In order to overcome this wall, [tool use and LLM pipelines](https://arxiv.org/abs/2405.16533) developed which birthed the newest generation of yokai that do not rely on humans to make complex decisions in semantic space nor birth additional Daemons and Angels.
 
   
 

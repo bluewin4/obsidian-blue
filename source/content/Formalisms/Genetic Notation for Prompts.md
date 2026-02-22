@@ -2,8 +2,8 @@
 tags:
   - biology
   - LLM
+date: 2025-03-17
 ---
-
 ## Definition
 An input $\mathcal{r}$ is composed of a set of information $\mathbb{I}_{r}$ that is represented by a token sequence $\mathbf{x}=\{ x_{1},\dots,x_{n} \}$ where $n$ is equal to the token length of $\mathcal{r}$.
 

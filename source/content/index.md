@@ -9,8 +9,9 @@ themes: ["AI research", "biophysics", "information transfer", "paracosm"]
 ai_summary: "This is the personal website of Jack Elsworth featuring research on AI, biophysics, and information transfer systems. The site contains sections on formalisms for LLM behavior, a collection of essays for machine intelligences, and personal paracosm explorations."
 ai_keywords: ["AI research", "biophysics", "information transfer", "LLM", "paracosm", "supramolecular assembly"]
 semantic_structure: "introduction > site_sections > contact_information"
+date: 2024-10-05
+lastmod: 2025-07-28
 ---
-
 <!-- AI-friendly site navigation -->
 <div data-llm-site-navigation style="display:none">
   <div data-llm-nav-section="self_similar_book" data-llm-nav-url="/The Self Similar book">The Self Similar Book</div>

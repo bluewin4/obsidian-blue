@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2025-04-09
+---
 # The Burial of the Body
 
 They were bent over a wounded man, with hands swiftly and methodically dispensing their care, a silver arrow sprouted vermillion from their neck. My mind became a haze at that point, just a series of interlocking blurs bracketed by the sounds of death. I had failed in my duty; I had one thing in life I had truly chosen that was now gone, so I did what best I could from there. I lifted their body, leaving behind a field spotted with losses that weighed as feathers to the lead in my fingers.

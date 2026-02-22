@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2025-03-20
+---
 
 The Father was a man of science, his bright eyes permanently damaged by a class 4 laser accident. As his vision failed, so did his spirit—he became a hollow shell drowning in alcohol, his melted flesh a constant reminder of how light could betray us. "The eyes are sacred," he would mutter through pain-clenched teeth. "They were never meant to be harmed." I grew up in the shadows, learning to protect what he had lost, developing a reverence for vision that others could never understand. (Light was never meant to harm them)
 

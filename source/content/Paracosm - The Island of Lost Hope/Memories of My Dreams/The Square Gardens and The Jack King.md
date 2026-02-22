@@ -1,3 +1,6 @@
+---
+date: 2025-03-26
+---
 The square gardens are a place dripping with the verdure of spring, with flowers bursting from vibrant green grass at every possible juncture. Along the edge of the garden a darker forest looms, with a [deep forest green](#1e5636) canopy that sat atop unresolvable tree trunks; The Primordial Woods. The size of each square was three times the size of my body laid down on each end, with the lines between the square filled with restless waters an arms-length in width bracketed by grass bursting from the banks. The air was drenched in sunlight reflecting from insect wings and defracting through a gentle haze of pollen. Through my examination the sensation in my stomach would only grow more pronounced, but by all that is lovely it was indeed an idyllic scene.
 
   

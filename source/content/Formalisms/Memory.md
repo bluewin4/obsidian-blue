@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2025-03-23
+---
 
 Memory is the formation of:
 $$\mathcal{M}=[M_{S},M_{L},M_{A}]$$ $M_{S}$ - Shot term memory, verbose and full context

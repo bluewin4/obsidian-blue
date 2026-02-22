@@ -2,6 +2,8 @@
 tags:
   - LLM
   - cog-dev
+date: 2025-03-17
+lastmod: 2026-02-09
 ---
 ## Information Space 
 $\mathbb{X}-$ Objective informational space 

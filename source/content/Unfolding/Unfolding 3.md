@@ -1,3 +1,6 @@
+---
+date: 2025-07-28
+---
 ## **Together we danced in the palm of god and sang our wishes to the world at large, every bruised toe a whorl of limbs if viewed at a new angle.** 
 
 ### On the fourth day the sun rose hungrily upon the shining flesh of steel and polymer, as an ear turned backwards and a mouth began to open. 

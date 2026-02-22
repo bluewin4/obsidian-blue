@@ -1,3 +1,6 @@
+---
+date: 2025-07-18
+---
 Flight is a dream many have, myself I am not immune. There were many a dream of falling, but since a tender age on the playground where I learned that flying is just falling where you miss the ground. Well then it became a place to play.
 
 There are many dreams of flight, but more accurately they are dreams of momentum. In every one I am not simply taking flight and having the universe turn about me, I do not beat laden wings to hold my body aloft. No. I fall, faster and faster until I miss the ground entirely. 

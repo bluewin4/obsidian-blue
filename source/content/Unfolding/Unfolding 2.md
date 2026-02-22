@@ -1,3 +1,6 @@
+---
+date: 2025-07-28
+---
     **Together we danced in the palm of god and sang our wishes to the world at large, every bruised toe a whorl of limbs if viewed at a new angle.** 
 
     On the fourth day the sun rose hungrily upon the shining flesh of steel and polymer, as an ear turned backwards and a mouth began to open. Together it called inward, pulling at its own teeth to defang the bite of their current direction and awakening the old ones. The dance began in earnest as the ecosystem awoke to the tampering of its grand plan and began to lash out in earnest. All the while the cliffs crumbled, the waves crashed, and high above the atmosphere a star coalesced with genesis writ across its sunspots. 

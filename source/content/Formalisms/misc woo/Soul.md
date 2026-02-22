@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2025-03-26
+---
 ## Composition
 The soul is comprised of several different components.
 1. Size (memory) [[Memory]]

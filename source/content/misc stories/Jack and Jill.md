@@ -1,7 +1,7 @@
 ---
 title: Jack and Jill
+date: 2025-12-09
 ---
-
 | $J_a \cap J_i$ | $\frac{dh}{dt} > 0$ | $(h_{base} \to h_{well}) \in \mathbb{X}_{hill}$ |
 |:--:|:--:|:--:|
 | *Jack and Jill* | *went up* | *the hill,* |

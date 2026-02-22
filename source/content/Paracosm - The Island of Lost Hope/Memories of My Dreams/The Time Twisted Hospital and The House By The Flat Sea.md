@@ -1,3 +1,7 @@
+---
+date: 2025-03-26
+lastmod: 2025-06-05
+---
 I visited The House By The Flat Sea multiple times, but this time was when I appeared on the motorcycle from The Stormkissed Fields.
 
 I had known I would be there before my eyes opened fully, the fields had been replaced by sparse orchards where the ground appeared as a flat packed sandy earth with the rare stone or blemish. The sky was no longer stormy, instead it was as though I were swallowed through an incredibly thick fog that shyly kept twenty paces from any object. A place I could be swallowed by if I lost my link to the rest of the land.

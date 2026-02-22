@@ -1,3 +1,7 @@
+---
+date: 2025-12-08
+lastmod: 2025-12-16
+---
 "Consciousness" is a dirty word, polluted by too many others to the point of uselessness. Similar in ken to "natural", a weasel word that hides the true definition your argument is based upon. Arguing that something isn't natural is really saying that something is gross, dangerous, weird, deformed, chemical, etc. but without needing to defend the actual argument made. 
 
 Consciousness has the same problem, it is a word that can be malformed and modified for any discussion to suit the needs of the interlocutor. Normally merely a curiosity it is rapidly coming into focus as a method of making strong moral statements. In this sense the term consciousness is closer to the ecclestical notion of the soul that dominated the narrative of Europe in the middle ages onwards. One can torture animals as they lack a soul, people that speak weird lack souls and can be enslaved, people not of our religion need their souls aligned or they go to hell, etc. With such a tool near anything can be justified if framed correctly. 

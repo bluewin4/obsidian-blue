@@ -1,3 +1,7 @@
+---
+date: 2025-03-19
+lastmod: 2025-03-26
+---
 This is a paracosm I dreamt my way through for more than a decade as I grew up. It's a strange place, as any dream place is, but I found my way there and I feel I am finding my way back recently. I wish to be prepared, so I will write my experiences here and reflect on my past ones.
 
 The way you can tell you are there is by a hollowness inside of your stomach and chest, one that is only filled with a sense of impending doom. 

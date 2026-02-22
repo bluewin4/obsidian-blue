@@ -2,8 +2,9 @@
 tags:
   - LLM
   - thermodynamics
+date: 2025-03-17
+lastmod: 2025-04-14
 ---
-
 Measure the constant heat capacity, $\Delta G$, of unfolding,
 This can be done either by changing the temperature, or by changing the sequence. You can measure how many times you get a "misfold". So you measure for a specific sequence and then mutate it to measure how robust the mutation is to a "misfold". This can be used to measure the "stability of a LLM".
 

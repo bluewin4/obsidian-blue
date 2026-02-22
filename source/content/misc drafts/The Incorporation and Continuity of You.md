@@ -1,8 +1,9 @@
 ---
 title: "The Incorporation and Continuity of You"
 draft: true
+date: 2025-07-18
+lastmod: 2025-12-16
 ---
-
 What determines when an entity will sacrifice physical continuity to preserve incorporated identity? This fundamental question cuts across scales from cellular apoptosis to heroic sacrifice, from psychological transformation to civilizational collapse. 
 
 **The Core Paradox:** Why do entities sometimes act against their own physical survival? The answer lies in understanding that survival itself is multilayered - what survives, how it survives, and what it's willing to sacrifice to continue existing in its essential form.

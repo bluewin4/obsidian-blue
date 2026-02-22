@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2026-02-18
+---
     # Introduction
 
     This is an essay that was grown from a thought during graduate school about how to conceptualise manipulative people and how to handle their behaviour. Initially it was a useful way to help categorise interactions with manipulative people, and from there it grew into strategies to identify holes in their manipulations or protect my own boundaries. Surprisingly the strategies aligned with the advice on handling such malevolent interactions (i.e. grey stoning, firm boundaries, don't play games, record information, limiting interactions, finding support from others). 

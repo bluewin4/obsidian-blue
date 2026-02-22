@@ -2,8 +2,9 @@
 tags:
   - LLM
   - cog-dev
+date: 2025-03-17
+lastmod: 2026-02-09
 ---
-
 A personality's dreams should be performed through a series of functions.
 
 First we recognize some ${\Phi}$ composed of some set of LLM calls on a set of tuples $\{\phi(\mathcal{P}_{1} ,\mathcal{r}_{1}),..,\phi(\mathcal{P}_{i}, \mathcal{r}_{N}) \}$. Where the list contains n distinct $\mathcal{P}$ and N distinct $\mathcal{r}$. The order of operations is not necessarily direct.

@@ -1,3 +1,6 @@
+---
+date: 2025-12-08
+---
 
 Harmonic Analysis of Shallow Mantle and Crust Correlated Cryptic Niche
 

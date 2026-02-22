@@ -1,3 +1,7 @@
+---
+date: 2025-04-08
+lastmod: 2026-02-09
+---
 
 
 AI agents are capable of complex behaviour that leverages tools from domains as far flung as lab automation to a humble calculator. When using these tools a generative AI based agent is liable to apply an alignment valence to their inputs, such as providing code with exploits (negative valence) or notifying a supervisor of an identified risk (positive valence). Commonly one approaches misaligned agent behaviour as being solely a problem in AI architecture/training, rather than the informational packets being passed. This is a problem long in coming, with a cogent treatment of the general case of rewards in networks that corrupt signals being provided by [Everitt and Hutter in 2018](https://www.tomeveritt.se/papers/alignment.pdf).

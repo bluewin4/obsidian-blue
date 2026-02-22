@@ -1,3 +1,6 @@
+---
+date: 2025-03-26
+---
 This is an unpleasant place, I do not recommend continuing to read. I might imagine The Jack King rules here, but frankly I do not know.
 
 

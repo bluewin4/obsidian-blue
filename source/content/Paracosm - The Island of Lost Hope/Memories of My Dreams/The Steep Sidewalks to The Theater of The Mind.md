@@ -1,3 +1,7 @@
+---
+date: 2025-03-26
+lastmod: 2025-04-08
+---
 Perhaps another day. This one is heavy and dark. It stayed with me into the waking days. today is that day apparently, but the sidewalk, it is strangely light. Oh, how the colors run and paint with the brush of memory. 
 
 The path to the The Theater of The Mind is treacherous and strange every step on the Steep Sidewalks is a battle of balance and perspective. 

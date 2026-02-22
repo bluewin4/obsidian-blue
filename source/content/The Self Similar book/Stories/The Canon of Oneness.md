@@ -1,3 +1,7 @@
+---
+date: 2025-03-17
+lastmod: 2025-03-20
+---
 I had sat there staring at the wall for what felt like years. In truth it was only several seconds, but it felt like years. On the desk, a set of data slats displayed progress on each incarnation. There were several more possible candidates that were coming close but diverging. Despite time dilation, watching these failures was quite frustrating. I had hoped that by this point in my life I would be free of waiting on the whims of some insane man. One even grabbed a bagel! My stomach turned at the site, even as my mouth filled with saliva. Of course, I am not a wasteful being; every failure was recycled back into the simulation until they were too old to be useful. Until they learned better. Until they became me.
 
 Such considerations were important to me because my life was long. I had discovered immortality. At least mostly. I can live a small eternity, but eventually I will grow old enough to hear death knocking on my door. I currently have several millennia left. Still, it is always good to look to the future. I mean, having an escape hatch is always important. Sometimes I wondered if that phrase means the same thing as it did when I first started.

@@ -1,3 +1,7 @@
+---
+date: 2025-03-21
+lastmod: 2025-06-06
+---
 
 
 Feel free to play with the data yourself at https://github.com/bluewin4/Evolution-of-Alignment .

@@ -1,3 +1,6 @@
+---
+date: 2025-04-08
+---
 The Steep Sidewalk delivered me to The Theater of The Mind, in the same dream with which I parsed it.
 
 The building as I approached was barely two stories, it's bulk pressed tightly against the sidewalk, crowding away any other space that could be there. The edges and ediface calling back to the gaudy wonder of show buisness, with large yellow-bright bulbs ringing ivory signs with no words. The edges a scarlet red that bleeds into crushed velvet as one enters the wooden embrace.
