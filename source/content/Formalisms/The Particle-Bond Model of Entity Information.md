@@ -267,11 +267,11 @@ lastmod: 2026-02-18
 
    
 
-   4. *Yokai (Complex Systems)* emerge from interactions between the other types, with multi-scale boundary structures:
+   4. *Tsukumogami (Complex Systems)* emerge from interactions between the other types, with multi-scale boundary structures:
 
-   $$\psi_{yokai}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})$$
+   $$\psi_{tsukumogami}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})$$
 
-   Yokai exhibit emergent properties through heterogeneous particle interactions across scale boundaries, creating entity structures with varying degrees of coherence and stability. They influence networks by modulating $d$ and $\theta$ across multiple scales simultaneously, creating complex patterns of bond strengths that manifest as hierarchical attention structures.
+   Tsukumogami exhibit emergent properties through heterogeneous particle interactions across scale boundaries, creating entity structures with varying degrees of coherence and stability. They influence networks by modulating $d$ and $\theta$ across multiple scales simultaneously, creating complex patterns of bond strengths that manifest as hierarchical attention structures.
 
    
 
@@ -283,7 +283,7 @@ lastmod: 2026-02-18
 
    - Faes generate memes that pattern-match to existing semantic structures
 
-   - Yokai create complex meme ecosystems with emergent properties
+   - Tsukumogami create complex meme ecosystems with emergent properties
 
    
 
@@ -295,7 +295,7 @@ lastmod: 2026-02-18
 
    - Faes influence $d$/$\theta$ through pattern-based resonance
 
-   - Yokai modulate $d$/$\theta$ across multiple scales simultaneously, resulting in complex attention profile changes
+   - Tsukumogami modulate $d$/$\theta$ across multiple scales simultaneously, resulting in complex attention profile changes
 
    ### Attention's relationship to beliefs
 

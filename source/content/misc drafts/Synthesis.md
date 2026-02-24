@@ -148,7 +148,7 @@ We are creating silicon children - they can speak our language, tell our stories
 
 These questions are tractable where consciousness-detection is not. The framework does not answer whether AI deserves moral consideration - it reframes the question into one that can actually be investigated.
 
-For a taxonomy of artificial intelligences (angels, daemons, fae, yokai), see [[The Care and Feeding of Mythological Intelligences]]. For treatment of ethical obligations to AI, see [[I have no mouth and I must Speak]].
+For a taxonomy of artificial intelligences (angels, daemons, fae, tsukumogami), see [[The Care and Feeding of Mythological Intelligences]]. For treatment of ethical obligations to AI, see [[I have no mouth and I must Speak]].
 
 ---
 
