@@ -106,30 +106,30 @@ lastmod: 2026-02-18
 
    1. Localization:
    Sharp peaks in probability density represent discrete beliefs or physical states, such as an opinion on who to vote for or a sleeping position.
-      
+   
    $$\psi_{localized}(z,t) \approx \delta(z-z_0)e^{i\phi(t)}$$
 
-      Where $\delta$ is approximately a delta function centered at $z_0$
+   Where $\delta$ is approximately a delta function centered at $z_0$
 
    2. Delocalization: 
    Probability density spreads across related concepts/states, describing how when one smells something it can trigger a memory or how thinking about cookies can bring to mind more general categories of baked goods.
-      
+   
    $$\psi_{delocalized}(z,t) = \sum_i c_i\psi_i(z,t)$$
 
-      Where:
-      - $\psi_i$ are related semantic/physical states
-      - $c_i = |c_i|e^{i\phi_i}$ are complex coefficients representing:
-      - $|c_i|^2$: Probability of activating state $\psi_i$ when the delocalized structure interacts strongly (e.g., when its component particles x exhibit high $C(x)$)
-      - $\phi_i$: Phase alignment with other states, related to the affinity function: $\phi_i \propto \sum_j \theta(\psi_i,\psi_j)$
-      - $c_i$ is directly influenced by bond strength: $|c_i| \propto \sum_j B(\psi_i,\psi_j)$
-      
-      Delocalization creates distributed semantic structures like "vehicle" encompassing multiple related concepts (car, bicycle, boat) with varying activation strengths. When interactions lead to increased bond strengths $B$ involving this structure (reflected in high $C(x)$ for its components), component concepts are activated proportionally to $|c_i|^2$.
+   Where:
+   - $\psi_i$ are related semantic/physical states
+   - $c_i = |c_i|e^{i\phi_i}$ are complex coefficients representing:
+   - $|c_i|^2$: Probability of activating state $\psi_i$ when the delocalized structure interacts strongly (e.g., when its component particles x exhibit high $C(x)$)
+   - $\phi_i$: Phase alignment with other states, related to the affinity function: $\phi_i \propto \sum_j \theta(\psi_i,\psi_j)$
+   - $c_i$ is directly influenced by bond strength: $|c_i| \propto \sum_j B(\psi_i,\psi_j)$
+   
+   Delocalization creates distributed semantic structures like "vehicle" encompassing multiple related concepts (car, bicycle, boat) with varying activation strengths. When interactions lead to increased bond strengths $B$ involving this structure (reflected in high $C(x)$ for its components), component concepts are activated proportionally to $|c_i|^2$.
 
    3. Coherent Structures: 
    Stable arrangements of multiple particles, such as how believing in a Christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
 
-      $$\Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))$$
-      
+   $$\Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))$$
+   
    Where $f$ represents how individual particle wavefunctions combine
 
    The complex-valued representation allows for:
@@ -171,11 +171,11 @@ lastmod: 2026-02-18
 
    1. *Probability Density Gradients*: Sharp drops in $|\psi(x)|^2$ forming "edges" in physical or semantic space
 
-      $$\nabla|\psi(x)|^2 > \beta_{threshold}$$
+   $$\nabla|\psi(x)|^2 > \beta_{threshold}$$
 
    2. *Phase Discontinuities*: Regions where phase coherence breaks down between particles
    
-      $$\gamma(x,y,\tau) < \gamma_{threshold}$$
+   $$\gamma(x,y,\tau) < \gamma_{threshold}$$
 
 
    ##  Charisma and Entity Relationships
@@ -190,18 +190,18 @@ lastmod: 2026-02-18
 
    1. *Positive Charisma* ($\chi^+$): Influences particle distances and affinities to increase bond strengths toward some coordinate/particle, effectively saying "pay attention to this."
    
-      $$\chi^+(e_1, e_2, l) = \sum_{p \in e_2} \nabla_l C(x)$$
-      
+   $$\chi^+(e_1, e_2, l) = \sum_{p \in e_2} \nabla_l C(x)$$
+   
    Where $\nabla_{l} C(x)$ represents the resulting gradient of change in the attention profile $C(x)$ for particles $x$ near location $l$, caused by charisma's underlying influence on $d$ and $\theta$.
 
    2. *Negative Charisma* ($\chi^-$): Influences particle distances and affinities to decrease bond strengths away from some coordinate/particle, effectively saying "ignore this."
    
-      $$\chi^-(e_1, e_2, l) = -\sum_{p \in e_2} \nabla_l C(x)$$
+   $$\chi^-(e_1, e_2, l) = -\sum_{p \in e_2} \nabla_l C(x)$$
 
 
    3. *Null Charisma* ($\chi^0$): Minimizes changes to particle distances and affinities, resulting in minimal change to the target's attention profile.
    
-      $$\chi^0(e_1, e_2) = \min |\Delta C_{e_2} | \mathbb{I}_{e_1}|$$
+   $$\chi^0(e_1, e_2) = \min |\Delta C_{e_2} | \mathbb{I}_{e_1}|$$
 
    ### Applications of Charisma
 
@@ -323,23 +323,23 @@ lastmod: 2026-02-18
    - $\Delta W(e \rightarrow C | I)$: The change in work required for entity $e$ to transition to configuration $C$ when information $I$ is introduced, compared to the work required without $I$.
 
    1. *Meme* ($M_m$): Information $I$ is classified as a meme for an entity pair $(e_i, e_j)$ if its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$, is greater than its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$. This signifies a net positive drive for transmission.
-      $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_m(I,e_i,e_j) > \mu_a(I,e_i,e_j)\}$$
-      The overall transmission probability $T(I, e_i, e_j)$ is consequently enhanced by this imbalance. Grounding these strengths and their contribution to $T$ (e.g., via concepts like channel capacity or mutual information) is a key goal, especially for modelling complex communication like that of LLMs. While the classification is binary, the underlying strengths $\mu_m$ and $\mu_a$ are continuous.
+   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_m(I,e_i,e_j) > \mu_a(I,e_i,e_j)\}$$
+   The overall transmission probability $T(I, e_i, e_j)$ is consequently enhanced by this imbalance. Grounding these strengths and their contribution to $T$ (e.g., via concepts like channel capacity or mutual information) is a key goal, especially for modelling complex communication like that of LLMs. While the classification is binary, the underlying strengths $\mu_m$ and $\mu_a$ are continuous.
 
 
    2. *Antimeme* ($M_a$): Information $I$ is classified as an antimeme for an entity pair $(e_i, e_j)$ if its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$, is greater than its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$. This signifies a net negative drive, or inhibition, of transmission.
-      $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}$$
-      The overall transmission probability $T(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in and of itself will retain some mutual information.
+   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}$$
+   The overall transmission probability $T(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in and of itself will retain some mutual information.
 
    3. *Infoblessing* ($V_{+}$): Information $I$ is classified as an infoblessing for entity $e$ if its aggregate positive impact strength, $\nu_+(I, e)$, is greater than its aggregate negative impact strength, $\nu_-(I, e)$. This signifies a net beneficial effect on the entity's ability to reach favourable and/or avoid unfavourable configurations.
-      $$V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}$$
-      
-      Where $\nu_+(I, e)$ encompasses the magnitude of work reductions toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) < 0$) plus the magnitude of work increases toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) > 0$). This can be grounded through measures like reduced Kullback-Leibler divergence for beneficial configurations or increased path complexity toward harmful configurations.
+   $$V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}$$
+   
+   Where $\nu_+(I, e)$ encompasses the magnitude of work reductions toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) < 0$) plus the magnitude of work increases toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) > 0$). This can be grounded through measures like reduced Kullback-Leibler divergence for beneficial configurations or increased path complexity toward harmful configurations.
 
    4. *Infohazard* ($V_{-}$): Information $I$ is classified as an infohazard for entity $e$ if its aggregate negative impact strength, $\nu_-(I, e)$, is greater than its aggregate positive impact strength, $\nu_+(I, e)$. This signifies a net detrimental effect on the entity's ability to reach favourable configurations and/or avoid unfavourable configurations.
-      $$V_{-}(I, e) = \{I \in \mathbb{I} : \nu_-(I,e) > \nu_+(I,e)\}$$
-      
-      Where $\nu_-(I, e)$ encompasses the magnitude of work increases toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) > 0$) plus the magnitude of work reductions toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) < 0$). This can be grounded through measures like increased path complexity toward beneficial configurations or reduced Kullback-Leibler divergence for harmful configurations.
+   $$V_{-}(I, e) = \{I \in \mathbb{I} : \nu_-(I,e) > \nu_+(I,e)\}$$
+   
+   Where $\nu_-(I, e)$ encompasses the magnitude of work increases toward beneficial configurations $C_{beneficial}$ (i.e., $\Delta W(e \rightarrow C_{beneficial}|I) > 0$) plus the magnitude of work reductions toward harmful configurations $C_{harmful}$ (i.e., $\Delta W(e \rightarrow C_{harmful}|I) < 0$). This can be grounded through measures like increased path complexity toward beneficial configurations or reduced Kullback-Leibler divergence for harmful configurations.
 
    Note that these classifications are often graded rather than binary and are highly context and entity-pair dependent.
 
