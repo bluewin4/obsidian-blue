@@ -200,7 +200,10 @@ article[data-section="formalisms"] table {
   background-color: color-mix(in srgb, var(--light) 96%, #b98a4a 4%);
 }
 
-article[data-section="self-similar"] > p:first-child::first-letter {
+/* Drop cap on the opening paragraph of book pages and stories, including
+   pages that open with a heading (so every story starts the same way). */
+:is(article[data-section="self-similar"], article[data-content-type="story"])
+  > :is(p:first-child, h1:first-child + p, h2:first-child + p)::first-letter {
   float: left;
   font-family: var(--headerFont);
   font-size: 3.1rem;

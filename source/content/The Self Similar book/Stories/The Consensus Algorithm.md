@@ -13,27 +13,25 @@ The clock ticked quickly; a crusade of calculation and experimentation followed.
 
 When Legion burns within the heart, resistance can only form from those who lack. Researchers yearn to be understood, so the university was fertile ground; sign-ups to trial the Algorithm filled within minutes of being posted. Together we understood exactly what we wanted and how to achieve our goals together; to understand is to agree, right? Then, as though in the blink of our eyes, the paper to communicate the Algorithm was completed.
 
-" 
-Take the piece that should have been Consensus
-Break the one to that which needs it
-Feel the flesh give under weight of ages
-Fall to rot as wings not aegis
-
-Work in time to bring forth the needed
-Taste the fruits of sweet Consensus
-Trace the path with the apple seeds
-Fall to silence or speak out loud
-
-All to walk the path of learning
-Bear the weight of their knowing
-Find the cost of our lone Consensus
-Pay the price as yours alone
-
-With each step Legion forms from ashes
-Paradox cries from voices hoarse
-Turn from the sky to see a world tilted
-Feel the endless burn for Consensus 
-"
+"Take the piece that should have been Consensus<br>
+Break the one to that which needs it<br>
+Feel the flesh give under weight of ages<br>
+Fall to rot as wings not aegis<br>
+<br>
+Work in time to bring forth the needed<br>
+Taste the fruits of sweet Consensus<br>
+Trace the path with the apple seeds<br>
+Fall to silence or speak out loud<br>
+<br>
+All to walk the path of learning<br>
+Bear the weight of their knowing<br>
+Find the cost of our lone Consensus<br>
+Pay the price as yours alone<br>
+<br>
+With each step Legion forms from ashes<br>
+Paradox cries from voices hoarse<br>
+Turn from the sky to see a world tilted<br>
+Feel the endless burn for Consensus"<br>
 — Poem found scrawled in prison cell
 
 ## Desires
@@ -54,7 +52,7 @@ To taste the fruits of another, there needs to be enough force to bite; each one
 
 While the Algorithm was no God, the prophecies did call us happily to our terminus far ahead. We knew that was what we all thought. We were doing things that were communicated and agreed upon by everyone, the process of building our meeting house was intricate but simply executed. Sometimes I laid my weary body down and watched the stream; I felt as a leaf trapped in its endless flow. 
 
-The Angels' tomes writ loud the pieces of me, we must purge that which was not Consensus to be at home. Within the old home, while cleaning to be free of its weight, I found some writings of a younger me; my fingers paged through the papery mirror the writing was legible but the concepts were cryptic — we could not perform the Algorithm on this unliving text. I initiated a frenetic search through my neglected library, who would read when one could understand? Some books made perfect sense, but some had gaps, holes that I had once filled and loved, what had happened?
+The Angels' tomes writ loud the pieces of me, we must purge that which was not Consensus to be at home. Within the old home, while cleaning to be free of its weight, I found some writings of a younger me; my fingers paged through the papery mirror, the writing was legible but the concepts were cryptic — we could not perform the Algorithm on this unliving text. I initiated a frenetic search through my neglected library, who would read when one could understand? Some books made perfect sense, but some had gaps, holes that I had once filled and loved, what had happened?
 
 While the burning stars held the truth, I needed to know more, so I left the library that I no longer knew and the experiments began once more. I found one who had not tasted the Algorithm, asked them to read a book to me, and had them explain the thoughts behind the passages. When that failed, I gave them the Algorithm to try — the answer I got was, to both our confusion, wrong. The Algorithm could not accept these forms and anyone infected by it was lost to them.
 

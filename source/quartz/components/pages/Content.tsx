@@ -16,8 +16,15 @@ const Content: QuartzComponent = ({ fileData, tree }: QuartzComponentProps) => {
   const slug = fileData.slug ?? ""
   const section = sectionKeys[slug.split("/")[0]] ?? ""
   const frontmatterType = (fileData.frontmatter?.content_type as string | undefined) ?? ""
-  // Poems live under a "Poetic" folder even when they lack explicit frontmatter.
-  const contentType = frontmatterType || (slug.includes("/Poetic/") ? "poem" : "")
+  // Poems live under a "Poetic" folder; stories under a "Stories" folder
+  // (including "misc stories"), even when they lack explicit frontmatter.
+  const contentType =
+    frontmatterType ||
+    (slug.includes("/Poetic/")
+      ? "poem"
+      : slug.toLowerCase().includes("stories/")
+        ? "story"
+        : "")
 
   return (
     <article
