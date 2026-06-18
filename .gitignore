@@ -1,7 +1,9 @@
 .trash/*
 
 source/node_modules/*
+source/public/*
 source/dist/*
+source/quartz/.quartz-cache/
 source/build/*
 source/coverage/*
 source/logs/*

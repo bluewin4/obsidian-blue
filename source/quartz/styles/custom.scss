@@ -104,3 +104,167 @@ article table {
     padding-top: 0.15rem;
   }
 }
+
+/* =========================================================================
+   AESTHETIC LAYER
+   Tier 1: global "book" foundation (serif reading, measure, rhythm, math)
+   Tier 2: three subtle "rooms" (Formalisms / Self-Similar / Paracosm)
+   ========================================================================= */
+
+/* ----- Tier 1: typography & reading experience ----- */
+
+:root {
+  --reading-measure: 72ch;
+}
+
+/* Spectral reads best a touch larger with open leading */
+article.popover-hint {
+  font-size: 1.02rem;
+  line-height: 1.72;
+  font-feature-settings: "liga" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+}
+
+article.popover-hint p {
+  margin: 0 0 1.15rem 0;
+}
+
+/* Constrain prose to a comfortable measure, but let wide blocks breathe */
+.page > #quartz-body .center > article {
+  max-width: var(--reading-measure);
+  margin-inline: auto;
+}
+
+article.popover-hint :is(.table-container, pre, .katex-display, img, iframe, .mermaid) {
+  /* allow these to use the full column rather than the text measure */
+  max-width: 100%;
+}
+
+/* Keep the chrome (navigation, sidebars, meta) in the grotesk for contrast */
+.left,
+.right,
+.breadcrumb-container,
+.content-meta,
+.search,
+.toc,
+.backlinks,
+.recent-notes,
+.page-footer {
+  font-family: var(--headerFont);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.012em;
+}
+
+/* Math display polish: centered, with a graceful horizontal scroll */
+.katex-display {
+  margin: 1.4rem 0;
+  padding: 0.25rem 0 0.6rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+blockquote {
+  font-style: italic;
+  color: var(--darkgray);
+  border-left-width: 2px;
+}
+
+/* ----- Tier 2: section "rooms" (subtle, shared bones) ----- */
+
+/* Formalisms — cool, precise, "scientific paper".
+   Data matrices read better left-aligned with quiet rules. */
+article[data-section="formalisms"] {
+  max-width: 80ch;
+}
+
+article[data-section="formalisms"] table {
+  width: 100%;
+  margin: 1.5rem 0;
+
+  thead th {
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid var(--gray);
+  }
+
+  tbody td {
+    text-align: left;
+    border-bottom: 1px solid var(--lightgray);
+  }
+}
+
+/* Self-Similar — warm, book-like. Drop cap + ornamental dividers. */
+.page:has(article[data-section="self-similar"]) {
+  background-color: color-mix(in srgb, var(--light) 96%, #b98a4a 4%);
+}
+
+article[data-section="self-similar"] > p:first-child::first-letter {
+  float: left;
+  font-family: var(--headerFont);
+  font-size: 3.1rem;
+  line-height: 0.82;
+  padding: 0.1rem 0.6rem 0 0;
+  color: var(--secondary);
+}
+
+article[data-section="self-similar"] hr {
+  background-color: transparent;
+  text-align: center;
+  height: auto;
+
+  &::after {
+    content: "❧";
+    color: var(--gray);
+    font-size: 1.1rem;
+  }
+}
+
+/* Paracosm — cold, desaturated, foggy. Quiet vignette + hushed accents. */
+article[data-section="paracosm"] {
+  --secondary: color-mix(in srgb, var(--secondary) 55%, var(--gray) 45%);
+  letter-spacing: 0.004em;
+}
+
+.page:has(article[data-section="paracosm"]) {
+  background-color: color-mix(in srgb, var(--light) 94%, #2a3340 6%);
+}
+
+article[data-section="paracosm"] > p:first-child {
+  font-style: italic;
+  color: color-mix(in srgb, var(--darkgray) 85%, var(--gray) 15%);
+}
+
+/* viewport vignette to deepen the dream-journal mood, non-interactive */
+body:has(article[data-section="paracosm"])::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: radial-gradient(ellipse at center, transparent 58%, rgba(0, 0, 0, 0.26) 100%);
+}
+
+/* ----- Color references: [name](#hex) rendered as colored text ----- */
+.color-ref {
+  font-weight: 600;
+  white-space: nowrap;
+  /* thin contrasting outline keeps any hue legible on light or dark bg */
+  -webkit-text-stroke: 0.3px color-mix(in srgb, var(--dark) 32%, transparent);
+
+  &.color-ref--gradient {
+    -webkit-text-stroke: 0.4px color-mix(in srgb, var(--dark) 28%, transparent);
+  }
+}
+
+/* ----- Content-type: poems (centered verse, generous leading) ----- */
+article[data-content-type="poem"] {
+  max-width: 58ch;
+  text-align: center;
+
+  p {
+    line-height: 2;
+    margin: 1.5rem 0;
+  }
+}

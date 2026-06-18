@@ -30,7 +30,7 @@ It was awe inspiring.
 
   
 
-Above me were terraces of clouds painted in black, silver, and grey, thin in their individuality but creating a tapestry of texture that bulged out towards my eyes. They carried with them the winds that stirred the fields below, never raining, never thundering, merely gales that brought the character of the clouds and the fields ever closer. In that diffuse light coming from everywhere and nowhere the fields shone like shimmering silks. Each stalk started with a pale gold at the base, before transmuting into a collection of metallic [lilac](#CEA2FD), [silver](#D8D8D8 to #AFB1AE), and [blue](#B3CBE4). Each stalk was rushing against another, a voice in a kaleidoscope of sound directed by the storm clouds above. The stormlight poured pale onto the scene that was transmuted by the fields into a scintillating symphony of coruscance. A synesthetic phantasmagoria.
+Above me were terraces of clouds painted in black, silver, and grey, thin in their individuality but creating a tapestry of texture that bulged out towards my eyes. They carried with them the winds that stirred the fields below, never raining, never thundering, merely gales that brought the character of the clouds and the fields ever closer. In that diffuse light coming from everywhere and nowhere the fields shone like shimmering silks. Each stalk started with a pale gold at the base, before transmuting into a collection of metallic [lilac](#CEA2FD), [silver](#D8D8D8,#AFB1AE), and [blue](#B3CBE4). Each stalk was rushing against another, a voice in a kaleidoscope of sound directed by the storm clouds above. The stormlight poured pale onto the scene that was transmuted by the fields into a scintillating symphony of coruscance. A synesthetic phantasmagoria.
 
   
 

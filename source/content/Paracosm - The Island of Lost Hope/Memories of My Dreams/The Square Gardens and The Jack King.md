@@ -85,7 +85,7 @@ I scrambled out from under the table and attempted to prevent what I knew was co
 
   
 
-I feel no regrets, so I think that my greatest enemy was not one I ever let go of, but they were no longer in my hands. I ran to the road stripped of all save my core, naked as the day I came into the world yet carrying a shawl of all I had seen and done. Outside I found a car, a small VW bug of shifting [lapis lake blue](#afe3ff) and [sunflower yellow](# E8DE2A) but never both at once, but there were people milling about it. People who knew not what I did, people who might not believe me.
+I feel no regrets, so I think that my greatest enemy was not one I ever let go of, but they were no longer in my hands. I ran to the road stripped of all save my core, naked as the day I came into the world yet carrying a shawl of all I had seen and done. Outside I found a car, a small VW bug of shifting [lapis lake blue](#afe3ff) and [sunflower yellow](#E8DE2A) but never both at once, but there were people milling about it. People who knew not what I did, people who might not believe me.
 
   
 
