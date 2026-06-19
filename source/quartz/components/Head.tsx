@@ -38,6 +38,28 @@ export default (() => {
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
         <link rel="icon" href={iconPath} />
+        {/* Machine-readable discovery hints: invisible to humans, easy for agents. */}
+        {fileData.slug && (
+          <link
+            rel="alternate"
+            type="text/markdown"
+            href={`/${encodeURI(fileData.slug)}.md`}
+            title="Plain Markdown version of this page (math as LaTeX)"
+          />
+        )}
+        <link
+          rel="alternate"
+          type="text/plain"
+          href="/llms.txt"
+          title="LLM-friendly guide (llmstxt.org)"
+        />
+        <link rel="alternate" type="application/json" href="/llm-api.json" title="LLM API" />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="/llm-sitemap.json"
+          title="LLM sitemap"
+        />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
         <meta name="twitter:card" content="summary_large_image" />

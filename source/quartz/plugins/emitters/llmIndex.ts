@@ -27,6 +27,7 @@ type Related = { title?: string; url?: string; relationship?: string }
 type LlmEntry = {
   slug: SimpleSlug
   url: string
+  markdownUrl: string
   title: string
   description: string
   section: string
@@ -107,6 +108,7 @@ function buildEntry(cfg: GlobalConfiguration, data: QuartzPluginData): LlmEntry 
   return {
     slug,
     url: `https://${joinSegments(base, encodeURI(slug))}`,
+    markdownUrl: `https://${joinSegments(base, encodeURI(slug))}.md`,
     title,
     description,
     section,
@@ -238,10 +240,17 @@ function generateApi(cfg: GlobalConfiguration, entries: LlmEntry[]): string {
         domAttributes:
           "Semantic hints are exposed via data-llm-* attributes inside a hidden .llm-metadata block.",
         contentRegions: "Primary human content is marked with data-ai-role on the homepage sections.",
+        markdownTwin:
+          "Every page has a plain Markdown twin at the same path plus a .md extension " +
+          "(e.g. /Formalisms/Genetic-Notation-for-Prompts.md). It contains the full body " +
+          "with LaTeX math preserved as $…$ — the recommended source for machine reading. " +
+          "Each entry's markdownUrl points to it, and each HTML page links it via " +
+          "<link rel=\"alternate\" type=\"text/markdown\">.",
       },
       schema: {
         slug: "Site-relative path of the page.",
         url: "Absolute canonical URL.",
+        markdownUrl: "Absolute URL of the plain Markdown twin (full body, LaTeX math as $…$).",
         title: "Human-readable title.",
         description: "Short description or auto-generated summary.",
         section: "Top-level collection the page belongs to.",

@@ -22,7 +22,11 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
     },
     htmlPlugins() {
       if (engine === "katex") {
-        return [[rehypeKatex, { output: "html", macros }]]
+        // "htmlAndMathml" (KaTeX's own default) emits semantic MathML and an
+        // <annotation encoding="application/x-tex"> alongside the visual render.
+        // The bare "html" output only produces aria-hidden visual spans, leaving
+        // every equation invisible to screen readers and machine readers.
+        return [[rehypeKatex, { output: "htmlAndMathml", macros }]]
       } else {
         return [[rehypeMathjax, { macros }]]
       }

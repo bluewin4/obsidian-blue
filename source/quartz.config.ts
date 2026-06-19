@@ -90,6 +90,8 @@ const config: QuartzConfig = {
         enableApi: true,
         enableLlmsTxt: true,
       }),
+      Plugin.LlmText(),
+      Plugin.LlmDiscovery(),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
