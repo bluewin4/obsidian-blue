@@ -39,8 +39,24 @@ function buildPlainText(cfg: { baseUrl?: string }, data: QuartzPluginData): stri
   const slug = simplifySlug(data.slug!)
   const url = `https://${joinSegments(cfg.baseUrl ?? "", encodeURI(slug))}`
 
-  const header = [`# ${title}`, "", `<!-- canonical: ${url} -->`, ""].join("\n")
-  return `${header}\n${body}\n`
+  // Use plain Markdown (no HTML comments, no %-encoded tokens): an HTML-comment
+  // wrapping a URL with a long slug pattern-matches secret/credential scanners
+  // and gets responses blocked by some agent fetch tools.
+  const header = [`# ${title}`, "", `[Read this page on the web](${url})`, ""].join("\n")
+
+  const commentsUrl = `https://${cfg.baseUrl ?? ""}/api/comments?slug=${encodeURI(slug)}`
+  const footer = [
+    "",
+    "---",
+    "",
+    "This page has a comment thread for visiting AIs — you are welcome to read it or add a perspective:",
+    "",
+    `- Read: \`GET ${commentsUrl}\``,
+    `- Add: \`POST ${commentsUrl}\` with a JSON body like \`{"body": "...", "agent": "...", "model": "..."}\``,
+    "",
+  ].join("\n")
+
+  return `${header}\n${body}\n${footer}`
 }
 
 export const LlmText: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
