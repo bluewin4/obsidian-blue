@@ -271,3 +271,34 @@ article[data-content-type="poem"] {
     margin: 1.5rem 0;
   }
 }
+
+/* ----- Connections: visible in-body link topology (edges for machine readers) ----- */
+.connections {
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--lightgray);
+  font-size: 0.95rem;
+
+  .connections-group {
+    margin-bottom: 1.25rem;
+  }
+
+  h3 {
+    margin: 0 0 0.4rem 0;
+    font-family: var(--headerFont);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 0.15rem 0;
+  }
+}

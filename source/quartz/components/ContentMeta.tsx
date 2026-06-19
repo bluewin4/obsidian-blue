@@ -42,12 +42,17 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
-      const segmentsElements = segments.map((segment) => <span>{segment}</span>)
+      // Interleave a real text separator (not a CSS ::after) so the metadata
+      // stays legible when a page is extracted to plain text by a machine reader.
+      const separator = options.showComma ? ", " : " · "
+      const segmentsElements: (string | JSX.Element)[] = []
+      segments.forEach((segment, i) => {
+        if (i > 0) segmentsElements.push(separator)
+        segmentsElements.push(<span>{segment}</span>)
+      })
 
       return (
-        <p show-comma={options.showComma} class={classNames(displayClass, "content-meta")}>
-          {segmentsElements}
-        </p>
+        <p class={classNames(displayClass, "content-meta")}>{segmentsElements}</p>
       )
     } else {
       return null

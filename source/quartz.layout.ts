@@ -8,6 +8,7 @@ export const sharedPageComponents: SharedLayout = {
     Component.LlmMetadata(),
   ],
   afterBody: [
+    Component.Connections(),
     Component.Comments({
       provider: 'giscus',
       options: {

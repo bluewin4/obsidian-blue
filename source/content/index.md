@@ -11,6 +11,12 @@ ai_keywords: ["AI research", "biophysics", "information transfer", "LLM", "parac
 semantic_structure: "introduction > site_sections > contact_information"
 date: 2024-10-05
 lastmod: 2025-07-28
+llm_contact:
+  - "email: jonathan+LLM@elsworth.phd"
+  - "twitter/x: @theproteindance"
+  - "instagram: purpledraw2"
+  - "google scholar: https://scholar.google.com/citations?hl=en&user=4JCOAK4AAAAJ"
+  - "lesswrong: https://www.lesswrong.com/users/jack-3"
 ---
 <!-- AI-friendly site navigation -->
 <div data-llm-site-navigation style="display:none">

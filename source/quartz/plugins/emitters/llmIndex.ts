@@ -37,6 +37,7 @@ type LlmEntry = {
   aiKeywords: string[]
   aiConcepts: Concept[]
   relatedContent: Related[]
+  contact: string[]
   dateCreated?: string
   dateModified?: string
   wordCount: number
@@ -116,6 +117,7 @@ function buildEntry(cfg: GlobalConfiguration, data: QuartzPluginData): LlmEntry 
     aiKeywords: authoredKeywords.length > 0 ? authoredKeywords : tags,
     aiConcepts,
     relatedContent,
+    contact: asStringArray(fm.llm_contact),
     dateCreated: toIso(fm.date_created ?? fm.date, data.dates?.created),
     dateModified: toIso(fm.date_modified ?? fm.lastmod, data.dates?.modified),
     wordCount,
@@ -212,10 +214,13 @@ function generateApi(cfg: GlobalConfiguration, entries: LlmEntry[]): string {
       count,
     }))
 
+  const home = entries.find((e) => isHomeSlug(e.slug))
+
   return JSON.stringify(
     {
       version: "1.0",
       site: siteDescriptor(cfg),
+      contact: home?.contact ?? [],
       generated: new Date().toISOString(),
       description:
         "Machine-readable API for this site. Designed so language models can discover, " +
@@ -280,9 +285,20 @@ function generateLlmsTxt(cfg: GlobalConfiguration, entries: LlmEntry[]): string 
 
   lines.push(
     "This file follows the llmstxt.org convention. For richer structured data see " +
-      "/llm-sitemap.json and /llm-api.json.",
+      "/llm-sitemap.json and /llm-api.json. Each page entry there also lists its " +
+      "relatedContent (outgoing 'links-to' and incoming 'linked-from' edges), so the " +
+      "site's link graph is fully machine-readable.",
   )
   lines.push("")
+
+  if (home?.contact && home.contact.length > 0) {
+    lines.push("## Contact")
+    lines.push("")
+    for (const item of home.contact) {
+      lines.push(`- ${item}`)
+    }
+    lines.push("")
+  }
 
   const grouped = new Map<string, LlmEntry[]>()
   for (const entry of entries) {

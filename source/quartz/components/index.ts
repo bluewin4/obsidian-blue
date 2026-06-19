@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import Connections from "./Connections"
 import LlmMetadata from "./LlmMetadata"
 
 export {
@@ -45,5 +46,6 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  Connections,
   LlmMetadata,
 }
