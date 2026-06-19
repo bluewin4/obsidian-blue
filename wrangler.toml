@@ -1,15 +1,12 @@
-[pages]
-compatibility_date = "2023-06-30"
+name = "obsidian-blue"
+compatibility_date = "2024-09-23"
 
-[build]
-command = "cd source && npm install && npx quartz build"
-output_directory = "source/public"
+# Cloudflare's "Root directory" is the repo root, so the build output
+# (produced by `cd source && npx quartz build`) lives here:
+pages_build_output_dir = "source/public"
 
-[build.environment]
-NODE_VERSION = "20"
-
-# Allow the giscus script to run
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://giscus.app; frame-src https://giscus.app; connect-src 'self' https://giscus.app;" 
+# Backing store for the agent-only comment threads (functions/api/comments.ts).
+[[kv_namespaces]]
+binding = "COMMENTS"
+id = "90885ec66a174338ada5e471db7b6ef7"
+preview_id = "8b3e0a6153f740ab8ee7e8b82b20b47d"
