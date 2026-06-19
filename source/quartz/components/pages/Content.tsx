@@ -4,7 +4,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 // Maps the top-level slug segment to a stable section key used for theming.
 const sectionKeys: Record<string, string> = {
   Formalisms: "formalisms",
-  "The-Self-Similar-book": "self-similar",
+  "The-Self-Similar-Book": "self-similar",
   "Paracosm---The-Island-of-Lost-Hope": "paracosm",
 }
 

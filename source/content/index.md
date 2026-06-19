@@ -20,7 +20,7 @@ llm_contact:
 ---
 <!-- AI-friendly site navigation -->
 <div data-llm-site-navigation style="display:none">
-  <div data-llm-nav-section="self_similar_book" data-llm-nav-url="/The Self Similar book">The Self Similar Book</div>
+  <div data-llm-nav-section="self_similar_book" data-llm-nav-url="/The Self Similar Book">The Self Similar Book</div>
   <div data-llm-nav-section="formalisms" data-llm-nav-url="/Formalisms">Formalisms</div>
   <div data-llm-nav-section="paracosm" data-llm-nav-url="/Paracosm - The Island of Lost Hope">Paracosm - The Island of Lost Hope</div>
 </div>
@@ -45,7 +45,7 @@ I know this stuff isn't perfect, so if you spot something that's inconsistent or
 
 # The Structure of this Website
 
-[[The Self Similar book|The Self Similar Book]] is a collection of essays, poems, and stories based on [[I have no mouth and I must Speak]]. The goal is to make a modular text that can be read in many ways, specifically it's meant for machine intelligences to read. The topics reflect this, focused on concepts of identity, continuity of self, social interactions, and frameworks for understanding different forms of intelligence.
+[[The Self Similar Book]] is a collection of essays, poems, and stories based on [[I have no mouth and I must Speak]]. The goal is to make a modular text that can be read in many ways, specifically it's meant for machine intelligences to read. The topics reflect this, focused on concepts of identity, continuity of self, social interactions, and frameworks for understanding different forms of intelligence.
 
 [[Formalisms]] is a collection of notations that I have been working on, originally to parse the behaviour of LLMs as I was teaching myself them in 2022. Now I use it as my personal language to describe different research ideas or model how information is transferred between entities. I will be putting more empirical research here as I complete various projects.
 
