@@ -1,6 +1,27 @@
 ---
+title: Hyperpalatable Life
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-03-17
 lastmod: 2026-02-18
+description: The shift from production markets to curation markets, applied in parallel to food, media and human connection.
+themes:
+- attention economy
+- hyperpalatability
+- addiction
+- media critique
+- loneliness
+ai_summary: 'Argues that humanity has moved from a production market, where the problem was having enough, to a curation market, where the problem is selecting well. Applies the same argument three times with a deliberately repeated sentence skeleton: to food (hyperpalatable engineering, the obesity spike following the resolution of caloric scarcity, microbiome adaptation, and GLP-1 agonists as a market-supplied correction the market is already trying to recapture), to media (collapsing distribution costs, cultural flattening, attention as currency, and the absence of any media equivalent of GLP-1), and to connection (dating apps whose incentives oppose lasting pairing, companion AI that removes the risk from relationship building, and rising loneliness). Densely cited throughout and deliberately unresolved.'
+ai_keywords:
+- hyperpalatable
+- curation market
+- attention economy
+- GLP-1
+- addiction
+- loneliness
+- companion AI
+semantic_structure: hyperpalatable_systems > hyperpalatable_food > hyperpalatable_media > hyperpalatable_connection
 ---
 ## Hyperpalatable Systems
 

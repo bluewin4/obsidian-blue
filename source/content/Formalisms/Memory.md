@@ -1,16 +1,35 @@
 ---
+title: Memory
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-17
 lastmod: 2025-03-23
+description: 'The memory component of an LM personality: short-term, long-term and attentive/archivist memory.'
+themes:
+- memory
+- LLM
+- notation
+- summarization
+ai_summary: Decomposes the memory term of the personality triple into three parts. Short-term memory is the verbose full context over a rolling window. Long-term memory is a summarisation of prior conversation, where a summarisation function that produces a larger corpus than its input is treated as an expansion — the analogue of narrativising a few facts into a richer story. Attentive or archivist memory is information supplied from outside the context and personality that is judged relevant to a target.
+ai_keywords:
+- memory
+- short term memory
+- long term memory
+- archivist
+- summarization
+- expansion
+semantic_structure: definition > short_term > long_term > attentive
 ---
 
 Memory is the formation of:
-$$\mathcal{M}=[M_{S},M_{L},M_{A}]$$ $M_{S}$ - Shot term memory, verbose and full context
+$$\mathcal{M}=[M_{S},M_{L},M_{A}]$$ $M_{S}$ - Short term memory, verbose and full context
 $M_{L}$ - Long term memory, summaries of conversation topics
 $M_{A}$ - Attentive/Archivist memory, information fed to the model by archivist ^9ce097
 
 
 ## Short term memory
-$M_{S}$ - Shot term memory, verbose and full context
+$M_{S}$ - Short term memory, verbose and full context
 
 For $k$ being the current numeration of the conversation and $n$ being the length of short term memory- 
 

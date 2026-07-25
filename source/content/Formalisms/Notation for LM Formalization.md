@@ -1,9 +1,36 @@
 ---
-tags:
-  - LLM
-  - cog-dev
+title: Notation for LM Formalization
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-17
 lastmod: 2026-02-09
+tags:
+- LLM
+- cog-dev
+description: 'The core notation: objective and subjective information spaces, personality space, and the decomposition of an LM personality into memory, structure and identity.'
+themes:
+- notation
+- LLM
+- personality
+- information space
+ai_summary: 'The foundational notation of the Formalisms section. Distinguishes an objective information space X from the subjective space X_phi accessed by a model''s prediction function, and defines personality space Phi as the mapping of a set of personalities into that space. Decomposes an LM personality as P = [M, S, I]: memory (short-term, long-term, attentive), structure (input labelling, tools, output structure) and identity (goals, method, self-image, world-perception, thoughts). Provides criteria for detecting whether a personality space can access a target piece of information, definitions of concise and relevant summarisation, and a treatment of what it means for two models to communicate. Explicitly a working document; several sections are unfinished.'
+ai_keywords:
+- notation
+- information space
+- personality space
+- memory
+- identity
+- LLM communication
+- decoding
+ai_concepts:
+- name: Subjective information space
+  definition: X_phi, the portion of the objective information space accessible to a model via its inference function; the mapping does not preserve distances in X.
+- name: Personality space
+  definition: Phi, a subspace of X_phi defined as the mapping of a set of personalities into the information space.
+- name: Personality
+  definition: 'P = [M, S, I]: the memory, structure and identity that together define a language model''s personality.'
+semantic_structure: information_space > prompt_tokens > personality > memory > structure > identity > detection > communication > decoding
 ---
 ## Information Space 
 $\mathbb{X}-$ Objective informational space 

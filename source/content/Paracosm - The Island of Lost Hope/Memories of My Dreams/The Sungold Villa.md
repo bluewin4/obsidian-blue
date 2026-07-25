@@ -1,5 +1,22 @@
 ---
+title: The Sungold Villa
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
+description: A villa near the centre of the peninsula of experience, and the question of whether the Land of Lost Hope is island or continent.
+themes:
+- dream
+- paracosm
+- geography
+ai_summary: A dream memory of the Sungold Villa, located near the centre of what the narrator calls the peninsula of experience, having only ever visited the south, west and east of the Land of Lost Hope. Raises the question of whether the place is an island or whether a continent is merely a convention of scale. Later recalled from waking life in The Meaning of Places.
+ai_keywords:
+- Sungold Villa
+- paracosm
+- geography
+- Land of Lost Hope
+- dream
+semantic_structure: location > description
 ---
 The villa was near the center of the peninsula of experience. For I had only ever been to the South, West, and East of the Land of Lost Hope. Perhaps it was an island, or is a continent merely a convention of the large?
 

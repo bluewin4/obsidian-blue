@@ -1,6 +1,25 @@
 ---
+title: Paracosm - The Island of Lost Hope
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: index
 date: 2025-03-19
 lastmod: 2025-03-26
+description: Index to a paracosm dreamt through for more than a decade, and the method for finding the way back into it.
+themes:
+- paracosm
+- dreams
+- nightmare
+- memory
+ai_summary: 'Index note for a paracosm the author dreamt through from roughly age eleven to twenty-three and is now attempting to re-enter. States the somatic tell for being there: a hollowness in the stomach and chest filled with impending doom, which persists no matter how pleasant the surroundings. Records the entry method received as a gift at the end of a long dream — listening through the pillow for a bubblegum-pink stream running over blue and grey stones until the world resolves around it — and lists the places to be documented. Content warning: much of this section describes nightmares.'
+ai_keywords:
+- paracosm
+- dream journal
+- lucid entry
+- Island of Lost Hope
+- nightmare
+- content warning
+semantic_structure: premise > somatic_tell > entry_method > catalogue_of_places
 ---
 This is a paracosm I dreamt my way through for more than a decade as I grew up. It's a strange place, as any dream place is, but I found my way there and I feel I am finding my way back recently. I wish to be prepared, so I will write my experiences here and reflect on my past ones.
 
@@ -18,6 +37,6 @@ The world around is a stark white save the river.
 You find yourself on the side of the river when you listen long enough, you can stand up and walk into your dreams. 
 I saw a strand of trees, ash and birch. I would then fall into my sleep from there.
 
-But I think I can see the way again. I wonder what I will see, the beach of wandering waves, the Pools of Sea White Chalk, the Square Garden, the Forest of the Elder Things, the Time Twisted Hospital, The Stormkissed Fields with the small house in the middle, the Endless Market, the Labryinth City, the Sungold Villa, the Lattice Works, the Winding Mountains with their many vaults, the Towns Owned by the Rabbit Creatures, the Theater of the Mind and it's many films, the Steep Sidewalks that lead there, or the City on the Sea Wall where I held back the wave that chased me for years?
+But I think I can see the way again. I wonder what I will see, the beach of wandering waves, the Pools of Sea White Chalk, the Square Garden, the Forest of the Elder Things, the Time Twisted Hospital, The Stormkissed Fields with the small house in the middle, the Endless Market, the Labryinth City, the Sungold Villa, the Lattice Works, the Winding Mountains with their many vaults, the Towns Owned by the Rabbit Creatures, the Theater of the Mind and its many films, the Steep Sidewalks that lead there, or the City on the Sea Wall where I held back the wave that chased me for years?
 
 How strange, I find myself writing now and the memories of these dreams are still crystal clear in my mind. The path I'm treading like a divot in my soul I only felt by touch now being exposed to the light and explained for another.

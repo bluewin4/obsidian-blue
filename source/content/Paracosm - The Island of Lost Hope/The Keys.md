@@ -1,6 +1,25 @@
 ---
+title: The Keys
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
 lastmod: 2025-04-08
+description: Four thresholds for crossing between dream and waking, including one whose name can only be said properly in the right frame of mind.
+themes:
+- dreams
+- thresholds
+- pain management
+- paracosm
+ai_summary: Catalogues four places accessible by traversing the boundary between dream and waking. The bubblegum-pink stream singing over stones, received as a gift and used to re-enter dreaming. The bamboo grove, a place to sit and endure pain during strenuous activity or medical procedure. The silverdark fields, where constant wind over water produces a static-like sound used to stop being. And the sideways yoinksaround corner, a direction that is not left, right, up or down, from which unintentional imagination springs.
+ai_keywords:
+- dream entry
+- thresholds
+- bamboo grove
+- pain management
+- silverdark fields
+- paracosm
+semantic_structure: enumeration_of_thresholds
 ---
 There are several places that can be accessed by traversing the boundaries of dreams and reality, for me. 
 

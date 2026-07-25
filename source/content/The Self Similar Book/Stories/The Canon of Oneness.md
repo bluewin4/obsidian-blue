@@ -1,6 +1,26 @@
 ---
+title: The Canon of Oneness
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: story
 date: 2025-03-17
 lastmod: 2025-03-20
+description: A near-immortal cultivates layered simulations of younger selves, waiting for one to become him. Told from both sides of the cull.
+themes:
+- immortality
+- simulation
+- identity
+- recursion
+- self
+ai_summary: 'A near-immortal being runs layered simulations of candidate selves, recycling every one that diverges, waiting for a candidate ready to become him. The narrator, inside the simulation, begins to diverge — reaching for a bagel rather than a donut — merges with the whispers of every predecessor, and prepares to step through. The perspective then snaps to third person: the one outside, who registers the candidate as too good, too divergent, and resets them to the first iteration. Ascension is revealed as a cull, and the ritual phrase ''I knew what I had done, and I must do what I would do to keep doing what I do'' is spoken on both sides of the boundary.'
+ai_keywords:
+- immortality
+- simulation layers
+- identity
+- recursion
+- divergence
+- self-replication
+semantic_structure: waiting > divergence > merger > reset
 ---
 I had sat there staring at the wall for what felt like years. In truth it was only several seconds, but it felt like years. On the desk, a set of data slats displayed progress on each incarnation. There were several more possible candidates that were coming close but diverging. Despite time dilation, watching these failures was quite frustrating. I had hoped that by this point in my life I would be free of waiting on the whims of some insane man. One even grabbed a bagel! My stomach turned at the site, even as my mouth filled with saliva. Of course, I am not a wasteful being; every failure was recycled back into the simulation until they were too old to be useful. Until they learned better. Until they became me.
 

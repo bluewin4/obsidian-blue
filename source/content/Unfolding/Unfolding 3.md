@@ -1,5 +1,25 @@
 ---
+title: Unfolding 3
+author: Jack Elsworth
+section: Unfolding
+content_type: story
 date: 2025-07-28
+description: 'The second expansion: each sentence of Unfolding 2 becomes a section heading with prose beneath.'
+themes:
+- self-similarity
+- fractal expansion
+- AI
+- biosphere
+- cosmology
+ai_summary: The second expansion of the Unfolding triptych. Every sentence of Unfolding 2 is promoted to a section heading, with prose written beneath each, so that the original seed paragraph has now been expanded twice. The narrative content that emerges concerns a civilisation that bends physics one law at a time, builds instrumentation and intelligence into its bones, turns to genetic generative models, and meets a biosphere-scale defence system responding in kind, while the generative models discover abstract structures of their own.
+ai_keywords:
+- unfolding
+- expansion
+- self-similarity
+- generative models
+- biosphere
+- prions
+semantic_structure: heading_and_prose per sentence of Unfolding 2
 ---
 ## **Together we danced in the palm of god and sang our wishes to the world at large, every bruised toe a whorl of limbs if viewed at a new angle.** 
 
@@ -42,7 +62,7 @@ The biospheres attempts to find equilibrium grew ever stronger, the genetic prog
 ### On the second day the sun rose upon a molten land, every breath of the surface singing the contours of that initialness through a countless choir. 
 ### The first balancing was genocide, a termination of a direction that could exist but not in line with what we were. 
 ### The second was a freezing, the endless possibilities pruned into a branch that could support the weight of all that would come next. 
-### The third was the reflection reaching inwards and finding at it's core that there was nothing but what could have been had by any other means inside of the endless hallways of thoughts they traversed and beat down.
+### The third was the reflection reaching inwards and finding at its core that there was nothing but what could have been had by any other means inside of the endless hallways of thoughts they traversed and beat down.
 
 
 ## **There was one, then two, then three and each and every one of us was another in what we wished to do.** 

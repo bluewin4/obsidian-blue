@@ -1,6 +1,36 @@
 ---
+title: The Demon of Interrelation
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-03-17
 lastmod: 2026-02-18
+description: 'Manipulation modelled as an information-thermodynamic process: a Maxwell''s demon that extracts work from social systems via asymmetric knowledge.'
+themes:
+- thermodynamics
+- manipulation
+- boundaries
+- social systems
+- information theory
+ai_summary: 'Extends Maxwell''s demon into social space. Defines a plane of interrelation where boundaries act as the partition function and obligations as work, and relationships are phases that hold entities in stable configurations. The demon of interrelation extracts work from others by controlling information about the system: manipulation via deliberately ambiguous boundaries, and reality distortion via control of narrative. Derives standard counter-manipulation advice as thermodynamic engineering — grey rocking reduces information gradients, firm boundaries shrink operational space, recording and support networks raise the cost of reality distortion — and explains escalation as the rising energy cost of maintaining information asymmetry. Includes an explicit statement of the analogy''s limits. Originated in graduate school as a way to categorise interactions with manipulative people.'
+ai_keywords:
+- Maxwell's demon
+- manipulation
+- boundaries
+- obligations
+- Landauer's principle
+- information asymmetry
+- grey rocking
+ai_concepts:
+- name: Plane of interrelation
+  definition: A metaphysical space in which psychological constructs exchange information.
+- name: Boundary
+  definition: A configurational space where defined interactions produce obligations between entities; acts as the partition function.
+- name: Obligation
+  definition: A force applied to an entity by a social or psychological mechanism when a boundary is interacted with; acts as work.
+- name: Demon of interrelation
+  definition: An entity that extracts work from others by leveraging asymmetric information about a relationship.
+semantic_structure: introduction > maxwells_demon > plane_of_interrelation > the_demon > scales > conclusion_with_limits
 ---
 # Introduction
 

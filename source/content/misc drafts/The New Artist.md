@@ -1,7 +1,26 @@
 ---
+title: The New Artist
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
 date: 2025-03-17
 lastmod: 2025-12-16
 draft: true
+description: An unfinished draft on the artist's position after generative AI, using the Pattern/Body/Mind/Soul scaffold.
+themes:
+- art
+- generative AI
+- creativity
+- economics of art
+ai_summary: 'An unfinished draft examining what becomes of artists whose living rests on their art now that generative models exist. Argues that art moved, like food and media, from a production market where society starved for it to a curation market with an arms race for attention. Surveys the physical economy supporting art, the several purposes art serves (psychological completion, expanding the known world, processing internal state, fitness signalling), and the idea of art for art''s sake as simply something humans do rather than a privileged state. Incomplete: the Body, Mind and Soul cycle sections remain as bare section headings, and the draft breaks off.'
+ai_keywords:
+- art
+- generative AI
+- curation market
+- artist economics
+- creativity
+- incomplete
+semantic_structure: pattern_cycle > body_cycle > mind_cycle > soul_cycle (incomplete)
 ---
 
 

@@ -1,7 +1,27 @@
 ---
+title: The Square Gardens and The Jack King
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
+description: An idyllic garden of flowered squares, the felidae in the field beyond it, and the rabbit-eared thing that drives a reactor to meltdown.
+themes:
+- dream
+- nightmare
+- the Jack King
+- paracosm
+ai_summary: 'A dream memory of the Square Gardens: grass squares three body-lengths across, separated by restless water, bounded by the Primordial Woods. In one dream the narrator is run down and killed by a felidae born of tiger, lion and something personal while ushering his sister across a line. In another he reaches an ochre domed facility, is struck by a knowing, and encounters the Jack King — a rabbit-eared, twisted-faced being of places and many spaces — accompanied by a nursery rhyme pressed into him at the time. The Jack King interferes with the facility''s terminals, the narrator fails to prevent a nuclear meltdown, and flees. Notable for hex colour values embedded inline as links.'
+ai_keywords:
+- Square Gardens
+- Jack King
+- nightmare
+- nursery rhyme
+- nuclear meltdown
+- paracosm
+- felidae
+semantic_structure: the_gardens > the_field_and_death > the_facility > the_jack_king > flight
 ---
-The square gardens are a place dripping with the verdure of spring, with flowers bursting from vibrant green grass at every possible juncture. Along the edge of the garden a darker forest looms, with a [deep forest green](#1e5636) canopy that sat atop unresolvable tree trunks; The Primordial Woods. The size of each square was three times the size of my body laid down on each end, with the lines between the square filled with restless waters an arms-length in width bracketed by grass bursting from the banks. The air was drenched in sunlight reflecting from insect wings and defracting through a gentle haze of pollen. Through my examination the sensation in my stomach would only grow more pronounced, but by all that is lovely it was indeed an idyllic scene.
+The square gardens are a place dripping with the verdure of spring, with flowers bursting from vibrant green grass at every possible juncture. Along the edge of the garden a darker forest looms, with a [deep forest green](#1e5636) canopy that sat atop unresolvable tree trunks; The Primordial Woods. The size of each square was three times the size of my body laid down on each end, with the lines between the square filled with restless waters an arms-length in width bracketed by grass bursting from the banks. The air was drenched in sunlight reflecting from insect wings and diffracting through a gentle haze of pollen. Through my examination the sensation in my stomach would only grow more pronounced, but by all that is lovely it was indeed an idyllic scene.
 
   
 

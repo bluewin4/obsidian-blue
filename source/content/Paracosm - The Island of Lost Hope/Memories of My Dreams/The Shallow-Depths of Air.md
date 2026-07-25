@@ -1,5 +1,24 @@
 ---
+title: The Shallow-Depths of Air
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-07-18
+description: A place of flight, where flying is falling and missing the ground, and buoyancy depends on having something to reach for.
+themes:
+- dream
+- flight
+- paracosm
+- momentum
+ai_summary: 'A dream memory of a place near the Latticeworks where flight is possible, understood not as lift but as momentum: falling faster and faster until the ground is missed entirely. Describes highly reflective water putting clouds above and below regardless of orientation, grey light tinged metallic blue and limned with silver, and an equilibrium between sky pushing down and water pushing up. Notes that buoyancy requires a driving purpose — to be a bird, to save a sister, to reach the pomegranate over the silent stream — and that losing the spirit means the depths drown and the wax wings melt.'
+ai_keywords:
+- flight
+- Shallow-Depths of Air
+- Latticeworks
+- momentum
+- paracosm
+- buoyancy
+semantic_structure: premise_of_flight > the_place > conditions > failure_mode
 ---
 Flight is a dream many have, myself I am not immune. There were many a dream of falling, but since a tender age on the playground where I learned that flying is just falling where you miss the ground. Well then it became a place to play.
 

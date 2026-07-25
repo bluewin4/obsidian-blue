@@ -1,5 +1,22 @@
 ---
+title: The Theater of The Mind
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-04-08
+description: The theatre at the end of the Steep Sidewalks, and its many films.
+themes:
+- dream
+- paracosm
+- theatre
+- memory
+ai_summary: A dream memory of the Theater of the Mind, reached via the Steep Sidewalks within the same dream that parsed them. Part of the ongoing documentation of the Island of Lost Hope paracosm.
+ai_keywords:
+- Theater of the Mind
+- Steep Sidewalks
+- paracosm
+- dream
+semantic_structure: arrival > description
 ---
 The Steep Sidewalk delivered me to The Theater of The Mind, in the same dream with which I parsed it.
 

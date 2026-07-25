@@ -1,6 +1,35 @@
 ---
+title: The Particle-Bond Model of Entity Information
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-26
 lastmod: 2026-07-06
+description: Entities modelled as branched-chain copolymers of physical and conceptual particles, with attention as network connectivity and identity boundaries as bond thresholds.
+themes:
+- formalism
+- entities
+- attention
+- identity
+- thermodynamics
+ai_summary: A mathematical formalisation of entities as highly connected branched-chain copolymers whose monomers are physical and conceptual 'particles', folding and unfolding through configuration space. Defines entity boundaries by a scale-dependent bond-strength threshold, four kinds of inference between physical and semantic subspaces, attention as a measure of network connectedness, stable bonds and solvation free energy, scale-dependent phase coherence, and charisma as bond manipulation. Later sections apply the machinery to incorporation, continuity and replication frames, boundary maintenance as sorting, obligations, and a sacrifice condition that expresses when an entity will trade physical continuity for a more heavily weighted subgraph — recovering Durkheim's taxonomy of suicide from the solvation terms. Closes with proposed operational metrics for incorporation strength and replication success.
+ai_keywords:
+- particle-bond model
+- entities
+- attention
+- solvation
+- incorporation
+- continuity
+- sacrifice condition
+- charisma
+ai_concepts:
+- name: Entity
+  definition: A dynamic configuration of causally linked physical and conceptual particles whose pairwise bond strengths exceed a scale-dependent threshold.
+- name: Attention
+  definition: C(x), a measure of a particle's connectedness computed as a weighted sum of its bond strengths to all other particles.
+- name: Solvation
+  definition: The stabilisation of an entity's configuration by its surrounding field of other entities; desolvation lowers the barrier to dissociation.
+semantic_structure: entity_spaces > particle_interaction > attention > wave_field > bonds > coherence > boundaries > charisma > information_classification > incorporation > obligations > sacrifice > operationalization
 ---
    This is a formalisation I am using to help clarify an intuition I have about the structure of agents, which I refer to as entities here. Each entity is represented as a structure similar to a highly connected branched chain copolymer, where physical and conceptual "particles" make up the monomeric units. Entities naturally compute due to their fluctuations in physical and conceptual space resulting in them folding and unfolding into different configurations. 
 

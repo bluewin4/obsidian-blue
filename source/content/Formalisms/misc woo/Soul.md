@@ -1,6 +1,27 @@
 ---
+title: Soul
+author: Jack Elsworth
+section: Formalisms
+content_type: essay
 date: 2025-03-17
 lastmod: 2025-03-26
+description: The soul as a markable surface with size, material, shape and marking — a developmental model running from infancy to addiction.
+themes:
+- soul
+- development
+- memory
+- metacognition
+- addiction
+ai_summary: 'Models the soul as a surface with four properties: size (memory), material (flexibility), shape (predisposition) and marking (metacognition). Records of conscious experience are marked onto it daily and fade, sinking deeper during sleep as a reshaping rather than a conscious act. Traces a developmental arc: a newborn''s soul has shape but no persistent features; parents etch fundamental grooves through repetition; the growing self begins fine marking with its own interpretations; and in adulthood the accumulated grooves can capture the self, so that addiction is the shape of the soul leading you back to what betrays you. Connects directly to the argument of Hyperpalatable Life.'
+ai_keywords:
+- soul
+- marking
+- grooves
+- development
+- metacognition
+- addiction
+- habit
+semantic_structure: composition > infancy > parental_marking > self_marking > capture
 ---
 ## Composition
 The soul is comprised of several different components.

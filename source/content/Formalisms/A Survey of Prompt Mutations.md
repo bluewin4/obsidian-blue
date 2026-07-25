@@ -1,9 +1,29 @@
 ---
-tags:
-  - biology
-  - LLM
+title: A Survey of Prompt Mutations
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-17
 lastmod: 2026-02-09
+tags:
+- biology
+- LLM
+description: 'A genetics-style taxonomy of prompt perturbations: mutation classes, mutation methods, and functional consequences.'
+themes:
+- prompt engineering
+- genetics
+- taxonomy
+- LLM
+ai_summary: 'Imports the vocabulary of genetics to classify perturbations of prompts. Mutation classes cover synonymous, missense, nonsense and ambiguous changes. Mutation methods cover point mutations (substitution, frameshift, insertion, deletion) and large-scale mutations (inversion, duplication, gene duplication, movement of a gene, fusion and novel fusion). Mutation functions cover loss of function, gain of function, switch of function, conservation of function, dominant negative, lethal negative, null, suppressor and conditional mutations. The most directly reusable artifact in the Formalisms section: prompt engineering has no equivalent shared vocabulary for describing what a prompt edit did.'
+ai_keywords:
+- prompt mutation
+- prompt engineering
+- genetics
+- taxonomy
+- missense
+- dominant negative
+- suppressor mutation
+semantic_structure: mutation_classes > mutation_methods > mutation_functions
 ---
 # Mutation Classes
 Prompts can have varying "mutational loads" with missense, nonsense, and synonymous mutations. 

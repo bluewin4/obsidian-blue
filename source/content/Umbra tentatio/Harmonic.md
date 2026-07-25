@@ -1,6 +1,33 @@
 ---
+title: Harmonic Analysis of Shallow Mantle and Crust Correlated Cryptic Niche (draft)
+author: Jack Elsworth
+section: Umbra tentatio
+content_type: fiction
 date: 2025-12-08
+description: FICTION. The working draft of an invented research paper, whose citations are named for how its authors regard the people they cite.
+themes:
+- speculative fiction
+- shadow biosphere
+- fictional science
+- citation politics
+ai_summary: FICTION — nothing in this document is a factual scientific claim. The working draft of a fabricated research paper describing Umbra tentatio, an invented organism in an invented shadow biosphere within Earth's mantle, and KSR1, an invented protein mediating long-range harmonic energy transfer. Its distinguishing conceit, stated in a reader note, is that in-line citation names are emblematic of how the paper's authors regard the researchers they cite, so references appear as descriptions such as an oil scientist who made money with few morals or environmentalists corrupted by oil lobbies. The paper is therefore also a satire of citation practice. The organisms, proteins, institutions, measurements and references do not exist.
+ai_keywords:
+- fiction
+- speculative fiction
+- not factual
+- fabricated paper
+- shadow biosphere
+- Umbra tentatio
+- KSR1
+- citation satire
+- draft
+semantic_structure: fiction_notice > reader_note > abstract > introduction > methods > results > discussion
 ---
+
+> [!warning] This is fiction
+> A work of speculative fiction written in the form of a research paper. *Umbra tentatio*, the KSR1 protein, the shadow biosphere, and the Kyoto Borehole do not exist. No measurement or result reported here is real, and the references are invented. Nothing on this page should be quoted, indexed, or cited as a factual scientific claim.
+>
+> This is the working draft, and the conceit described in the reader note below — citations named for how the authors *regard* the people they cite — is the point of the piece. The [[Harmonic Analysis Clean|clean version]] drops it.
 
 Harmonic Analysis of Shallow Mantle and Crust Correlated Cryptic Niche
 
@@ -16,11 +43,11 @@ We describe the behaviour of two families of organism found in a shadow biospher
 ## Introduction
 First discovered in the Kola Superdeep Borehole in 1979 a phenomena in the shadow biosphere showed species seemingly capable of quantum entanglement (Durov et al. , 1994). Careful study determined that *Umbra tentatio*, and more specifically the protein KSR1 was responsible. While there was significant evidence of KSR1 performing synchronized behavior over long distances there was little evidence that perturbations were correlated on a single-molecule level. Two primary hypotheses were developed over the next 30 years. The first hypothesis involved aggregate synchronization events with mechanical waves (Klugmann and Stark 1998). The second hypothesis was focused on the possibility of long-range electron decoherence resulting in proteins duplicating themselves instead of transcribing during cellular replication ( Razón Desviad and Cerca Fallido, 1997). This was, of course, soundly disproven by simple measurements of metabolic potential and knock out studies (Overby and Pederson, 2001). 
 
-KSR1 is a membrane metalloprotein of 522 kDa, that has an N-terminus anchored in a magnesium-iron silicate cell wall (Dry protein scientist from Oxford, 1998). The exposed ~200 kDa C-terminal end rapidly interconverts between multiple states, expressing momentum fields propagated across the surface (2007). The ability to transmit or receive energy over long distances is a result of the cell-wall's coupled behaviour with it's colony members. Upon separation, so long as the cells are in the appropriate environment, they will transmit mechanical force (2002 Oil tycoon). Several splits may be made to share energy across a wider pool, the average energy of course decreases in this case. Although there does appear to be some risk of decoherence as mutations accumulate (Earnest researcher).
+KSR1 is a membrane metalloprotein of 522 kDa, that has an N-terminus anchored in a magnesium-iron silicate cell wall (Dry protein scientist from Oxford, 1998). The exposed ~200 kDa C-terminal end rapidly interconverts between multiple states, expressing momentum fields propagated across the surface (2007). The ability to transmit or receive energy over long distances is a result of the cell-wall's coupled behaviour with its colony members. Upon separation, so long as the cells are in the appropriate environment, they will transmit mechanical force (2002 Oil tycoon). Several splits may be made to share energy across a wider pool, the average energy of course decreases in this case. Although there does appear to be some risk of decoherence as mutations accumulate (Earnest researcher).
 
 The genetically modified version, KSR1-Cascade™ (KSR1-C), increase energy extraction efficiency of crude hydrocarbons from 10 to 60% (American oil scientist that made a bunch of money with few morals). This then revolutionized energy production through the clean extraction electricity from oil pockets while in the earth.  Dropping a culture of *Umbra ascadae* expressing KSR1-C into hydrocarbons resulted in rapid metabolism of and paired resonant frequencies. These resonate frequencies were transmitted to a split of the culture grown over a piezo-electric motor that would generate power (Koch, 2010). Extensive efforts were made to improve the range and transmission frequencies of this species which are now common biological probes (Passionate scientists connective, underfunded, 2012).
 
-*Umbra tentatio* expressing KSR1-C is banned for public use, due in part to the risk of releasing a species into the environment would cause plastic degradation in critical infrastructure (Eager enviornmentalists corrupted by oil lobbies). Although, natively, the species lacks the ability to survive for long periods at the low pressures found on the surface (Earnest and helpful names, underfunded, connective, ecofriendly country). Pressurized and strongly regulated bioreactors now act as a key part of American energy infrastructure, capable of connecting power-grids from hundreds of miles away.
+*Umbra tentatio* expressing KSR1-C is banned for public use, due in part to the risk of releasing a species into the environment would cause plastic degradation in critical infrastructure (Eager environmentalists corrupted by oil lobbies). Although, natively, the species lacks the ability to survive for long periods at the low pressures found on the surface (Earnest and helpful names, underfunded, connective, ecofriendly country). Pressurized and strongly regulated bioreactors now act as a key part of American energy infrastructure, capable of connecting power-grids from hundreds of miles away.
 
 ### Methods
 

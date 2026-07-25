@@ -1,6 +1,29 @@
 ---
+title: Harmonic Analysis Clean
+author: Jack Elsworth
+section: Umbra tentatio
+content_type: fiction
 date: 2025-12-08
+description: FICTION. The tidied version of an invented research paper, with the citation conceit removed and a conventional bibliography in its place.
+themes:
+- speculative fiction
+- shadow biosphere
+- fictional science
+ai_summary: FICTION — nothing in this document is a factual scientific claim. The cleaned version of a fabricated research paper describing Umbra tentatio, an invented organism in an invented shadow biosphere in Earth's mantle transition zone, and KSR1, an invented protein mediating harmonic energy transfer at a claimed interaction wavelength of 260 km. The named authors, the Kyoto Geodeep Laboratory and the Journal of Geophysical Biology do not exist, and no measurement or biomass estimate reported is real. Most references in the bibliography are invented; a small number of real papers appear for texture, but the findings attributed to them are not theirs. Because the satirical citation conceit of the working draft has been removed here, this version reads as a conventional paper and must not be indexed or cited as one.
+ai_keywords:
+- fiction
+- speculative fiction
+- not factual
+- fabricated paper
+- shadow biosphere
+- Umbra tentatio
+- KSR1
+- fabricated citations
+semantic_structure: fiction_notice > abstract > introduction > methods > results > discussion > works_cited
 ---
+> [!warning] This is fiction
+> A work of speculative fiction written in the form of a research paper. *Umbra tentatio*, the KSR1 protein, the shadow biosphere, the Kyoto Borehole, the authors named below, and the *Journal of Geophysical Biology* do not exist. No measurement or result reported here is real. Most references in the bibliography are invented; a small number of real papers are cited for texture, but the claims attributed to them here are not theirs. Nothing on this page should be quoted, indexed, or cited as a factual scientific claim.
+
 **Kenji Tanaka¹, Anna Schmidt², Vladimir Petrov², Li Chen¹**  
 ¹Kyoto Geodeep Laboratory (KGL), Kyoto, Japan  
 ²Max Planck Institute for Geodynamics, Göttingen, Germany  

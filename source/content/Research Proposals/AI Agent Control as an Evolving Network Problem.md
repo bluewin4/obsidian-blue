@@ -1,6 +1,25 @@
 ---
+title: AI Agent Control as an Evolving Network Problem
+author: Jack Elsworth
+section: Research Proposals
+content_type: research
 date: 2025-04-08
 lastmod: 2026-02-09
+description: A proposal to treat agent misalignment as memetic malformation propagating through network topology rather than as a property of individual models.
+themes:
+- AI safety
+- multi-agent systems
+- network topology
+- alignment
+ai_summary: 'Research proposal reframing misalignment in agentic networks as a problem of the information packets passed between tools and models, rather than solely of model architecture or training. Proposes testing variable network topologies with nodes explicitly labelled aligned or misaligned, measuring how the placement of misaligned agents changes task outcomes, and evaluating adaptive ''positive jailbreaks'' that repair misaligned nodes. Expects behaviour analogous to genetic regulatory networks, modellable with stochastic differential equations whose noise comes from sampling temperature, input variability and output evaluation. Identifies a gap: existing work covers goal assignment in agent populations and tightly bound multimodal architectures, but not explicitly defined agent-tool relationships or weakly bound networks with tightly coupled inputs.'
+ai_keywords:
+- agent networks
+- misalignment
+- network topology
+- monitoring agent
+- positive jailbreak
+- stochastic differential equations
+semantic_structure: motivation > gap > proposed_method > expected_results > future_directions
 ---
 
 

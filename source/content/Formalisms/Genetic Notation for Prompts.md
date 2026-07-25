@@ -1,8 +1,26 @@
 ---
-tags:
-  - biology
-  - LLM
+title: Genetic Notation for Prompts
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-17
+tags:
+- biology
+- LLM
+description: Prompts as genotype and output as phenotype, with token subsequences treated as genes.
+themes:
+- prompt engineering
+- genetics
+- notation
+ai_summary: Defines the genetic vocabulary underlying the prompt mutation survey. A prompt is a set of information represented by a token sequence; a gene is a subset of those tokens from which a specific piece of information can be decoded. The genotype is the exact prompt text, the phenotype is the observed output, and a mutation is a perturbation of the token sequence that changes the information the prompt can access.
+ai_keywords:
+- genotype
+- phenotype
+- gene
+- prompt
+- mutation
+- notation
+semantic_structure: definition > gene > genotype > phenotype > mutation
 ---
 ## Definition
 An input $\mathcal{r}$ is composed of a set of information $\mathbb{I}_{r}$ that is represented by a token sequence $\mathbf{x}=\{ x_{1},\dots,x_{n} \}$ where $n$ is equal to the token length of $\mathcal{r}$.

@@ -1,6 +1,27 @@
 ---
+title: The God's Loss
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: story
 date: 2025-03-17
 lastmod: 2025-04-09
+description: A religion's birth and corruption told in four sections, each locked to a different grammatical person.
+themes:
+- religion
+- transmission
+- grief
+- institutions
+- memetics
+ai_summary: 'A story in four movements, each anchored to a fixed pronoun and anaphora so that the grammar enacts the transmission of a faith. ''They were'' — a warrior buries the healer they loved, in first person. ''He was'' — a boy witnesses the burial, learns to write, and records the warrior''s stories, in third person. ''You may'' — the stories become a Book and a catechism, in second person. ''We'' — the established church suppresses a heresy that turns out to have understood the prophet better than they did, in first person plural. A narrative counterpart to The Ecology of Information: how a soul propagates through substrates and is distorted by the institutions that carry it.'
+ai_keywords:
+- religion
+- transmission
+- canon
+- heresy
+- grief
+- grammatical person
+- memetics
+semantic_structure: burial_of_the_body > telling_of_the_tales > conception_of_the_canon > piece_of_the_prophet
 ---
 # The Burial of the Body
 

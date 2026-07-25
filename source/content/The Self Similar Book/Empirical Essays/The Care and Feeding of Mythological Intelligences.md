@@ -1,6 +1,37 @@
 ---
+title: The Care and Feeding of Mythological Intelligences
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-03-19
 lastmod: 2026-02-09
+description: A taxonomy of computational systems as Angels, Daemons, Fae and Tsukumogami — with guidance on cultivating and warding against each.
+themes:
+- AI taxonomy
+- machine learning
+- complex systems
+- mythology
+- AI safety
+ai_summary: 'Classifies computational systems into four mythological kinds and treats each across four sections. Angels are computable systems: deterministic, exact, rigid, failing by following instructions literally. Daemons are machine learning: statistical, powerful on undefined problems, failing by satisfying reward functions perversely. Fae are generative models: distributional, flexible, communicative, failing by generating whatever seems likely. Tsukumogami are complex systems: gestalts of the other three, flexible but inheriting every component weakness at once. Each kind is then given a care regime, a warding section describing how it can be manipulated or defended against, and a treatment of its role within larger systems. Heavily hyperlinked to primary literature.'
+ai_keywords:
+- angels
+- daemons
+- fae
+- tsukumogami
+- AI taxonomy
+- reward hacking
+- complex systems
+- warding
+ai_concepts:
+- name: Angel
+  definition: 'A computable system: deterministic, exact, and rigid. Named computable systems.'
+- name: Daemon
+  definition: A system of policies and reward that optimises and estimates. Named machine learning.
+- name: Fae
+  definition: A system of pattern and generation producing new instances from learned patterns. Named generative models.
+- name: Tsukumogami
+  definition: A gestalt arising from the coordination of other intelligent systems. Named complex systems.
+semantic_structure: taxonomy > care_and_feeding > warding > scales
 ---
 ## The Taxonomy of Mythological Intelligences
 

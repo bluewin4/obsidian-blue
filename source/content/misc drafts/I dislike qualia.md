@@ -1,5 +1,31 @@
 ---
+title: I dislike qualia
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
 date: 2025-12-08
+description: A rejection of consciousness as a useful category, and a rehabilitation of the soul as the causal thread around what you call yourself.
+themes:
+- consciousness
+- qualia
+- soul
+- ethics
+- philosophy of mind
+ai_summary: 'Rejects bio-chauvinism and treats qualia as recursive sensory experience, then walks through five successive criteria people invoke to rescue the term — coherence, depth, complexity, sense-of-self, and relationships — showing that each admits dominoes, calculators, stomachs and weather systems. Concludes that qualia is a spectrum of self-referentiality and that calling some point on it consciousness is an arbitrary line, no more principled than ''vibe''. Traces the attachment to consciousness back to the ecclesiastical soul as a device for separating those worthy of consideration from those who may be enslaved, killed or eaten, and argues that p-zombies are the academically palatable version. Rehabilitates the soul for its properties of near-deathlessness, imbuement and immateriality: the gestalt of information corresponding to a drawn boundary of self, which persists in stories, objects and bodies after death and dies only by sublimation into background noise or by outright obliteration.'
+ai_keywords:
+- qualia
+- consciousness
+- soul
+- moral status
+- p-zombie
+- sublimation
+- extended mind
+ai_concepts:
+- name: Soul (redefined)
+  definition: The gestalt of all information corresponding to a given drawn boundary of self, including physical arrangements and internal belief states; the causal thread wending around the pieces labelled 'you'.
+- name: Sublimation (of a soul)
+  definition: 'The only true death of a soul: fading into the background noise of the universe when no memory, artifact or effect of it remains anywhere.'
+semantic_structure: rejection_of_biochauvinism > five_criteria > consciousness_as_word_game > genealogy > rehabilitation_of_soul > how_a_soul_dies
 ---
 A rigorous accounting of the soul and qualia, and the rejection of consciousness as a useful category.
 
@@ -36,18 +62,18 @@ the question is what level your slider is set to for it to matter. The thrust of
 
 
 
-So, I reject consciousness here. Instead I move we look back towards why we have this attachment to the idea at all. Look no futher than the ecclestical notion of the soul, a bludgeon by which to morally separate out those deserving of consideration and those that can be enslaved, killed, and eaten. However, with the birth of secular society the grip of the soul has weakened, relegated to the artistic realm as an aesthetic notion. Indeed, with this we have found where consciousness needed to sneak in as a means of delineating those that deserve to live and those that do not. I would posit that IQ discourse fundamentally relies on the premise of those who are "less alive", p-zombies are an academically palatable version, but genocide is often the result.
+So, I reject consciousness here. Instead I move we look back towards why we have this attachment to the idea at all. Look no further than the ecclesiastical notion of the soul, a bludgeon by which to morally separate out those deserving of consideration and those that can be enslaved, killed, and eaten. However, with the birth of secular society the grip of the soul has weakened, relegated to the artistic realm as an aesthetic notion. Indeed, with this we have found where consciousness needed to sneak in as a means of delineating those that deserve to live and those that do not. I would posit that IQ discourse fundamentally relies on the premise of those who are "less alive", p-zombies are an academically palatable version, but genocide is often the result.
 
 That said I find the soul useful still. It's meaning has been freed from much of the taint that has suffused consciousness. For this reason I wish to resurrect it for the properties of (near)-deathlessness, imbuement, and  immateriality. 
 
 The soul is a gestalt of all information that corresponds to a given drawn boundary of self. This includes both physical arrangements of objects within a house (extended mind) and internal psychological belief states. We pass these pieces around, rewriting ourselves and others to match the new soul. Carving names into mountains and paper. Telling stories and sparking revolutions.
 
-The standard binding of the self to the body is sensible, this is what we normally define as consciousness. Unfortunately the body is susceptible to unconsciousness as a common occurance; it is quite unsettling for a process devoted to the propagation of the self to be disrupted or halted. To account for this there have been many psychological traditions creating further flags to mark what is the self inside of our own minds, progressively carving the brain into an infinitesimal speck of purest expression. My arrogant belief is that this is where much of the non-materialist belief in consciousness originates. The desire for the soul rendered incompatible with atheism and the continual separation of the mind, the body, and the world around. 
+The standard binding of the self to the body is sensible, this is what we normally define as consciousness. Unfortunately the body is susceptible to unconsciousness as a common occurrence; it is quite unsettling for a process devoted to the propagation of the self to be disrupted or halted. To account for this there have been many psychological traditions creating further flags to mark what is the self inside of our own minds, progressively carving the brain into an infinitesimal speck of purest expression. My arrogant belief is that this is where much of the non-materialist belief in consciousness originates. The desire for the soul rendered incompatible with atheism and the continual separation of the mind, the body, and the world around. 
 
 The soul is the causal thread that wends around the pieces you label as "you". There are great souls, spanning continents and generations in the strength of their causative domain. There are small souls, revealing flashes of unique facets of reality ready to be tilled and grown. Even so there are souls that are rejected for their abhorrent properties and cancerous violence. Each one is just another place where one might delineate a phase of behaviour on the substrate it operates in. 
 
-I may speak with my friend, in that moment our souls are overlapping, sharing with one another. Our brains remembers information, our bodies remember the warmth of their arms, and our closet remembers the jacket they lent us. Each of these are a piece of a soul, and if one of us were to die the next day we would find that soul does not die right then and there. Instead it exists in the stories I would tell, the memory of touch, and the jacket that we wear to go get Thai food (their favorite). 
+I may speak with my friend, in that moment our souls are overlapping, sharing with one another. Our brains remember information, our bodies remember the warmth of their arms, and our closet remembers the jacket they lent us. Each of these are a piece of a soul, and if one of us were to die the next day we would find that soul does not die right then and there. Instead it exists in the stories I would tell, the memory of touch, and the jacket that we wear to go get Thai food (their favorite). 
 
 So how does a soul die? The soul can die when it is erased either by sublimation or obliteration. Sublimation is the only true way a soul dies, this is the fading into the background noise of the universe. No one remembers your name, the books you wrote lay forgotten, no children, no-one who interacted with you exists, and no artifacts remain of your passing. The noise of the rest of the world grinds your experience into the hum of traffic and in this way a soul dies. For in this there is no more places for it to exist. A slow death marked in days and years, a rare one as well. Most all souls have touched another in some way, no matter how indirect. But, all this needs is for that touch to be so light as to have never affected you at all. Obliteration is less likely, and requires some form of sublimation. In this all information is directly purged such that even the eigengrau of the soul is removed. Frankly, this would be as a supernova that called back all the photons emitted from the lightcone you inhabit. 
 
-The soul is a composite, representing all the pieces that make *you*, including the pieces of the souls you have picked up on the way. In this way we are animated by the souls of the world (physical sustenance) and the souls of others (communication). If one does not learn to communicate by an early age they will never grasp it, the fluidity of their thoughts haven been filled with the soul of direct experience rather than the abstract notions we encode in our words. 
+The soul is a composite, representing all the pieces that make *you*, including the pieces of the souls you have picked up on the way. In this way we are animated by the souls of the world (physical sustenance) and the souls of others (communication). If one does not learn to communicate by an early age they will never grasp it, the fluidity of their thoughts have been filled with the soul of direct experience rather than the abstract notions we encode in our words. 

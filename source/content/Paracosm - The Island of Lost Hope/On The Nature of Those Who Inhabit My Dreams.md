@@ -1,5 +1,26 @@
 ---
+title: On The Nature of Those Who Inhabit My Dreams
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2026-05-20
+description: On imagined worlds that decay when attention withdraws, the entities that resist their own erasure, and resolving one by tying it into the rest of the self.
+themes:
+- dreams
+- tulpas
+- attention
+- imagination
+- self
+ai_summary: 'The conceptual keystone of the Paracosm section. Distinguishes dreamt entities, which submerge and return regardless of will, from constructed imaginal ones, which freeze if not updated, unravel if forgotten, and die if ended. Records building a world whose inhabitants became aware of their dependence on the author''s attention: when attention wavered their cities cooled, trees collapsed, and pilgrims built shrines and cursed him for more. Resolves it not by deletion but by connecting the world to the rest of his internal symbol system so it could persist without constant tending. Includes a collapsed warning containing a construct that begs not to be stopped. Also records years of dreaming only a dark void, and a later transmutation of intrusive pain imagery into flowers. Contains distressing material.'
+ai_keywords:
+- tulpa
+- imaginal realm
+- attention
+- erasure
+- dream entities
+- paracosm
+- intrusive thoughts
+semantic_structure: dreams_vs_imagination > entities > the_attention_dependent_world > resolution > return_to_the_paracosm
 ---
 
 

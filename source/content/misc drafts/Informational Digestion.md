@@ -1,7 +1,26 @@
 ---
+title: Informational Digestion
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
 date: 2025-03-17
 lastmod: 2025-12-16
 draft: true
+description: 'An unfinished draft treating learning as digestion: identification, breakdown, absorption and integration of negentropy.'
+themes:
+- learning
+- digestion
+- negentropy
+- hyperpalatability
+ai_summary: 'An unfinished draft running the digestion metaphor across food and information. Frames digestion as consuming, breaking down, absorbing and integrating, where what matters is not atomic content but arrangement, so the real quantity consumed is negentropy. Notes that the systems governing appetite learn on very different timescales — neuronal fast, microbiome slower, hormonal glacial — so chronic stress can lock the three into a mutually reinforcing cycle. Extends the same structure to learning: identifying information, predicting which is useful, integrating it, and thereby creating a feedback cycle exploitable by hyperpalatability. Incomplete: breaks off mid-sentence and later sections remain as bare headings.'
+ai_keywords:
+- digestion
+- learning
+- negentropy
+- microbiome
+- hyperpalatability
+- incomplete
+semantic_structure: pattern_cycle > body_cycle (incomplete)
 ---
 #draft
 
@@ -23,7 +42,7 @@ The process begins by identifying the material to be digested; then the determin
 
 - Mind: Organization of patterns into models
 
-The main components involved are the ability to predict which nutrients are required by the body in order to deal with the future. Some things are simple such as the continual need for energy, others are complex but predictable like growth, and others yet are almost impossible such as a spontaneous injury. The body has multiple systems to perform inference on which material is nessicary for consumption; from neuronal (choose what to eat) to microbiome (influences neuronal and hormonal) to hormonal (state of body) . These are not performed in a vacuum though, humans have physical-sociological systems that influence us such as knowledge provided to us (mother telling us to eat healthy) and monetary constraints (healthy food can be expensive). 
+The main components involved are the ability to predict which nutrients are required by the body in order to deal with the future. Some things are simple such as the continual need for energy, others are complex but predictable like growth, and others yet are almost impossible such as a spontaneous injury. The body has multiple systems to perform inference on which material is necessary for consumption; from neuronal (choose what to eat) to microbiome (influences neuronal and hormonal) to hormonal (state of body) . These are not performed in a vacuum though, humans have physical-sociological systems that influence us such as knowledge provided to us (mother telling us to eat healthy) and monetary constraints (healthy food can be expensive). 
 
 - Soul: Emergence of patterns through relationship
 

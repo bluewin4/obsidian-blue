@@ -1,5 +1,26 @@
 ---
+title: A Flaw for God
+author: Jack Elsworth
+section: misc stories
+content_type: story
 date: 2025-12-08
+description: A scientist and a scientific glassblower build the apparatus that will spark life, and the deliberate flaw left in every work turns out to be the man himself.
+themes:
+- love
+- craft
+- abiogenesis
+- grief
+- mortality
+ai_summary: 'A restrained love story set around origin-of-life research. Christoff leaves Oxford for Chicago to study abiogenesis; Cliff, a scientific glassblower at a national laboratory, lives by his mentor''s rule that all work must carry a flaw for God, which he keeps as the asymmetric shape of his beard. They meet through an argument over an impossible specification and build a life around Cliff''s shop. Knowing he is dying, Cliff makes a final apparatus, cuts his beard and burns the hair to fume the glass, leaving smoky markings Christoff cannot account for. The story never states the death: Cliff dies at 7:34 AM, the minute he left home every morning, and Christoff starts the experiment at 8:01 AM, the minute Cliff always entered the shop. Closes on a museum exhibit note attributing the work posthumously.'
+ai_keywords:
+- love story
+- glassblowing
+- abiogenesis
+- Miller-Urey
+- grief
+- craft
+- flaw for God
+semantic_structure: christoff > cliff > meeting > the_apparatus > the_morning > exhibit_note
 ---
 Christoff was new to Chicago, having been born in Oxford; he had never left his county before. His home overflowed with affection, emotional and material. Thankfully, he absorbed that love with grace, always a soft smile tugging his lips, a halo of soft gold hair, and cloudy blue eyes that settled like a blanket on whoever they beheld. There was only so much naivety one could take before they must fling themselves out into the world.
 

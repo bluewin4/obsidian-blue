@@ -1,10 +1,29 @@
 ---
 title: Jack and Jill
+author: Jack Elsworth
+section: misc stories
+content_type: story
 date: 2025-12-09
+description: The nursery rhyme rendered line by line in formal notation — the clearest available introduction to the Formalisms project.
+themes:
+- notation
+- nursery rhyme
+- formalism
+- humour
+ai_summary: 'Renders the nursery rhyme Jack and Jill line by line in the author''s own formal notation, each line given a table of symbolic components above the original text and a LaTeX statement beneath: set membership for the two children, a positive derivative of height for going up the hill, a state transition for filling the pail, a sharply negative derivative for Jack''s fall, and a partition of the crown into disjoint pieces for its breaking. Functions as a joke and simultaneously as the most legible on-ramp to the Formalisms section, since it applies the notation to something the reader already knows.'
+ai_keywords:
+- notation
+- nursery rhyme
+- formalism
+- Jack and Jill
+- pedagogy
+- humour
+semantic_structure: line_by_line_notation
 ---
-| $J_a \cap J_i$ | $\frac{dh}{dt} > 0$ | $(h_{base} \to h_{well}) \in \mathbb{X}_{hill}$ |
-|:--:|:--:|:--:|
-| *Jack and Jill* | *went up* | *the hill,* |
+
+| $J_a \cap J_i$  | $\frac{dh}{dt} > 0$ | $(h_{base} \to h_{well}) \in \mathbb{X}_{hill}$ |
+| :-------------: | :-----------------: | :---------------------------------------------: |
+| *Jack and Jill* |      *went up*      |                   *the hill,*                   |
 
 $$J_{a}, J_{i} \in \{\text{kids(h, p, c)}\}; \space \frac{dh}{dt} > 0$$
 

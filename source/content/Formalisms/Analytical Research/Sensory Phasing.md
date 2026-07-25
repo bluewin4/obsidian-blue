@@ -1,7 +1,25 @@
 ---
-title: "Sensory Phasing"
-draft: true
+title: Sensory Phasing
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-07-28
+draft: true
+description: 'A multi-agent reinforcement learning toy problem: agents select transformations of a signal so a downstream network can reconstruct it.'
+themes:
+- reinforcement learning
+- multi-agent
+- active perception
+- signal processing
+ai_summary: Specifies a multi-agent reinforcement learning problem for studying active perception and co-adaptation. A one-dimensional signal is decomposed into several sensory paths, each a distinct transformation or filtered view such as a wavelet coefficient stream. A team of agents concurrently selects one path each per decision step, observing only a rolling history of all agents' past choices and their own identifier. A downstream deep network must reconstruct the original signal from the selected views, so the agents must learn to cover complementary parts of the signal without direct communication.
+ai_keywords:
+- multi-agent RL
+- active perception
+- sensory paths
+- wavelets
+- signal reconstruction
+- co-adaptation
+semantic_structure: problem_statement > components > observation_space > objective
 ---
 ## Sensory Phasing: A Multi-Agent Reinforcement Learning Problem
 

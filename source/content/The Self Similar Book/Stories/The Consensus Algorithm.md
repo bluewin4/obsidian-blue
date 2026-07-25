@@ -1,6 +1,26 @@
 ---
+title: The Consensus Algorithm
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: story
 date: 2025-04-22
 lastmod: 2025-06-05
+description: Perfect communication discovered, spreading as a memetic autoimmune disease that destroys the ability to read anything written outside it.
+themes:
+- communication
+- memetics
+- infohazard
+- consensus
+- language
+ai_summary: 'Researchers discover an algorithm for perfect transmission of internal representations between minds. Adoption spreads through a university, then the press, then the world. But each use carves a path of least resistance: users progressively lose the ability to parse text written by anyone outside the Algorithm, including their own earlier selves. The narrator turns to burning books and then to killing, and discovers that the conflict itself spells Consensus and broadcasts it further. Told in four sections — Discovery, Desires, Devotion, Desecration — each closed by a found document in a different register (a prison poem, a hostile peer review, a 2009 diary entry, a 2075 folk tale) presented out of chronological order.'
+ai_keywords:
+- perfect communication
+- consensus
+- infohazard
+- memetic disease
+- language loss
+- found documents
+semantic_structure: discovery > desires > devotion > desecration
 ---
 
 ## Discovery

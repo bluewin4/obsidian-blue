@@ -1,6 +1,25 @@
 ---
+title: Thoughts
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
 date: 2025-07-18
 lastmod: 2025-12-08
+description: 'A loose note on phantom charisma: manipulating belief by letting the listener build the scaffold themselves.'
+themes:
+- charisma
+- manipulation
+- communication
+- compression
+ai_summary: 'A short working note on what the author calls phantom degrees of charisma. Distinguishes outright lying from selective truth, and argues the latter exploits the lossy nature of communication: rather than asserting the property you want believed, you emit statements semantically close enough that the listener constructs the causal chain themselves and reaches a much lower-energy conclusion. Compares this to a form of imagery that suggests nakedness purely through negative space. The mechanism works because compressing a person to ''this candidate is smart'' is cheaper to store than the specific breadcrumbs that produced it. Breaks off mid-sentence.'
+ai_keywords:
+- charisma
+- manipulation
+- selective truth
+- compression
+- lossy communication
+- incomplete
+semantic_structure: premise > lying > selective_truth > compression_mechanism
 ---
 While walking through the day many thoughts may avail themselves upon me, not all of them can fit within the strict structure of [[The Self Similar Book]]. 
 

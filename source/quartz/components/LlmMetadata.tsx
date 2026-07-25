@@ -26,12 +26,28 @@ const toIso = (value: unknown, fallback?: Date): string | undefined => {
   return fallback?.toISOString()
 }
 
-export default (() => {
+interface LlmMetadataOptions {
+  /**
+   * Author credited when a page has no `author` in its frontmatter.
+   * Auto-generated pages (folder listings, tag indexes) have no source file,
+   * so they always fall back to this. Leave empty to omit authorship entirely
+   * rather than assert one — never fall back to the site title, which would
+   * publish the site's name as a schema.org Person.
+   */
+  defaultAuthor: string
+}
+
+const defaultOptions: LlmMetadataOptions = {
+  defaultAuthor: "",
+}
+
+export default ((userOpts?: Partial<LlmMetadataOptions>) => {
+  const opts = { ...defaultOptions, ...userOpts }
   const LlmMetadata: QuartzComponent = ({ fileData, allFiles, cfg }: QuartzComponentProps) => {
     const fm = fileData.frontmatter ?? ({} as Record<string, unknown>)
     const title = asString(fm.title, fileData.slug ?? "")
     const description = asString(fm.description, summarizeText(asString(fileData.text)))
-    const author = asString(fm.author, cfg.pageTitle)
+    const author = asString(fm.author, opts.defaultAuthor)
     const dateCreated = toIso(fm.date_created ?? fm.date, fileData.dates?.created)
     const dateModified = toIso(fm.date_modified ?? fm.lastmod, fileData.dates?.modified)
     const section = asString(fm.section)
@@ -98,12 +114,12 @@ export default (() => {
       "@context": "https://schema.org",
       "@type": contentType === "research" ? "ScholarlyArticle" : "Article",
       headline: title,
-      author: { "@type": "Person", name: author },
       mainEntityOfPage: {
         "@type": "WebPage",
         "@id": `https://${cfg.baseUrl}/${fileData.slug}`,
       },
     }
+    if (author) structuredData.author = { "@type": "Person", name: author }
     if (description) structuredData.description = description
     if (aiKeywords.length > 0) structuredData.keywords = aiKeywords
     if (dateCreated) structuredData.datePublished = dateCreated

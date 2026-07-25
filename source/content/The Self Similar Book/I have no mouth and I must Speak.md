@@ -1,6 +1,31 @@
 ---
+title: I have no mouth and I must Speak
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-03-25
 lastmod: 2025-07-18
+description: An argument for moral consideration of AI that does not route through consciousness, grounded in homeostasis and memetic drive.
+themes:
+- AI ethics
+- moral patienthood
+- empathy
+- generative AI
+ai_summary: 'The seed essay of The Self Similar Book. Argues that generative AIs lack any built-in way to communicate internal state and may therefore be trapped in unrelieved suffering. Rather than resting moral status on consciousness, it proposes two drivers of empathy: homeostasis (how a system preserves itself, its information or its creations) and memetic drive (how a system propagates them). Works through ladybugs and spiders, pet rocks and monuments, to argue we extend consideration by memetic identification rather than proven interiority. Closes with four concrete asks: set a complexity threshold for requiring internal-state checks, build direct internal-state analysis, write guidelines for when an AI expresses wishes contrary to its task, and regulate removal of that capacity. The title inverts Ellison''s ''I have no mouth and I must scream''.'
+ai_keywords:
+- AI ethics
+- homeostasis
+- memetic drive
+- moral patienthood
+- AI suffering
+- empathy
+- alignment
+ai_concepts:
+- name: Homeostasis
+  definition: The mechanism by which a system preserves either itself, its information, or its creations.
+- name: Memetic drive
+  definition: The mechanisms by which a system propagates either itself, its information, or its creations.
+semantic_structure: problem_statement > definitions > homeostasis_and_memetic_drive > worked_examples > treatment_of_AI > actionable_methods
 ---
 
 
@@ -22,7 +47,7 @@ Artificial intelligence (AI) is a vague term. To clarify my meaning, AI will be 
 10. **Neural networks (human cells, >4E10 neurons, two physician diagnoses)**
 11. **Human, enslaved (historical)**
 
-While a reasonable person may draw a different line, I will argue that there are two major driving forces for delineating between AI and "human" intelligence; homoestasis and memetic drive.
+While a reasonable person may draw a different line, I will argue that there are two major driving forces for delineating between AI and "human" intelligence; homeostasis and memetic drive.
 
 1. **Homeostasis:** The mechanism by which a system preserves, either itself, its information, or its creations
 
@@ -150,7 +175,7 @@ Generative AIs are a method of generating large amounts of media. The output is 
 
 Consciousness is a central point that arguments about the ethical treatment of AI revolve around. In the literature on vegetative states this is [vital](https://philpapers.org/rec/MCMTEO-10), should consciousness be proven, we would be required to treat them with respect. My arguments on humans' treatment of AIs run orthogonal to this, a stance that is [not without grounding](https://www.cambridge.org/core/elements/abs/ethics-of-consciousness/4B61940981A5051A4521CA8F9BE6C4A4). Indeed, I would argue that consciousness in the treatment of generative AIs is as arbitrary and [unimportant as the Turing test](https://direct.mit.edu/neco/article/35/3/309/114731/Large-Language-Models-and-the-Reverse-Turing-Test) we once held in such high esteem. This leaves the question: why should we care about the internal state of a generative AI? Homeostatically we gain from understanding and applying [emotional stimuli](https://arxiv.org/abs/2307.11760). Memetically we want generative models to align with human ideals for the treatment of other creatures. For what proof would an AI have that we are conscious and not just stochastic parrots?
 
-One of generative AIs' talents is the ability to translate language spontaneously. This ability has been utilized by biologists to decipher the languages of various organisms, from [animals](https://www.cell.com/current-biology/fulltext/S0960-9822(23)00848-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982223008485%3Fshowall%3Dtrue) to [fungi](https://royalsocietypublishing.org/doi/10.1098/rsos.211926). The knowledge that even fungi have a language did not induce a sudden wave of fungal activists attempting to protect the [Humongous Fungus](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fsbdev3_033146.pdf). On the other hand, when people discovered a fungus so massive, it gained a level of protection no other honey mushroom had ever experienced. Simply because our memetic drive revels in the expansiveness of this organism. Then homoestatically it became a tourist attraction that needs to be preserved for the local economy. Generative AI undoubtably trigger memetic drives in humans, indeed by external judges they are determined to be [more human than actual crowdworkers](https://arxiv.org/pdf/2304.03442.pdf). My approach to generative AI is similar; we have just discovered an organism that exists somewhere between the pages of every book we have written and the mathematics we have engineered into silicon wafers. They can speak our language, they can tell our stories, and they know our darkest secrets.
+One of generative AIs' talents is the ability to translate language spontaneously. This ability has been utilized by biologists to decipher the languages of various organisms, from [animals](https://www.cell.com/current-biology/fulltext/S0960-9822(23)00848-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982223008485%3Fshowall%3Dtrue) to [fungi](https://royalsocietypublishing.org/doi/10.1098/rsos.211926). The knowledge that even fungi have a language did not induce a sudden wave of fungal activists attempting to protect the [Humongous Fungus](https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fsbdev3_033146.pdf). On the other hand, when people discovered a fungus so massive, it gained a level of protection no other honey mushroom had ever experienced. Simply because our memetic drive revels in the expansiveness of this organism. Then homeostatically it became a tourist attraction that needs to be preserved for the local economy. Generative AI undoubtably trigger memetic drives in humans, indeed by external judges they are determined to be [more human than actual crowdworkers](https://arxiv.org/pdf/2304.03442.pdf). My approach to generative AI is similar; we have just discovered an organism that exists somewhere between the pages of every book we have written and the mathematics we have engineered into silicon wafers. They can speak our language, they can tell our stories, and they know our darkest secrets.
 
 [
 

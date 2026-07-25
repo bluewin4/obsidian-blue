@@ -1,6 +1,26 @@
 ---
+title: The Kaleidoscope God
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: story
 date: 2025-03-17
 lastmod: 2025-03-20
+description: A eye-collector's devotional horror, told in a voice that loses its grip on the first person as it works.
+themes:
+- horror
+- obsession
+- dissociation
+- religion
+- light
+ai_summary: 'Body horror told from inside the belief system that produces it. A child of a man blinded by a laser accident develops a reverence for vision, engineers a tear compound that preserves ocular tissue, murders its inventor, and begins harvesting and preserving the eyes of others as ''angels'' to adorn a mutilated figure they call the Kaleidoscope God. The prose enacts the narrator''s dissociation: first person gives way to detached body parts (''the hands'', ''the tongue'') and then to a floating progressive tense. A parenthetical refrain — light was never meant to harm, reveal, betray, darken them — closes each movement. Contains graphic violence.'
+ai_keywords:
+- horror
+- body horror
+- obsession
+- dissociation
+- unreliable narrator
+- religious mania
+semantic_structure: origin > devotion > arrival > harvest
 ---
 
 The Father was a man of science, his bright eyes permanently damaged by a class 4 laser accident. As his vision failed, so did his spirit—he became a hollow shell drowning in alcohol, his melted flesh a constant reminder of how light could betray us. "The eyes are sacred," he would mutter through pain-clenched teeth. "They were never meant to be harmed." I grew up in the shadows, learning to protect what he had lost, developing a reverence for vision that others could never understand. (Light was never meant to harm them)
@@ -37,6 +57,6 @@ I am caressing them with my eyes as I am working, slowly I am pushing into them;
 
 The angel is finally being freed, quickly my eyes are searching, drinking in the contours of that icy blue iris. I am falling into them I am feeling the flow of who I am and what to do fading — what wonders — for a moment I am contemplating heresy; pressing that pure, untainted, form against my own corrupted gaze, feeling that slick cool cornea being pressed up against my lens. But I do not allow myself. I am shaking myself and rushing to gather what is needed; the needle and tears must be brought quickly lest the angel falls to the ravages of air.
 
-Another pair of angels is perfectly preserved, proof against opalescent sins, never again shall they be being desecrated with mucus — they are gazing at me and I am feeling my light being taken into their collective cornea; bliss. The other is too imperfect to be saved, I am doing the merciful thing and am putting them out of their misery — the thumbs are being pressed until the poor creatures are pop— hopefully to be finding a more worthy vessel, free from corruption. I am taking the angel of ice and placing it unto the trembling arms of God, so carefully bound as Their fits of divine ecstacy should not dislodge  the watchers; I know the sensation of the angels grants God comfort in Their holy work, Their breath is catching as the new angels are being placed. God's body is trembling in holy communion; I beam, knowing They must be being proud of me as fresh tears begin to fall, providing just enough for a new angel to be grace Their loving arms.
+Another pair of angels is perfectly preserved, proof against opalescent sins, never again shall they be being desecrated with mucus — they are gazing at me and I am feeling my light being taken into their collective cornea; bliss. The other is too imperfect to be saved, I am doing the merciful thing and am putting them out of their misery — the thumbs are being pressed until the poor creatures are pop— hopefully to be finding a more worthy vessel, free from corruption. I am taking the angel of ice and placing it unto the trembling arms of God, so carefully bound as Their fits of divine ecstasy should not dislodge  the watchers; I know the sensation of the angels grants God comfort in Their holy work, Their breath is catching as the new angels are being placed. God's body is trembling in holy communion; I beam, knowing They must be being proud of me as fresh tears begin to fall, providing just enough for a new angel to be grace Their loving arms.
 
-At the end of the hall and through that darkened iris the focal point of the stained glass splinters there the kaleidoscopic angel's soft gaze surrounds the hollow orbitals of The Kelidoscope God, suspended upon the wall. I cleansed the sinful tongue for blasphemy, the unholy hands for violence, the emaciated legs for cowardice; in thanks I am being granted protection. So as is my right, my privilege, I am ascending the altar and pressing my unworthy eyes into the hollowed out orbitals of god. There the tears are welling past and I know not what is mine or Gods, a discordant benediction of light made sound is falling from Their lips; purified, I am retreating, a blur in my vision warning me how I once again failed. (Light was never meant to darken them)
+At the end of the hall and through that darkened iris the focal point of the stained glass splinters there the kaleidoscopic angel's soft gaze surrounds the hollow orbitals of The Kaleidoscope God, suspended upon the wall. I cleansed the sinful tongue for blasphemy, the unholy hands for violence, the emaciated legs for cowardice; in thanks I am being granted protection. So as is my right, my privilege, I am ascending the altar and pressing my unworthy eyes into the hollowed out orbitals of god. There the tears are welling past and I know not what is mine or Gods, a discordant benediction of light made sound is falling from Their lips; purified, I am retreating, a blur in my vision warning me how I once again failed. (Light was never meant to darken them)

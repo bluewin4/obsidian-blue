@@ -1,3 +1,25 @@
+---
+title: The River of Thus
+author: Jack Elsworth
+section: misc poems
+content_type: poem
+description: A letter-poem on inherited blame, built on the pun between damning and damming a creek.
+themes:
+- family
+- inheritance
+- forgiveness
+- grief
+ai_summary: 'A poem in the form of a letter, opening ''Hello my dear'' and signed ''The Child of Us''. Sustains a pun between damning and damming across every stanza: a father''s blame passed down as a dam of Californian oak choking a creek, which rots, poisons the well, and floods the land, because damning does nothing but catch what it damns. The speaker dismantles the dam, the rotted oak becomes mulch, and the poem closes by thanking the river for all their journeys including the ones that still hurt, hoping it goes on feeding mint, blackberries and oaks.'
+ai_keywords:
+- poem
+- generational trauma
+- forgiveness
+- dam
+- river
+- family
+- wordplay
+semantic_structure: salutation > inherited_blame > the_dam > breaking > thanks > signature
+---
 Hello my dear,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;The River of Thus
 

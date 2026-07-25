@@ -1,5 +1,23 @@
 ---
+title: The Mountain's Owned by Rabbits
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
+description: An unpleasant place the narrator explicitly recommends against reading, and the probable origin of the Jack King.
+themes:
+- dream
+- nightmare
+- paracosm
+- the Jack King
+ai_summary: 'A dream memory opening with an explicit warning that the place is unpleasant and the reader need not continue. Records the mountains with towns owned by rabbit creatures, which the narrator suspects is where the Jack King came from, though he does not know whether the Jack King rules there. Content warning: distressing material.'
+ai_keywords:
+- rabbits
+- Jack King
+- paracosm
+- nightmare
+- content warning
+semantic_structure: warning > description
 ---
 This is an unpleasant place, I do not recommend continuing to read. I might imagine The Jack King rules here, but frankly I do not know.
 

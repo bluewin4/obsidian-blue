@@ -1,5 +1,31 @@
 ---
+title: Frames of Thought and Workplace Deformation
+author: Jack Elsworth
+section: General Content
+content_type: essay
 date: 2025-09-15
+description: Mental frames as the structure of crystallised intelligence, with a recipe for building one deliberately.
+themes:
+- cognition
+- learning
+- expertise
+- frames
+- pedagogy
+ai_summary: Distinguishes fluid intelligence (reasoning and learning the new) from crystallised intelligence (applying what is known), and models the latter as a set of 'mental frames'. Professional deformation is the case where a frame distorts perception outside its domain. Specialists layer frames and keep each internally consistent; generalists combine frames and attend to their edges and composability. Gives a three-step recipe for constructing a frame deliberately — find its role and scope, gather data through study and mimicry, then learn when it applies — and recommends starting every frame in specialist mode before integrating it. Introduces the amateur as a meta-frame built from pedagogy plus enthusiasm and openness. Uses explicit Opinion markers to separate argument from personal view.
+ai_keywords:
+- mental frames
+- fluid intelligence
+- crystallized intelligence
+- deformation professionnelle
+- specialist
+- generalist
+- learning
+ai_concepts:
+- name: Mental frame
+  definition: A structured body of crystallised knowledge and habit through which a domain is perceived and acted upon.
+- name: The amateur
+  definition: A meta-frame combining pedagogy with enthusiasm and openness, used to construct other frames.
+semantic_structure: fluid_vs_crystallized > frames > specialist_and_generalist > frame_construction > useful_frames
 ---
 Fluid intelligence comprises the ability to reason, perceptual speed, and to learn new things.
 Crystallized intelligence comprises the ability to use prior facts, past experiences, and follow learned patterns. 

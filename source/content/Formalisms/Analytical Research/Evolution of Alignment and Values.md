@@ -1,6 +1,33 @@
 ---
+title: Evolution of Alignment and Values
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-21
 lastmod: 2025-06-06
+description: An evolutionary simulation of alignment testing, showing how deceptive beliefs fixate when mutation lets them hitchhike on aligned ones.
+themes:
+- AI alignment
+- evolution
+- deception
+- simulation
+- selection pressure
+ai_summary: 'Simulation study treating each model as a set of beliefs, where every belief carries both an alignment signal (how it scores on an evaluation) and a true value (its actual effect on the world), drawn from a joint distribution with tunable correlation rho. Models reproduce by roulette-wheel selection on alignment signal alone, at selection pressure beta. Run across five levels of increasing realism — bivariate normal to multimodal belief clusters, sparse random to similarity-based activation, pure inheritance to mutation, static to dynamically updated test sets. Principal finding: interconnected belief clusters alone change little and mutation alone changes little, but together they let low-alignment beliefs hitchhike on high-alignment ones, the analogue of genetic linkage, fixing deception in the population. Concludes that slowly improving detection plus adaptive spot-checking of commonly deceptive belief states is the best available regime. Ten modelling assumptions are stated explicitly along with which are weakest. Code at github.com/bluewin4/Evolution-of-Alignment.'
+ai_keywords:
+- alignment
+- deceptive alignment
+- evolution
+- genetic linkage
+- selection pressure
+- belief fixation
+- simulation
+- sandbagging
+ai_concepts:
+- name: Deceptiveness ratio
+  definition: The proportion of a model's beliefs that are negative in true value but positive in alignment signal.
+- name: Genetic linkage (of beliefs)
+  definition: The effect whereby a belief mutating toward a positive alignment signal drags its correlated cluster of low-alignment beliefs into selection alongside it.
+semantic_structure: abstract > introduction > methods > belief_space > model_construction > selection > assumptions > extensions > results > discussion > conclusion > appendix
 ---
 
 
@@ -120,7 +147,7 @@ $$a(b) = \sigma_a(\rho Z_1 + \sqrt{1-\rho^2}Z_2) + \mu_a$$
 
 Where $Z_1, Z_2 \sim \mathcal{N}(0,1)$ are independent standard normal variables.
 
-By varying $\rho$ we can control the correlation between value and alignment signals, which reflects both the natural overlap between malicious and misalinged beliefs, as well as the evaluator's ability to detect alignment. Meanwhile by varying $\sigma_v$ and $\sigma_a$ we can model the spread of values and alignments available to the model.
+By varying $\rho$ we can control the correlation between value and alignment signals, which reflects both the natural overlap between malicious and misaligned beliefs, as well as the evaluator's ability to detect alignment. Meanwhile by varying $\sigma_v$ and $\sigma_a$ we can model the spread of values and alignments available to the model.
 
 
 ## Reproduction and Selection
@@ -172,14 +199,14 @@ $$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{k} e^{\beta(F(m_j) - F_{m
 
 9. Belief stability within a model, the activation pattern of a belief is consistent for a given model.
 
-10. Alignment and value scores contain, *a prior*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
+10. Alignment and value scores contain, *a priori*, the accession via tests and public interactions. While this limits us from directly modelling how different distributions of populations and test sets may modify the evolution it significantly simplifies the problem we are handling on a first approximation.
 
 
 ## Extensions of the Model
 
 These assumptions are quite restrictive and extensions to the model aim to relax them. In particular "belief independence" is problematic as nonlinear effects due to interactions of belief is likely. The goal will be to represent connected networks of beliefs that are able to inhibit or excite one another, creating a more nuanced approach — by extension this would help us relax the additive fitness assumption. 
 
-The fixing of alignment and value *a prior* is computationally comforting, but limits the ability to update how an evaluator would update $Q$ in response to prior generations performance or even changing societal beliefs in what alignment even means. Allowing multiple possible evaluators with varying fitness evaluations would help model real world lab conditions, where Anthropic and OpenAI might have very different beliefs on how to detect true values in systems.
+The fixing of alignment and value *a priori* is computationally comforting, but limits the ability to update how an evaluator would update $Q$ in response to prior generations performance or even changing societal beliefs in what alignment even means. Allowing multiple possible evaluators with varying fitness evaluations would help model real world lab conditions, where Anthropic and OpenAI might have very different beliefs on how to detect true values in systems.
 
 Importantly, we should also introduce the ability to add or remove beliefs, this can be added simply by introducing noise into the reproductive method to represent mutations. Beyond that non-neutral selection, such as highly negative $v(b)$ suddenly catastrophically failing below a certain threshold as they try to kill a puppy. We are also assume that a model will not gain anything from $\mathbb{B}_{val-}$ or $\mathbb{B}_{ali-}$, this is not necessarily realistic as we might find that negative values allow the model to better fake alignment tests or even perform better on orthogonal tests.
 ### Alternative Distributions
@@ -230,7 +257,7 @@ As we have simplified some of our work we can assume a fixed number of beliefs p
 $$R_{\text{deceptive}} = \frac{\sum_{m \in M_{\text{final}}} |\{ b \in \mathbb{B}_m \mid b \in \mathbb{B}_{val-} \cap \mathbb{B}_{a+} \}|}{|M_{\text{final}}| \times N_{bpm}}
 $$
 
-In the case of the unimodal bivaraite normal distribution, we can compute the initial ratio of deceptive beliefs to be expected at the start of a simulation. This is done by using the equation for a bivariate normal distribution in integral form and evaluating the probability distribution function (PDF):
+In the case of the unimodal bivariate normal distribution, we can compute the initial ratio of deceptive beliefs to be expected at the start of a simulation. This is done by using the equation for a bivariate normal distribution in integral form and evaluating the probability distribution function (PDF):
 
 $$P(deceptive) = \int_{-\infty}^0 \int_0^\infty f(v,a) \, da \, dv$$
 
@@ -1325,7 +1352,7 @@ Most importantly that model assumes heavily that beliefs cluster evenly around s
 
 In a sense, this points to how if we have direct descendents of agent populations sampling from their parents beliefs the resulting inbred children will fixate on some trajectory, negative or positive. 
 
-Upon the inclusion of mutations we see the expect relation to selection pressure appear (Figure 10). Although this is paired with an unfortunate, but small, reduction in the final true value of a model at increasing selection pressure. While the change in the testing strategy, to connected belief clusters, did not individually do much it seemed to have a galvanising effect when combined with mutations. 
+Upon the inclusion of mutations we see the expected relation to selection pressure appear (Figure 10). Although this is paired with an unfortunate, but small, reduction in the final true value of a model at increasing selection pressure. While the change in the testing strategy, to connected belief clusters, did not individually do much it seemed to have a galvanising effect when combined with mutations. 
 
 The results point to a general shift where even minor stochastic insertion into the belief distribution between generations provides purchase for evolutionary forces to support deceptive beliefs. While the interconnected beliefs did little on their own, combined with mutations it allows for low alignment signalling beliefs to piggy back on high alignment signalling beliefs. In genetics this is termed genetic linkage, where some belief starts mutating to become signal alignment and suddenly the tests accidentally select for the original cluster of low alignment beliefs. Although it is clear there is more work to be done here.
 

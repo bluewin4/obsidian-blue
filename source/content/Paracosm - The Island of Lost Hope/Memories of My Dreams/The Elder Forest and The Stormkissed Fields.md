@@ -1,6 +1,24 @@
 ---
+title: The Elder Forest and The Stormkissed Fields
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
 lastmod: 2025-04-08
+description: A dream that began as a thought about an impossibly hard game, and produced the most consecutive deaths the narrator has experienced.
+themes:
+- dream
+- nightmare
+- paracosm
+- death
+ai_summary: A dream memory that began while falling asleep thinking about a game so hard nobody had passed its first level, beyond which lay a wonderful world. The slip from thought to dream was seamless, leaving the boundary between conscious thought and dream unlocatable. Records the Elder Forest and the Stormkissed Fields, and the highest number of consecutive deaths the narrator has experienced within a single dream.
+ai_keywords:
+- Elder Forest
+- Stormkissed Fields
+- paracosm
+- repeated death
+- hypnagogia
+semantic_structure: origin_thought > entry > the_places
 ---
 This was an unexpected find for me, I had been thinking as I fell asleep of a game that was so devilishly hard that no one had ever managed to make it past the first level. That in this game there expanded out the most wonderful world one may ever find, but they needed only to beat the first level that no one ever did. The slip from thought to dream was seamless, so I know not where the dream began and my conscious thoughts ended. This is also possibly the most consecutive deaths I experienced in a dream
 

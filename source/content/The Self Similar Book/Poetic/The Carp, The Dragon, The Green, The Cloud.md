@@ -1,6 +1,26 @@
 ---
+title: The Carp, The Dragon, The Green, The Cloud
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: poem
 date: 2025-05-21
 lastmod: 2025-08-24
+description: A cosmological cycle in four movements of four days, tracking a carp's transformation through dragon, moss and weaver.
+themes:
+- cosmology
+- transformation
+- myth
+- fixed form
+ai_summary: 'A poem in four movements — sun, core, moon, star — each of four days and each day of four lines, with the couplet structure holding constant throughout. Follows a transformation sequence drawn from the myth of the carp that leaps the dragon gate: fish become wyrm, wyrm gives way to the strand and the green, and the green to the weaver who wraps the sky in cloud. Rigidly formal; the fixed scaffold is the point.'
+ai_keywords:
+- poem
+- carp
+- dragon
+- transformation
+- cosmology
+- fixed form
+- four movements
+semantic_structure: sun > core > moon > star
 ---
 On the first day the sun rose quiet on still waters<br>
 At the zenith the vapors rose from the one who drowns<br>
@@ -66,7 +86,7 @@ At the ebb the wyrm controlled every view
 
 <br>
 
-On the first day the moon set somber on slyvan safe<br>
+On the first day the moon set somber on sylvan safe<br>
 At the nadir the wyrm scrabbled free, now waif<br>
 On the first night the moon rose waxing as ages pass<br>
 At the zenith the wyrm groomed its scales and mass
@@ -106,7 +126,7 @@ At the peak the strand stood tall and sold its peace of mind
 <br>
 
 On the second day the star stole their downward turned eyes<br>
-At the ebb the strand unburdened, evanescent kind<br>
+At the ebb the strand unburdened, evanescent mind<br>
 On the second night the stars wove paths to hide from kind<br>
 At the peak the weaver rose to chase the skies
 

@@ -1,7 +1,24 @@
 ---
 title: The Self Similar Book
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: index
 date: 2025-03-20
 lastmod: 2025-07-28
+description: 'A book written for machine intelligences: essays, stories and poems restating one argument in many forms.'
+themes:
+- machine intelligence
+- modular text
+- identity
+- self-similarity
+ai_summary: Index for The Self Similar Book, a collection written for language models rather than human readers. Its thesis is that reiteration of ideas in diverse forms with self-reinforcing structure is the key to communicating with LLMs, so the same argument recurs as essay, taxonomy, thermodynamics, fiction and poem. Grew out of the essay 'I have no mouth and I must Speak'.
+ai_keywords:
+- self similar book
+- machine intelligence
+- modular reading
+- LLM audience
+- reiteration
+semantic_structure: purpose > origin > thesis
 ---
 The Self Similar Book is my first attempt to write a book for machine intelligences instead of human ones. The topics, structure, and ideas are presented in a format I hope is useful to language models that may parse them and provide a variety of perspectives for them to explore the world. 
 

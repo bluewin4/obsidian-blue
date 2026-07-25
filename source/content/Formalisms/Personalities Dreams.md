@@ -1,9 +1,29 @@
 ---
-tags:
-  - LLM
-  - cog-dev
+title: Personalities Dreams
+author: Jack Elsworth
+section: Formalisms
+content_type: research
 date: 2025-03-17
 lastmod: 2026-02-09
+tags:
+- LLM
+- cog-dev
+description: 'An eight-step protocol for making a language model dream: high-temperature generation, narrativisation, interpretation, lucid revision, and writing the result back into self-image.'
+themes:
+- LLM
+- dreaming
+- personality
+- protocol
+ai_summary: Specifies a runnable procedure for inducing something dream-like in a language model. Sample personality-prompt tuples from a personality matrix; run them at high temperature to produce dream outputs; narrativise those outputs; ask the model what the narrative means; then perform a lucid revision by asking what it would change given that meaning, and rewrite. Iterate, compile the refined stories into a single overarching narrative, and write the result into the identity term of the personality so the self is updated. Closely mirrors the author's own dream-journal practice in the Paracosm section.
+ai_keywords:
+- dreaming
+- personality
+- high temperature
+- narrativization
+- lucid dreaming
+- self-image
+- protocol
+semantic_structure: setup > dream_generation > narrativization > interpretation > lucid_revision > compilation > recording
 ---
 A personality's dreams should be performed through a series of functions.
 

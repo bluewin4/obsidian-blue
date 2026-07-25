@@ -1,6 +1,24 @@
 ---
+title: The Steep Sidewalks to The Theater of The Mind
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
 lastmod: 2025-04-08
+description: A heavy, dark passage the narrator put off recording, approached on a day the sidewalk itself seemed strangely light.
+themes:
+- dream
+- paracosm
+- memory
+- avoidance
+ai_summary: A dream memory the narrator repeatedly deferred writing down, opening by noting that the entry is heavy and dark and stayed with him into waking. Records the passage of the Steep Sidewalks leading to the Theater of the Mind. Part of the Island of Lost Hope paracosm.
+ai_keywords:
+- Steep Sidewalks
+- Theater of the Mind
+- paracosm
+- dream
+- deferral
+semantic_structure: hesitation > recollection
 ---
 Perhaps another day. This one is heavy and dark. It stayed with me into the waking days. today is that day apparently, but the sidewalk, it is strangely light. Oh, how the colors run and paint with the brush of memory. 
 

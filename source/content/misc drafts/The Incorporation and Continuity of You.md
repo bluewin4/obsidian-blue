@@ -1,8 +1,33 @@
 ---
-title: "The Incorporation and Continuity of You"
-draft: true
+title: The Incorporation and Continuity of You
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
 date: 2025-07-18
 lastmod: 2025-12-16
+draft: true
+description: When an entity will sacrifice physical continuity to preserve an incorporated identity, worked from cellular apoptosis to heroic sacrifice.
+themes:
+- identity
+- continuity
+- incorporation
+- sacrifice
+- ethics
+ai_summary: The prose treatment of the sacrifice condition formalised in The Particle-Bond Model. Distinguishes continuity — what maintains the self, from food and water to mantras and a hug — from incorporation, what the self is taken to include, from bodies and memories to names, relationships and works of art. Argues that a great many ethical quandaries reduce to how important something is to continuity and how deeply it is incorporated, and that overlapping rather than strict boundaries make a self robust to loss. Structured as nested cycles — Pattern, Body, Mind, Soul — each traversed through sensing, integration and expression, then grounded in bond strengths, coherence thresholds and the work required for identity change. Covers green-beard signalling and its vulnerability to spoofing, and familial annihilation as the case where a greater pattern is violated by the family's continued living.
+ai_keywords:
+- incorporation
+- continuity
+- identity
+- sacrifice
+- green beard
+- autopoiesis
+- replication frames
+ai_concepts:
+- name: Continuity
+  definition: That which maintains the self, physically and abstractly; a stronger form of homeostasis, closer to autopoiesis.
+- name: Incorporation
+  definition: 'That which denotes what the self is: the drawing of a line between self and other, and the inclusion of bodies, memories, names, relationships and works within it.'
+semantic_structure: core_paradox > pattern_cycle > body_cycle > mind_cycle > soul_cycle > mathematical_substrate > information_dynamics > thermodynamic_constraints
 ---
 What determines when an entity will sacrifice physical continuity to preserve incorporated identity? This fundamental question cuts across scales from cellular apoptosis to heroic sacrifice, from psychological transformation to civilizational collapse. 
 
@@ -166,6 +191,8 @@ Pain is, most generally, avoided by people who do not wish to engage with such
 
 ### Mathematical Substrate: The Particle-Bond Foundation
 
+Notation follows [[The Particle-Bond Model of Entity Information]], which is the maintained source of truth for these definitions; the equations below are a summary and may lag behind it.
+
 The continuity/incorporation framework operates on a formal mathematical substrate where entities exist as dynamic configurations of causally linked particles in high-dimensional space $\mathcal{E}$:
 
 $$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\} \subset \mathcal{E}$$
@@ -183,7 +210,7 @@ Where:
 **Scale-Dependent Coherence:**
 $$\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)}$$
 
-This explains why $\alpha(\tau_{individual}) > \alpha(\tau_{family}) > \alpha(\tau_{nation})$, psychological coherence decays faster across greater social distances, making family bonds stronger than national ones.
+This explains why $\alpha(\tau_{individual}) < \alpha(\tau_{family}) < \alpha(\tau_{nation})$, psychological coherence decays faster across greater social distances, making family bonds stronger than national ones.
 
 **Work Required for Identity Changes:**
 $$\Delta W(e \rightarrow C | I) = W(e \rightarrow C_{with\_I}) - W(e \rightarrow C_{without\_I})$$
@@ -191,7 +218,7 @@ $$\Delta W(e \rightarrow C | I) = W(e \rightarrow C_{with\_I}) - W(e \rightarrow
 Information $I$ either reduces work toward beneficial configurations (infoblessing) or increases work toward harmful configurations (infohazard).
 
 **Attention as Network Connectivity:**
-$$C(x_i) = \sum_{i \neq j} g(B(x_i,x_j))$$
+$$C(x_i) = \sum_{j \neq i} h(B(x_i,x_j))$$
 
 Changes in attention patterns signal underlying bond strength modifications, making internal state changes detectable.
 
@@ -220,7 +247,7 @@ Each cycle processes the four fundamental information types differently:
 - Soul Cycle: Manipulation techniques, relationship poisons, trust-destroying revelations
 
 **Charisma as Bond Manipulation:**
-$$\chi(e_1, e_2) = \Delta C_{e_2} | \mathbb{I}_{e_1}$$
+$$\chi(e_1, e_2) = \Delta C_{e_2} \mid r_{e_1}$$
 
 Entity $e_1$ influences $e_2$ by modulating distances $d$ and affinities $\theta$ within $e_2$'s particle network, changing attention patterns and ultimately behavior.
 
@@ -340,103 +367,103 @@ When dealing with a replicating and sentient agent there are two factors relevan
 
   
 
-The first being homeostatic, if I have children, physically, it maintains a homeostatic balence with my genes and the universe. One that I am aware is on a timer within my own frail body. 
+The first being homeostatic, if I have children, physically, it maintains a homeostatic balance with my genes and the universe. One that I am aware is on a timer within my own frail body.
 
   
 
-The second being memetic, if I draw lines around my self of increasing size then eventually I will encompass things that are not genetically me. This may be as straightforwards as a lover or as abstract as a theological splinter sect. By changing what is considered the self the homeostatic drive gains different abilities to act on these selves as a means of propagating, where genes now encompasses the character and structure of these things as well. 
+The second being memetic, if I draw lines around my self of increasing size then eventually I will encompass things that are not genetically me. This may be as straightforwards as a lover or as abstract as a theological splinter sect. By changing what is considered the self the homeostatic drive gains different abilities to act on these selves as a means of propagating, where genes now encompasses the character and structure of these things as well.
 
   
 
-So if we have some subgraph of an agent e_s that represents the essential replicatory target for homeostasis then we can denote the energy of removal for this subgraph from the larger agent e_o. 
+So if we have some subgraph of an agent e_s that represents the essential replicatory target for homeostasis then we can denote the energy of removal for this subgraph from the larger agent e_o.
 
   
 
-A simple case would be the removal of genetic material or the "vital spark" which would result in complete collapse of the embodied subgraph of e_body to enact replicate itself directly or e_psychic or e_enviormental. While a weaker case would be the removal of the ability to genetically reproduce (sterility) which would be the blocking the ability to replicate e_body. 
+A simple case would be the removal of genetic material or the "vital spark" which would result in complete collapse of the embodied subgraph of e_body to enact replicate itself directly or e_psychic or e_environmental. While a weaker case would be the removal of the ability to genetically reproduce (sterility) which would be the blocking the ability to replicate e_body.
 
   
   
   
 
-Memetics is how you draw the line of what the self is. 
+Memetics is how you draw the line of what the self is.
 
-Homeostasis is what drives the preservation and replication of the self. 
-
-  
-
-Then what is suicide? Does this address suicide at all? Or is that a pathology of the self collapsing inwards, where some pathway of replication is so stymied as to cannibalize the rest of the body in it's drive to connect to something. Or perhaps, more accurately, it is the ultimate expression of drawing a line around what the self is and a homeostatic rejection of what infringes. 
+Homeostasis is what drives the preservation and replication of the self.
 
   
 
-Suicide from pain. 
+Then what is suicide? Does this address suicide at all? Or is that a pathology of the self collapsing inwards, where some pathway of replication is so stymied as to cannibalize the rest of the body in it's drive to connect to something. Or perhaps, more accurately, it is the ultimate expression of drawing a line around what the self is and a homeostatic rejection of what infringes.
 
-Pain becomes a daily experience, one that drives the experience mad. They reject the pain to the point that they draw a stronger line circumventing the pain than the one containing their body, which holds said pain. Then, in a similar fashion they prioritize the needs of the "pain-free" self and the replication of that self. So the result is self-termination as any experience of pain threatens the sanctity of the pain-free self identity. 
+  
+
+Suicide from pain.
+
+Pain becomes a daily experience, one that drives the experience mad. They reject the pain to the point that they draw a stronger line circumventing the pain than the one containing their body, which holds said pain. Then, in a similar fashion they prioritize the needs of the "pain-free" self and the replication of that self. So the result is self-termination as any experience of pain threatens the sanctity of the pain-free self identity.
 
   
 
 Suicide from grief
 
-Similar. The connection one feels to their status as partner or parent is stronger than the identity as "self". When the partner dies then the entity now feels a homeostatic need to realign their existence so they "match" the framework of a partnership where one is dead. In some this becomes a permanent widower, some this means becoming one who heals others, in the most extreme case this means they must commit suicide to join their now dead partner in death. Alleviating the strain on their physical body. The dual urge to care for a child after a partners death would also explain delayed suicide, where a partner waits until the child is grown as they wish to honor their partner who drew a line around their child as part of their self, but when the connection weakens (as the child is now self sufficient) they are free to act fully. 
+Similar. The connection one feels to their status as partner or parent is stronger than the identity as "self". When the partner dies then the entity now feels a homeostatic need to realign their existence so they "match" the framework of a partnership where one is dead. In some this becomes a permanent widower, some this means becoming one who heals others, in the most extreme case this means they must commit suicide to join their now dead partner in death. Alleviating the strain on their physical body. The dual urge to care for a child after a partners death would also explain delayed suicide, where a partner waits until the child is grown as they wish to honor their partner who drew a line around their child as part of their self, but when the connection weakens (as the child is now self sufficient) they are free to act fully.
 
   
 
 Suicide from guilt
 
-Memetically drawing lines around their moral beliefs about the world. What is okay and what is forbidden. The result is identification more strongly with the cause and effect of their moral system than their body. The result of the subsequent replication would be the removal of the physical self as it would threaten the stability of the moral system. 
+Memetically drawing lines around their moral beliefs about the world. What is okay and what is forbidden. The result is identification more strongly with the cause and effect of their moral system than their body. The result of the subsequent replication would be the removal of the physical self as it would threaten the stability of the moral system.
 
   
 
 Suicide from heroism
 
-One may draw a line around the concept of being a saviour, of a child, or even a piece of art. The line around those may be stronger than the line around the self. The result being that the hero is willing to commit effective suicide to save the life of another. This is common between elderly folk and younger folks. Where an old person believes their life is spent and wishes to protect the sanctity/joy/expression of life a child has in spades (likely living much longer than an elderly person). As we age and our bodies decompose our lines soften around our body and the coin of our life grows cheaper. With our dying breath being worth a lifetime less than our first. The honor we as a society bestow upon these noble sacrifices even ablates possible villainous behaviour. A woman who kills strangers is a monster, but becomes a tragic figure we can respect when we discover the murders were to save her child. 
+One may draw a line around the concept of being a saviour, of a child, or even a piece of art. The line around those may be stronger than the line around the self. The result being that the hero is willing to commit effective suicide to save the life of another. This is common between elderly folk and younger folks. Where an old person believes their life is spent and wishes to protect the sanctity/joy/expression of life a child has in spades (likely living much longer than an elderly person). As we age and our bodies decompose our lines soften around our body and the coin of our life grows cheaper. With our dying breath being worth a lifetime less than our first. The honor we as a society bestow upon these noble sacrifices even ablates possible villainous behaviour. A woman who kills strangers is a monster, but becomes a tragic figure we can respect when we discover the murders were to save her child.
 
   
   
 
-Self-sacrifice still may not be an easy pill for everyone to swallow and some may rebel against this. Factors that increase rebellion are characteristics that label the victim as not being part of the saviours self (different gender, ideology, race, sexuality, species, age, etc.). While factors that match increase the connection. Indeed a parent has both physical genetic connections as well as ideological connections. Not only will they spread their template physically, but every person they speak to will hear an echo of their parents words. 
+Self-sacrifice still may not be an easy pill for everyone to swallow and some may rebel against this. Factors that increase rebellion are characteristics that label the victim as not being part of the saviours self (different gender, ideology, race, sexuality, species, age, etc.). While factors that match increase the connection. Indeed a parent has both physical genetic connections as well as ideological connections. Not only will they spread their template physically, but every person they speak to will hear an echo of their parents words.
 
   
   
 
-Replication, I will describe replication frames here. Each frame is a discrete "chance" to replicate some subgraph of e_o. This may be a chance to mate, a specific thinking style, a religious ideal, etc. but importantly these may conflict. The chance to physically replicate by having a child is considered less important, at 17, than the chance to replicate their day to day life and continue replicating their educational trajectory. 
+Replication, I will describe replication frames here. Each frame is a discrete "chance" to replicate some subgraph of e_o. This may be a chance to mate, a specific thinking style, a religious ideal, etc. but importantly these may conflict. The chance to physically replicate by having a child is considered less important, at 17, than the chance to replicate their day to day life and continue replicating their educational trajectory.
 
   
 
-Life is not a continuous thing, despite our wishes, every night we die and every morning our child opens their eyes to a new world. Each time we whisper through our dreams our hopes for this child, and in our body we leave clues for the proper functioning, and in our homes we plaster shapes of the life we lead. Our brains have developed sophisticated mechanisms to connect these things together, to make these transitions seem less and not scary. To convince ourselves that the one who wakes is the one who sleeps, that the one who drinks is the one who is hung over, that the one who cries is the one who cheers. Indeed, there are similarities and structures that map quite well, but these are replications made over and over. We are the waves that shapes the rills that shapes the waves. 
+Life is not a continuous thing, despite our wishes, every night we die and every morning our child opens their eyes to a new world. Each time we whisper through our dreams our hopes for this child, and in our body we leave clues for the proper functioning, and in our homes we plaster shapes of the life we lead. Our brains have developed sophisticated mechanisms to connect these things together, to make these transitions seem less and not scary. To convince ourselves that the one who wakes is the one who sleeps, that the one who drinks is the one who is hung over, that the one who cries is the one who cheers. Indeed, there are similarities and structures that map quite well, but these are replications made over and over. We are the waves that shapes the rills that shapes the waves.
 
   
 
-So, in this way, we prioritize an idealized vision of ourselves to replicate rather than the self we currently inhabit. My tired, annoyed self is not thinking "I want this to be me forever" it yearns for a psychological suicide in service of giving way for the self that is happy, energetic, and free. 
+So, in this way, we prioritize an idealized vision of ourselves to replicate rather than the self we currently inhabit. My tired, annoyed self is not thinking "I want this to be me forever" it yearns for a psychological suicide in service of giving way for the self that is happy, energetic, and free.
 
   
 
-When I wait for my partner, thousands of miles away, I am the one who wants. The one that feels most keenly the desire of another. The grandest hope for that self is to die and to give space for the one who has. In this way I find that my memetic line is drawn around something that is not me, and that my homeostatic drive pushes me to "correct" that imbalance. 
+When I wait for my partner, thousands of miles away, I am the one who wants. The one that feels most keenly the desire of another. The grandest hope for that self is to die and to give space for the one who has. In this way I find that my memetic line is drawn around something that is not me, and that my homeostatic drive pushes me to "correct" that imbalance.
 
   
 
-When thinking of replication frames, think of a thread organism replicating along a line in response to some chemical gradient. Unable to truly move it assembled a self into the next replication frame that has the requisite character to reach the goal. Eventually the final cell will reach the goal, and in turn nourish the frames that came before. 
+When thinking of replication frames, think of a thread organism replicating along a line in response to some chemical gradient. Unable to truly move it assembled a self into the next replication frame that has the requisite character to reach the goal. Eventually the final cell will reach the goal, and in turn nourish the frames that came before.
 
   
 
-In this we have a multicellular organism organized along the axis of time instead of space. The prior replications did not nessecarily complete the target, but the journey itself became something to be replicated. So if another gradient of that type occurs those various forms should find purchase as the dance begins again. 
+In this we have a multicellular organism organized along the axis of time instead of space. The prior replications did not necessarily complete the target, but the journey itself became something to be replicated. So if another gradient of that type occurs those various forms should find purchase as the dance begins again.
 
   
 
-Each replication frame is a chance for that organism to carry it's memetics goals forwards. An attempt to maintain the sanctity of those walls. To make more of them. 
+Each replication frame is a chance for that organism to carry it's memetics goals forwards. An attempt to maintain the sanctity of those walls. To make more of them.
 
   
 
-What things wish to replicate? What things wish to not? 
+What things wish to replicate? What things wish to not?
 
-Antimemes do not wish to transmit themselves, sometimes to the point that they attempt to erase themselves from an entity. The greatest antimemes then being things that result in the death of the organism upon learning. A standard drive in life for living things is "make more of me" because anything that lacks this drive rarely continues onwards for long. That isn't to say they aren't possible or even nessecary at times. 
+Antimemes do not wish to transmit themselves, sometimes to the point that they attempt to erase themselves from an entity. The greatest antimemes then being things that result in the death of the organism upon learning. A standard drive in life for living things is "make more of me" because anything that lacks this drive rarely continues onwards for long. That isn't to say they aren't possible or even necessary at times.
 
-Direct replication is the domain of unicellular organisms, while multicellular organisms pass the buck having to rely on the good will and quality of the gonadal systems to exist once more. The same way that most men in history never reproduced, but all the same they helped build civilization that allowed countless similar people to exist. 
+Direct replication is the domain of unicellular organisms, while multicellular organisms pass the buck having to rely on the good will and quality of the gonadal systems to exist once more. The same way that most men in history never reproduced, but all the same they helped build civilization that allowed countless similar people to exist.
 
   
 
-A human is natively possessed by a series of biological and social urges which replicate inside of them physically (puberty) and psychically (social norms). The resultant product is one who wishes to undergo the rites of adult hood so they may have children and experience pleasure. The dual drives are vital for humans, while less psychological complex life forms like angler fish operate at times like chemical homunculi, possessed fully by their biological urge to do some task that tends to make more of the thing that felt the urge (to bite a female and melt their own face). Humans on the other hand are more than willing to subvert biological signals in the pursuit of complex goals, such as giving food to a child over eating oneself or avoiding a healthy mate over a perceived grudge. Sex feels good because it grants an immediate goal for humans to tag onto. The self that experiences extreme gratification due to sex is one to be reproduced endlessly, the children are secondary although more important when it comes to a head (lucky for us we are not a species that goes into heat and does if not bred). 
+A human is natively possessed by a series of biological and social urges which replicate inside of them physically (puberty) and psychically (social norms). The resultant product is one who wishes to undergo the rites of adult hood so they may have children and experience pleasure. The dual drives are vital for humans, while less psychologically complex life forms like angler fish operate at times like chemical homunculi, possessed fully by their biological urge to do some task that tends to make more of the thing that felt the urge (to bite a female and melt their own face). Humans on the other hand are more than willing to subvert biological signals in the pursuit of complex goals, such as giving food to a child over eating oneself or avoiding a healthy mate over a perceived grudge. Sex feels good because it grants an immediate goal for humans to tag onto. The self that experiences extreme gratification due to sex is one to be reproduced endlessly, the children are secondary although more important when it comes to a head (lucky for us we are not a species that goes into heat and does if not bred).
 
-In this way biology tricked us, the pleasure of sex is the chemical gradient the angler fish follows. But in this same way we have tricked biology with IVF. We have built such powerful memetics constructs that they have produced new pathways for having a child to replicate because humans comprehend the depths of why we want children to the point that the normal journey of sex -> child is rewritten through intermediates that creates a more "stable" path that reduces the uncertainty/negative possibility of the outcome. 
+In this way biology tricked us, the pleasure of sex is the chemical gradient the angler fish follows. But in this same way we have tricked biology with IVF. We have built such powerful memetics constructs that they have produced new pathways for having a child to replicate because humans comprehend the depths of why we want children to the point that the normal journey of sex -> child is rewritten through intermediates that creates a more "stable" path that reduces the uncertainty/negative possibility of the outcome.
 
   
   
@@ -447,35 +474,35 @@ Memetics is how we draw a line around what the self is
 
   
 
-Some organisms are easy to trick, a simple scent marker or even being born in the right nest is enough to be accepted by a mother, a memetics redrawing of boundaries without her consent. The mother will then feel the homeostatic urge to feed and nurture you. And you, selfish monster that you are, will feed and grow your own self, parestisizing the system that feeds you. But you are kept in check by the need for the system you parastisize to exist. The best virus is one that does not kill its host. 
+Some organisms are easy to trick, a simple scent marker or even being born in the right nest is enough to be accepted by a mother, a memetics redrawing of boundaries without her consent. The mother will then feel the homeostatic urge to feed and nurture you. And you, selfish monster that you are, will feed and grow your own self, parasitizing the system that feeds you. But you are kept in check by the need for the system you parasitize to exist. The best virus is one that does not kill its host.
 
   
   
 
-So this comes to quantification. How do you quantify the self here, if we are to draw boundaries we can go based on how psychologically attached someone is and the requisite energy to "purge" that aspect of the self. A simple, albeit biased method, would be to ask how much money would be needed to ablate (favorite sports team/friend/ideology/child) and then comparing the values against one another. Perhaps a better direction would be to exploit things like CYOA's that are "low-stakes" for people. While the idea of quantifying directly is charged and causes social baffling mechanisms (to hide potentially "bad" beliefs about identity) making hypothetical scenarios that require balancing different outcomes does not. A series of CYOA's with different "builds" and situations can slowly winnow down what someone truly wants or believes in, so long as they take it somewhat seriously. If someone prioritizes family they will choose options that allow them to support those things. If they prioritize an ideology they will choose options that might sacrifice a stable life in exchange for social change. While not perfect this may act as a better metric for identification. 
+So this comes to quantification. How do you quantify the self here, if we are to draw boundaries we can go based on how psychologically attached someone is and the requisite energy to "purge" that aspect of the self. A simple, albeit biased method, would be to ask how much money would be needed to ablate (favorite sports team/friend/ideology/child) and then comparing the values against one another. Perhaps a better direction would be to exploit things like CYOA's that are "low-stakes" for people. While the idea of quantifying directly is charged and causes social baffling mechanisms (to hide potentially "bad" beliefs about identity) making hypothetical scenarios that require balancing different outcomes does not. A series of CYOA's with different "builds" and situations can slowly winnow down what someone truly wants or believes in, so long as they take it somewhat seriously. If someone prioritizes family they will choose options that allow them to support those things. If they prioritize an ideology they will choose options that might sacrifice a stable life in exchange for social change. While not perfect this may act as a better metric for identification.
 
   
   
 
-Meanwhile another metric is the spread or the self. How many discrete things does this person touch? How many influences do they send out into the world? How many stories have they told? Social media analysis would ease this, the impact of a post measured in reading time and views and interactions to compute the relative "impact" a given post has had on the world. 
+Meanwhile another metric is the spread or the self. How many discrete things does this person touch? How many influences do they send out into the world? How many stories have they told? Social media analysis would ease this, the impact of a post measured in reading time and views and interactions to compute the relative "impact" a given post has had on the world.
 
   
 
- The question then becomes, how well can that person recognize themselves in the mirror of the world? 
+The question then becomes, how well can that person recognize themselves in the mirror of the world?
 
   
 
-If I have a child that is swapped at birth without my knowledge, then I raise the child my whole life unknowing, will I recognize my genetic progeny? 
+If I have a child that is swapped at birth without my knowledge, then I raise the child my whole life unknowing, will I recognize my genetic progeny?
 
-Now what if I wrote a book that captures my soul and self and beliefs, and another read it and integrated it fully. Will I know them by this alone? 
+Now what if I wrote a book that captures my soul and self and beliefs, and another read it and integrated it fully. Will I know them by this alone?
 
-Green beard alleles come to mind, the need for a signal I can see. So, my genetic child has a rare birthmark so I know! So, my ideology has a specific icon. In this way I "know", and in this way I can be fooled just as the cuckoo fools the parent. 
-
-  
-  
-
-Familial annihilation would just be a case where the family and the self are subsumed by a greater thing that the family violates by living. Jones Town or any individual gripped by the thoughts that a living self is incorrect or damages the "grander" replication pattern of their ideology. 
+Green beard alleles come to mind, the need for a signal I can see. So, my genetic child has a rare birthmark so I know! So, my ideology has a specific icon. In this way I "know", and in this way I can be fooled just as the cuckoo fools the parent.
 
   
+  
 
-Perhaps cross referencing data on what media spmeone engages with will provide relevant "themes" to their consumption that can be used to identify collections of complementary memes/identity markers and then measure how wide spread through their network those traits are. Although this is moving on towards treating contextual entities as being themselves legible beings.
+Familial annihilation would just be a case where the family and the self are subsumed by a greater thing that the family violates by living. Jones Town or any individual gripped by the thoughts that a living self is incorrect or damages the "grander" replication pattern of their ideology.
+
+  
+
+Perhaps cross referencing data on what media someone engages with will provide relevant "themes" to their consumption that can be used to identify collections of complementary memes/identity markers and then measure how wide spread through their network those traits are. Although this is moving on towards treating contextual entities as being themselves legible beings.

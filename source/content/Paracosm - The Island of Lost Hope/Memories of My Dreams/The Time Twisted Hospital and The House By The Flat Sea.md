@@ -1,6 +1,24 @@
 ---
+title: The Time Twisted Hospital and The House By The Flat Sea
+author: Jack Elsworth
+section: Paracosm - The Island of Lost Hope
+content_type: journal
 date: 2025-03-26
 lastmod: 2025-06-05
+description: A return to the House By The Flat Sea, arriving this time on the motorcycle from the Stormkissed Fields.
+themes:
+- dream
+- paracosm
+- recurrence
+- nightmare
+ai_summary: A dream memory of a repeated location, visited multiple times, on the occasion the narrator arrived by the motorcycle from the Stormkissed Fields. Records the Time Twisted Hospital and the House By The Flat Sea. The hospital later recurs as a waking association triggered by a rusted railing bolt in The Meaning of Places.
+ai_keywords:
+- Time Twisted Hospital
+- House By The Flat Sea
+- Stormkissed Fields
+- paracosm
+- recurrence
+semantic_structure: return > arrival > the_places
 ---
 I visited The House By The Flat Sea multiple times, but this time was when I appeared on the motorcycle from The Stormkissed Fields.
 

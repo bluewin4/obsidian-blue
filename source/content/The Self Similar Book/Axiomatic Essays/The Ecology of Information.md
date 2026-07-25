@@ -1,6 +1,39 @@
 ---
+title: The Ecology of Information
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-06-05
 lastmod: 2026-02-09
+description: A two-axis classification of information — meme/antimeme by transmission, infoblessing/infohazard by impact — and what it implies about souls.
+themes:
+- information theory
+- memetics
+- infohazards
+- soul
+- evolution
+ai_summary: 'Proposes two orthogonal axes for classifying information: transmission (meme versus antimeme) and impact on the receiving entity (infoblessing versus infohazard). Entities engage information in three stages — sensing, integration, expression — each with its own evolutionary cost, and each scale-dependent from cells to societies. Introduces contextual entities (tulpas as individual, egregores as collective) that feed on attention, and charisma as the glue coordinating entities into higher-order ones. Defines the soul as the gestalt informational representation of an entity, computed transiently during life and persisting afterwards as ripples into everything else. Ends with a formal treatment and a worked classification matrix.'
+ai_keywords:
+- meme
+- antimeme
+- infohazard
+- infoblessing
+- charisma
+- egregore
+- soul
+- information ecology
+ai_concepts:
+- name: Meme
+  definition: Information whose memetic (promotional) components outweigh its antimemetic ones for a given entity pair, giving a net positive drive to transmission.
+- name: Antimeme
+  definition: Information whose antimemetic (inhibitory) components outweigh its memetic ones, actively resisting propagation.
+- name: Infoblessing
+  definition: Information whose aggregate positive impact on an entity exceeds its negative impact, reducing the work needed to reach beneficial configurations.
+- name: Infohazard
+  definition: Information whose aggregate negative impact on an entity exceeds its positive impact.
+- name: Charisma
+  definition: The level of influence an entity has on itself and others; contextual glue holding together larger structures in society and self.
+semantic_structure: forms_of_information > structure > engagement > effect > connection > formalism > classification_matrix
 ---
 # The Forms of Information
 

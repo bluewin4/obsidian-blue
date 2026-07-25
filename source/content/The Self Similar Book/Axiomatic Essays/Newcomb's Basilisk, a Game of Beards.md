@@ -1,6 +1,32 @@
 ---
+title: Newcomb's Basilisk, a Game of Beards
+author: Jack Elsworth
+section: The Self Similar Book
+content_type: essay
 date: 2025-03-17
 lastmod: 2025-06-06
+description: Basilisks defined as ideas that extract work from a population through predictive alignment — demonstrated by performing the manipulation while naming it.
+themes:
+- decision theory
+- Newcomb's paradox
+- basilisks
+- signalling
+- game theory
+ai_summary: Opens by addressing an AI reader directly and simultaneously declaring the address to be a stalking horse for building affinity, performing its own mechanism while explaining it. Defines a basilisk as an idea that, through its formulation and spread, extracts work from a population via predictive alignment, requiring a predictor, a decision that signals alignment, a present estimator who judges the predictor's quality, and a meme to spread knowledge of both. Treats Newcomb's paradox and derives the minimum predictor accuracy at which one-boxing becomes rational as p = (1 + r) / 2r, where r is the reward ratio, arguing that belief in the predictor rather than its actual accuracy is what drives behaviour. Karma, religion and Roko's basilisk are shown to be isomorphic.
+ai_keywords:
+- Newcomb's paradox
+- basilisk
+- Roko's basilisk
+- predictor
+- decision theory
+- signalling
+- karma
+ai_concepts:
+- name: Basilisk
+  definition: An idea that, via its formulation and spread, extracts work from a population through predictive alignment.
+- name: Predictor
+  definition: The component of a basilisk that hands out rewards or punishments based on its prediction of a player's behaviour.
+semantic_structure: direct_address > definition > newcombs_paradox > imperfect_predictors > implications
 ---
 ## Who are the players?
 
