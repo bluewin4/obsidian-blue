@@ -229,7 +229,7 @@ Assume that $I_{target}\in {\Phi}^o$
 
 $$\Phi^o=\{\text{Ordered list with replacement of }\mathcal{P}_{1,..,n} \in \mathbb{P}_{i} \text{ such that } \exists \hspace{0.1 cm} I_{target} \in \mathcal{o}^o(\mathbb{I}_{f})  \}$$
 We are attempting to cause a spontaneous [[Phase separation of personalities]]
-The new decoders job is to [[Personalities dreams#^02e1ef]].
+The new decoders job is to [[Personalities Dreams#^02e1ef]].
 If there are n possible models 
 
 $${\Phi}_{\mathcal{P}_{i}}=\{ \text{Some ordered list with replacement }\mathcal{P}_{1},..,\mathcal{P}_{f} \}$$

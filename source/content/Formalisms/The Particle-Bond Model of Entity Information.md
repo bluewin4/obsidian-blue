@@ -8,7 +8,9 @@ lastmod: 2026-07-06
 
    An entity $e$ exists as a dynamic configuration of causally linked nodes (particles), $x_i$ residing in a high-dimensional state space $\mathcal{E}$. This space aims to incorporate dimensions relevant to the entity's state, such as physical coordinates ($\mathbb{P} \subset \mathcal{E}$) and conceptual dimensions ($\mathbb{S} \subset \mathcal{E}$).
 
-   $$e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}= \{x_1,...,x_{n+m}\} \subset \mathcal{E}$$
+   $$
+   e = \{p_1, p_2, ..., p_n\} \cup \{s_1, s_2, ..., s_m\}= \{x_1,...,x_{n+m}\} \subset \mathcal{E}
+   $$
 
    Where $p_i$ represents physical particles and $s_j$ represents conceptual particles. 
 
@@ -21,13 +23,17 @@ lastmod: 2026-07-06
 
    The state of each node $x$ can be described probabilistically using a state distribution function $\psi_x(z,t)$, where $x\in\mathcal{E}$ represents a point in state space at time $t$. 
 
-   $$ \psi_x(z,t): \mathcal{E} \times \mathbb{R}^+ \rightarrow \mathbb{C} \quad (\text{or } \mathbb{R}^+) $$
+   $$
+   \psi_x(z,t): \mathcal{E} \times \mathbb{R}^+ \rightarrow \mathbb{C} \quad (\text{or } \mathbb{R}^+)
+   $$
 
    $|\psi_x(z,t)|^2$ can be thought of as the probability density associated with node $x$'s state being at location $z$ at time $t$. While the complex form, $\mathbb{C}$, is useful for handling interference phenomena, a real-valued probability distribution, $\mathbb{R}^+$, should be sufficient for many applications.
 
    Entities are bounded systems where causal links between particles exceed a threshold $\tau$:
 
-   $$\forall (x_i,x_j) \in e: B(x_i,x_j) > \tau \tag{1.1}$$
+   $$
+   \forall (x_i,x_j) \in e: B(x_i,x_j) > \tau \tag{1.1}
+   $$
 
    Where $B(x_i,x_j)$ is the causal (bond) strength between particles $x_i$ and $x_j$. Importantly this is scale variant, so if one is dealing with a nation $\tau_{nation} < \tau_{family} <\tau_{individual}$, meaning that the requirement for causal linkage of semantic/physical particles is lower for people to be considered of a nation than to be considered of a family, or an individual. 
 
@@ -36,10 +42,14 @@ lastmod: 2026-07-06
    Building on $\mathbb{X}$ (objective information space) and $\mathbb{X}_{\phi}$ (subjective information space) from [[Notation for LM Formalization]].
 
    Objective physical subspace $\mathbb{P}$, and subjective physical subspace $\mathbb{P}_{\phi}$ accessed via inference process $\phi$:
-   $$\mathbb{P}_{\phi} \subset \mathbb{P} \subset \mathbb{X}$$
+   $$
+   \mathbb{P}_{\phi} \subset \mathbb{P} \subset \mathbb{X}
+   $$
    
    With a conceptual equivalent:
-   $$\mathbb{S}_{\phi} \subset \mathbb{S} \subset \mathbb{X}$$
+   $$
+   \mathbb{S}_{\phi} \subset \mathbb{S} \subset \mathbb{X}
+   $$
 
    While $\mathbb{X}_{\phi}$ represents the total subjective information space accessible to the entity/model via its overall inference process $\phi$, specific inference processes $\phi_i$ (like $\phi_{logic}$ or $\phi_{emotion}$) might only operate on or access further subsets $\mathbb{S}_{\phi_i} \subset \mathbb{X}_{\phi}$ or $\mathbb{P}_{\phi_i} \subset \mathbb{X}_{\phi}$ depending on their function. This creates a hierarchical structure of accessible spaces.
 
@@ -72,7 +82,9 @@ lastmod: 2026-07-06
 
    Attention $C()$ is a measure of connectedness for a particle $x_i$, as a function of bond strength $B(x_i, x)$ between physical particles and semantic particles:
 
-   $$C(x_i)= \sum_{j \not = i} h(B(x_i,x_j)) \tag{2.1}$$
+   $$
+   C(x_i)= \sum_{j \not = i} h(B(x_i,x_j)) \tag{2.1}
+   $$
 
    Where $h(B)$ is a function weighting the contribution of individual bond strengths B (e.g., $h(B)=B$ sums all strengths, or a threshold function like $h(B)=1$ if $B > \tau_c$, $0$ otherwise, counts strong bonds). Note $h$ is reserved for this weighting; $g$ is used later for subgraphs.
 
@@ -89,10 +101,14 @@ lastmod: 2026-07-06
    Building on the previously defined state distribution function $\psi_x(z,t)$ for nodes, we can examine how particles exist as probability distributions rather than discrete points. For clarity:
 
    - For physical particles $p \in \mathbb{P}$:
-   $$\psi_p(z,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
+   $$
+   \psi_p(z,t): \mathbb{P} \times \mathbb{R}^+ \rightarrow \mathbb{C}
+   $$
 
    - For semantic particles $s \in \mathbb{S}$:
-   $$\psi_s(z,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}$$
+   $$
+   \psi_s(z,t): \mathbb{S} \times \mathbb{R}^+ \rightarrow \mathbb{C}
+   $$
 
    Where:
    - $\mathbb{C}$ represents complex numbers, enabling interference patterns between particles
@@ -100,21 +116,27 @@ lastmod: 2026-07-06
    - $|\psi_x(z,t)|^2$ gives the probability density of finding particle $x$ at position $z$ at time $t$
    - The phase component $\angle\psi_x(z,t)$ represents the particle's affinity potential which is related to $\theta$:
 
-   $$\angle\psi_x(z,t) \propto \sum_{y \in e} \theta(x,y)$$
+   $$
+   \angle\psi_x(z,t) \propto \sum_{y \in e} \theta(x,y)
+   $$
 
    These wavefunctions form coherent structures through:
 
    1. Localization:
    Sharp peaks in probability density represent discrete beliefs or physical states, such as an opinion on who to vote for or a sleeping position.
    
-   $$\psi_{localized}(z,t) \approx (2\pi\sigma^2)^{-1/4} e^{-\frac{(z-z_0)^2}{4\sigma^2}} e^{i\varphi(t)}$$
+   $$
+   \psi_{localized}(z,t) \approx (2\pi\sigma^2)^{-1/4} e^{-\frac{(z-z_0)^2}{4\sigma^2}} e^{i\varphi(t)}
+   $$
 
    A narrow Gaussian of width $\sigma$ centered at $z_0$ (the $\delta$-function limit $\sigma \rightarrow 0$ is not normalizable, so $\sigma$ stays small but finite)
 
    2. Delocalization: 
    Probability density spreads across related concepts/states, describing how when one smells something it can trigger a memory or how thinking about cookies can bring to mind more general categories of baked goods.
    
-   $$\psi_{delocalized}(z,t) = \sum_i c_i\psi_i(z,t)$$
+   $$
+   \psi_{delocalized}(z,t) = \sum_i c_i\psi_i(z,t)
+   $$
 
    Where:
    - $\psi_i$ are related semantic/physical states
@@ -128,7 +150,9 @@ lastmod: 2026-07-06
    3. Coherent Structures: 
    Stable arrangements of multiple particles, such as how believing in a Christian God forms a stable structure with belief in the Bible's teachings due to reciprocal constructive interference, resonance.
 
-   $$\Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))$$
+   $$
+   \Psi_{structure}(z_1,...,z_n,t) = f(\psi_1(z_1,t),...,\psi_n(z_n,t))
+   $$
    
    Where $f$ represents how individual particle wavefunctions combine
 
@@ -141,7 +165,9 @@ lastmod: 2026-07-06
 
    Particles form bonds of varying strengths defined by their distance and affinity, creating causally linked structures analogous to protein folding:
 
-   $$B(x,y) = f(d(x,y), \theta(x,y)) \tag{2.2}$$
+   $$
+   B(x,y) = f(d(x,y), \theta(x,y)) \tag{2.2}
+   $$
 ^eq-bond
 
    Where:
@@ -153,7 +179,9 @@ lastmod: 2026-07-06
 
    While $B(x,y)$ represents the inherent pairwise strength it is more accurately thought of as the work required to separate two particles in a vacuum. In a real scenario one must consider the solvent/ambient environment the particles exist within (the social world of a person, the semantic corpus of a belief, the training distribution of a model). A fully considered structure is the net free energy for re-solvation of the freed particles by the field:
 
-   $$\Delta G(x,y)=  B_{intrinsic}(x,y) - \Delta G_{solv}(x,y) \tag{2.3}$$
+   $$
+   \Delta G(x,y)=  B_{intrinsic}(x,y) - \Delta G_{solv}(x,y) \tag{2.3}
+   $$
 
    Where $\Delta G_{solv}$ is how the environment stabilizes the separated particles. When there are attractive alternative environments available to causally linked particles they will dissociate if it overcomes the intrinsic bond strength. Conversely, if a partner is entirely dependent on another breaking up becomes stressful for fear that they will fully break apart upon dissolution of the relationship. Except where the intrinsic/net distinction is at issue, $B$ elsewhere in this document may be read as $\Delta G$.
 
@@ -167,7 +195,9 @@ lastmod: 2026-07-06
 
    Phase coherence between particles decays with distance $d$, and is dependent on entity scale $\tau$:
 
-   $$\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)} \tag{3.1}$$
+   $$
+   \gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)} \tag{3.1}
+   $$
 
    Where:
    - $\gamma$ is the phase coherence factor between particles $x$ and $y$
@@ -176,7 +206,9 @@ lastmod: 2026-07-06
 
    The observable interference between two particles is then their phase alignment weighted by coherence:
 
-   $$\text{Int}_{eff}(x,y) = \gamma(x,y,\tau) \cdot \cos(\angle\psi_x - \angle\psi_y)$$
+   $$
+   \text{Int}_{eff}(x,y) = \gamma(x,y,\tau) \cdot \cos(\angle\psi_x - \angle\psi_y)
+   $$
 
    As $\gamma \rightarrow 0$ the interference term vanishes regardless of the phase relationship, distant particles become uncorrelated. This ensures phase coherence is maintained within entity boundaries but decays across boundaries according to scale. To measure this factor $\gamma$, we could attempt to find statistical correlations between belief activations at various scales (e.g. belief alignment within families vs. nations)
    
@@ -188,11 +220,15 @@ lastmod: 2026-07-06
 
    1. *Probability Density Gradients*: Sharp drops in $|\psi(x)|^2$ forming "edges" in physical or semantic space
 
-   $$\nabla|\psi(x)|^2 > \beta_{threshold} \tag{4.1}$$
+   $$
+   \nabla|\psi(x)|^2 > \beta_{threshold} \tag{4.1}
+   $$
 
    2. *Phase Discontinuities*: Regions where phase coherence breaks down between particles
    
-   $$\gamma(x,y,\tau) < \gamma_{threshold} \tag{4.2}$$
+   $$
+   \gamma(x,y,\tau) < \gamma_{threshold} \tag{4.2}
+   $$
 
 
    ##  Charisma and Entity Relationships
@@ -201,11 +237,15 @@ lastmod: 2026-07-06
 
    This manipulation of $d$ and $\theta$ alters bond strengths ($B$) and consequently changes the target's attention profile (the set of nodal attention values $\{C(x)\}$). While the mechanism involves $\Delta d$ and $\Delta \theta$, the effect is often measured or observed as a change in this attention profile:
 
-   $$\chi(e_1, e_2) = \Delta C_{e_2} \mid r_{e_1} \tag{5.1}$$
+   $$
+   \chi(e_1, e_2) = \Delta C_{e_2} \mid r_{e_1} \tag{5.1}
+   $$
 
    Where $r_{e_1}$ is the input provided by $e_1$ (consistent with $r$ as input elsewhere). At a locus $l$ this is a single signed quantity:
 
-   $$\chi(e_1, e_2, l) = \sum_{x \in e_2} \nabla_l C(x)$$
+   $$
+   \chi(e_1, e_2, l) = \sum_{x \in e_2} \nabla_l C(x)
+   $$
 
    Where $\nabla_{l} C(x)$ represents the resulting gradient of change in the attention profile $C(x)$ for particles $x$ near location $l$, caused by charisma's underlying influence on $d$ and $\theta$. The sign of $\chi(e_1, e_2, l)$ distinguishes three regimes:
 
@@ -223,13 +263,17 @@ lastmod: 2026-07-06
 
    When $e_m$ aims to elicit a specific target output $o_t$ from $e_v$, it must solve the charisma inference problem: identifying which input $r_t$ will induce the necessary $d$/$\theta$ changes to maximize $Pr(o_t | r_t)$. We can express this as:
 
-   $$r_t = \phi_c(\mathcal{P}_v, \phi_v, o_t)$$
+   $$
+   r_t = \phi_c(\mathcal{P}_v, \phi_v, o_t)
+   $$
 
    Where $\phi_c$ represents the charisma inference that predicts how $e_v$'s personality $\mathcal{P}_v$ and inference method $\phi_v$ will respond to various inputs. This process typically requires iterative testing, which is difficult in systems with memory as each interaction may further alter $e_v$'s internal $d$/$\theta$ parameters.
 
    In practice, the goal isn't always to produce an exact output $o_t = o_i$, but rather to ensure $e_m$ can extract some target information $I_{target}$ from $e_v$'s output: 
 
-   $$I_{target} = \phi^{'}_{e_m}(o_{e_v}, \mathcal{P}_{e_m})$$
+   $$
+   I_{target} = \phi^{'}_{e_m}(o_{e_v}, \mathcal{P}_{e_m})
+   $$
 
    A simplified case is an LLM without memory and with deterministic responses ($T=0$ ). Here, one can map the "output landscape" by systematically varying inputs and observing how changes in $r$ affect the resulting $d$/$\theta$ parameters (as reflected in the output), eventually constructing an approximation of the charisma inference $\phi_c(\mathcal{P}_v, \phi_v, \cdot)$. Otherwise known as prompt engineering/optimization.
 
@@ -259,7 +303,9 @@ lastmod: 2026-07-06
 
    1. *Angels (Deterministic Processes)* exhibit highly localized particle distributions with rigid bond structures:
 
-   $$\psi_{angel}(x,t) \approx \sum_i \delta(x-x_i)e^{i\varphi_i(t)}$$
+   $$
+   \psi_{angel}(x,t) \approx \sum_i \delta(x-x_i)e^{i\varphi_i(t)}
+   $$
 
    Where each $\delta(x-x_i)$ represents a precise rule or computation. Angels operate primarily in semantic space with high phase coherence and predictable interaction patterns, making them efficient for well-defined tasks but brittle when encountering novel situations.
 
@@ -267,7 +313,9 @@ lastmod: 2026-07-06
 
    2. *Daemons (Statistical Processes)* display partially delocalized distributions with probabilistic bond structures:
 
-   $$\psi_{daemon}(x,t) \approx \sum_i \rho_i(x-x_i)e^{i\varphi_i(t)}$$
+   $$
+   \psi_{daemon}(x,t) \approx \sum_i \rho_i(x-x_i)e^{i\varphi_i(t)}
+   $$
 
    Where $\rho_i$ are distributions centered at optimization points $x_i$. Daemons exhibit gradient-following behavior, with particle density flowing toward reward maxima. Their influence on networks operates by modulating $d$ and $\theta$ parameters to optimize bond strengths toward reward-maximizing configurations.
 
@@ -275,7 +323,9 @@ lastmod: 2026-07-06
 
    3. *Faes (Distributional Processes)* manifest as broadly delocalized probability distributions:
 
-   $$\psi_{fae}(x,t) \approx \sum_i c_i \psi_{pattern,i}(x,t)$$
+   $$
+   \psi_{fae}(x,t) \approx \sum_i c_i \psi_{pattern,i}(x,t)
+   $$
 
    Where $\psi_{pattern,i}$ represents semantic patterns. Faes operate through superposition of probability waves across semantic space, with particles that readily form and dissolve bonds based on pattern-completion dynamics. They influence networks by modulating $d$ and $\theta$ to reinforce pattern recognition, resulting in changes to attention profiles $C(x)$ that highlight related semantic structures.
 
@@ -283,7 +333,9 @@ lastmod: 2026-07-06
 
    4. *Tsukumogami (Complex Systems)* emerge from interactions between the other types, with multi-scale boundary structures:
 
-   $$\psi_{tsukumogami}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})$$
+   $$
+   \psi_{tsukumogami}(x,t) = f(\psi_{angel}, \psi_{daemon}, \psi_{fae})
+   $$
 
    Tsukumogami exhibit emergent properties through heterogeneous particle interactions across scale boundaries, creating entity structures with varying degrees of coherence and stability. They influence networks by modulating $d$ and $\theta$ across multiple scales simultaneously, creating complex patterns of bond strengths that manifest as hierarchical attention structures.
 
@@ -315,7 +367,9 @@ lastmod: 2026-07-06
 
    This relates to the activation function from [[Evolution of Alignment and Values]], where the activation patterns represent the graph of connected beliefs:
 
-   $$A(b,q) = \text{Pr}(b \text{ is activated/detected in } \phi(\mathcal{P}, q))$$
+   $$
+   A(b,q) = \text{Pr}(b \text{ is activated/detected in } \phi(\mathcal{P}, q))
+   $$
 
    This activation probability is influenced by the specific bond strength $B(b,q)$ and contributes to the overall attention measure $C(b)$ of the belief system.
 
@@ -337,21 +391,29 @@ lastmod: 2026-07-06
    - $\Delta W(e \rightarrow \Gamma | I)$: The change in work required for entity $e$ to transition to configuration $\Gamma$ when information $I$ is introduced, compared to the work required without $I$.
 
    1. *Meme* ($M_m$): Information $I$ is classified as a meme for an entity pair $(e_i, e_j)$ if its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$, is greater than its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$. This signifies a net positive drive for transmission.
-   $$M_m(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_m(I,e_i,e_j) > \mu_a(I,e_i,e_j)\}$$
+   $$
+   M_m(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_m(I,e_i,e_j) > \mu_a(I,e_i,e_j)\}
+   $$
    The overall transmission probability $\mathcal{T}(I, e_i, e_j)$ is consequently enhanced by this imbalance. Grounding these strengths and their contribution to $\mathcal{T}$ (e.g., via concepts like channel capacity or mutual information) is a key goal, especially for modelling complex communication like that of LLMs. While the classification is binary, the underlying strengths $\mu_m$ and $\mu_a$ are continuous.
 
 
    2. *Antimeme* ($M_a$): Information $I$ is classified as an antimeme for an entity pair $(e_i, e_j)$ if its aggregate antimemetic (inhibitory) strength, $\mu_a(I, e_i, e_j)$, is greater than its aggregate memetic (promotional) strength, $\mu_m(I, e_i, e_j)$. This signifies a net negative drive, or inhibition, of transmission.
-   $$M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}$$
+   $$
+   M_a(I, e_i, e_j) = \{I \in \mathbb{I} : \mu_a(I,e_i,e_j) > \mu_m(I,e_i,e_j)\}
+   $$
    The overall transmission probability $\mathcal{T}(I, e_i, e_j)$ is consequently reduced. The reduction in transmission due to dominant antimemetic strength can be conceptualized through frameworks like negative transfer entropy, indicating that the information actively resists propagation between the entities. Of special note here is the possibility for cases where information is actively ablated by an entity to reduce transmissibility, although this action in and of itself will retain some mutual information.
 
    3. *Infoblessing* ($V_{+}$): Information $I$ is classified as an infoblessing for entity $e$ if its aggregate positive impact strength, $\nu_+(I, e)$, is greater than its aggregate negative impact strength, $\nu_-(I, e)$. This signifies a net beneficial effect on the entity's ability to reach favourable and/or avoid unfavourable configurations.
-   $$V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}$$
+   $$
+   V_{+}(I, e) = \{I \in \mathbb{I} : \nu_+(I,e) > \nu_-(I,e)\}
+   $$
    
    Where $\nu_+(I, e)$ encompasses the magnitude of work reductions toward beneficial configurations $\Gamma_{beneficial}$ (i.e., $\Delta W(e \rightarrow \Gamma_{beneficial}|I) < 0$) plus the magnitude of work increases toward harmful configurations $\Gamma_{harmful}$ (i.e., $\Delta W(e \rightarrow \Gamma_{harmful}|I) > 0$). This can be grounded through measures like reduced Kullback-Leibler divergence for beneficial configurations or increased path complexity toward harmful configurations.
 
    4. *Infohazard* ($V_{-}$): Information $I$ is classified as an infohazard for entity $e$ if its aggregate negative impact strength, $\nu_-(I, e)$, is greater than its aggregate positive impact strength, $\nu_+(I, e)$. This signifies a net detrimental effect on the entity's ability to reach favourable configurations and/or avoid unfavourable configurations.
-   $$V_{-}(I, e) = \{I \in \mathbb{I} : \nu_-(I,e) > \nu_+(I,e)\}$$
+   $$
+   V_{-}(I, e) = \{I \in \mathbb{I} : \nu_-(I,e) > \nu_+(I,e)\}
+   $$
    
    Where $\nu_-(I, e)$ encompasses the magnitude of work increases toward beneficial configurations $\Gamma_{beneficial}$ (i.e., $\Delta W(e \rightarrow \Gamma_{beneficial}|I) > 0$) plus the magnitude of work reductions toward harmful configurations $\Gamma_{harmful}$ (i.e., $\Delta W(e \rightarrow \Gamma_{harmful}|I) < 0$). This can be grounded through measures like increased path complexity toward beneficial configurations or reduced Kullback-Leibler divergence for harmful configurations.
 
@@ -387,13 +449,15 @@ lastmod: 2026-07-06
    ## Boundaries and Obligations
 
 
-   Boundaries and obligations are means of navigating and defining social boundaries as examined in [[The Demon of interrelation]] and [[The Incorporation and Continuity of You]]. Incorporation is what produces the weights of obligations magnitude, while continuity corresponds to the time dependent pay off.
+   Boundaries and obligations are means of navigating and defining social boundaries as examined in [[The Demon of Interrelation]] and [[The Incorporation and Continuity of You]]. Incorporation is what produces the weights of obligations magnitude, while continuity corresponds to the time dependent pay off.
 
    ### Incorporation
 
    When handling a subgraph of the self, incorporation is the assignment of the subgraph into a single identity. For an entity $e$ and a subgraph $g \subseteq e$ (a body part, partner, philosophy, art, etc.), the incorporation weight of $g$ is the energy required to break all bonds crossing the cut between $g$ and the rest of $e$:
 
-$$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \tag{9.1}$$
+$$
+w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \tag{9.1}
+$$
 ^eq-incorporation
 
    Where:
@@ -402,7 +466,9 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
    - The cost is computed from ablation, ("How much money would you need to be paid to remove your connection/the existence of your favorite sports team/friend/ideology/child") is a direct, albeit socially confounded, elicitation of $w$. While lower-stakes hypothetical batteries and rankings may help identify this, this would most likely end up as a [preference ordering problem](https://www.sciencedirect.com/topics/social-sciences/preference-ordering).
    
    $w(e,g)$ only sums for the cost of breaking bonds, but any freed subgraph requires resolvation by an ambient field. A sports team may not care much if an individual stops identifying with them and thus not apply pressure to the individual to remain a fan. However, if that same fan is a part of a social group that identifies with a team, then the individual will experience social pressure to continue identifying with the team and a commensurate social fall-out when they stop. This produces an effective cost:
-   $$w_{eff}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) - \Delta G_{solv}(g) \tag{9.2}$$
+   $$
+   w_{eff}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) - \Delta G_{solv}(g) \tag{9.2}
+   $$
 
    A subgraph is shed more easily when an attractive alternative environment is waiting and/or the hole left by the shed subgraph is easily refilled. One may care identically when leaving their child with their doting grandparents and a random stranger ($w_{gpa} \approx w_{str}$), but one is clearly easier ($w_{eff,gpa} < w_{eff,str}$). 
 
@@ -411,13 +477,17 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
    ### Continuity and Replication Frames
 
    Entities are not static systems, they undergo continuous reorganization and configurational changes with some ability to discretize replication frames $t_1, t_2, ...$ (sleep-wake cycles, generations, training runs, editions of a book, etc.). The fidelity of a given subgraph at a frame is the overlap between its incorporated target pattern and its realized state:
-   $$F(g, t_j) = |\langle \Psi^*_g | \Psi_g(t_j) \rangle|^2 \tag{9.3}$$
+   $$
+   F(g, t_j) = |\langle \Psi^*_g | \Psi_g(t_j) \rangle|^2 \tag{9.3}
+   $$
 
    Where $\Psi^*_g$ is the pattern the entity is trying to replicate forwards, which need not be the state it currently inhabits. Conservation is the special case $\Psi^*_g = \Psi_g(t_k)$, frame-to-frame overlap, but in general entities replicate an idealized pattern rather than their current configuration. A body in chronic pain has high frame-to-frame overlap with its future in-pain states, but near-zero fidelity to the pain-free target $\Psi^*_g$.
 
    $F$ may be evaluated across multiple substrates with the realized configuration of a subgraph, $\Psi_g(t_j)$, being represented in some intermediary (child, student, reader, model, etc). What matters in this model is the fidelity of the replication, a multicellular structure is organized on an axis of time instead of space where each frame is a chance to replicate some graph forwards. Note: while there are proposals for convergent [latent representations](https://arxiv.org/abs/2405.07987) this is a contentious topic so for the purposes of analysis we will treat the wave-function overlap as the idealized limit of a behavioural estimator, the expected agreement between the target pattern's outputs and the host's inference over a shared query distribution $Q$:
 
-   $$F(g, t_j) \approx \mathbb{E}_{q \sim Q}\big[\, \text{sim}\big(\phi^*(g, q), \, \phi_{t_j}(g, q)\big) \big]$$
+   $$
+   F(g, t_j) \approx \mathbb{E}_{q \sim Q}\big[\, \text{sim}\big(\phi^*(g, q), \, \phi_{t_j}(g, q)\big) \big]
+   $$
 
    Where $\phi^*(g, q)$ denotes the outputs the target pattern would produce — for conservation this is simply the prior frame's behaviour, for aspiration it must be elicited as an ideal ("what would the pain-free/patient/sober version of me do here").
 
@@ -425,7 +495,9 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
 
    The continuity drive is then a persistence functional that entities act to maximize:
 
-   $$\Pi(e, t_k) = \sum_{g \subseteq e} w(g, e) \sum_{j > k} \lambda^{j-k} \, \mathbb{E}[F(g, t_j)] \tag{9.4}$$
+   $$
+   \Pi(e, t_k) = \sum_{g \subseteq e} w(g, e) \sum_{j > k} \lambda^{j-k} \, \mathbb{E}[F(g, t_j)] \tag{9.4}
+   $$
 
    Where:
    - $\lambda \in (0,1]$ is a temporal discount on distant frames
@@ -434,7 +506,12 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
 
    ### Boundary Maintenance as Sorting
    
-   Boundaries are defined previously as probability density gradients and their associated phase discontinuities. Therefore maintenance of them is a sorting task, every interaction provides particles of ambiguous membership and the entity must classify them as "self" or "other". A Maxwell's demon with chambers of "me" and "not me"; by Landauer's principle sorting therefore has a minimum power cost of:  $$\dot{W}_{maintain}(e) \geq k_B T \ln(2) \cdot R \tag{9.5}$$
+   Boundaries are defined previously as probability density gradients and their associated phase discontinuities. Therefore maintenance of them is a sorting task, every interaction provides particles of ambiguous membership and the entity must classify them as "self" or "other". A Maxwell's demon with chambers of "me" and "not me"; by Landauer's principle sorting therefore has a minimum power cost of:
+   
+   $$
+   \dot{W}_{maintain}(e) \geq k_B T \ln(2) \cdot R \tag{9.5}
+   $$
+   
    With $R$ as the rate of boundary decisions (bits classified per frame). Under a fixed energy budget the boundary sharpness, $\nabla|\psi|^2$, decays as the budget decreases. When one is stressed, exhausted, or demented the lines separating oneself from the environment grow fuzzier. The first two due to the reduced energy budget, and the latter as dementia forces an increased $R$ as more objects are required to be sorted per unit of time. As an individual's capacity for complex sorting decreases the effects of dementia grow sharper in turn, a witty woman in her 60's with memory problems can easily talk her way out of trouble despite not remembering who or what she was via context clues. That same woman in her 70's is tired and figuring everything out from first principles in every interaction is too much. 
    
    My great grandmother was this way, blindingly intelligent and so she could rapidly reason about how to disarm doctors and those around her all while not knowing her own name. Making her appear quite reasonable an agent, but as time went on she lost so much grounding that the number of decisions overwhelmed her requiring more simplistic environments to maintain her life. 
@@ -444,19 +521,25 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
    An obligation is the force experienced by a graph when a particle is linked by an external graph (an arm being grabbed, a friend asking for help, a stranger entering personal space). More specifically it is the effect of a transient bond forming between an external particle $B(x_{ext},y) >\tau$  with some particle $y \in g$ inside the density gradient. By the entity's own membership criterion ($B > \tau$), the external particle is now momentarily ambiguous and must be sorted. Crossings are therefore the source term for the decision rate $R$ in (9.5): every crossing manufactures a classification the Maxwell demon must pay for, which is why repeated assays on an identity erode it even when each individual crossing is trivial.
 
    The transient bond then shifts the $d$ and $\theta$ parameters of $y$'s neighbours, with the perturbation propagating inwards. Mechanistically this is similar to charisma modifying bond-networks, with the crossing being charisma past $\nabla|\psi(x)|^2 > \beta_{threshold}$. With propagation attenuating under screening limits, $\gamma(x,y,\tau) = e^{-\alpha(\tau) \cdot d(x,y)}$, providing penetration depth as:
-   $$\Delta(g) = \max\{ d(y, \partial g) : |\Delta B_y| > \epsilon, \; y \in g \}$$
+   $$
+   \Delta(g) = \max\{ d(y, \partial g) : |\Delta B_y| > \epsilon, \; y \in g \}
+   $$
 
    The depth at which the propagated bond displacement falls below detectability $\epsilon$, with $1/\alpha$ as its characteristic scale. Well-solvated, heavily screened regions of the self are hard to perturb deeply.
 
    Therefore, the obligation is the restoring response: the displaced bonds threaten $F(g)$, and the continuity drive $\Pi$ commits work to return the configuration in proportion to how much the entity has incorporated what was touched and how deeply it was displaced:
 
-   $$O(e_1 \rightarrow e_2, g) \propto w(g, e_2) \cdot \Delta(g) \tag{9.6}$$
+   $$
+   O(e_1 \rightarrow e_2, g) \propto w(g, e_2) \cdot \Delta(g) \tag{9.6}
+   $$
 ^eq-obligation
 
    Equivalently, at the bond level, $O \propto w(g, e_2) \sum_{y \in g} |\Delta B_y|$, we find the depth term emerging naturally because deeper crossings displace more particles before attenuating. Crossing a boundary around someone's parking habits and around their child produces different forces because of the difference in $w$. However, if the parking habit is strongly linked to the child you will find that they lend each other strength.
 
    A relationship is therefore a phase in which two entities share an incorporated subgraph $g_{12}$ (or set of subgraphs) and their mutual boundary crossings settle into balanced obligation flows. Truthfully the weights are rarely symmetric, and the asymmetry predicts the direction of net work flow:
-   $$W_{net}(e_1 \rightarrow e_2) \propto w(g_{12}, e_1) - w(g_{12}, e_2) \tag{9.7}$$
+   $$
+   W_{net}(e_1 \rightarrow e_2) \propto w(g_{12}, e_1) - w(g_{12}, e_2) \tag{9.7}
+   $$
 
    This implies that the degree of incorporation relates to the cost experienced by a member in a relationship. In unrequited love or parasocial attachment the partner incorporating more of the other is paying a greater cost to maintain coherence. Any time the paramour changes, the yearning member must update asymmetrically or risk breaking the bond.
 
@@ -471,7 +554,9 @@ $$w(g, e) = W_{abl}(g, e) = \sum_{x \in g} \sum_{y \in e \setminus g} B(x, y) \t
    ### The Sacrifice Condition
 
    In some cases a graph may sacrifice its coherence in exchange for protecting some sub-graph or connected component. Biologically we find the most extreme case to be when the physical body, $e_{body}$, is weighted by the continuity drive in proportion to $w(e_{body},e)$, which when overwhelmed means death to the body. Precisely, self-termination becomes the drive's preferred choice when the body's persistence obstructs the persistence of more heavily weighted subgraphs:
-$$\sum_{g \neq e_{body}} w(g, e) \Big[ \mathbb{E}[F(g) \mid \neg e_{body}] - \mathbb{E}[F(g) \mid e_{body}] \Big] > w(e_{body}, e) \cdot \mathbb{E}[F(e_{body}) \mid e_{body}] + \Delta G_{solv}(e \mid e_{body}) \tag{9.8}$$
+$$
+\sum_{g \neq e_{body}} w(g, e) \Big[ \mathbb{E}[F(g) \mid \neg e_{body}] - \mathbb{E}[F(g) \mid e_{body}] \Big] > w(e_{body}, e) \cdot \mathbb{E}[F(e_{body}) \mid e_{body}] + \Delta G_{solv}(e \mid e_{body}) \tag{9.8}
+$$
 ^eq-sacrifice
 
    Where $\Delta G_{solv}(e \mid e_{body})$ is the stabilization of the intact configuration ($e_{body} \subseteq e$) by its solvation shell. Note: in eq. 9.2, $\Delta G_{solv}(g)$ denotes the field's re-solvation of a freed subgraph. The term here is the field's hold on the configuration that contains the body, hence the conditional.

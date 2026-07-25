@@ -6,11 +6,11 @@ lastmod: 2025-03-26
 The soul is comprised of several different components.
 1. Size (memory) [[Memory]]
 2. Material (flexibility) 
-3. Shape (predisposition) Borne of [[Personalities dreams]] in $I_{self}$
+3. Shape (predisposition) Borne of [[Personalities Dreams]] in $I_{self}$
 	1. Borne of marking
 4. Marking (metacognition) $\mathcal{M}, \mathcal{I}$  [[Memory]]
 	2. Conscious 
-	3. Unconscious [[Personalities dreams]]
+	3. Unconscious [[Personalities Dreams]]
 
 In my mind the soul is an object that we mark records of our conscious experience onto every day. As time passes we find the marks fading, most notable is when we sleep and wake anew. However in our sleep those marks sink deeper, not as a conscious marking we are aware of but of a reshaping of our soul. Our ability to mark and shape our own soul is governed by the size, material makeup, and skill with which we mark it. 
 

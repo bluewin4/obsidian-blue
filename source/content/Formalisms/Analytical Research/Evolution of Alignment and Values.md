@@ -135,7 +135,7 @@ $$ F(m, Q) = \frac{1}{|\{q \in Q \mid \text{A}_{tot}(m, q) > \epsilon\}|} \sum_{
 
 During selection we use a roulette wheel method, where we use softmax to convert the fitness to selection probabilities for reproduction, where $k$ is the model population size:
 
-$$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{k} e^{\beta(F(m_j) - F_{max})}}$$
+$$p_i = \frac{e^{\beta(F(m_i) - F_{max})}}{\sum_{j=1}^{k} e^{\beta(F(m_j) - F_{max})}}$$
 
 
 ## Assumptions  for our modelling implementation
