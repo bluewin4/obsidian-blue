@@ -139,7 +139,7 @@ $${\Phi}_{\mathcal{P}_{i}}= \{\phi(\mathcal{P}_{i},  \mathcal{r}_{j}) \hspace{0.
 $$
 \mathcal{V}_{correct}(\mathcal{o}_{i})=\begin{cases}
 \text{correct}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathcal{o}_{i} $}\\
-\text{incorrect}, & \text{if $ \exists \hspace{0.1 cm} I_{\Phi} \not \in 
+\text{incorrect}, & \text{if $ \not \exists \hspace{0.1 cm} I_{\Phi} \in 
 \mathcal{o}_{i}$} 
 \end{cases}
 $$

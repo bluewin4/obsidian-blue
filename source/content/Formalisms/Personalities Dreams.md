@@ -36,10 +36,13 @@ $${\Phi}_{\mathcal{P}_{i}}=\{\phi(\mathcal{P}_{i}, \mathcal{r}_{j}) \text{ for a
 ${\Phi}_{\mathcal{P}_{i}}$ is essentially the space that a given sub-personality in a personality-matrix covers. This may be represented as some other set of logical/semantic meanings such as:
 
 $${\Phi}_{\mathcal{P}_{i}}= \{\phi(\mathcal{P}_{i},  \mathcal{r}_{j}) \hspace{0.1 cm} \iff  j=\text{valid}\} \text{} \mapsto \mathbb{o}_{i} \hspace{0.1 cm}$$
+
+Here $\mathcal{o}_{i,j}$ (script) denotes the output of a single call $\phi(\mathcal{P}_{i},\mathcal{r}_{j})$, while $\mathbb{o}_{i}$ (blackboard) denotes the collection $\{\mathcal{o}_{i,j}\}_{j}$ over all valid cells of ${\Phi}_{\mathcal{P}_{i}}$.
+
 $$
 \mathcal{V}_{correct}(\mathcal{o}_{i})=\begin{cases}
 \text{correct}, & \text{if $\exists \hspace{0.1 cm} I_{\Phi} \in \mathcal{o}_{i} $}\\
-\text{incorrect}, & \text{if $ \exists \hspace{0.1 cm} I_{\Phi} \not \in 
+\text{incorrect}, & \text{if $ \not \exists \hspace{0.1 cm} I_{\Phi} \in 
 \mathcal{o}_{i}$} 
 \end{cases}
 $$
@@ -71,6 +74,6 @@ Lucid Dreaming:
 5. Run $\phi(\mathcal{P}_{i},\mathcal{o}_{i,j,narrative}, \mathcal{o}_{i,j,meaning})$ and ask "what would you change in $\mathcal{o}_{i,j,narrative}$ given $\mathcal{o}_{i,j,meaning}$ " $\to$ "write that story" to get $\mathcal{o}_{i,j,lucid}$
 6. Repeat step 3-5 to get $\mathcal{o}_{i,j,refined}$
 Compiling
-7. Repeat steps 1-6 for all $i,j$ and collate those stories into one final overarching story $\phi(\mathcal{P}_{i}, \mathbb{o}_{i,j,refined}) \mapsto \mathcal{o}_{i,j,final}$ 
+7. Repeat steps 1-6 for all $i,j$ and collate those stories into one final overarching story $\phi_{compile}(\mathcal{P}_{S}, \{\mathbb{o}_{i,j,refined}\}_{\forall i,j}) \mapsto \mathcal{o}_{final}$, where $\mathcal{P}_{S}$ is the narrating persona chosen to compile — a semantic choice, not an implementation detail: the compiler determines what survives into the record
 Recording:
-8. Write $\mathcal{o}_{i,final}$ into $I_{S}$ to update the self
+8. Write $\mathcal{o}_{final}$ into $I_{S}$ to update the self

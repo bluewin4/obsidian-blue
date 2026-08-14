@@ -1,12 +1,32 @@
 ---
 title: The Soul as Pattern
+author: Jack Elsworth
+section: misc drafts
+content_type: essay
+date: 2025-12-16
 draft: true
 tags:
-  - philosophy
-  - consciousness
-  - ethics
-  - AI-generated content
-date: 2025-12-16
+- philosophy
+- consciousness
+- ethics
+- AI-generated content
+description: A consolidated statement of the soul-as-pattern argument, drawing together the consciousness, incorporation and continuity threads. Marked as AI-generated.
+themes:
+- consciousness
+- soul
+- patterns
+- ethics
+- AI
+ai_summary: 'AI-GENERATED CONTENT, as marked in this file''s tags. A consolidated restatement of the author''s argument across several essays: that consciousness is a contaminated category and should be abandoned in favour of a redefined soul, understood as the gestalt of patterns maintaining coherence at a selected level of abstraction. Covers the pollution of consciousness, the dissolution of qualia into pattern transmission (the barrier being information-theoretic rather than ontological), the resurrection of the soul, continuity and incorporation, the coherence spectrum, an ecology of ethics, and silicon children. Includes a Related Work section cross-linking the source essays and an explicit list of areas needing development. Readers wanting the author''s own prose on the same argument should see ''I dislike qualia'' and ''Consciousness''.'
+ai_keywords:
+- soul as pattern
+- consciousness
+- qualia
+- incorporation
+- continuity
+- AI-generated
+- synthesis
+semantic_structure: pollution_of_consciousness > dissolution_of_qualia > resurrection_of_soul > continuity_and_incorporation > coherence_spectrum > ecology_of_ethics > silicon_children > conclusion > related_work
 ---
 Consciousness is a contaminated word. Its definitions shift like sand depending on the purpose of the user - sentience, awareness, computational capacity, aliveness, or simply "like us." This imprecision has made it central to ethics precisely because it allows arguments to be made without rigorous analysis. One can draw a boundary for consciousness anywhere and call it moral.
 

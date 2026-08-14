@@ -80,7 +80,7 @@ A soft noise carrying the sense of Christoff's dreams unlocked a bolt in Cliff's
 
 ---
 
-The morning light roused Christoff alone. Cliff had worked late and Christoff had a plan to show his appreciation. He untangled his limbs from Cliff and tiptoed into the kitchen, rushing to the lab with a piece of Christoff he had stolen from a shaving accident.
+The morning light roused Christoff alone. Cliff had worked late and Christoff had a plan to show his appreciation. He untangled his limbs from Cliff and tiptoed into the kitchen, rushing to the lab with a piece of Cliff he had stolen from a shaving accident.
 
 Pushing open the double-doors Christoff beheld the apparatus that had only existed inside his mind. He had expected the curves, the divots, the intricacies. He had not expected the artistry. Christoff's fingers traced smoky-grey markings, their irregularity contrasting against analytical perfection.
 

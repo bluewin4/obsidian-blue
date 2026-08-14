@@ -5,18 +5,18 @@ section: misc stories
 content_type: story
 description: A man accepts a stranger's offer to make his life more convenient, and the world begins to get pathologically clean.
 themes:
-- horror
-- cleanliness
-- mental illness
-- inheritance
-ai_summary: 'Jeremy Walls, unemployed and reading in a San Jose cafe, accepts an indescribable stranger''s offer of a Cleanse and finds that the world around him is becoming impossibly clean: yellowed plastic clear, ceilings spotless, a dishevelled regular freshly showered. Because his mother developed schizophrenia when he was eleven, his first assumption is that he is losing his mind, and he calls a friend to verify reality by camera. Explores inherited fear of one''s parents'' illness — Stefan fears his father''s rage as Jeremy fears his mother''s visions — through a horror premise about erasure disguised as convenience. Note: the author''s craft notes on the mechanics of the Cleanse and the mother''s episode are kept at the end of the source file inside an Obsidian comment, hidden from the published page.'
+  - horror
+  - cleanliness
+  - mental illness
+  - inheritance
+ai_summary: "Jeremy Walls, unemployed and reading in a San Jose cafe, accepts an indescribable stranger's offer of a Cleanse and finds that the world around him is becoming impossibly clean: yellowed plastic clear, ceilings spotless, a dishevelled regular freshly showered. Because his mother developed schizophrenia when he was eleven, his first assumption is that he is losing his mind, and he calls a friend to verify reality by camera. Explores inherited fear of one's parents' illness — Coltan fears his father's rage as Jeremy fears his mother's visions — through a horror premise about erasure disguised as convenience. Note: the author's craft notes on the mechanics of the Cleanse and the mother's episode are kept at the end of the source file inside an Obsidian comment, hidden from the published page."
 ai_keywords:
-- horror
-- cleanliness
-- schizophrenia
-- inheritance
-- erasure
-- unreliable perception
+  - horror
+  - cleanliness
+  - schizophrenia
+  - inheritance
+  - erasure
+  - unreliable perception
 semantic_structure: chapter_1 > chapter_2
 ---
 ![[Pasted image 20260719124216.png]]
@@ -31,23 +31,23 @@ The noise in the cafe reasserted itself, I looked back to where the person was a
 
 First I pulled out my phone and took pictures of my face and the area around me, checking them to ensure everything lined up properly. What I saw lined up with both the image on the phone and the world around me, but something felt off. It was hard to place it, the color and texture of the cafe didn't seem quite right. One of the baristas was looking confused at an espresso machine as well, a few other people had frowns on their faces as they checked around their bodies for something. 
 
-Mentally I cycled through my contacts searching for someone who would be awake, would be willing to voice call, and I was comfortable letting know I was losing my grip on reality. The roulette wheel settled on Stefan, a friend I made in college by dragging his drunken body home from a party. He wouldn't judge me. He also shouldn't be too swamped, working from home was his norm since he had managed to automate most of his deal flows as an investment banker. How the guy who threw up on our couch while pregaming then went out and partied all night became an investment banker, I will never know. Probably a bad sign in general though.
+Mentally I cycled through my contacts searching for someone who would be awake, would be willing to voice call, and I was comfortable letting know I was losing my grip on reality. The roulette wheel settled on Coltan, a friend I made in college by dragging his drunken body home from a party. He wouldn't judge me. He also shouldn't be too swamped, working from home was his norm since he had managed to automate most of his deal flows as an investment banker. How the guy who threw up on our couch while pregaming then went out and partied all night became an investment banker, I will never know. Probably a bad sign in general though.
 
 Still, I video called him and he picked up pretty quick his blond surfer-style hair and short beard clashing with his blazer and the long exaggerated "jjjjeeerrrrrrrrr!!" he gave as greeting. His easy smile collapsed when I asked "Can you describe things for me really quick?"; I'd told him about my mom over a blunt one night. We had both cried as we looked at the stars, sitting with our bodies pressed against each other in a hammock. He had told me how he was afraid of his father's rage in his blood, I told him I was scared of my mother's visions. We laughed at stories that normally just resulted in pitying looks. There was something special about this. When I finally looked over and saw his face outlined in starlight... it stayed with me. 
 
 His face unusually serious, he began quizzing me; asking my name (Jeremy Walls), what I did for work (unemployed writing grants), where I was (a small cafe in San Jose), what happened (...). The hesitation sharpened his gaze further, perhaps that was why he was able to do the work he did. The moment he sensed hesitation or inconsistencies he had this instinct to pounce and press, it was why we hadn't talked in a while. But now it served to force me to divulge exactly what had happened. I told him of the indescribable person and the cafe's shift. He commanded me to turn the camera and scan the room. He then asked me to describe what the camera was pointed at without looking at the camera screen. Everything was confirmed by him, but I could see him typing rapidly. 
 
-Stefan confirmed my current sanity by telling me, "everything looks like your descriptions," his eyes darted to the right and he continued "but this cafe looks different compared to the photos online." I asked, confusion and a little fear modulating my voice, "what do you mean different?" He thought for a second, eyes darting back and forth before telling me to point the camera at the menu sign above the counter. He nodded again, "there is a picture from yesterday afternoon of the menu, the plastic coating is yellowed and stained". I nodded along, "yeah they haven't changed it in years, it's why I come here because anywhere else my tea would be five dollars", he waited a beat then asked me to describe the sign to him. 
+Coltan confirmed my current sanity by telling me, "everything looks like your descriptions," his eyes darted to the right and he continued "but this cafe looks different compared to the photos online." I asked, confusion and a little fear modulating my voice, "what do you mean different?" He thought for a second, eyes darting back and forth before telling me to point the camera at the menu sign above the counter. He nodded again, "there is a picture from last week of the menu, the plastic coating is yellowed and stained". I nodded along, "yeah they haven't changed it in years, it's why I come here because anywhere else my tea would be five dollars", he waited a beat then asked me to describe the sign to him. 
 
 My mouth began moving but the sound didn't come out, I hadn't noticed before but the sign was clean. Not only clean but pristine, the yellowed plastic now perfectly clear. The small splatters from new baristas over the years wiped away. Even the ceiling was clean. "I, uh, wait. What?" There was no way for this to happen, I had been here yesterday. A workspace separate from the home was important, so I had arrived at the start of the day today submitting job applications. There was no time to replace the plastic and wash the ceiling without making a fuss. It didn't make sense.
 
-I began to scan the cafe again. The dirt under the table feet was gone, the delicate flakes of the croissant a child had eaten nowhere to be seen, even the disheveled regular who brought in change for a coffee looked as though he had just taken a shower. "Stefan, something's wrong, I don't know, I." Panic welled up inside my throat to choke me. I had lost it, that was the only explanation. I wasn't even able to understand Stefan anymore. He had started speaking but I hung up, gathered my things and rushed home as fast as I could. 
+I began to scan the cafe again. The dirt under the table feet was gone, the delicate flakes of the croissant a child had eaten nowhere to be seen, even the disheveled regular who brought in change for a coffee looked as though he had just taken a shower. "Coltan, something's wrong, I don't know, I." Panic welled up inside my throat to choke me. I had lost it, that was the only explanation. I wasn't even able to understand Coltan anymore. He had started speaking but I hung up, gathered my things and rushed home as fast as I could. 
 
 The sun was bright, the wind was brisk, the air was unusually clean today. I tried not to look too closely at anything as I jog-walked towards my house. Normally the suburban sprawl granted me a strange peace of mind. An infinite-feeling liminality that made me feel as though the whole world was as simple and orderly as my neighborhood. Today it clawed at my insides, making me wonder if the obsessive cleanliness I noted was just another symptom of my diseased mind. Was this a progressive failure? Had I been finding comfort in my delusions for the months I had been unemployed and wandering the streets? How many gaps were in my mind now? 
 
 Reaching my apartment building I stumbled up the stairs and fumbled with my keys. A strong desire to *cleanse* myself of this taint battering against my mind. In a fugue I grasped the railing and turned to the next flight. I noticed then, the stairs to my apartment looked pristine, bright grey with pebbles of red and blue. No dark smudges dulling their natural sheen. It made me want to vomit. I fumbled with my knob, turning it desperately to admit me into my own space. Slamming it shut I pressed myself back against the door and sank to the floor. My apartment looked correct. Since being laid off I had taken extra time to clean, my mother had sent me an article about how having a tidy home would keep your mind focused. She worried about me. I couldn't tell her. 
 
-As I finally caught my breath the buzzing of my phone came into focus, ten missed calls verging on the eleventh. All from Stefan. Fuck. He knew. Oh god he knew. Not Stefan, he might look differently. I trust him. It's okay, but now he knows I'm broken. No abstract possible brokenness. Not a shared fear of our parents' legacies emerging from our veins. A true breach into reality, a failure of my mind. Fuck. Fuck. Fuck.
+As I finally caught my breath the buzzing of my phone came into focus, ten missed calls verging on the eleventh. All from Coltan. Fuck. He knew. Oh god he knew. Not Coltan, he might look differently. I trust him. It's okay, but now he knows I'm broken. No abstract possible brokenness. Not a shared fear of our parents' legacies emerging from our veins. A true breach into reality, a failure of my mind. Fuck. Fuck. Fuck.
 
 Tears flowed hotly down my face as I gasped for air, punctuated by the vibrations cradled between my thighs and chest. I wanted to scream, this couldn't be happening. No, I was fine. I shouldn't have smoked weed, I knew my risk factor. But I'd done research, I'd always paired it with CBD, I'd never done too much. I had been deluding myself. Oh god. Oh god. Stop, please. I shouldn't have done drugs. I knew my risk. It's my fault. It's my fault.
 
@@ -61,11 +61,11 @@ Knowing I couldn't escape judgement my body turned slowly. The door knob twisted
 
 He easily pulled my hand away and lifted my shorts, already a bright red line was showing. A nasty bruise would bloom, his face twisted further. The troubled sleep had cleared my mind a bit so I could guess why. We both had our fears. I tried to reassure him, it was an accident. The panic that had fluttered in my chest settling as a problem I better understood was placed before me. At least that is what I told myself as I turned towards him and muttered "thank you" as I buried my face in his shirt. I could feel his inspection of me continue, his gaze carrying a weight in his fingers as he scanned my apartment. 
 
-It was small, best I could afford given my current financial state. But it was clean and well organized, in the main area. Although there should be some dust behind the TV to the left of the door. There should be. My voice rough from sobbing, I quietly croaked out "I'm scared". Stefan's arms tightened, his voice gentler in turn "it will be okay, I got you man, we can do this". I realized then, he had driven several hours to reach here. The sun was lower. I'd probably terrified him. He'd been in the middle of work. What a fuck up I am, ruining other people's lives on my own descent. Sorries began burbling up, stymied by Stefan's quick "shut up dude, it's okay". 
+It was small, best I could afford given my current financial state. But it was clean and well organized, in the main area. Although there should be some dust behind the TV to the left of the door. There should be. My voice rough from sobbing, I quietly croaked out "I'm scared". Coltan's arms tightened, his voice gentler in turn "it will be okay, I got you man, we can do this". I realized then, he had driven several hours to reach here. The sun was lower. I'd probably terrified him. He'd been in the middle of work. What a fuck up I am, ruining other people's lives on my own descent. Sorries began burbling up, stymied by Coltan's quick "shut up dude, it's okay". 
 
-We stayed like that for some time, I would shake intermittently as memories percolated through my subconscious. In turn Stefan would tighten his grip and murmur words that neither of us would recall but soothed me none the less. Eventually I was ready to try to face the world again, I'd had a psychotic break but it was time to step into the world again. Even if what I saw of that world didn't match what it was supposed to. Stefan readjusted himself periodically until I was fully cradled in his lap as he gently rocked back and forth.
+We stayed like that for some time, I would shake intermittently as memories percolated through my subconscious. In turn Coltan would tighten his grip and murmur words that neither of us would recall but soothed me none the less. Eventually I was ready to try to face the world again, I'd had a psychotic break but it was time to step into the world again. Even if what I saw of that world didn't match what it was supposed to. Coltan readjusted himself periodically until I was fully cradled in his lap as he gently rocked back and forth.
 
-So I sat up, a frisson of fear as I dragged my eyes up to Stefan's. The dreaded judgement or pity wasn't there, just a soft concern and simmering energy. When he was worked up it felt like being next to some great engine. Practically radiating some intangible sense of motion and energy that was directed towards unknown ends. He began to interrogate me again.
+So I sat up, a frisson of fear as I dragged my eyes up to Coltan's. The dreaded judgement or pity wasn't there, just a soft concern and simmering energy. When he was worked up it felt like being next to some great engine. Practically radiating some intangible sense of motion and energy that was directed towards unknown ends. He began to interrogate me again.
 
 "How are you?"  
 "Fine."  
@@ -79,21 +79,21 @@ So I sat up, a frisson of fear as I dragged my eyes up to Stefan's. The dreaded 
 "Yes."  
 "Good Jay"
 
-With that he put his hand around the back of my head and pressed me back into him. I felt my body relax involuntarily, letting myself forget everything for a moment to pretend it would be okay. Stef was here, he was sober, he could handle anything like this. He pulled me away and hefted me up and deposited me on my small couch. I turned away from the TV. As he walked away he called,
+With that he put his hand around the back of my head and pressed me back into him. I felt my body relax involuntarily, letting myself forget everything for a moment to pretend it would be okay. Colt an was here, he was sober, he could handle anything like this. He pulled me away and hefted me up and deposited me on my small couch. I turned away from the TV. As he walked away he called,
 
 "Do you have any ice packs dude?"  
 "Yeah, back of the top shelf."  
 "Sorry about your leg man, fucked that up. You scared me dude."  
 "It's okay, it hardly hurts."
 
-A lie, it had been a constant ache. He often got overenthusiastic when we used to rough house so the lie was well worn. Looking back, probably to the point it was completely transparent to Stefan. I felt the cool pack press against my thigh and he sat in the crook of my legs. 
+A lie, it had been a constant ache. He often got overenthusiastic when we used to rough house so the lie was well worn. I was unfortunately quite transparent. I felt the cool pack press against my thigh and he sat in the crook of my legs. 
 
 "Do you think it's still happening?"  
 "I don't know. I don't want to check."  
 "How do you think you could check?"  
 "The TV. It should have dust behind it. I'm scared that it doesn't."
 
-I felt the couch shift as Stefan got up to check. A quick intake of breath through his teeth. I knew it. Fuck. 
+I felt the couch shift as Coltan got up to check. A quick intake of breath through his teeth. I knew it. Fuck. 
 
 "Anything else to check?"  
 "Under the sink, I have been ignoring the little cleaning chemical spills."  
@@ -110,22 +110,22 @@ A warm chuckle followed my retort. He was always good at bringing me back into o
 
 The threads grew sharper in my vision, mentally I fell forwards into them. A latticework of infinite threads cascaded around me, each one turning brighter and brighter until... My shoulder was roughly shaken, "HEY", I looked up startled, "don't ignore me dude, what's going on. This isn't normal, not even by your definition."
 
-I gaped at him, my brain overloading with information as I ran counterfactuals one after another. Stefan could be fake, a wishful hallucination, I didn't have means of verifying his existence. He was touching me though, in a way that didn't feel like what I was told it should. I was overwhelmed though, overstimulated. Every surface a chance for my brain to analyze against an impossible hypothesis. There was too much information. 
+I gaped at him, my brain overloading with information as I ran counterfactuals one after another. Coltan could be fake, a wishful hallucination, I didn't have means of verifying his existence. He was touching me though, in a way that didn't feel like what I was told it should. I was overwhelmed though, overstimulated. Every surface a chance for my brain to analyze against an impossible hypothesis. There was too much information. 
 
-My tone was robotic as I said, "Grab some pomegranate juice from my fridge, please." Stefan's face changed to something strange for me, almost like fear. I hadn't seen that before on him. Even when he had almost fallen when a cliff had collapsed under him. The only thing stopping him from the drop being my hand hooked into his arm, his face had been a fierce grin. 
+My tone was robotic as I said, "Grab some pomegranate juice from my fridge, please." Coltan's face changed to something strange for me, almost like fear. I hadn't seen that before on him. Even when he had almost fallen when a cliff had collapsed under him. The only thing stopping him from the drop being my hand hooked into his arm, his face had been a fierce grin. 
 
 Almost as though he teleported he was there again with juice in hand. I was fading in and out of my head. He handed me the juice and I intentionally let it drop. The juice spread lurid across beige fibers, soaking deeply. A simple, strong signal. A mess. One that did not disappear suddenly, an unassailable reality that wasn't being overwritten.
 
-I could tell Stefan had guessed what was going to happen. He had a second glass of water already, he didn't let me grab this one. Instead cradling the back of my head as he tilted the glass. It felt good, it felt *cleansing*. I looked up at him and he had a tight smile, like everything was going to be okay. For a brief moment it was. Then I looked down again and obscenities poured from my mouth.
+I could tell Coltan had guessed what was going to happen. He had a second glass of water already, he didn't let me grab this one. Instead cradling the back of my head as he tilted the glass. It felt good, it felt *cleansing*. I looked up at him and he had a tight smile, like everything was going to be okay. For a brief moment it was. Then I looked down again and obscenities poured from my mouth.
 
 The carpet was perfectly clean.
 
 
 ## Chapter 2
 
-We were both shocked for a bit, I didn't know what to do or say beyond a stream of invectives. Stefan turned on his heel, walked back to the fridge. Poured another thing of juice. Then threw it on the floor himself. We both stared at it in silence, with no change. It was an uncomfortable five minutes. Then he asked if I had eaten today, I'd forgotten again. He dragged me into a well-worn rut of conversation, as he browbeat me for not taking better care of myself while extracting an order from me. By the time the food arrived I had almost forgotten the missing stain, we watched a show on TV. Then he told me he was staying the night, I pushed back, he had work. He called me "unemployed as fuck" and informed me it was a Friday. 
+We were both shocked for a bit, I didn't know what to do or say beyond a stream of invectives. Coltan turned on his heel, walked back to the fridge. Poured another thing of juice. Then threw it on the floor himself. We both stared at it in silence, with no change. It was an uncomfortable five minutes. Then he asked if I had eaten today, I'd forgotten again. He dragged me into a well-worn rut of conversation, as he browbeat me for not taking better care of myself while extracting an order from me. By the time the food arrived I had almost forgotten the missing stain, we watched a show on TV. Then he told me he was staying the night, I pushed back, he had work. He called me "unemployed as fuck" and informed me it was a Friday. 
 
-So, I got some blankets and sheets from a small closet to set up the couch. It was too small for him. Looking up I saw Stefan was wiped, I couldn't give someone dedicated to helping me bad sleep. I puzzled about this for a second before deciding to sleep on the couch with him in my bed. It would be a bit uncomfortable but shouldn't be too hard. Informing him of this change turned out to be much harder.
+So, I got some blankets and sheets from a small closet to set up the couch. It was too small for him. Looking up I saw Coltan was wiped, I couldn't give someone so dedicated to helping me bad sleep. I puzzled about this for a second before deciding to sleep on the couch with him in my bed. It would be a bit uncomfortable but shouldn't be too hard. Informing him of this change turned out to be much harder.
 
 "No"  
 "Why not?"  
@@ -138,22 +138,21 @@ He crowded me into my bedroom, flicking the lights off in the apartment as we le
 "There's enough space."  
 "I'm glad you agree, I can move the blankets so you get fresh ones."
 
-As I attempted to turn he closed the door, "We can both fit, it'll be just like when we got that cabin up in Tahoe." Immediately shame shot through me, I began to argue but he had already stripped off his pants and shirt, going to open my window. "Come on Jay, you need rest." His repeated cajoling worked and I found myself in my bed, with Stefan hogging the blankets as he lightly snored. 
+As I attempted to turn he closed the door, "We can both fit, it'll be just like when we got that cabin up in Tahoe." Immediately shame shot through me, I began to argue but he had already stripped off his pants and shirt, going to open my window. "Come on Jay, you need rest." His repeated cajoling worked and I found myself in my bed, with Coltan hogging the blankets as he lightly snored. 
 
 I sighed, thinking of how I needed a shower tomorrow to *cleanse* my thoughts. I had missed my friend, it was dangerous for us to be this close though. It felt uncomfortable. When I was certain he was asleep I quietly crept out of bed, opening the door to the rest of the apartment. My finger was on the light switch before I froze. My eyes were glued to the spot where the stain should be, in the darkness the shapes wobbled and reformed. I stood like that, torn between an unknown discomfort and a known discomfort. In the face of it all retreat was best. Better to leave such things to the morning's light. 
 
 So, I fell back into bed and tripped into sleep. My dreams tumbled through me once more, with the threads of my couch adsorbing my microscopic body before releasing me back into the lattice. Each time I was released a wave of particles would follow me like a dark cloud. I would shout and beat at them, yelling for them to stop chasing me. For once, they did. Behind me they faded, and now I leapt from thread to thread without stickiness. An acrobatic art all my own in the pristine couch fabric.
 
-
-The bed was warm, my mind a bit fuzzy, but pleasantly so. It was like I had a heater behind me. My mind tumbled in the boundary between dreams and wakefulness, pressing into the heat and soft tickle of fuzz. There was such a lovely pressure, my heart beat slow and steady in this endless now. Then, as memory came back online my heart rate spiked. In my ear, murmuring was Stefan. Fuck. I began to wriggle away, but that pressure tightened further and I found myself pinned to his chest, an awkward "eep" escaping my mouth. A sleepy laugh followed from Stefan, "funny dude", as his arm loosened and he began to stretch. I rolled out of bed and hit the floor, scrambling to my feet as I desperately searched for my pants. Thankfully his eyes weren't even open by the time I fled the bedroom, calling a promise of breakfast behind me. 
+The bed was warm, my mind a bit fuzzy, but pleasantly so. It was like I had a heater behind me. My mind tumbled in the boundary between dreams and wakefulness, pressing into the heat and soft tickle of fuzz. There was such a lovely pressure, my heart beat slow and steady in this endless now. Then, as memory came back online my heart rate spiked. In my ear, murmuring was Coltan. Fuck. I began to wriggle away, but that pressure tightened further and I found myself pinned to his chest, an awkward "eep" escaping my mouth. A sleepy laugh followed from Coltan, "funny dude", as his arm loosened and he began to stretch. I rolled out of bed and hit the floor, scrambling to my feet as I desperately searched for my pants. Thankfully his eyes weren't even open by the time I fled the bedroom, calling a promise of breakfast behind me. 
 
 My gaze was locked on the kitchen, not even my peripheral vision admitting the living room. I began to make breakfast, grabbing eggs and bacon from a fridge that smelled new. The appliances all looked far nicer than I remembered. The pans looked normal, and the stove I had apparently done quite a good job on when I cleaned it yesterday. So I began cooking, chopping some vegetables and making an omelette instead of my normal pile of eggs and veggies I would do for myself. Less to clean anyways, I turned on the fan to reduce the smell as the bacon fried. I did not let myself look into the toaster as I put the bread in, the crumb drawer a convenient mystery.
 
-I heard the door to the bedroom click open, and a drawn out "yooo" from Stefan who was still half awake. I turned to greet him, only to see his eyes fixated on the living room hidden behind the kitchen's bar. A small pool of fear settled in my gut, but then he turned to me and said "early morning dude?" I relaxed marginally as he settled into a chair at the bar, responding "I normally get up around now anyways." Nothing funny was said, but I followed it with a short laugh anyways that was mirrored by Stefan chuffing. We finished breakfast in companionable silence as Stefan melted onto the counter and lazily watched me. I tried to tell myself the sharpness in his gaze was just interest in my cooking, and not the stain that was on my rug.
+I heard the door to the bedroom click open, and a drawn out "yooo" from Coltan who was still half awake. I turned to greet him, only to see his eyes fixated on the living room hidden behind the kitchen's bar. A small pool of fear settled in my gut, but then he turned to me and said "early morning dude?" I relaxed marginally as he settled into a chair at the bar, responding "I normally get up around now anyways." Nothing funny was said, but I followed it with a short laugh anyways that was mirrored by Coltan chuffing. We finished breakfast in companionable silence as Coltan melted onto the counter and lazily watched me. I tried to tell myself the subtle sharpness in his gaze was just interest in my cooking, and not the stain that was on my rug.
 
-I served him a plate and he gave me a full lazy grin, his eyes sparkling. Knowing him the closest thing to a home-cooked meal he'd had in months was a microwaved meal. Still, the compliments he heaped upon me were well received. My meal was taken facing him, his bulk blocking the living room from view. We talked about normal things; how my job hunt had been going (badly), how his job had been going (exhausting), how the weather had been (hot), have we heard from any mutual friends (not really). 
+I served him a plate and he gave me a full lazy grin, his eyes sparkling. Knowing him the closest thing to a home-cooked meal he'd had in months was microwaved. Still, the compliments he heaped upon me were well received. My meal was taken facing him, his bulk blocking the living room from view. We talked about normal things; how my job hunt had been going (badly), how his job had been going (exhausting), how the weather had been (hot), have we heard from any mutual friends (not really). He asked if I was going to decorate the apartment at some point, I was puzzled, it already was. He got a funny look on his face, like he was going to argue with me, then just let out a huff and with a rueful smile told me "You've always been like this." I didn't know what he meant.
 
-After we finished I grabbed our plates and returned them to the sink, freezing when I heard him say "Unless you grabbed a shop-vac in the night, we can't keep pretending." The dread returned full force, my stomach churning around the pit opening up. Turning to face him I knew the stain was gone. Really I'd known since last night but just wanted to pretend a little longer that my friend was visiting me for fun. Not because I was broken again. I felt the urge to *cleanse* myself. To make things safe again. 
+After we finished I grabbed our plates and returned them to the sink, freezing when I heard him say, voice suddenly serious,"Unless you grabbed a shop-vac in the night, we can't keep pretending." The dread returned full force, my stomach churned. Turning to face him I knew the stain was gone. Really I'd known since last night but just wanted to pretend a little longer that my friend was visiting me for fun. Not because I was broken again. I felt the urge to *cleanse* myself. To make things safe again. 
 
 The messy morning hair softened the intensity in his eyes. I felt like prey cornered by some great predator. 
 
@@ -164,13 +163,121 @@ The messy morning hair softened the intensity in his eyes. I felt like prey corn
 "Then that means either both of us are crazy or the world is going crazy."  
 "I know."
 
-In that instant the information overload I had stymied the day before hit me like a truck. I knew what was going on to some extent, not the mechanics but what was happening. Anything that could be cleaned was fully cleaned, all around me. It didn't happen instantly, but I knew that if I opened the crumb tray it would be emptied. Just like I knew the stain would be gone and the fibers on the furniture in my house would be the brightest they had been since I bought them. Well, actually that is a thought.
+In that instant the information overload I had stymied the day before hit me like a truck. I knew what was going on to some extent, not the mechanics but what was happening. Anything that could be cleaned was fully cleaned, all around me. It didn't happen instantly, but I knew that if I opened the crumb tray it would be emptied. Just like I knew the stain would be gone and the fibers on the furniture in my house would be the brightest they had been since I bought them. Well, actually, that was a thought.
 
 "Can you check the chair in the living room, is the fabric bright or faded?"  
 "Which one?"  
 "Red, by the window."  
 "It's faded, I think?"  
 "Ah, okay."
+
+
+## Chapter 3
+
+The effect seemed focused on cleaning, not repairing or restoring. A dye that was coated in filth would brighten, a dye that was degraded and worn away would not be restored. The effect was subtractive, not additive and there was too much to understand. The information pressing against my skull needed an outlet, a structure to be poured into. I began writing down my thoughts, when I was ready I turned to Coltan and asked "Can you help me with something?"
+"Of course my dude"
+
+We spent the afternoon experimenting. It was surprisingly easy to fall into the old pattern again, taking apart something I didn't understand into discrete informational chunks. Almost pleasurable. So, I began by spilling a large number of different things on the carpet. My first discovery was that the cleaning was inconsistent, but coordinated. Everything around me would be cleansed in a wave, but that wave was hard to predict. If I focused on wanting it to clean it would sometimes work, better when I abstractly represented what I wanted rather than specifics. It would trigger frequently when I wasn't paying attention though. However, when I spilled that juice initially I had stared at it for awhile. I had wanted it to stay. Wanting counted for something.
+
+Coltan believed it was caused by my obsessive tendencies around cleaning and leaving detritus behind me. Unfortunately that caused me to begin thinking about how I couldn't stop this, and how I was not in control of myself. Now I was bleeding into the world around me. This spiral triggered a minor panic attack which stopped our experimentation for awhile as he ordered me doordash and we watched Full Metal Alchemist together again. This is when I started to think of myself as weak. There was no other way to put it, wrapped up in a blanket with a soft pillow on my couch while Coltan handled everything else. It didn't feel equivalent, here I was pulling him into my bullshit again and what did I have to offer? 
+
+He had ordered chicken nuggets and fries, a safe food. Coltan had always been like this, I was responsible when we partied and he was responsible when we didn't. Dragging me to go to class when I was depressed, reminding me to eat, and forcing me to socialize. A real pain, but one I treasured. We didn't party anymore though, I wasn't cleaning his vomit soaked clothes and shirt in the morning when he was too hung over to do anything but sip electrolytes. Why did he bother? A bop on my head brought me out of it.
+
+"Move dude, I wanna watch too", a small laugh wound through the words, softening the statement. So, I became vertical and we munched. The lack of need for napkins or picking up stray fries that fell was uncommented, but noted by both of us. We began discussing new experiments as the Elric brothers argued in the background.
+
+Coltan started by suggesting I spend more time working on controlling my thoughts, a frightful endeavor for me. I knew controlling my thoughts was something I could never trust, eventually it might slip away and I wouldn't even notice. The best I can do is just be prepared for when they did fail. In that vein I advocated for testing more conditions to understand more of the cleaning properties. In the end we compromised, the next set of experiments would be distance. 
+
+I was not yet comfortable with the notion of going into the outside world and possibly hurting someone, so Coltan was in charge of the work. He grabbed some dirt from outside which, when inside of a container was safe from me, and began dusting it down the steps to see how far it could go. Simultaneously he held a stopwatch that he started when he began pouring, with my role being how long I could last before everything was *cleansed* again. 
+
+The first pour was about 3 seconds, then 5. It was hard not to with my mind on it. Coltan began teasing me, calling me a dork and bringing up old stories. A blatant attempt to get me to focus on something else. It worked though, and soon we were reminiscing about when we drove out to the middle of nowhere and watched the stars in the back of a truck. Several minutes later he came back. 
+
+He proudly announced that the longest I was able to go was 1 minute 30 seconds, with his expert distractions, and the distance appeared to be about a 10 meter radius sphere. He was grinning as he typed the data into a spreadsheet on his phone, something was going on behind his eyes. Something I didn't recognize. His smile was sharper than I was used to, the sensation of gears turning unusual. After a minute of typing he asked if I felt tired, when I said no he typed a bit more; suddenly he rushed me and grabbed my body into a hug. Before I could say anything he lifted me up and started swinging me around like a dog toy.
+
+"Dude this is so cool! You've got like super powers"
+Discomfort flowed through me, I wasn't sure I liked this yet. But similarly the approval I was getting from him and the warmth was... it was good. 
+"Wuh, yo put me down ya big lug. Cleaning up a kitchen isn't exactly a superpower."
+He stopped moving, but still kept me higher than my toes would let me reach the ground.
+"Yeah it is dude! Think about it, you should know better than me how awesome this is!"
+
+And, for the first time since this nightmare started, I began to think about "how awesome this is". I wasn't stupid, self-cleaning would make my life a lot easier. Now though I let my mind extend outwards to the possibilities, there was much in the world that needed cleaning. My mind skipped from chemical spills to superfund sites to questions about radiation. Was my body now clear of toxins? Was Coltan's? His fingernails were pristine. Wait, what about my microbiome? Would I still have the useful ones? Can I get sick? Is that part of cleaning? Cancer should still be possible, but bacteria and viruses are classically illness causing. If they joined with my cells could I get them out? I hadn't noticed I'd been speaking out loud, but while I had been preoccupied Coltan had set me down, the sharp stupid grin still plastered on his face. 
+
+Looking into his eyes I told him, "I need a biochemistry lab."
+His grin grew wolfish, "I can get you that dude". 
+
+I probably should have questioned the unvarnished confidence he had in that statement, but I was already designing experiments. I would need tissue from multiple organisms, I would need some viruses that I could infect them with. A microscope to track their behaviour, a PCR machine to track prevalence of infections. Oh. 
+
+"I will probably need an assistant, I can't do this by myself. I might interfere with the results".
+His mouth pursed as his eyes drifted to the sky, "How well trained do they need to be?"
+I enumerated tasks in my head, biting my tongue rhythmically. "Not very, just enough to help me with basic lab tasks and monitoring experiments without me around."
+Coltan began pacing in a circle, "Let me think, we can't trust just anyone with this."
+
+Another thought I hadn't really processed yet. But with his passion for super hero movies and spy thrillers it made sense for him to have considered that already. Tracing that line of inquiry a thought struck me.
+
+"A 10 meter radius is quite large. How many of my neighbors have clean apartments now?"
+Coltan froze, then he snapped his gaze to mine, "Fuck, we need to go. Now."
+
+He was being dramatic, of course he was. If I had to bet on what he was thinking it would have involved area 51 and dissection tables. My derision must have bled into my face because he got close again. He was doing that a lot recently, I didn't know how to handle that. He didn't use to be this physical. I tried to ignore how it felt. His hands wrapped around my shoulders, squeezing tightly, warm.
+
+"We can't fuck around with this Jer, who knows what this stuff you got going on connects to. We have no idea who might be aware of you or after you."
+
+Which gave me pause. Another thing I hadn't spent time considering. So many thoughts all competing for attention. Too much to focus on at once. There were so many risks, so many possibilities. Did I accidentally purge all my neighbors microbiomes? Would Coltan be sick soon? Would I leave a trail of suffering behind me? Hands cupped my face, tilting me up to look directly into his eyes again. 
+
+"Stay with me dude, tell me what you need from here so we can leave."
+"Where will I stay?"
+"My place dumbass. Now tell me."
+"What if this hurts you?"
+"That's my choice to make"
+"But wh-"
+"Nah, let's go."
+
+So I rattled off a list and we began shoving things into a battered hiking backpack, there really wasn't much. I was in a bit of a daze, I didn't know what to trust anymore. Clearly I wasn't thinking enough about what was going on or I would have realized my impact on the world sooner. But Coltan's angry muttering reminded me I wasn't alone in the oversight. He turned to me with his hand out.
+
+"Give me your phone"
+Barely thinking I handed it over, still I asked, "What?"
+He fiddled with it, turning it off. "We need to make you harder to find than you are. Do you care about anything on this?"
+I thought for a second, "uh, I don't think so. All my photos are backed up and I have a password manager. But like, don't you think you're being a little too intense about this?"
+His gaze flicked up from my phone, "Don't you think you're being a bit too casual about this dude? You have super powers now, you need to have better opsec if you want to stay free."
+Coltan walked over to the kitchen counter and put my phone down, "We are leaving this here, I can get you a new one."
+"Dude"
+"Listen to me on this, I'm helping you. Accept my help."
+
+Something in his voice gave me pause. He sounded unsteady, agitated. I knew he could get a little paranoid at times but I've never seen him get this forceful about something before. So I acquiesced, his muscles lost some tension and he nodded at me with a strained smile.
+
+When I zipped up the bag I barely had time to lock the door before Coltan dragged me to his car. A sleek black thing that looked fast, definitely Coltan's style. He threw my bag into the backseat and we both slid into the car. He tried to act nonchalant as tossed me his phone for me to pick out music, but his knuckles on the steering wheel were white. His phone was an odd model, there wasn't a logo and the interface was odd. But the music app was easy to figure out and soon we were on the freeway coasting up the 101 to his house I presumed. I had never actually made the trip up. Glancing at his set jaw and darting eyes I wished it was under better circumstances.
+
+## Chapter 4
+
+I couldn't say this was the weekend I had expected. My normal day was well structured, I had my alarms set and calibrated by coaches and my meals sorted by a dietician. A far cry from what Jer was doing in that dingy apartment. I should have done this earlier, he was a mess by himself. Even in college he could barely function without someone else pushing him. I had been working on finding him a job near me, but that was still weeks away from fruition. Stupid, I knew better, I should have done this earlier.
+
+As we drove up towards my house I glanced at him from the corner of my eye. He was gazing out the window at the brick walls bracketing the freeway, tracing the patterns as we flew past them.  I was speeding but he didn't seem nervous at all, he trusted too easily. The warmth in my stomach went unacknowledged. His eyes flicked to me, the bright blue gaze peeling back layers of my skin, dissecting me, again. I quickly looked back to the road, I couldn't mess up now. 
+
+I asked him, "Are you hungry?"
+"Soon maybe."
+"What for?"
+"I don't know"
+
+Ugh, irritating. Fine though, I knew him well enough to guess the list. It's okay though. Just gotta breathe. In, and out. Jer stiffened slightly, he had sensed my annoyance. Fuck. 
+
+"Uh, sorry dude, In 'n Out?"
+"I know you don't like them"
+"Yeah, but you do"
+"Yeah, but you don't"
+
+He stuck out his tongue at me and I felt the laughter bubble up. The irritation evanescing under his effervescence. I was glad he was feeling a little better.
+
+"We'll stop by a Wingstop. Look it up on my phone and you can call in an order."
+"Aye aye captain"
+"Damn right dude"
+
+He laughed this time, good. This was good. He pointed me to the exits we needed. As we navigated my mind traced the shape of what had transpired. Jer had a super power now. Weird little guy that he was, he had an actual super power. It was shocking, and scary. He was already too interesting by half, now others might try to grab him. 
+
+I parked the car in the middle of the lot and told him to wait while I grabbed the food. He waited obediently, I liked that about him. He didn't make it hard to operate, just went with the flow. But when shit hit the fan he wouldn't back down. I'd missed him. Now there was a way to make sure he was gonna be taken care of. He would be able to change the world, but we'd need to be careful about it. Regulations are a bitch and I don't even want to think about what might happen if the government got their hands on him. I'd need to do an investigation into the shady character that met him at the cafe. I already had a guy working on trying to get the camera footage out. He had done it before at scale when I needed some demographics data on bike shops. So this shouldn't be too hard.
+
+
+
+
+
+
 
 %%
 # Appendix
