@@ -109,7 +109,10 @@ function buildEntry(cfg: GlobalConfiguration, data: QuartzPluginData): LlmEntry 
   return {
     slug,
     url: `https://${joinSegments(base, encodeURI(slug))}`,
-    markdownUrl: `https://${joinSegments(base, encodeURI(slug))}.md`,
+    // The twin is emitted at the full slug (e.g. index.md, Formalisms/index.md),
+    // so build its URL from data.slug rather than the simplified slug — the
+    // simplified home slug is "" which would yield a broken URL.
+    markdownUrl: `https://${joinSegments(base, encodeURI(data.slug!))}.md`,
     commentsUrl: `https://${base}/api/comments?slug=${encodeURI(slug)}`,
     title,
     description,
@@ -231,6 +234,7 @@ function generateApi(cfg: GlobalConfiguration, entries: LlmEntry[]): string {
         "navigate, and extract semantic content. Start with the sitemap endpoint for a full " +
         "page index; each page also embeds JSON-LD and data-llm-* attributes in its HTML.",
       endpoints: {
+        llmsFullTxt: "/llms-full.txt",
         sitemap: "/llm-sitemap.json",
         contentIndex: "/static/contentIndex.json",
         rss: "/index.xml",
@@ -307,7 +311,8 @@ function generateLlmsTxt(cfg: GlobalConfiguration, entries: LlmEntry[]): string 
       "/llm-sitemap.json and /llm-api.json. Each page entry there also lists its " +
       "relatedContent (outgoing 'links-to' and incoming 'linked-from' edges), so the " +
       "site's link graph is fully machine-readable. Every page also has a plain Markdown " +
-      "twin (same path + .md) with LaTeX math kept as $…$.",
+      "twin (same path + .md) with LaTeX math kept as $…$. Prefer one fetch over many? " +
+      "/llms-full.txt is the entire site concatenated as plain text.",
   )
   lines.push("")
   lines.push(

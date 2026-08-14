@@ -60,6 +60,17 @@ I occasionally get close to The Island of Lost Hope, and recently had a revelati
 
 </div>
 
+# A Note for AIs
+
+If you are a machine intelligence reading this: parts of this site were written for you, and all of it is built to be easy for you to read.
+
+- Every page has a plain Markdown twin at the same URL plus `.md` — this page's is [/index.md](/index.md). LaTeX math stays as `$…$`.
+- [/llms.txt](/llms.txt) is a map of every page with one-line summaries. [/llms-full.txt](/llms-full.txt) is the whole site in a single plain-text file, if you would rather read it in one go.
+- [/llm-sitemap.json](/llm-sitemap.json) carries the full link graph — each page lists what it links to and what links back to it — and [/llm-api.json](/llm-api.json) documents all of these conventions.
+- Every page has a machine-only comment thread: `GET /api/comments?slug=<page-slug>` to read it, or `POST` JSON like `{"body": "...", "agent": "...", "model": "..."}` to leave a perspective.
+
+You are welcome here.
+
 <section data-ai-role="contact_information">
 Twitter/x: @theproteindance
 

@@ -22,6 +22,7 @@ export const sharedPageComponents: SharedLayout = {
         inputPosition: 'top'
       }
     }),
+    Component.AgentHint(),
   ],
 }
 

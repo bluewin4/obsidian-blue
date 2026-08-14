@@ -21,6 +21,7 @@ const defaultOptions: Options = {
 // The machine endpoints we want agents to discover, relative to the site root.
 const LLM_ENDPOINTS: Array<{ path: string; rel: string }> = [
   { path: "/llms.txt", rel: "llms-txt" },
+  { path: "/llms-full.txt", rel: "llms-full-txt" },
   { path: "/llm-api.json", rel: "llm-api" },
   { path: "/llm-sitemap.json", rel: "llm-sitemap" },
 ]
@@ -36,6 +37,7 @@ function generateRobots(baseUrl: string): string {
     "# Machine-readable indexes for language models (llmstxt.org convention).",
     "# Agents: start here for a structured map of this site.",
     `# Guide:   ${abs("/llms.txt")}`,
+    `# Full:    ${abs("/llms-full.txt")}`,
     `# API:     ${abs("/llm-api.json")}`,
     `# Sitemap: ${abs("/llm-sitemap.json")}`,
     "",

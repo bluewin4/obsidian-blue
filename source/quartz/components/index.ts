@@ -22,6 +22,7 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Connections from "./Connections"
 import LlmMetadata from "./LlmMetadata"
+import AgentHint from "./AgentHint"
 
 export {
   ArticleTitle,
@@ -48,4 +49,5 @@ export {
   Comments,
   Connections,
   LlmMetadata,
+  AgentHint,
 }

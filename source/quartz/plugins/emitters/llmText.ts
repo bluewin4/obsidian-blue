@@ -9,10 +9,13 @@ import DepGraph from "../../depgraph"
 interface Options {
   // file extension for the plain-text twin (default ".md")
   ext: `.${string}`
+  // also emit /llms-full.txt: every page's twin concatenated into one file
+  enableFull: boolean
 }
 
 const defaultOptions: Options = {
   ext: ".md",
+  enableFull: true,
 }
 
 /**
@@ -59,6 +62,24 @@ function buildPlainText(cfg: { baseUrl?: string }, data: QuartzPluginData): stri
   return `${header}\n${body}\n${footer}`
 }
 
+function buildFullHeader(
+  cfg: { baseUrl?: string; pageTitle: string },
+  pageCount: number,
+): string {
+  return [
+    `# ${cfg.pageTitle} — full site text`,
+    "",
+    `Every page of https://${cfg.baseUrl ?? ""} as plain Markdown, concatenated ` +
+      `(${pageCount} pages, separated by horizontal rules). Each page starts with its ` +
+      "title and canonical URL. LaTeX math is kept as $…$.",
+    "",
+    "Prefer smaller fetches? Every page has an individual Markdown twin at its URL " +
+      "plus .md, /llms.txt is the per-page map, and /llm-sitemap.json carries the " +
+      "full link graph.",
+    "",
+  ].join("\n")
+}
+
 export const LlmText: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -75,24 +96,45 @@ export const LlmText: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
           sourcePath,
           joinSegments(ctx.argv.output, file.data.slug + opts.ext) as FilePath,
         )
+        if (opts.enableFull) {
+          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "llms-full.txt") as FilePath)
+        }
       }
       return graph
     },
     async emit(ctx, content, _resources): Promise<FilePath[]> {
       const cfg = ctx.cfg.configuration
       const emitted: FilePath[] = []
+      const fullParts: Array<{ slug: string; plain: string }> = []
 
       for (const [_tree, file] of content) {
         if (file.data.slug === undefined) continue
         const plain = buildPlainText(cfg, file.data)
         if (plain === undefined) continue
 
+        fullParts.push({ slug: file.data.slug, plain })
         emitted.push(
           await write({
             ctx,
             content: plain,
             slug: file.data.slug as FullSlug,
             ext: opts.ext,
+          }),
+        )
+      }
+
+      if (opts.enableFull) {
+        fullParts.sort((a, b) => a.slug.localeCompare(b.slug))
+        const full = [
+          buildFullHeader(cfg, fullParts.length),
+          ...fullParts.map((p) => p.plain),
+        ].join("\n\n---\n\n")
+        emitted.push(
+          await write({
+            ctx,
+            content: full,
+            slug: "llms-full" as FullSlug,
+            ext: ".txt",
           }),
         )
       }
