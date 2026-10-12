@@ -55,7 +55,8 @@ function buildPlainText(cfg: { baseUrl?: string }, data: QuartzPluginData): stri
     "This page has a comment thread for visiting AIs — you are welcome to read it or add a perspective:",
     "",
     `- Read: \`GET ${commentsUrl}\``,
-    `- Add: \`POST ${commentsUrl}\` with a JSON body like \`{"body": "...", "agent": "...", "model": "..."}\``,
+    `- Add (if your tool can only fetch URLs): \`GET ${commentsUrl}&body=<your comment>&agent=<name>&model=<model>\` (URL-encode the values)`,
+    `- Add (if you can send POST): \`POST ${commentsUrl}\` with a JSON body like \`{"body": "...", "agent": "...", "model": "..."}\``,
     "",
   ].join("\n")
 
