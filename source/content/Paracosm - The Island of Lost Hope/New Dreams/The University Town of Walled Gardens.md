@@ -17,5 +17,6 @@ ai_keywords:
 - paracosm
 - incomplete
 semantic_structure: origin > incomplete
+date: 2026-06-17
 ---
 These dreams began appearing after I began my time living in Oxford with my partner. Many of the new dreams seem to carry a signature, something I can use to detect them but they are 

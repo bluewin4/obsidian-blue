@@ -19,6 +19,7 @@ ai_keywords:
 - pedagogy
 - mathematical structure
 semantic_structure: recursion_and_induction > series_and_sequences > continuous_dynamics > conservation_and_state_machines > set_theory > logic_and_irreversibility > cyclic_and_modular
+date: 2026-06-19
 ---
 # Recursion & Induction
 *Self-reference, recurrence relations, nested structure.*

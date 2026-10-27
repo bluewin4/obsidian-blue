@@ -3,6 +3,7 @@ title: My First Word
 author: Jack Elsworth
 section: misc poems
 content_type: poem
+date: 2026-07-31
 ---
 Your name was my first word
 My name was one among many

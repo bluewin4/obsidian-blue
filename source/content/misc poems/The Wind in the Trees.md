@@ -16,6 +16,7 @@ ai_keywords:
 - connection
 - breath
 semantic_structure: claim > parallel > asymmetry
+date: 2026-06-23
 ---
 I would not exist were it not for the wind in the trees.
 For wind in the trees led me to we

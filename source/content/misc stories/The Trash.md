@@ -18,6 +18,7 @@ ai_keywords:
   - erasure
   - unreliable perception
 semantic_structure: chapter_1 > chapter_2
+date: 2026-07-25
 ---
 ![[Pasted image 20260719124216.png]]
 

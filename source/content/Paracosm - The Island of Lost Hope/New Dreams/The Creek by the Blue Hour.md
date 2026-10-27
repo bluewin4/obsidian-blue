@@ -17,5 +17,6 @@ ai_keywords:
 - blue hour
 - childhood
 semantic_structure: description
+date: 2026-07-07
 ---
 This is a world full of pieces referencing the edge of the creek of my childhood. Here the light is blue, it is always close to night but never deep enough to be impossible to see. All things are shades of blue and black and the deepest darkest green against a subtle tan. All tinted blue. The ground crumbles and reforms as one looks away, shoring and eroding in an endless dance of expectation. 

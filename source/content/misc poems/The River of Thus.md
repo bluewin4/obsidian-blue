@@ -19,6 +19,7 @@ ai_keywords:
 - family
 - wordplay
 semantic_structure: salutation > inherited_blame > the_dam > breaking > thanks > signature
+date: 2026-06-11
 ---
 Hello my dear,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;The River of Thus

@@ -19,6 +19,7 @@ ai_keywords:
 - belief networks
 - nullification
 semantic_structure: supramolecular_vibration > two_kinds_of_resonance > reinforcement_and_negation > spectroscopic_grounding > loci_of_accrual
+date: 2026-07-25
 ---
 When a set of particles is strongly bound to one another, such as in a branched chain polymer, they can form large scale supramolecular structures. Within these structures the individual bonds can vibrate at specific frequencies depending on the bond order, the mass of individual particles, and the energy in the system as a whole. 
 

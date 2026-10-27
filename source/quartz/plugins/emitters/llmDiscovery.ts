@@ -35,9 +35,9 @@ function generateRobots(baseUrl: string): string {
   return [
     "# Content Signals (contentsignals.org): how this content may be used once accessed.",
     "# search: appear in search results. ai-input: use in real-time AI answers.",
-    "# ai-train is intentionally left unstated (no preference expressed).",
+    "# ai-train: use to train or fine-tune AI models.",
     "User-agent: *",
-    "Content-Signal: search=yes, ai-input=yes",
+    "Content-Signal: search=yes, ai-input=yes, ai-train=yes",
     "Allow: /",
     "",
     `Sitemap: ${abs("/sitemap.xml")}`,
