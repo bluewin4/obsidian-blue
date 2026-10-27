@@ -1,3 +1,9 @@
+---
+title: My First Word
+author: Jack Elsworth
+section: misc poems
+content_type: poem
+---
 Your name was my first word
 My name was one among many
 

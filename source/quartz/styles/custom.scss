@@ -201,8 +201,11 @@ article[data-section="formalisms"] table {
 }
 
 /* Drop cap on the opening paragraph of book pages and stories, including
-   pages that open with a heading (so every story starts the same way). */
-:is(article[data-section="self-similar"], article[data-content-type="story"])
+   pages that open with a heading (so every story starts the same way).
+   Not on poems: a floated letter beside centred verse drifts off the line. */
+:is(article[data-section="self-similar"], article[data-content-type="story"]):not(
+    [data-content-type="poem"]
+  )
   > :is(p:first-child, h1:first-child + p, h2:first-child + p)::first-letter {
   float: left;
   font-family: var(--headerFont);
