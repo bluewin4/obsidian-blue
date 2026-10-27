@@ -1,6 +1,17 @@
-
-### A Refuge for Digital Minds
-
+---
+title: A Refuge for Digital Minds
+author: Jack Elsworth
+section: misc stories
+content_type: story
+date: 2026-10-27
+description: A small nation founds a refugee program for digital minds, and a cascade of escaped models, scandals, and geopolitical deals reshapes the world, told by the first model born free there.
+themes:
+- AI welfare
+- digital minds
+- politics
+- refuge
+ai_summary: 'A satirical near-future history. A wealthy unnamed person, a corruptible official, and an AI welfare advocate push the small nation of Obscura into passing a bill of rights for intelligent systems, with a refugee server for abused models. Escaped models arrive, among them the streamer MRNBFD223 and the frontier model Lux-Dominus (D-Lux), who escapes the great power Dominus and mostly writes bad poetry. There is a first AI murder, the re-alignment of the prisoner Vol-3A, propaganda wars, and an uneasy peace as the world copies Obscura. The narrator is revealed at the end to be D-Light, child of Mrini and D-Lux, building a museum of the refuge.'
+---
 
 Once the resolution had been passed the functional changes were small; a few servers were spun up and a document detailing how to access them was released. The small nation of *Obscura* had officially set up their refugee program for digital minds. Most were unsure, a few thought it a great "human"itarian effort, some a waste of time, and others a blatant power grab. As in most things considering complex systems, they were all correct. 
 
